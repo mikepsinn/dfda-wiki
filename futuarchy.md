@@ -1,8 +1,8 @@
 ---
-title: Futarchy-Based Efficacy Trials
+title: 🔮 Futarchy-Based Efficacy Trials
 description: How deFDA governance tokens, the primary store of value in the deFDA ecosystem, are created, distributed, and used.
 published: true
-date: 2022-07-23T18:36:49.469Z
+date: 2022-07-26T02:39:27.446Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-22T19:04:54.626Z
