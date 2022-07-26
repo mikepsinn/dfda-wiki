@@ -75,12 +75,12 @@ Since the abandonment of the former efficacy trial model, costs have exploded. S
 [more-cures-and-less-lifelong-attempts-at-masking-symptoms.md](../2-solution/more-cures-and-less-lifelong-attempts-at-masking-symptoms.md)
 {% endcontent-ref %}
 
-{% content-ref url="../1-introduction-and-challenges/insufficient-roi-to-discover-treatments-for-rare-diseases.md" %}
-[insufficient-roi-to-discover-treatments-for-rare-diseases.md](../1-introduction-and-challenges/insufficient-roi-to-discover-treatments-for-rare-diseases.md)
+{% content-ref url="../problems/insufficient-roi-to-discover-treatments-for-rare-diseases.md" %}
+[insufficient-roi-to-discover-treatments-for-rare-diseases.md](../problems/insufficient-roi-to-discover-treatments-for-rare-diseases.md)
 {% endcontent-ref %}
 
-{% content-ref url="../1-introduction-and-challenges/deaths-due-to-us-regulatory-drug-lag.md" %}
-[deaths-due-to-us-regulatory-drug-lag.md](../1-introduction-and-challenges/deaths-due-to-us-regulatory-drug-lag.md)
+{% content-ref url="../problems/deaths-due-to-us-regulatory-drug-lag.md" %}
+[deaths-due-to-us-regulatory-drug-lag.md](../problems/deaths-due-to-us-regulatory-drug-lag.md)
 {% endcontent-ref %}
 
 **Increase in Patent Monopoly**
