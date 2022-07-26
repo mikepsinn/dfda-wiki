@@ -2,7 +2,7 @@
 title: Definitions
 description: Precise definitions of relevant terms used
 published: true
-date: 2022-07-26T01:17:05.261Z
+date: 2022-07-26T01:17:19.861Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-22T19:05:03.787Z
