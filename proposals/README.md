@@ -340,7 +340,7 @@ If you multiply the number of molecules with drug-like properties by the number 
 
 That means we only know 0.000000002% of what is left to be known.
 
-![](<../.gitbook/assets/how-much-we-know-numbers (1).png>)
+![](<../.gitbook/assets/how-much-we-know-numbers.png>)
 
 The currently highly restrictive overly cautious method of clinical research prevents us from knowing more faster.
 
