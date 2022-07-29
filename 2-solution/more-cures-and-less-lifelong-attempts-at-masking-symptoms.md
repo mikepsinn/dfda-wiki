@@ -1,8 +1,8 @@
 ---
-title: # 🎭 More Cures and Less Lifelong Attempts at Masking Symptoms
+title: 🎭 Cures are Unprofitable
 description: High Costs Punish Finding Cures Over Masking Symptoms Since Cures Are Far Less Profitable Than Lifetime Treatments
 published: true
-date: 2022-07-28T03:57:03.773Z
+date: 2022-07-29T01:53:44.586Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-22T19:04:49.913Z
