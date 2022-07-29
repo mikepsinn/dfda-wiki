@@ -1,11 +1,12 @@
 ---
-description: >-
-  Large scale efficacy-trials based on real-world evidence have historically led
-  to better health outcomes than current pharmaceutical industry-driven
-  randomized controlled trials.
+title: 📘 Historical Evidence Supporting Real-World Efficacy Trials
+description: Large scale efficacy-trials based on real-world evidence have historically led to better health outcomes than current pharmaceutical industry-driven randomized controlled trials.
+published: true
+date: 2022-07-29T03:34:32.694Z
+tags: 
+editor: markdown
+dateCreated: 2022-07-22T19:05:12.716Z
 ---
-
-# 📘 Historical Evidence Supporting Real-Wold Efficacy Trials
 
 There is compelling historical evidence suggesting that large scale efficacy-trials based on real-world evidence have ultimately led to better health outcomes than current pharmaceutical industry-driven randomized controlled trials.
 
