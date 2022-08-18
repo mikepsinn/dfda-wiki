@@ -17,7 +17,7 @@ Following the 1962 increase in US regulations, one can see a divergence from Swi
 
 Perhaps it's a coincidence, but you can see an increase in drug approvals in the '80s. At the same time, the gap between Switzerland and the US gets smaller. Then US approvals go back down in the '90s, and the gap expands again.
 
-![US vs Swiss Life Expectancy](../.gitbook/assets/us-swiss-life-expectancy-drug-approvals.png)
+![US vs Swiss Life Expectancy](../assets/us-swiss-life-expectancy-drug-approvals.png)
 
 **Deaths Due to US Regulatory "Drug Lag"**
 
