@@ -3,7 +3,6 @@ description: >-
   How we reduce suffering using a decentralized autonomous organization as a
   vehicle to use the oceans of real-world evidence to discover new cures.
 ---
-
 # 🎯 Goals
 
 ## The Personalized, Preventive, Precision Medicine of the Future
@@ -330,7 +329,7 @@ We’re only 2 lifetimes from the use of the modern scientific method in medicin
 
 There are over [7,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases afflicting humans.
 
-![](<../.gitbook/assets/rare-diseases (1).jpg>)
+![](../.gitbook/assets/rare-diseases.jpg)
 
 There are as many untested compounds with drug-like properties as there are [atoms in the solar system](https://www.nature.com/articles/549445a) (166 billion).
 
@@ -340,7 +339,7 @@ If you multiply the number of molecules with drug-like properties by the number 
 
 That means we only know 0.000000002% of what is left to be known.
 
-![](<../.gitbook/assets/how-much-we-know-numbers.png>)
+![](../.gitbook/assets/how-much-we-know-numbers.png)
 
 The currently highly restrictive overly cautious method of clinical research prevents us from knowing more faster.
 
@@ -348,7 +347,7 @@ We’re at the very beginning of thousands or millions of years of systematic di
 
 However, to validate the theory that large-scale real-world evidence can produce better health outcomes requires further validation of this method of experimentation. That's the purpose of deFDA.
 
-##
+## 
 
 #### [Next 3. Platform](broken-reference) 👉
 
