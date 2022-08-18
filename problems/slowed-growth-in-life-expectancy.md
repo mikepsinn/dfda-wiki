@@ -18,7 +18,7 @@ From 1890 to 1960, there was a linear 4-year increase in human lifespan every de
 
 One might say, “It seems more likely — or as likely — to me that drug development provides diminishing returns to life expectancy.” However, diminishing returns produce a slope of exponential decay. It may be partially responsible, but it’s not going to produce a sudden change in the linear slope of a curve as linear as life expectancy was before and after the 1962 regulations.
 
-![What diminishing returns would look like](../.gitbook/assets/diminishing-returns.png)
+![What diminishing returns would look like](../assets/diminishing-returns.png)
 
 **Correlation is Not Causation**
 
