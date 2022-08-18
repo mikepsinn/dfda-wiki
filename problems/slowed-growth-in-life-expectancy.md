@@ -1,11 +1,12 @@
 ---
-description: >-
-  Following this new 70% reduction in the pace of medical progress, the growth
-  in human lifespan was immediately cut in half to an increase of 2 years per
-  decade.
+title: ☠ Slowed Growth in Life Expectancy
+description: Following this new 70% reduction in the pace of medical progress, the growth in human lifespan was immediately cut in half to an increase of 2 years per decade.
+published: true
+date: 2022-07-31T17:06:24.891Z
+tags: 
+editor: markdown
+dateCreated: 2022-07-22T19:04:12.318Z
 ---
-
-# ☠ Slowed Growth in Life Expectancy
 
 **Slowed Growth in Life Expectancy**
 
