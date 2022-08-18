@@ -1,14 +1,23 @@
 ---
-description: >-
-  A comparative analysis between countries suggests that delays in new
-  interventions cost anywhere from 21,000 to 120, 000 US lives per decade.
+title: ⏱ Deaths Due to US Regulatory "Drug Lag"
+description: A comparative analysis between countries suggests that delays in new interventions cost anywhere from 21,000 to 120, 000 US lives per decade.
+published: true
+date: 2022-07-29T02:11:03.058Z
+tags:
+editor: markdown
+dateCreated: 2022-07-22T19:03:35.580Z
 ---
-
-# ⏱ Deaths Due to US Regulatory "Drug Lag"
-
 **Delayed Life-Saving Treatments**
 
-One unanticipated consequence of the amendments was that the new burden of proof made the process of drug development both more expensive and much longer, leading to increasing drug prices and a “drug lag”. After that point, whenever they released some new cancer or heart medication that would save 50 thousand lives a year, it meant that over the previous ten years of trials, 500 people died because they didn't have access to the drug earlier.
+One unanticipated consequence of the 1968 amendment was that the new burden of proof made the process of drug development both more expensive and much longer. This was followed by increasing drug prices and a “drug lag”.
+
+Following the 1962 increase in US regulations, one can see a divergence from Switzerland's growth in life expectancy, which did not introduce the same delays to availability.
+
+![US vs Swiss Life Expectancy](../.gitbook/assets/us-swiss-life-expectancy-5.png)
+
+Perhaps it's a coincidence, but you can see an increase in drug approvals in the '80s. At the same time, the gap between Switzerland and the US gets smaller. Then US approvals go back down in the '90s, and the gap expands again.
+
+![US vs Swiss Life Expectancy](../.gitbook/assets/us-swiss-life-expectancy-drug-approvals.png)
 
 **Deaths Due to US Regulatory "Drug Lag"**
 
@@ -36,12 +45,4 @@ Deaths owing to drug lag have been numbered in the [hundreds of thousands](https
 
 Before US FDA approval, most of these drugs and devices had already been available in other countries for a year or longer.
 
-Following the 1962 increase in US regulations, one can see a divergence from Switzerland's growth in life expectancy, which did not introduce the same delays to availability.
-
-![US vs Swiss Life Expectancy](../.gitbook/assets/us-swiss-life-expectancy-5.png)
-
-Perhaps it's a coincidence, but you can see an increase in drug approvals in the '80s. At the same time, the gap between Switzerland and the US gets smaller. Then US approvals go back down in the '90s, and the gap expands again.
-
-![US vs Swiss Life Expectancy](../.gitbook/assets/us-swiss-life-expectancy-drug-approvals.png)
-
-****
+---

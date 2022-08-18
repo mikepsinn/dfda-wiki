@@ -73,7 +73,7 @@ Since the abandonment of the former efficacy trial model, costs have exploded. S
 {% endcontent-ref %}
 
 {% content-ref url="../2-solution/more-cures-and-less-lifelong-attempts-at-masking-symptoms.md" %}
-[more-cures-and-less-lifelong-attempts-at-masking-symptoms.md](../2-solution/more-cures-and-less-lifelong-attempts-at-masking-symptoms.md)
+[more-cures-and-less-lifelong-attempts-at-masking-symptoms.md](../problems/more-cures-and-less-lifelong-attempts-at-masking-symptoms.md)
 {% endcontent-ref %}
 
 {% content-ref url="../problems/insufficient-roi-to-discover-treatments-for-rare-diseases.md" %}
