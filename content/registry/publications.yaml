@@ -1,0 +1,10 @@
+articles:
+  - id: decentralized-fda-database-comparison
+    title: "Open Source Database Solutions for a Decentralized FDA - 2024 Comparison"
+    path: content/articles/tech/decentralized-fda-database-comparison.md
+    publications:
+      - platform: github
+        url: https://github.com/mikepsinn/dfda-wiki/blob/main/content/articles/tech/decentralized-fda-database-comparison.md
+        published_date: 2024-03-19
+    sync_status: up-to-date
+    last_sync: 2024-03-19
