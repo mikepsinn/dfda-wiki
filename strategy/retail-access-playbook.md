@@ -1,6 +1,6 @@
 ---
 title: Retail Access Playbook — Including Public Investors
-description: Practical routes for unaccredited/retail participation: Reg A+, Reg CF, and international portals, with timelines, materials, and parallelization guidance.
+description: "Practical routes for unaccredited/retail participation: Reg A+, Reg CF, and international portals, with timelines, materials, and parallelization guidance."
 published: true
 date: '2025-01-20T00:00:00.000Z'
 tags: retail, reg-a-plus, reg-cf, crowdfunding, international, compliance

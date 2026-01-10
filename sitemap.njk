@@ -1,0 +1,17 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- for page in collections.allPages %}
+  {%- if page.url and page.data.published !== false %}
+  <url>
+    <loc>{{ site.url }}{{ page.url | url }}</loc>
+    <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>{% if page.url == "/" %}1.0{% elif page.url contains "/strategy/" %}0.9{% else %}0.7{% endif %}</priority>
+  </url>
+  {%- endif %}
+  {%- endfor %}
+</urlset>

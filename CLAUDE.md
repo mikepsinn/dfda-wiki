@@ -12,6 +12,12 @@ The dFDA Wiki documents the "War on Disease" strategy: redirecting 1% of global 
 # Install dependencies
 npm install
 
+# 11ty Static Site (builds to _site/)
+npm run dev              # Start dev server at localhost:8080
+npm run build            # Full build (11ty + Pagefind search)
+npm run build:11ty       # Build 11ty only
+npm run build:search     # Build Pagefind search index
+
 # Run tests
 npm test
 
@@ -67,6 +73,16 @@ TypeScript/JavaScript automation tools:
 - `llm-client.ts` - Multi-provider LLM client (OpenAI, Anthropic, Google, DeepSeek, Perplexity)
 - `generate-tree-with-metadata.ts` - Generate directory tree with frontmatter info
 
+### 11ty Static Site (`_site/`)
+The wiki can be built as a static site using Eleventy (11ty):
+- `.eleventy.js` - Main configuration with collections, filters, markdown processing
+- `_layouts/` - Nunjucks templates (base.njk, page.njk, docs.njk, home.njk)
+- `_includes/` - Partials (header.njk, footer.njk)
+- `_data/` - Global data (site.json, eleventyComputed.js)
+- `css/styles.css` - Tailwind CSS v4 styles
+- Pagefind provides static search indexing
+- GitHub Actions deploys to GitHub Pages on push to master
+
 ### Environment Variables
 Required in `.env` for scripts that use LLM APIs:
 - `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, `GOOGLE_API_KEY`, `DEEPSEEK_API_KEY`, `PERPLEXITY_API_KEY`
@@ -77,8 +93,8 @@ Required in `.env` for scripts that use LLM APIs:
 Every markdown file must have YAML frontmatter:
 ```yaml
 ---
-title: Page Title
-description: Brief summary under 140 characters
+title: "Page Title"
+description: "Brief summary under 140 characters"
 published: true
 date: '2025-01-20T00:00:00.000Z'
 tags: tag1, tag2
@@ -86,6 +102,8 @@ editor: markdown
 dateCreated: '2025-01-20T00:00:00.000Z'
 ---
 ```
+
+**Important:** Quote title/description fields if they contain colons (`:`) to avoid YAML parsing errors.
 
 For canonical tracking, also include:
 ```yaml

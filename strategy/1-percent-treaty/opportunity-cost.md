@@ -1,5 +1,5 @@
 ---
-title: Opportunity Cost of Military Spending: Redirecting $2 Trillion towards Health Research
+title: "Opportunity Cost of Military Spending: Redirecting $2 Trillion towards Health Research"
 description: Exploring the implications of reallocating $2 trillion from global militarism to health research and treatment, potentially employing 25 million individuals and transforming public health outcomes worldwide.
 published: true
 date: 2024-06-09T00:00:00.000Z

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ description or site.description }}">
+
+  <title>{{ title or "Untitled" }} | {{ site.title }}</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <!-- Pagefind Search -->
+  <link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ title or site.title }}">
+  <meta property="og:description" content="{{ description or site.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title or site.title }}">
+  <meta name="twitter:description" content="{{ description or site.description }}">
+</head>
+<body class="bg-gray-50 text-gray-900 min-h-screen flex flex-col">
+
+  {% include "header.njk" %}
+
+  <main class="flex-1">
+    {{ content | safe }}
+  </main>
+
+  {% include "footer.njk" %}
+
+  <!-- Pagefind Search Script -->
+  <script src="/_pagefind/pagefind-ui.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const searchContainer = document.getElementById('search');
+      if (searchContainer && typeof PagefindUI !== 'undefined') {
+        new PagefindUI({
+          element: "#search",
+          showImages: false,
+          showSubResults: true,
+          excerptLength: 15
+        });
+      }
+    });
+  </script>
+
+  <!-- Mobile menu toggle -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const menuButton = document.getElementById('mobile-menu-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      if (menuButton && mobileMenu) {
+        menuButton.addEventListener('click', function() {
+          mobileMenu.classList.toggle('hidden');
+        });
+      }
+    });
+  </script>
+
+  <!-- Sidebar toggle for docs layout -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const sidebarToggle = document.getElementById('sidebar-toggle');
+      const sidebar = document.getElementById('sidebar');
+
+      if (sidebarToggle && sidebar) {
+        sidebarToggle.addEventListener('click', function() {
+          sidebar.classList.toggle('-translate-x-full');
+        });
+      }
+
+      // Collapse/expand sidebar sections
+      document.querySelectorAll('.sidebar-section-toggle').forEach(toggle => {
+        toggle.addEventListener('click', function() {
+          const content = this.nextElementSibling;
+          const icon = this.querySelector('.toggle-icon');
+
+          content.classList.toggle('hidden');
+          if (icon) {
+            icon.classList.toggle('rotate-90');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

@@ -4,6 +4,9 @@
   "description": "",
   "main": "scripts/file-organizer.js",
   "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-navigation": "^1.0.5",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@ai-sdk/anthropic": "^1.1.15",
     "@ai-sdk/deepseek": "^0.1.13",
     "@ai-sdk/google": "^1.1.20",
@@ -24,8 +27,10 @@
     "googleapis": "^144.0.0",
     "ignore": "^7.0.3",
     "js-yaml": "^4.1.0",
+    "markdown-it-mermaid-plugin": "^0.1.0",
     "mime-types": "^2.1.35",
     "openai": "^4.0.0",
+    "pagefind": "^1.4.0",
     "pg": "^8.13.1",
     "simple-git": "^3.0.0",
     "ssh2": "^1.16.0",
@@ -33,6 +38,11 @@
     "zod": "^3.24.2"
   },
   "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npm run build:11ty && npm run build:search",
+    "build:11ty": "npx @11ty/eleventy",
+    "build:search": "npx pagefind --site _site",
+    "prebuild:11ty": "npm run validate-links || true",
     "organize": "node scripts/file-organizer.js",
     "migrate": "node scripts/migrate-content.js",
     "process-images": "node scripts/process-images.js",
@@ -56,16 +66,20 @@
     "lint:md": "markdownlint '**/*.md'"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.19",
     "@types/jest": "^29.5.14",
     "@types/markdown-it": "^14.1.2",
     "@types/markdown-it-anchor": "^4.0.4",
     "@types/node": "^22.15.30",
+    "autoprefixer": "^10.4.23",
     "gray-matter": "^4.0.3",
     "jest": "^29.7.0",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
     "markdownlint": "^0.29.0",
     "markdownlint-cli": "^0.39.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"

@@ -1,0 +1,72 @@
+---
+layout: base.njk
+---
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+  <!-- Hero Section -->
+  <header class="text-center mb-16">
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+      {{ title or site.title }}
+    </h1>
+
+    {% if description %}
+    <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+      {{ description }}
+    </p>
+    {% endif %}
+
+    <!-- Search -->
+    <div id="search" class="max-w-2xl mx-auto mb-8"></div>
+
+    <!-- CTA Buttons -->
+    <div class="flex flex-wrap justify-center gap-4">
+      <a href="/strategy/" class="px-6 py-3 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors">
+        Explore Strategy
+      </a>
+      <a href="/features/" class="px-6 py-3 bg-white text-gray-700 font-medium rounded-lg border border-gray-300 hover:bg-gray-50 transition-colors">
+        View Features
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Content (from markdown) -->
+  <div class="prose prose-lg max-w-4xl mx-auto mb-16">
+    {{ content | fixLinks(page.inputPath) | safe }}
+  </div>
+
+  <!-- Domain Categories Grid -->
+  <section class="mt-16">
+    <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">Explore the Wiki</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      {% set categories = [
+        { key: "strategy", emoji: "🎯", desc: "Plans, roadmaps, and strategic initiatives" },
+        { key: "features", emoji: "⚙️", desc: "Platform specs and technical documentation" },
+        { key: "benefits", emoji: "💰", desc: "Cost savings and advantages of dFDA" },
+        { key: "problems", emoji: "⚠️", desc: "Issues with the current medical system" },
+        { key: "economic-models", emoji: "📊", desc: "Financial frameworks and ROI analyses" },
+        { key: "regulatory", emoji: "⚖️", desc: "Legal compliance and policy proposals" },
+        { key: "clinical-trials", emoji: "🔬", desc: "Trial methodologies and protocols" },
+        { key: "community", emoji: "🤝", desc: "Partners, governance, and contribution guides" },
+        { key: "architecture", emoji: "🏗️", desc: "System and on-chain architecture" }
+      ] %}
+
+      {% for cat in categories %}
+      {% set items = collections[cat.key] %}
+      <a href="/{{ cat.key }}/"
+         class="block p-6 bg-white rounded-xl border border-gray-200 hover:border-primary-300 hover:shadow-lg transition-all group">
+        <span class="text-3xl mb-3 block">{{ cat.emoji }}</span>
+        <h3 class="text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors mb-2">
+          {{ cat.key | replace("-", " ") | title }}
+        </h3>
+        <p class="text-sm text-gray-600 mb-3">{{ cat.desc }}</p>
+        <span class="text-xs text-gray-500">{{ items.length if items else 0 }} pages</span>
+      </a>
+      {% endfor %}
+
+    </div>
+  </section>
+
+</div>

@@ -1,0 +1,114 @@
+---
+layout: base.njk
+---
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  <div class="flex flex-col lg:flex-row gap-8">
+
+    <!-- Main Content -->
+    <article class="flex-1 min-w-0">
+      <!-- Breadcrumbs -->
+      {% set crumbs = page.url | breadcrumbs %}
+      {% if crumbs.length > 0 %}
+      <nav class="mb-6" aria-label="Breadcrumb">
+        <ol class="flex items-center space-x-2 text-sm text-gray-500">
+          <li>
+            <a href="/" class="hover:text-primary-600 transition-colors">Home</a>
+          </li>
+          {% for crumb in crumbs %}
+          <li class="flex items-center">
+            <svg class="w-4 h-4 mx-1 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+            </svg>
+            {% if crumb.url %}
+            <a href="{{ crumb.url }}" class="hover:text-primary-600 transition-colors">{{ crumb.title }}</a>
+            {% else %}
+            <span class="text-gray-900 font-medium">{{ crumb.title }}</span>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ol>
+      </nav>
+      {% endif %}
+
+      <!-- Page Header -->
+      <header class="mb-8">
+        {% if emoji %}
+        <span class="text-4xl mb-2 block">{{ emoji }}</span>
+        {% endif %}
+
+        <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+          {{ title or "Untitled" }}
+        </h1>
+
+        {% if description %}
+        <p class="text-lg text-gray-600 mb-4">{{ description }}</p>
+        {% endif %}
+
+        {% if date %}
+        <div class="flex items-center gap-4 text-sm text-gray-500">
+          <time datetime="{{ date }}">{{ date | dateFormat("short") }}</time>
+
+          {% if tags and tags is string %}
+          <div class="flex flex-wrap gap-2">
+            {% for tag in tags.split(',') %}
+            <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs">{{ tag | trim }}</span>
+            {% endfor %}
+          </div>
+          {% elif tags and tags is iterable and tags is not string %}
+          <div class="flex flex-wrap gap-2">
+            {% for tag in tags %}
+            <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+        {% endif %}
+      </header>
+
+      <!-- Content -->
+      <div class="prose prose-lg max-w-none">
+        {{ content | fixLinks(page.inputPath) | safe }}
+      </div>
+
+      <!-- Page Footer -->
+      <footer class="mt-12 pt-8 border-t border-gray-200">
+        <div class="flex items-center justify-between text-sm text-gray-500">
+          {% if dateCreated %}
+          <span>Created: {{ dateCreated | dateFormat("short") }}</span>
+          {% endif %}
+
+          <a href="https://github.com/mikepsinn/dfda-wiki/edit/master/{{ page.inputPath }}"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 transition-colors">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
+            </svg>
+            Edit this page
+          </a>
+        </div>
+      </footer>
+    </article>
+
+    <!-- Sidebar: Table of Contents -->
+    {% set tocItems = content | toc %}
+    {% if tocItems.length > 0 %}
+    <aside class="hidden lg:block w-64 flex-shrink-0">
+      <div class="sticky top-24">
+        <h2 class="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-4">On this page</h2>
+        <nav class="space-y-1">
+          {% for item in tocItems %}
+          <a href="#{{ item.id }}"
+             class="block text-sm text-gray-600 hover:text-primary-600 transition-colors py-1
+                    {% if item.level == 3 %}pl-4{% elif item.level == 4 %}pl-8{% endif %}">
+            {{ item.text }}
+          </a>
+          {% endfor %}
+        </nav>
+      </div>
+    </aside>
+    {% endif %}
+
+  </div>
+</div>
