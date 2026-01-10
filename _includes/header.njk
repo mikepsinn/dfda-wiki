@@ -1,96 +1,153 @@
-<header class="sticky top-0 z-50 bg-white border-b border-gray-200">
+{% from "icons.njk" import icon %}
+<header class="sticky top-0 z-50 bg-white border-b border-gray-200 dark:bg-gray-900 dark:border-gray-700">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
 
       <!-- Logo / Site Title -->
-      <a href="/" class="flex items-center gap-2 text-xl font-bold text-gray-900 hover:text-primary-600 transition-colors">
+      <a href="/" class="flex items-center gap-2 text-xl font-bold text-gray-900 hover:text-primary-600 transition-colors dark:text-white">
         <span class="text-2xl">💡</span>
         <span class="hidden sm:inline">{{ site.title }}</span>
-        <span class="sm:hidden">dFDA Wiki</span>
+        <span class="sm:hidden">dFDA</span>
       </a>
 
       <!-- Desktop Navigation -->
-      <nav class="hidden md:flex items-center space-x-6">
-        <a href="/strategy/" class="text-gray-600 hover:text-primary-600 transition-colors font-medium">Strategy</a>
-        <a href="/features/" class="text-gray-600 hover:text-primary-600 transition-colors font-medium">Features</a>
-        <a href="/benefits/" class="text-gray-600 hover:text-primary-600 transition-colors font-medium">Benefits</a>
-        <a href="/problems/" class="text-gray-600 hover:text-primary-600 transition-colors font-medium">Problems</a>
+      <nav class="hidden md:flex items-center space-x-4">
 
-        <!-- More Dropdown -->
+        <!-- Docs Dropdown -->
         <div class="relative group">
-          <button class="flex items-center gap-1 text-gray-600 hover:text-primary-600 transition-colors font-medium">
-            More
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-            </svg>
+          <button class="flex items-center gap-1 text-gray-600 hover:text-primary-600 transition-colors font-medium dark:text-gray-300">
+            {{ icon(navigation.docs.icon) }}
+            {{ navigation.docs.label }}
+            {{ icon("chevron-down") }}
           </button>
-          <div class="absolute left-0 top-full mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+          <div class="absolute left-0 top-full mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 dark:bg-gray-800 dark:border-gray-700">
             <div class="py-2">
-              <a href="/economic-models/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary-600">Economic Models</a>
-              <a href="/regulatory/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary-600">Regulatory</a>
-              <a href="/clinical-trials/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary-600">Clinical Trials</a>
-              <a href="/architecture/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary-600">Architecture</a>
-              <a href="/reference/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary-600">Reference</a>
-              <a href="/community/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary-600">Community</a>
-              <a href="/act/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary-600">Take Action</a>
+              {% for item in navigation.docs.items %}
+                {% if item.divider %}
+                  <div class="border-t border-gray-100 my-2 dark:border-gray-700"></div>
+                {% else %}
+                  <a href="{{ item.url }}"
+                     {% if item.external %}target="_blank" rel="noopener"{% endif %}
+                     class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary-600 dark:text-gray-300 dark:hover:bg-gray-700">
+                    <span class="text-gray-400">{{ icon(item.icon) }}</span>
+                    {{ item.label }}
+                    {% if item.external %}
+                      <span class="ml-auto opacity-40">{{ icon("external-link") }}</span>
+                    {% endif %}
+                  </a>
+                {% endif %}
+              {% endfor %}
             </div>
           </div>
         </div>
 
+        <!-- Projects Dropdown -->
+        <div class="relative group">
+          <button class="flex items-center gap-1 text-gray-600 hover:text-primary-600 transition-colors font-medium dark:text-gray-300">
+            {{ icon(navigation.projects.icon) }}
+            {{ navigation.projects.label }}
+            {{ icon("chevron-down") }}
+          </button>
+          <div class="absolute left-0 top-full mt-2 w-52 bg-white rounded-lg shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 dark:bg-gray-800 dark:border-gray-700">
+            <div class="py-2">
+              {% for item in navigation.projects.items %}
+                <a href="{{ item.url }}"
+                   {% if item.external %}target="_blank" rel="noopener"{% endif %}
+                   class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary-600 dark:text-gray-300 dark:hover:bg-gray-700">
+                  <span class="text-gray-400">{{ icon(item.icon) }}</span>
+                  {{ item.label }}
+                  {% if item.external %}
+                    <span class="ml-auto opacity-40">{{ icon("external-link") }}</span>
+                  {% endif %}
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        {% for item in navigation.quickLinks %}
+          <a href="{{ item.url }}"
+             {% if item.external %}target="_blank" rel="noopener"{% endif %}
+             class="flex items-center gap-1 text-gray-600 hover:text-primary-600 transition-colors font-medium dark:text-gray-300">
+            {{ icon(item.icon) }}
+            {{ item.label }}
+          </a>
+        {% endfor %}
+
+        <!-- CTA Button -->
+        <a href="{{ navigation.cta.url }}"
+           {% if navigation.cta.external %}target="_blank" rel="noopener"{% endif %}
+           class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-colors">
+          {{ icon(navigation.cta.icon) }}
+          {{ navigation.cta.label }}
+        </a>
+
         <!-- Dark Mode Toggle -->
         <button id="theme-toggle"
-                class="p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
+                class="p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800"
                 title="Toggle dark mode">
-          <svg id="theme-icon-light" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
-          </svg>
-          <svg id="theme-icon-dark" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
-          </svg>
+          <span id="theme-icon-light" class="hidden">{{ icon("sun", "w-5 h-5") }}</span>
+          <span id="theme-icon-dark">{{ icon("moon", "w-5 h-5") }}</span>
         </button>
-
-        <!-- GitHub Link -->
-        <a href="https://github.com/mikepsinn/dfda-wiki"
-           target="_blank"
-           rel="noopener noreferrer"
-           class="text-gray-600 hover:text-gray-900 transition-colors"
-           title="View on GitHub">
-          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"/>
-          </svg>
-        </a>
       </nav>
 
       <!-- Mobile Menu Button -->
       <button id="mobile-menu-button"
-              class="md:hidden p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-        </svg>
+              class="md:hidden p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800">
+        {{ icon("menu", "w-6 h-6") }}
       </button>
 
     </div>
 
     <!-- Mobile Menu -->
-    <nav id="mobile-menu" class="hidden md:hidden py-4 border-t border-gray-200">
-      <div class="space-y-2">
-        <a href="/strategy/" class="block px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-colors">Strategy</a>
-        <a href="/features/" class="block px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-colors">Features</a>
-        <a href="/benefits/" class="block px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-colors">Benefits</a>
-        <a href="/problems/" class="block px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-colors">Problems</a>
-        <a href="/economic-models/" class="block px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-colors">Economic Models</a>
-        <a href="/regulatory/" class="block px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-colors">Regulatory</a>
-        <a href="/clinical-trials/" class="block px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-colors">Clinical Trials</a>
-        <a href="/architecture/" class="block px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-colors">Architecture</a>
-        <a href="/reference/" class="block px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-colors">Reference</a>
-        <a href="/community/" class="block px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-colors">Community</a>
-        <a href="/act/" class="block px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-colors">Take Action</a>
-        <div class="border-t border-gray-200 mt-2 pt-2">
-          <a href="https://github.com/mikepsinn/dfda-wiki"
-             target="_blank"
-             rel="noopener noreferrer"
-             class="block px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-colors">
-            GitHub
+    <nav id="mobile-menu" class="hidden md:hidden py-4 border-t border-gray-200 dark:border-gray-700">
+      <div class="space-y-1">
+
+        <!-- Docs Section -->
+        <div class="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider dark:text-gray-400">{{ navigation.docs.label }}</div>
+        {% for item in navigation.docs.items %}
+          {% if not item.divider %}
+            <a href="{{ item.url }}"
+               {% if item.external %}target="_blank" rel="noopener"{% endif %}
+               class="flex items-center gap-3 px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg dark:text-gray-300 dark:hover:bg-gray-800">
+              <span class="text-gray-400">{{ icon(item.icon) }}</span>
+              {{ item.label }}
+            </a>
+          {% endif %}
+        {% endfor %}
+
+        <!-- Projects Section -->
+        <div class="px-4 py-2 mt-4 text-xs font-semibold text-gray-500 uppercase tracking-wider dark:text-gray-400">{{ navigation.projects.label }}</div>
+        {% for item in navigation.projects.items %}
+          <a href="{{ item.url }}"
+             {% if item.external %}target="_blank" rel="noopener"{% endif %}
+             class="flex items-center gap-3 px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg dark:text-gray-300 dark:hover:bg-gray-800">
+            <span class="text-gray-400">{{ icon(item.icon) }}</span>
+            {{ item.label }}
+          </a>
+        {% endfor %}
+
+        <!-- Quick Links -->
+        {% if navigation.quickLinks.length > 0 %}
+          <div class="px-4 py-2 mt-4 text-xs font-semibold text-gray-500 uppercase tracking-wider dark:text-gray-400">Links</div>
+          {% for item in navigation.quickLinks %}
+            <a href="{{ item.url }}"
+               {% if item.external %}target="_blank" rel="noopener"{% endif %}
+               class="flex items-center gap-3 px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg dark:text-gray-300 dark:hover:bg-gray-800">
+              <span class="text-gray-400">{{ icon(item.icon) }}</span>
+              {{ item.label }}
+            </a>
+          {% endfor %}
+        {% endif %}
+
+        <!-- CTA -->
+        <div class="px-4 pt-4">
+          <a href="{{ navigation.cta.url }}"
+             {% if navigation.cta.external %}target="_blank" rel="noopener"{% endif %}
+             class="flex items-center justify-center gap-2 w-full px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors">
+            {{ icon(navigation.cta.icon) }}
+            {{ navigation.cta.label }}
           </a>
         </div>
       </div>

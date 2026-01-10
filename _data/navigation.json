@@ -1,0 +1,103 @@
+{
+  "docs": {
+    "label": "Docs",
+    "icon": "document",
+    "items": [
+      {
+        "label": "80X Progress with Pragmatic Trials",
+        "url": "/reference/recovery-trial/",
+        "icon": "beaker"
+      },
+      {
+        "label": "The Act",
+        "url": "/act/",
+        "icon": "scale"
+      },
+      {
+        "label": "Cost-Benefit Analysis",
+        "url": "/economic-models/dfda-cost-benefit-analysis/",
+        "icon": "calculator"
+      },
+      {
+        "label": "Technical Architecture",
+        "url": "/architecture/",
+        "icon": "template"
+      },
+      { "divider": true },
+      {
+        "label": "Strategy",
+        "url": "/strategy/",
+        "icon": "clipboard-list"
+      },
+      {
+        "label": "Features",
+        "url": "/features/",
+        "icon": "sparkles"
+      },
+      {
+        "label": "Benefits",
+        "url": "/benefits/",
+        "icon": "check-circle"
+      },
+      {
+        "label": "Problems",
+        "url": "/problems/",
+        "icon": "exclamation-triangle"
+      },
+      {
+        "label": "Regulatory",
+        "url": "/regulatory/",
+        "icon": "office-building"
+      },
+      {
+        "label": "Reference",
+        "url": "/reference/",
+        "icon": "book-open"
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projects",
+    "icon": "folder",
+    "items": [
+      {
+        "label": "Clinipedia Studies",
+        "url": "https://studies.dfda.earth",
+        "icon": "search",
+        "external": true
+      },
+      {
+        "label": "Digital Twin Safe",
+        "url": "https://safe.dfda.earth",
+        "icon": "lock-closed",
+        "external": true
+      },
+      {
+        "label": "FDAi Agent",
+        "url": "https://fdai.earth",
+        "icon": "desktop-computer",
+        "external": true
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/decentralized-fda",
+        "icon": "github",
+        "external": true
+      }
+    ]
+  },
+  "quickLinks": [
+    {
+      "label": "Home",
+      "url": "https://dfda.earth",
+      "icon": "home",
+      "external": true
+    }
+  ],
+  "cta": {
+    "label": "Vote!",
+    "url": "https://vote.dfda.earth",
+    "icon": "clipboard-check",
+    "external": true
+  }
+}
