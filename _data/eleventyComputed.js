@@ -1,4 +1,27 @@
+const { execSync } = require('child_process');
+const path = require('path');
+
+// Get last modified date from git
+function getGitLastModified(filePath) {
+  try {
+    const result = execSync(
+      `git log -1 --format="%aI" -- "${filePath}"`,
+      { encoding: 'utf8', cwd: process.cwd() }
+    ).trim();
+    return result || null;
+  } catch (e) {
+    return null;
+  }
+}
+
 module.exports = {
+  // Compute git last modified date
+  lastModified: data => {
+    if (!data.page || !data.page.inputPath) return null;
+    const gitDate = getGitLastModified(data.page.inputPath);
+    return gitDate ? new Date(gitDate) : null;
+  },
+
   // Set default layout based on directory
   layout: data => {
     // Home page uses home layout

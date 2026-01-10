@@ -23,7 +23,15 @@ module.exports = function(eleventyConfig) {
   const md = markdownIt({
     html: true,
     linkify: true,
-    typographer: true
+    typographer: true,
+    highlight: function (str, lang) {
+      // Skip mermaid - handled separately
+      if (lang === 'mermaid') return str;
+      // Add language class for Prism.js
+      const langClass = lang ? `language-${lang}` : '';
+      const escaped = str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      return `<pre class="${langClass}"><code class="${langClass}">${escaped}</code></pre>`;
+    }
   })
   .use(markdownItAnchor, {
     slugify: s => s.toLowerCase()
