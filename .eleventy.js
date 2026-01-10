@@ -50,10 +50,8 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setLibrary("md", md);
 
-  // Passthrough copy for assets
+  // Passthrough copy for assets (CSS is built separately by Tailwind CLI)
   eleventyConfig.addPassthroughCopy("assets");
-  eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy({ "css/styles.css": "css/styles.css" });
 
   // Ignore patterns - don't process these as pages
   eleventyConfig.ignores.add("node_modules/**");
