@@ -8,9 +8,9 @@ eleventyExcludeFromCollections: true
   {%- if page.url and page.data.published !== false %}
   <url>
     <loc>{{ site.url }}{{ page.url | url }}</loc>
-    <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
+    <lastmod>{{ page.date | date("%Y-%m-%d") }}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>{% if page.url == "/" %}1.0{% elif page.url contains "/strategy/" %}0.9{% else %}0.7{% endif %}</priority>
+    <priority>{% if page.url == "/" %}1.0{% elif "/strategy/" in page.url %}0.9{% else %}0.7{% endif %}</priority>
   </url>
   {%- endif %}
   {%- endfor %}

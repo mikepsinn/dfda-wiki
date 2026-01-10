@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+<script>
+  // Check for saved theme preference or system preference
+  if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark');
+  }
+</script>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +29,9 @@
 
   <!-- Pagefind Search -->
   <link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+
+  <!-- Prism.js Syntax Highlighting -->
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
 
   <!-- Open Graph -->
   <meta property="og:title" content="{{ title or site.title }}">
@@ -107,5 +116,61 @@
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
     mermaid.initialize({ startOnLoad: true, theme: 'default' });
   </script>
+
+  <!-- Dark mode toggle -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const themeToggle = document.getElementById('theme-toggle');
+      const lightIcon = document.getElementById('theme-icon-light');
+      const darkIcon = document.getElementById('theme-icon-dark');
+
+      function updateIcons() {
+        if (document.documentElement.classList.contains('dark')) {
+          lightIcon.classList.remove('hidden');
+          darkIcon.classList.add('hidden');
+        } else {
+          lightIcon.classList.add('hidden');
+          darkIcon.classList.remove('hidden');
+        }
+      }
+
+      // Initial icon state
+      updateIcons();
+
+      if (themeToggle) {
+        themeToggle.addEventListener('click', function() {
+          document.documentElement.classList.toggle('dark');
+
+          if (document.documentElement.classList.contains('dark')) {
+            localStorage.theme = 'dark';
+          } else {
+            localStorage.theme = 'light';
+          }
+
+          updateIcons();
+        });
+      }
+    });
+  </script>
+
+  <!-- Image lazy loading -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const images = document.querySelectorAll('img[loading="lazy"]');
+      images.forEach(img => {
+        if (img.complete) {
+          img.classList.add('loaded');
+        } else {
+          img.addEventListener('load', function() {
+            img.classList.add('loaded');
+          });
+        }
+      });
+    });
+  </script>
+
+  <!-- Prism.js Syntax Highlighting -->
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
 </body>
 </html>

@@ -101,25 +101,65 @@ layout: base.njk
         {{ content | fixLinks(page.inputPath) | safe }}
       </div>
 
-      <!-- Page Navigation -->
-      <nav class="mt-12 pt-8 border-t border-gray-200 flex items-center justify-between">
-        <a href="/"
-           class="inline-flex items-center gap-2 text-gray-600 hover:text-primary-600 transition-colors">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
-          </svg>
-          Back to Home
-        </a>
+      <!-- Page Navigation (Previous/Next) -->
+      {% set directory = page.inputPath | getDirectory %}
+      {% set prevNext = collections | getPrevNext(page, directory) %}
+      <nav class="mt-12 pt-8 border-t border-gray-200">
+        <div class="flex items-center justify-between gap-4">
+          <!-- Previous Page -->
+          <div class="flex-1">
+            {% if prevNext.prev %}
+            <a href="{{ prevNext.prev.url }}"
+               class="group block p-4 rounded-lg border border-gray-200 hover:border-primary-300 hover:bg-primary-50 transition-all">
+              <span class="text-xs text-gray-500 uppercase tracking-wide">Previous</span>
+              <span class="flex items-center gap-2 mt-1 text-gray-900 group-hover:text-primary-600">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                </svg>
+                {{ prevNext.prev.data.title or prevNext.prev.fileSlug }}
+              </span>
+            </a>
+            {% else %}
+            <a href="/"
+               class="group block p-4 rounded-lg border border-gray-200 hover:border-primary-300 hover:bg-primary-50 transition-all">
+              <span class="text-xs text-gray-500 uppercase tracking-wide">Back to</span>
+              <span class="flex items-center gap-2 mt-1 text-gray-900 group-hover:text-primary-600">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                </svg>
+                Home
+              </span>
+            </a>
+            {% endif %}
+          </div>
 
-        <a href="https://github.com/mikepsinn/dfda-wiki/edit/master/{{ page.inputPath }}"
-           target="_blank"
-           rel="noopener noreferrer"
-           class="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 transition-colors">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
-          </svg>
-          Edit this page
-        </a>
+          <!-- Edit Link -->
+          <a href="https://github.com/mikepsinn/dfda-wiki/edit/master/{{ page.inputPath }}"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="hidden sm:flex items-center gap-1 px-3 py-2 text-sm text-gray-500 hover:text-primary-600 rounded-lg border border-gray-200 hover:border-primary-300 transition-colors">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
+            </svg>
+            Edit
+          </a>
+
+          <!-- Next Page -->
+          <div class="flex-1 text-right">
+            {% if prevNext.next %}
+            <a href="{{ prevNext.next.url }}"
+               class="group block p-4 rounded-lg border border-gray-200 hover:border-primary-300 hover:bg-primary-50 transition-all">
+              <span class="text-xs text-gray-500 uppercase tracking-wide">Next</span>
+              <span class="flex items-center justify-end gap-2 mt-1 text-gray-900 group-hover:text-primary-600">
+                {{ prevNext.next.data.title or prevNext.next.fileSlug }}
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+              </span>
+            </a>
+            {% endif %}
+          </div>
+        </div>
       </nav>
 
     </div>

@@ -46,8 +46,9 @@ layout: base.njk
         {% endif %}
 
         {% if date %}
-        <div class="flex items-center gap-4 text-sm text-gray-500">
+        <div class="flex items-center flex-wrap gap-4 text-sm text-gray-500">
           <time datetime="{{ date }}">{{ date | dateFormat("short") }}</time>
+          <span>{{ content | readingTime }}</span>
 
           {% if tags and tags is string %}
           <div class="flex flex-wrap gap-2">

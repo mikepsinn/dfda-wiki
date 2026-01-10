@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+/* Dark mode support */
+:root {
+  color-scheme: light dark;
+}
+
+.dark {
+  --color-bg: #111827;
+  --color-bg-secondary: #1f2937;
+  --color-text: #f9fafb;
+  --color-text-secondary: #9ca3af;
+  --color-border: #374151;
+}
+
 /* Custom theme configuration for Tailwind v4 */
 @theme {
   --color-primary-50: #eff6ff;
@@ -366,4 +379,198 @@ pre code {
     font-size: 0.8em;
     color: #666;
   }
+}
+
+/* Dark mode styles */
+.dark body {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+.dark header {
+  background-color: #1f2937;
+  border-color: #374151;
+}
+
+.dark footer {
+  background-color: #030712;
+}
+
+.dark .bg-white {
+  background-color: #1f2937;
+}
+
+.dark .bg-gray-50 {
+  background-color: #111827;
+}
+
+.dark .bg-gray-100 {
+  background-color: #1f2937;
+}
+
+.dark .text-gray-900 {
+  color: #f9fafb;
+}
+
+.dark .text-gray-700 {
+  color: #d1d5db;
+}
+
+.dark .text-gray-600 {
+  color: #9ca3af;
+}
+
+.dark .text-gray-500 {
+  color: #6b7280;
+}
+
+.dark .border-gray-200 {
+  border-color: #374151;
+}
+
+.dark .border-gray-300 {
+  border-color: #4b5563;
+}
+
+.dark .prose {
+  color: #d1d5db;
+}
+
+.dark .prose h1,
+.dark .prose h2,
+.dark .prose h3,
+.dark .prose h4 {
+  color: #f9fafb;
+}
+
+.dark .prose a {
+  color: #60a5fa;
+}
+
+.dark .prose strong {
+  color: #f9fafb;
+}
+
+.dark .prose code {
+  background-color: #374151;
+  color: #f9fafb;
+}
+
+.dark .prose blockquote {
+  background-color: #1e3a5f;
+  border-left-color: #3b82f6;
+  color: #d1d5db;
+}
+
+.dark .prose thead {
+  background-color: #1f2937;
+}
+
+.dark .prose th,
+.dark .prose td {
+  border-color: #374151;
+}
+
+.dark pre {
+  background-color: #0d1117;
+}
+
+.dark .callout-info {
+  background-color: #1e3a5f;
+  border-color: #3b82f6;
+}
+
+.dark .callout-warning {
+  background-color: #422006;
+  border-color: #f59e0b;
+}
+
+.dark .callout-tip {
+  background-color: #052e16;
+  border-color: #22c55e;
+}
+
+.dark .callout-danger {
+  background-color: #450a0a;
+  border-color: #ef4444;
+}
+
+/* Syntax highlighting - Prism One Dark theme */
+.dark code[class*="language-"],
+.dark pre[class*="language-"] {
+  color: #abb2bf;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  text-shadow: none;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #5c6370;
+}
+
+.token.punctuation {
+  color: #abb2bf;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #e06c75;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #98c379;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #56b6c2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #c678dd;
+}
+
+.token.function,
+.token.class-name {
+  color: #61afef;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #c678dd;
+}
+
+/* Image lazy loading fade-in */
+img[loading="lazy"] {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+img[loading="lazy"].loaded {
+  opacity: 1;
+}
+
+img.loaded {
+  opacity: 1;
 }

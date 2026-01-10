@@ -258,6 +258,22 @@ module.exports = function(eleventyConfig) {
     );
   });
 
+  // Get previous and next pages in same collection
+  eleventyConfig.addFilter("getPrevNext", (collections, page, collectionName) => {
+    if (!collections || !page || !collectionName) return { prev: null, next: null };
+
+    const collection = collections[collectionName];
+    if (!collection || !Array.isArray(collection)) return { prev: null, next: null };
+
+    const currentIndex = collection.findIndex(item => item.url === page.url);
+    if (currentIndex === -1) return { prev: null, next: null };
+
+    return {
+      prev: currentIndex > 0 ? collection[currentIndex - 1] : null,
+      next: currentIndex < collection.length - 1 ? collection[currentIndex + 1] : null
+    };
+  });
+
   // Shortcodes
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
