@@ -28,12 +28,15 @@ const workspaceRoot = path.resolve(__dirname, '..');
 const cacheFilePath = path.join(workspaceRoot, '.link-cache.json');
 const CACHE_TTL = 7 * 24 * 60 * 60 * 1000; // 7 days in milliseconds
 
-// Files to skip validation (documentation/examples with placeholder links)
+// Files to skip validation (documentation/examples with placeholder links, or report files)
 const SKIP_VALIDATION_FILES = [
   'CLAUDE.md',
   'FILE-ORGANIZATION.md',
   'community/CONTRIBUTING.md',
-  'BROKEN_INTERNAL_LINKS.md'
+  'BROKEN_INTERNAL_LINKS.md',
+  'broken-links-report.md',
+  'broken-urls-report.md',
+  'validation-results.txt'
 ];
 
 let linkCache: Map<string, CacheEntry> = new Map();
@@ -200,6 +203,13 @@ async function getHeadings(filePath: string): Promise<string[]> {
       // If markdown rendering fails, return empty headings
       console.warn(`Warning: Failed to parse markdown in ${filePath}: ${e}`);
       return [];
+    }
+    
+    // Also extract HTML anchor IDs: <a id="..."> or <a name="...">
+    const htmlAnchorRegex = /<a\s+(?:[^>]*?\s+)?(?:id|name)=["']([^"']+)["'][^>]*>/gi;
+    let match;
+    while ((match = htmlAnchorRegex.exec(markdownContent)) !== null) {
+      headings.push(match[1]);
     }
     
     return headings;
