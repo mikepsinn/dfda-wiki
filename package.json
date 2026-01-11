@@ -64,9 +64,6 @@
     "tree:metadata:tree": "tsx scripts/generate-tree-with-metadata.ts --tree-md",
     "fix-frontmatter": "node scripts/fix_frontmatter_metadata.js",
     "validate-links": "tsx scripts/validate-links-and-images.ts",
-    "validate-links:file": "tsx scripts/validate-links-and-images.ts",
-    "validate-links:fix": "tsx scripts/validate-links-and-images.ts --fix-ampersands",
-    "validate-links:skip-cache": "tsx scripts/validate-links-and-images.ts --skip-cache",
     "tsx": "tsx",
     "lint:md": "markdownlint '**/*.md'",
     "prepare": "husky"

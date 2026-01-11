@@ -38,6 +38,46 @@ const SKIP_VALIDATION_FILES = [
 
 let linkCache: Map<string, CacheEntry> = new Map();
 
+// Find similar headings to suggest (simple substring/prefix matching)
+function findSimilarHeadings(target: string, headings: string[] | Set<string>, maxResults: number = 3): string[] {
+  const headingArray = Array.isArray(headings) ? headings : Array.from(headings);
+  const targetLower = target.toLowerCase();
+  
+  // Score headings by similarity
+  const scored = headingArray.map(h => {
+    const hLower = h.toLowerCase();
+    let score = 0;
+    
+    // Exact match
+    if (hLower === targetLower) score = 100;
+    // Starts with target
+    else if (hLower.startsWith(targetLower)) score = 80;
+    // Target starts with heading
+    else if (targetLower.startsWith(hLower)) score = 70;
+    // Contains target
+    else if (hLower.includes(targetLower)) score = 60;
+    // Target contains heading
+    else if (targetLower.includes(hLower)) score = 50;
+    // Share common prefix (at least 3 chars)
+    else {
+      let commonPrefix = 0;
+      for (let i = 0; i < Math.min(hLower.length, targetLower.length); i++) {
+        if (hLower[i] === targetLower[i]) commonPrefix++;
+        else break;
+      }
+      if (commonPrefix >= 3) score = commonPrefix * 2;
+    }
+    
+    return { heading: h, score };
+  });
+  
+  return scored
+    .filter(s => s.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, maxResults)
+    .map(s => s.heading);
+}
+
 // Load cache from file
 function loadCache(): void {
   try {
@@ -286,7 +326,11 @@ async function validateInternalLink(link: string, sourceFile: string, allHeading
       // Section link in the same file
       const anchor = link.substring(1);
       if (!allHeadings.has(anchor)) {
-        return `Broken section link: ${link}. Possible headings are: ${Array.from(allHeadings).join(', ')}`;
+        const similar = findSimilarHeadings(anchor, allHeadings);
+        const suggestion = similar.length > 0 
+          ? `Did you mean: ${similar.join(', ')}?` 
+          : '(no similar headings found)';
+        return `Broken anchor: ${link} - ${suggestion}`;
       }
     } else {
       // Handle root-relative URLs (starting with /)
@@ -351,7 +395,11 @@ async function validateInternalLink(link: string, sourceFile: string, allHeading
       if (anchor) {
         const targetHeadings = await getHeadings(absolutePath);
         if (!targetHeadings.includes(anchor)) {
-          return `Broken section link in different file: ${link} (Section #${anchor} not found in ${filePath}. Possible headings: ${targetHeadings.join(', ')})`;
+          const similar = findSimilarHeadings(anchor, targetHeadings);
+          const suggestion = similar.length > 0 
+            ? `Did you mean: ${similar.join(', ')}?` 
+            : '(no similar headings found)';
+          return `Broken anchor in ${filePath}: #${anchor} - ${suggestion}`;
         }
       }
     }
