@@ -704,7 +704,9 @@ async function main() {
   const args = process.argv.slice(2);
   const fixAmpersandsFlag = args.includes('--fix-ampersands');
   const skipCache = args.includes('--skip-cache');
-  const filePattern = args.find(arg => !arg.startsWith('--')) || '**/*.md';
+  
+  // Get all non-flag arguments as file paths or patterns
+  const fileArgs = args.filter(arg => !arg.startsWith('--'));
 
   if (skipCache) {
     linkCache.clear();
@@ -713,17 +715,28 @@ async function main() {
     console.log(`Loaded ${linkCache.size} cached URL result(s)`);
   }
 
-  console.log(`Finding markdown files matching: ${filePattern}...`);
+  let files: string[] = [];
   
-  // Default pattern includes markdown, JSON, and template files
-  const defaultPattern = filePattern === '**/*.md' 
-    ? '{**/*.md,**/*.json,_includes/**/*.njk,_data/**/*.json}'
-    : filePattern;
-
-  let files = await glob(defaultPattern, {
-    cwd: workspaceRoot,
-    ignore: ['**/node_modules/**', '**/_site/**', '**/.git/**']
-  });
+  if (fileArgs.length === 0) {
+    // No files specified - use default pattern for all files
+    console.log('Finding all markdown, JSON, and template files...');
+    const defaultPattern = '{**/*.md,**/*.json,_includes/**/*.njk,_data/**/*.json}';
+    files = await glob(defaultPattern, {
+      cwd: workspaceRoot,
+      ignore: ['**/node_modules/**', '**/_site/**', '**/.git/**']
+    });
+  } else if (fileArgs.length === 1 && fileArgs[0].includes('*')) {
+    // Single glob pattern
+    console.log(`Finding files matching: ${fileArgs[0]}...`);
+    files = await glob(fileArgs[0], {
+      cwd: workspaceRoot,
+      ignore: ['**/node_modules/**', '**/_site/**', '**/.git/**']
+    });
+  } else {
+    // Multiple specific files passed as arguments
+    console.log(`Validating ${fileArgs.length} specific file(s)...`);
+    files = fileArgs;
+  }
   
   // Skip config files that contain redirect patterns, not actual links
   const configFiles = ['vercel.json', 'package.json', 'package-lock.json', 'tsconfig.json', 'postcss.config.js', 'tailwind.config.js'];
