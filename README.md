@@ -25,7 +25,7 @@ We propose upgrading FDA.gov to create a platform that allows any patient, anywh
 
 ## Platform Architecture
 
-![Platform architecture](https://s3.us-east-1.amazonaws.com/static.crowdsourcingcures.org/img%2Fdfda-framework-diagram.png)
+![Platform architecture](https://static.dfda.earth/img%2Fdfda-framework-diagram.png)
 
 ## How to Contribute
 

@@ -126,7 +126,7 @@ To further reduce patient costs, new financial models like the [Decentralized In
 
 # Platform Architecture
 
-<img src="https://s3.us-east-1.amazonaws.com/static.crowdsourcingcures.org/img%2Fdfda-framework-diagram.png" alt="Platform architecture" style="max-width: 600px; width: 100%;" />
+<img src="https://static.dfda.earth/img%2Fdfda-framework-diagram.png" alt="Platform architecture" style="max-width: 600px; width: 100%;" />
 
 
 ## Check Out These Great Features! 👀
@@ -189,7 +189,7 @@ Look up your condition and see how different foods, drugs and supplements tend t
 
 # The Disease Eradication Act
 
-[Show your support](https://www.dfda.earth/docs/disease-eradication-act) to give people suffering access to the most promising treatments
+[Show your support](act/act-summary.md) to give people suffering access to the most promising treatments
 
 <img src="https://wiki.dfda.earth/right_to_trial_act_image.jpg" alt="Disease Eradication Act" style="max-width: 600px; width: 100%;" />
 
@@ -205,8 +205,8 @@ We'll keep you informed about the latest developments in decentralized clinical 
 - [Studies](https://studies.dfda.earth/)
 - [Digital Twin Safe](https://safe.dfda.earth)
 - [FDAi](https://fdai.earth/)
-- [Disease Eradication Act](https://www.dfda.earth/docs/disease-eradication-act)
-- [50/50 Health Savings Sharing Program](https://www.dfda.earth/docs/health-savings-sharing)
+- [Disease Eradication Act](act/act-summary.md)
+- [50/50 Health Savings Sharing Program](proposals/health-savings-sharing.md)
 - [Report Bug](https://github.com/decentralized-fda/decentralized-fda/issues/new?template=bug_report.yaml)
 - [Request Feature](https://github.com/decentralized-fda/decentralized-fda/issues/new?template=feature_request.yaml)
 - [GitHub](https://github.com/decentralized-fda/decentralized-fda)
