@@ -86,7 +86,12 @@ async function getHeadings(filePath: string): Promise<string[]> {
     level: [1, 2, 3, 4, 5, 6],
     slugify: (s) => s.trim().toLowerCase().replace(/[\s+]/g, '-').replace(/[.,()]/g, ''),
     callback: (token, { slug }) => {
-      headings.push(decodeURIComponent(slug));
+      try {
+        headings.push(decodeURIComponent(slug));
+      } catch (e) {
+        // If URI is malformed, just use the slug as-is
+        headings.push(slug);
+      }
     }
   });
 

@@ -15,7 +15,7 @@ dateCreated: 2025-07-26T14:00:00.000Z
 
 > **Document Purpose:** This document provides detailed technical specifications for implementation. It is the engineering counterpart to the high-level conceptual overview found in the **[Platform Architecture document](./architecture.md)**.
 
-This document provides detailed technical specifications for the implementation of the core platform, aligning with the architecture in [/features/platform/03-platform.md](/features/platform/03-platform.md) and enabling functionalities discussed in related documents like [/features/data-import.md](/features/data-import.md), [/features/data-silo-api-gateways.md](/features/data-silo-api-gateways.md), and drawing inspiration from efficiency models like [/reference/recovery-trial.md](/reference/recovery-trial.md). It is intended for engineers, developers, and technical teams.
+This document provides detailed technical specifications for the implementation of the core platform, aligning with the architecture and enabling functionalities discussed in related documents like [data-import.md](./features/data-import.md), [data-silo-api-gateways.md](./features/data-silo-api-gateways.md), and drawing inspiration from efficiency models like [recovery-trial.md](./reference/recovery-trial.md). It is intended for engineers, developers, and technical teams.
 
 **Note on Implementation Strategy:** The primary implementation strategy is to **fund and integrate existing, best-in-class open-source solutions** through a public prize and grant program, rather than building the entire platform from the ground up. The specific technologies listed in this document are therefore **illustrative candidates** that meet the architectural requirements. They serve as a reference blueprint for evaluating potential open-source projects for integration.
 
@@ -261,7 +261,7 @@ Multi-layered security meeting regulatory requirements.
 * **Data Security:** As previously specified (SSE-KMS, TLS 1.2+, TDE option, Application-level encryption considered for specific PII). Strict IAM policies. Data masking/de-identification capabilities for analytical exports where appropriate.
 * **Authentication & Authorization:** As previously specified (MFA, short-lived tokens, OIDC, RBAC+ABAC).
 * **Compliance:** Explicit controls mapped to **HIPAA** Security Rule (Administrative, Physical, Technical Safeguards) and **GDPR** articles (Lawful Basis, Data Subject Rights, Security of Processing). Regular internal/external audits. BAAs with cloud providers.
-* **Incident Response:** Defined plan, regular testing (tabletop exercises). [Link to Plan](../operations/security/incident-response-plan.md)
+* **Incident Response:** Defined plan, regular testing (tabletop exercises). [Link to Plan](./operations/security/incident-response-plan.md)
 
 ## 8. Infrastructure & Deployment
 
@@ -279,10 +279,10 @@ Automated, repeatable, and resilient infrastructure.
 
 *(Placeholders - Content to be generated separately or by human teams)*
 
-* **Glossary of Technical Terms:** [Link](../reference/glossary.md)
-* **Detailed Diagrams:** [Link](../architecture/diagrams/README.md)
-* **Data Dictionary / Database Schema:** [Link](../reference/data-dictionary.md)
-* **API Specifications (OAS Files):** [Link](../features/api/README.md)
+* **Glossary of Technical Terms:** [Link](./reference/glossary.md)
+* **Detailed Diagrams:** [Link](./architecture/diagrams/README.md)
+* **Data Dictionary / Database Schema:** [Link](./reference/data-dictionary.md)
+* **API Specifications (OAS Files):** [Link](./features/api/README.md)
 
 ---
 

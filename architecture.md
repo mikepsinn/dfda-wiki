@@ -243,11 +243,11 @@ Tasks of data visualization plugins:
 
 **Example Data Presentation Plugins**
 
-* [Outcome Labels](../plugins/outcome-labels-plugin.md)
-* [Predictor Search Engines](../plugins/predictor-search-engine-plugin.md)
-* [Root Cause Analysis Reports](https://github.com/cure-dao/docs/blob/main/plugins/root-cause-analysis-reports-plugin/1398-root-cause-analysis.html)
-* [Observational Studies](../plugins/observational-studies-plugin.md)
-* [Real-Time Decision Support Notifications](../plugins/optomitron-real-time-notifications-plugin.md)
+* [Outcome Labels](../features/outcome-labels-plugin.md)
+* [Predictor Search Engines](../features/predictor-search-engine.md)
+* [Root Cause Analysis Reports](../features/root-cause-analysis-plugin.md)
+* [Observational Studies](../features/observational-studies.md)
+* [Real-Time Decision Support Notifications](../features/optomitron-ai-agent.md)
 
 #### 3.2.3 Application Programming Interface (API) Connector Plugins
 

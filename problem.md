@@ -17,8 +17,8 @@ There are over [2 billion](https://www.george-health.com/global-health-challenge
 
 Additionally, [150,000](https://www.weforum.org/agenda/2020/05/how-many-people-die-each-day-covid-19-coronavirus/) people die every single day by possibly preventable degenerative diseases. For perspective, this is equivalent to:
 
-* [**FIFTY-ONE**](https://en.wikipedia.org/wiki/Casualties\_of\_the\_September\_11\_attacks) September 11th attacks every day
-* [**NINE**](https://en.wikipedia.org/wiki/Casualties\_of\_the\_September\_11\_attacks) Holocausts every year
+* [**FIFTY-ONE**](https://en.wikipedia.org/wiki/Casualties_of_the_September_11_attacks) September 11th attacks every day
+* [**NINE**](https://en.wikipedia.org/wiki/Casualties_of_the_September_11_attacks) Holocausts every year
 
 ![deaths from disease](https://static.crowdsourcingcures.org/img/deaths-from-disease-vs-deaths-from-terrorism-chart.png)
 
@@ -171,7 +171,7 @@ We’re only 2 lifetimes from the use of the modern scientific method in medicin
 
 There are over [7,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases afflicting humans.
 
-![](<https://static.crowdsourcingcures.org/dfda/assets/rare-diseases (1).jpg>)
+![Rare diseases](https://static.crowdsourcingcures.org/dfda/assets/rare-diseases.jpg)
 
 There are as many untested compounds with drug-like properties as there are [atoms in the solar system](https://www.nature.com/articles/549445a) (166 billion).
 
@@ -181,7 +181,7 @@ If you multiply the number of molecules with drug-like properties by the number 
 
 That means we only know 0.000000002% of what is left to be known.
 
-![](<https://static.crowdsourcingcures.org/dfda/assets/how-much-we-know-numbers (1) (1) (1).png>)
+![How much we know numbers](https://static.crowdsourcingcures.org/dfda/assets/how-much-we-know-numbers.png)
 
 The currently highly restrictive overly cautious method of clinical research prevents us from knowing more faster.
 

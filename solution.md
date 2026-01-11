@@ -19,7 +19,7 @@ dateCreated: '2025-02-11T14:02:49.420Z'
 
 Out of an existing pool of big health data, an insilico model of human biology can be developed to discover new interventions and their personalized dosages and combinations.
 
-One way to achieve this is to view the human body as a black box with inputs and outputs. We can apply [predictive machine learning models](broken-reference/) to [stratified groups](https://en.wikipedia.org/wiki/Stratified\_sampling) of similar people based on the following aspects:
+One way to achieve this is to view the human body as a black box with inputs and outputs. We can apply predictive machine learning models to [stratified groups](https://en.wikipedia.org/wiki/Stratified_sampling) of similar people based on the following aspects:
 
 * [Genomic](https://en.wikipedia.org/wiki/Genomics)
 * [Transcriptomic](https://en.wikipedia.org/wiki/Transcriptome)
@@ -31,7 +31,7 @@ One way to achieve this is to view the human body as a black box with inputs and
 * [Pharmacomicrobiomic](https://en.wikipedia.org/wiki/Pharmacomicrobiomics)
 * [Pharmacogenomic](https://en.wikipedia.org/wiki/Pharmacogenomics)
 * [Foodomic](https://en.wikipedia.org/wiki/Foodomics)
-* [Exposome](https://en.wikipedia.org/wiki/Environmental\_factor#Exposome)
+* [Exposome](https://en.wikipedia.org/wiki/Environmental_factor#Exposome)
 
 This will enable the discovery of the full personalized range of positive and negative relationships for all factors without a profit incentive for traditional trials.
 
@@ -105,7 +105,7 @@ The more this is done, the stronger the statistical significance of the observed
    2. seasonality
    3. the time-varying influence of contemporaneous covariates
 
-At this time, we apply coefficients representative of each of [Hill’s criteria for causation](http://www.drabruzzi.com/hills\_criteria\_of\_causation.htm) to quantify the likelihood of a causal relationship between two measures as:
+At this time, we apply coefficients representative of each of [Hill's criteria for causation](http://www.drabruzzi.com/hills_criteria_of_causation.htm) to quantify the likelihood of a causal relationship between two measures as:
 
 * _**Strength Coefficient**_: A relationship is more likely to be causal if the correlation coefficient is large and statistically significant. This is determined through the use of a two-tailed t-test for significance.
 * _**Consistency Coefficient**_: A relationship is more likely to be causal if it can be replicated. This value is related to the variation of the average change from baseline for other participants with the same treatment outcome variables in conjunction with the variation in average change from multiple experiments in the same individual.
@@ -153,11 +153,11 @@ The adoption of this system of crowd-sourced, observational, objective, and peer
 
 A drug called Elixir sulfanilamide caused over [100 deaths](https://www.fda.gov/files/about%20fda/published/The-Sulfanilamide-Disaster.pdf) in the United States in 1937.
 
-Congress [reacted](https://en.wikipedia.org/wiki/Elixir\_sulfanilamide) to the tragedy by requiring all new drugs to include:
+Congress [reacted](https://en.wikipedia.org/wiki/Elixir_sulfanilamide) to the tragedy by requiring all new drugs to include:
 
 > "adequate tests by all methods reasonably applicable to show whether or not such drug is safe for use under the conditions prescribed, recommended, or suggested in the proposed labeling thereof."
 
-These requirements evolved to what is now called the [Phase 1 Safety Trial](https://en.wikipedia.org/wiki/Phase\_1\_safety\_trial).
+These requirements evolved to what is now called the [Phase 1 Safety Trial](https://en.wikipedia.org/wiki/Phase_1_safety_trial).
 
 This consistent four-year/year increase in life expectancy remained unchanged before and after the new safety regulations.
 
