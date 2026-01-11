@@ -63,9 +63,9 @@
     "tree:metadata:md": "tsx scripts/generate-tree-with-metadata.ts --markdown",
     "tree:metadata:tree": "tsx scripts/generate-tree-with-metadata.ts --tree-md",
     "fix-frontmatter": "node scripts/fix_frontmatter_metadata.js",
-    "validate-links": "tsx scripts/validate-links.ts",
-    "validate-urls": "tsx scripts/validate-urls.ts",
-    "validate-urls:file": "tsx scripts/validate-urls.ts",
+    "validate-links": "tsx scripts/validate-links-and-images.ts",
+    "validate-links:file": "tsx scripts/validate-links-and-images.ts",
+    "validate-links:fix": "tsx scripts/validate-links-and-images.ts --fix-ampersands",
     "tsx": "tsx",
     "lint:md": "markdownlint '**/*.md'"
   },
