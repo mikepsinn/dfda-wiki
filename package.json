@@ -66,6 +66,8 @@
     "validate-links": "tsx scripts/validate-links-and-images.ts",
     "validate-links:file": "tsx scripts/validate-links-and-images.ts",
     "validate-links:fix": "tsx scripts/validate-links-and-images.ts --fix-ampersands",
+    "validate-links:skip-cache": "tsx scripts/validate-links-and-images.ts --skip-cache",
+    "setup-pre-commit": "node -e \"require('fs').existsSync('.git') ? require('child_process').execSync(process.platform === 'win32' ? 'powershell -ExecutionPolicy Bypass -File scripts/setup-pre-commit.ps1' : 'bash scripts/setup-pre-commit.sh', {stdio: 'inherit'}) : console.log('Not a git repository')\"",
     "tsx": "tsx",
     "lint:md": "markdownlint '**/*.md'"
   },

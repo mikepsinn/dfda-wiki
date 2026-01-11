@@ -15,9 +15,53 @@ interface ValidationResult {
   line?: number;
 }
 
+interface CacheEntry {
+  status: ValidationResult['status'];
+  statusCode?: number;
+  error?: string;
+  timestamp: number;
+}
+
 const results: ValidationResult[] = [];
-const checkedUrls = new Map<string, ValidationResult>(); // Cache for external URLs
+const checkedUrls = new Map<string, ValidationResult>(); // Runtime cache for external URLs
 const workspaceRoot = path.resolve(__dirname, '..');
+const cacheFilePath = path.join(workspaceRoot, '.link-cache.json');
+const CACHE_TTL = 7 * 24 * 60 * 60 * 1000; // 7 days in milliseconds
+
+let linkCache: Map<string, CacheEntry> = new Map();
+
+// Load cache from file
+function loadCache(): void {
+  try {
+    if (fs.existsSync(cacheFilePath)) {
+      const cacheData = JSON.parse(fs.readFileSync(cacheFilePath, 'utf-8'));
+      const now = Date.now();
+      for (const [url, entry] of Object.entries(cacheData)) {
+        const cacheEntry = entry as CacheEntry;
+        // Only load entries that haven't expired
+        if (now - cacheEntry.timestamp < CACHE_TTL) {
+          linkCache.set(url, cacheEntry);
+        }
+      }
+    }
+  } catch (error) {
+    // If cache file is corrupted, start fresh
+    console.warn('Warning: Could not load link cache, starting fresh');
+  }
+}
+
+// Save cache to file
+function saveCache(): void {
+  try {
+    const cacheData: Record<string, CacheEntry> = {};
+    linkCache.forEach((entry, url) => {
+      cacheData[url] = entry;
+    });
+    fs.writeFileSync(cacheFilePath, JSON.stringify(cacheData, null, 2), 'utf-8');
+  } catch (error) {
+    console.warn('Warning: Could not save link cache');
+  }
+}
 
 // Optional: Fix ampersands in headings and links
 async function fixAmpersands(filePath: string): Promise<void> {
@@ -118,10 +162,31 @@ async function getHeadings(filePath: string): Promise<string[]> {
 }
 
 async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<{ status: ValidationResult['status']; isWarning?: boolean }> {
-  // Check cache first
-  const cached = checkedUrls.get(url);
+  // Check runtime cache first
+  const runtimeCached = checkedUrls.get(url);
+  if (runtimeCached) {
+    return { status: runtimeCached.status, isWarning: runtimeCached.statusCode === 401 || runtimeCached.statusCode === 403 };
+  }
+
+  // Check persistent cache
+  const cached = linkCache.get(url);
   if (cached) {
-    return { status: cached.status, isWarning: cached.statusCode === 401 || cached.statusCode === 403 };
+    const now = Date.now();
+    if (now - cached.timestamp < CACHE_TTL) {
+      // Cache is still valid
+      const result: ValidationResult = {
+        url,
+        type,
+        status: cached.status,
+        statusCode: cached.statusCode,
+        error: cached.error
+      };
+      checkedUrls.set(url, result);
+      return { status: cached.status, isWarning: cached.statusCode === 401 || cached.statusCode === 403 };
+    } else {
+      // Cache expired, remove it
+      linkCache.delete(url);
+    }
   }
 
   const controller = new AbortController();
@@ -147,6 +212,12 @@ async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<{ 
             statusCode: getResponse.status
           };
           checkedUrls.set(url, result);
+          // Save to persistent cache
+          linkCache.set(url, {
+            status: 'ok',
+            statusCode: getResponse.status,
+            timestamp: Date.now()
+          });
           return { status: 'ok', isWarning: true };
         }
         const result: ValidationResult = {
@@ -156,12 +227,23 @@ async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<{ 
           statusCode: getResponse.status
         };
         checkedUrls.set(url, result);
+        // Save to persistent cache
+        linkCache.set(url, {
+          status: 'broken',
+          statusCode: getResponse.status,
+          timestamp: Date.now()
+        });
         return { status: 'broken' };
       }
     }
     
     const result: ValidationResult = { url, type, status: 'ok' };
     checkedUrls.set(url, result);
+    // Save to persistent cache
+    linkCache.set(url, {
+      status: 'ok',
+      timestamp: Date.now()
+    });
     return { status: 'ok' };
   } catch (error: any) {
     clearTimeout(timeoutId);
@@ -174,6 +256,7 @@ async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<{ 
         error: 'Request timed out after 15 seconds'
       };
       checkedUrls.set(url, result);
+      // Don't cache timeouts - they might be temporary
       return { status: 'timeout' };
     }
     
@@ -184,6 +267,7 @@ async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<{ 
       error: error.message
     };
     checkedUrls.set(url, result);
+    // Don't cache errors - they might be temporary
     return { status: 'error' };
   }
 }
@@ -245,8 +329,49 @@ function extractLinksAndImages(content: string): Array<{ url: string; type: 'lin
       const url = match[1];
       items.push({ url, type: 'image', line: index + 1 });
     }
+
+    // HTML/Nunjucks links: href="url" or href="{{ item.url }}"
+    const hrefRegex = /href=["']([^"']+)["']/g;
+    while ((match = hrefRegex.exec(line)) !== null) {
+      const url = match[1];
+      // Skip template variables like {{ item.url }}
+      if (!url.includes('{{') && !url.includes('{%')) {
+        items.push({ url, type: 'link', line: index + 1 });
+      }
+    }
   });
 
+  return items;
+}
+
+function extractUrlsFromJson(jsonContent: string, filePath: string): Array<{ url: string; type: 'link' | 'image'; line?: number }> {
+  const items: Array<{ url: string; type: 'link' | 'image'; line?: number }> = [];
+  
+  try {
+    const data = JSON.parse(jsonContent);
+    
+    function traverse(obj: any, path: string = '') {
+      if (typeof obj === 'string' && (obj.startsWith('http://') || obj.startsWith('https://') || obj.startsWith('/'))) {
+        items.push({ url: obj, type: 'link' });
+      } else if (typeof obj === 'object' && obj !== null) {
+        if (obj.url && typeof obj.url === 'string') {
+          items.push({ url: obj.url, type: 'link' });
+        }
+        for (const key in obj) {
+          traverse(obj[key], path ? `${path}.${key}` : key);
+        }
+      } else if (Array.isArray(obj)) {
+        obj.forEach((item, index) => {
+          traverse(item, `${path}[${index}]`);
+        });
+      }
+    }
+    
+    traverse(data);
+  } catch (error) {
+    console.warn(`Warning: Failed to parse JSON in ${filePath}: ${error}`);
+  }
+  
   return items;
 }
 
@@ -258,16 +383,33 @@ async function validateFile(filePath: string, fixAmpersandsFlag: boolean = false
     return;
   }
 
-  if (fixAmpersandsFlag) {
+  if (fixAmpersandsFlag && filePath.endsWith('.md')) {
     await fixAmpersands(filePath);
   }
 
   const fileContent = await fs.promises.readFile(fullPath, 'utf-8');
-  const { content: markdownContent } = matter(fileContent);
+  
+  let items: Array<{ url: string; type: 'link' | 'image'; line?: number }> = [];
+  let sourceHeadings: string[] = [];
+  let sourceHeadingsSet: Set<string> = new Set();
 
-  const items = extractLinksAndImages(markdownContent);
-  const sourceHeadings = await getHeadings(fullPath);
-  const sourceHeadingsSet = new Set(sourceHeadings);
+  // Handle different file types
+  if (filePath.endsWith('.json')) {
+    // JSON files (like navigation.json)
+    items = extractUrlsFromJson(fileContent, filePath);
+  } else if (filePath.endsWith('.njk') || filePath.endsWith('.html')) {
+    // Template files (header, footer, etc.)
+    items = extractLinksAndImages(fileContent);
+  } else if (filePath.endsWith('.md')) {
+    // Markdown files
+    const { content: markdownContent } = matter(fileContent);
+    items = extractLinksAndImages(markdownContent);
+    sourceHeadings = await getHeadings(fullPath);
+    sourceHeadingsSet = new Set(sourceHeadings);
+  } else {
+    // Other files - try to extract links anyway
+    items = extractLinksAndImages(fileContent);
+  }
 
   if (items.length === 0) {
     return;
@@ -463,13 +605,29 @@ function generateMarkdownReport(
 }
 
 async function main() {
+  // Load cache at startup
+  loadCache();
+  
   const args = process.argv.slice(2);
   const fixAmpersandsFlag = args.includes('--fix-ampersands');
+  const skipCache = args.includes('--skip-cache');
   const filePattern = args.find(arg => !arg.startsWith('--')) || '**/*.md';
+
+  if (skipCache) {
+    linkCache.clear();
+    console.log('Cache cleared (--skip-cache flag used)');
+  } else {
+    console.log(`Loaded ${linkCache.size} cached URL result(s)`);
+  }
 
   console.log(`Finding markdown files matching: ${filePattern}...`);
   
-  const files = await glob(filePattern, {
+  // Default pattern includes markdown, JSON, and template files
+  const defaultPattern = filePattern === '**/*.md' 
+    ? '{**/*.md,**/*.json,_includes/**/*.njk,_data/**/*.json}'
+    : filePattern;
+
+  const files = await glob(defaultPattern, {
     cwd: workspaceRoot,
     ignore: ['**/node_modules/**', '**/_site/**', '**/.git/**']
   });
@@ -551,6 +709,9 @@ async function main() {
       console.log(`    File: ${r.file}${r.line ? `:${r.line}` : ''}`);
     });
   }
+
+  // Save cache before exiting
+  saveCache();
 
   // Exit with error code if there are broken links (but not warnings)
   if (broken.length > 0 || timeouts.length > 0 || errors.length > 0) {
