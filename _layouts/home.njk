@@ -30,10 +30,10 @@ layout: base.njk
     </div>
   </header>
 
-  <!-- Main Content (from markdown) -->
-  <div class="prose prose-lg max-w-4xl mx-auto mb-16">
+  <!-- Main Content (from markdown) - Academic paper style -->
+  <article class="prose prose-lg max-w-3xl mx-auto mb-16 px-4">
     {{ content | fixLinks(page.inputPath) | safe }}
-  </div>
+  </article>
 
   <!-- Domain Categories Grid -->
   <section class="mt-16">
