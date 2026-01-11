@@ -18,7 +18,7 @@ The current medical research system is slow and expensive. New treatments take a
 
 ### Part 1: The 1% Treaty
 
-The "1% Treaty" proposes that all signatory nations redirect 1% of their annual military budget to a global fund. Proponents argue that accelerating medical progress is a critical component of national and global security. This fund would subsidize patient participation in decentralized clinical trials, aiming to dramatically accelerate the development of new cures. ([Read the full security rationale here.](./national-security-argument.md))
+The "1% Treaty" proposes that all signatory nations redirect 1% of their annual military budget to a global fund. Proponents argue that accelerating medical progress is a critical component of national and global security. This fund would subsidize patient participation in decentralized clinical trials, aiming to dramatically accelerate the development of new cures. ([Read the full security rationale here.](../strategy/1-percent-treaty/national-security-argument.md))
 
 **1. Do you support or oppose your country signing the 1% Treaty?**
   - [ ] Support

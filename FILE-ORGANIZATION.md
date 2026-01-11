@@ -44,9 +44,9 @@ When in doubt, place the doc where its primary decision‑maker would look (lega
 
 - Use page‑relative markdown links (./, ../), not repo‑root or backticked paths
 - Examples (from a file in `strategy/`):
-  - Same folder: `[Fundraising Models Comparison](./fundraising-models-comparison.md)`
-  - Sibling domain: `[Legal Compliance Framework](../regulatory/legal-compliance-framework.md)`
-  - Sibling domain: `[Victory Bond Investment Thesis](../economic-models/victory-bond-investment-thesis.md)`
+  - Same folder: `[Fundraising Models Comparison](./strategy/fundraising-models-comparison.md)`
+  - Sibling domain: `[Legal Compliance Framework](./strategy/legal-compliance-framework.md)`
+  - Sibling domain: `[Victory Bond Investment Thesis](./economic-models/victory-bond-investment-thesis.md)`
 - Link to sections with `#heading-slug` anchors when helpful
 
 ## Sourcing & citations (for quantified claims)

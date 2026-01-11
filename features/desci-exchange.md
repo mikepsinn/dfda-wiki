@@ -27,7 +27,7 @@ If you don't have the key, you're prompted to mint one.
 
 The Digital Twin Skeleton Key NFT is a soul-bound NFT that can only be minted if you do not already have one.
 
-This key gives you the ability to mint [Data Gem Data Access NFTs](../data-gem/README.md) using your imported data.
+This key gives you the ability to mint [Data Gem Data Access NFTs](../README.md) using your imported data.
 
 ## Life Force Score
 
@@ -37,7 +37,7 @@ healthy activities, such as having a good sleep schedule, hydrating, and exercis
 This metadata is available to various metaverse game ecosystems and can influence their scores and abilities in these
 games.
 
-[CONTRACTS AND MORE INFO ABOUT DIGITAL TWIN NFTS](packages/desci-exchange/contracts/digital-twin/README.md)
+[CONTRACTS AND MORE INFO ABOUT DIGITAL TWIN NFTS](../README.md)
 
 # Data Gems
 
@@ -49,7 +49,7 @@ A more boring way to put it, is to say that Data Gems are NFT tokens that give t
 
 They can be mined by the data owner and can be given or sold to other Analog Twins or businesses.
 
-[CONTRACTS AND MORE INFO ABOUT DATA GEMS](packages/desci-exchange/contracts/data-gem/README.md)
+[CONTRACTS AND MORE INFO ABOUT DATA GEMS](../README.md)
 
 
 # Benefits

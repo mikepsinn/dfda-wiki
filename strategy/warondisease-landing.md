@@ -722,7 +722,7 @@ See the consolidated plan: [Canonical Roadmap — 1% Treaty → DIH → dFDA](./
 
 * **Previous global military spending (\$2.44T, 2023)**
   > "World military expenditure rose by 6.8 per cent in real terms in 2023, to reach \$2443 billion."
-  > — SIPRI, 2024, [press release](https://www.sipri.org/media/press-release/2024/world-military-expenditure-reaches-record-high-2023)
+  > — SIPRI, 2024, [press release](https://www.sipri.org/media/press-release/2024/global-military-spending-surges-amid-war-rising-tensions-and-insecurity)
 
 <a id="3-5-rule"></a>
 * **3.5% participation tipping point**
@@ -794,7 +794,7 @@ See the consolidated plan: [Canonical Roadmap — 1% Treaty → DIH → dFDA](./
 <a id="us-aid-israel"></a>
 * **US foreign aid example**
   > "The U.S. provides approximately $3.8 billion in annual military aid to Israel as part of long-term security cooperation agreements."
-  > — Council on Foreign Relations, 2023, [US Aid to Israel](https://www.cfr.org/backgrounder/what-know-about-us-military-aid-israel)
+  > — Council on Foreign Relations, 2023, [US Aid to Israel](https://www.cfr.org/article/us-aid-israel-four-charts)
 
 * **ROI analysis**
   > "Break-even in 18-36 months with 3.4X return even in partial success."
@@ -843,12 +843,12 @@ See the consolidated plan: [Canonical Roadmap — 1% Treaty → DIH → dFDA](./
 <a id="wwii-war-bonds"></a>
 * **WWII War Bonds**
   > "From 1941 to 1945, the United States government issued War Bonds to finance military operations. Over 85 million Americans purchased bonds totaling more than \$185 billion."
-  > — U.S. Treasury, [WWII War Bonds](https://www.treasurydirect.gov/auctions/wwii-war-bonds/)
+  > — U.S. Treasury, [WWII War Bonds](https://www.treasurydirect.gov/research-center/history-of-savings-bond/)
 
 <a id="global-fund"></a>
 * **The Global Fund**
   > "The Global Fund is a worldwide partnership to defeat HIV, TB and malaria and ensure a healthier, safer, more equitable future for all. We raise and invest more than US\$5 billion a year to fight the deadliest infectious diseases, challenge the injustice that fuels them and strengthen health systems in more than 100 of the world's most affected countries."
-  > — The Global Fund, [Overview](https://www.theglobalfund.org/en/overview/)
+  > — The Global Fund, [Overview](https://www.theglobalfund.org/en/about-the-global-fund)
 
 <a id="lobbying-1-1b"></a>
 * **Defense Lobbying (2001-2021)**
@@ -876,12 +876,12 @@ See the consolidated plan: [Canonical Roadmap — 1% Treaty → DIH → dFDA](./
 <a id="net-neutrality-comments"></a>
 * **Net Neutrality Comments (nearly 4M, 2014-2015)**
   > "The nearly 4 million comments submitted to the Federal Communications Commission about its proposed net neutrality rules shattered the agency's previous record..."
-  > — Pew Research Center, 2014, [FCC's net neutrality comment period ends with a bang](https://www.pewresearch.org/short-reads/2014/12/18/fccs-net-neutrality-comment-period-ends-with-a-bang/)
+  > — Pew Research Center, 2014, [What drove spike in public comments on net neutrality](https://www.pewresearch.org/short-reads/2014/09/05/what-drove-spike-in-public-comments-on-net-neutrality-likely-a-comedian/)
 
 <a id="top-contractor-revenue"></a>
 * **Top Defense Contractor Revenue (Lockheed Martin, $68.59B, FY23)**
   > "The top U.S. defense contractor by total value of contracts awarded by the Department of Defense in fiscal year 2023 was Lockheed Martin, with contracts valued at $68.59 billion."
-  > — Forecast International, 2024, [Top 10 US Defense Contractors Based on FY23 DoD Prime Contracts](https://www.forecastinternational.com/news_body.cfm?news_id=1433)
+  > — Forecast International, 2024, [Top 10 US Defense Contractors Based on FY23 DoD Prime Contracts](https://dsm.forecastinternational.com/2024/03/01/top-100-defense-contractors-2023/)
 
 <a id="fossil-fuel-subsidies"></a>
 * **Fossil Fuel Subsidies ($7T, 2022)**
@@ -891,7 +891,7 @@ See the consolidated plan: [Canonical Roadmap — 1% Treaty → DIH → dFDA](./
 <a id="lobbying-roi-calc"></a>
 * **Lobbying ROI Calculation ($1,813 per $1)**
   > "The top five defense firms received $2.02 trillion in contracts from the Pentagon during the 20 years of the war in Afghanistan... Over the past two decades, the top five defense contractors have spent $1.1 billion on lobbying... That calculates to an ROI of $1,813 for every dollar spent."
-  > — ExecutiveBiz, 2021, [Top 5 Defense Firms See $2T Return on $1B Investment in Afghan War](https://www.executivebiz.com/2021/09/top-5-defense-firms-see-2t-return-on-1b-investment-in-afghan-war/)
+  > — Responsible Statecraft, 2021, [Top 5 Defense Firms See $2T Return on $1B Investment in Afghan War](https://responsiblestatecraft.org/2021/09/02/top-defense-firms-see-2t-return-on-1b-investment-in-afghan-war/)
 
 <a id="note-on-language"></a>
 

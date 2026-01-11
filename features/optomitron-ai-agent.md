@@ -34,4 +34,4 @@ We're working on implementing a more robust pharmacokinetic predictive model con
 
 Ideally, Optimitron AI agent will be able to further improve the precision and accuracy of the real-time recommendations over time by leveraging reinforcement learning and community contributions.
 
-[👉 Learn more about the data analysis here...](../data-analysis/data-analysis.md)
+[👉 Learn more about the data analysis here...](./data-analysis.md)

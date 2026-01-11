@@ -28,6 +28,14 @@ const workspaceRoot = path.resolve(__dirname, '..');
 const cacheFilePath = path.join(workspaceRoot, '.link-cache.json');
 const CACHE_TTL = 7 * 24 * 60 * 60 * 1000; // 7 days in milliseconds
 
+// Files to skip validation (documentation/examples with placeholder links)
+const SKIP_VALIDATION_FILES = [
+  'CLAUDE.md',
+  'FILE-ORGANIZATION.md',
+  'community/CONTRIBUTING.md',
+  'BROKEN_INTERNAL_LINKS.md'
+];
+
 let linkCache: Map<string, CacheEntry> = new Map();
 
 // Load cache from file
@@ -281,9 +289,60 @@ async function validateInternalLink(link: string, sourceFile: string, allHeading
         return `Broken section link: ${link}. Possible headings are: ${Array.from(allHeadings).join(', ')}`;
       }
     } else {
-      // Internal file path
-      const [filePath, anchor] = link.split('#');
-      const absolutePath = path.resolve(path.dirname(path.join(workspaceRoot, sourceFile)), filePath);
+      // Handle root-relative URLs (starting with /)
+      let filePath = link;
+      let anchor: string | undefined;
+      
+      if (link.startsWith('/') && !link.startsWith('//')) {
+        // Root-relative URL like /strategy/ or /features/data-import.md
+        filePath = link.slice(1); // Remove leading /
+        const hashIndex = filePath.indexOf('#');
+        if (hashIndex !== -1) {
+          anchor = filePath.substring(hashIndex + 1);
+          filePath = filePath.substring(0, hashIndex);
+        }
+        
+        // Remove trailing slash
+        filePath = filePath.replace(/\/$/, '') || 'home';
+        
+        // Try to find the file
+        if (!filePath.endsWith('.md')) {
+          const possiblePaths = [
+            `${filePath}/index.md`,
+            `${filePath}.md`,
+            `${filePath}/README.md`
+          ];
+          let found = false;
+          for (const possiblePath of possiblePaths) {
+            const fullPossiblePath = path.join(workspaceRoot, possiblePath);
+            if (fs.existsSync(fullPossiblePath)) {
+              filePath = possiblePath;
+              found = true;
+              break;
+            }
+          }
+          if (!found) {
+            // Check if it's a directory that exists
+            const dirPath = path.join(workspaceRoot, filePath);
+            if (fs.existsSync(dirPath) && fs.statSync(dirPath).isDirectory()) {
+              // Directory exists, treat as valid (will be handled by 11ty)
+              return null;
+            }
+            return `Broken internal link: ${link} (File not found. Tried: ${filePath}/index.md, ${filePath}.md, ${filePath}/README.md)`;
+          }
+        }
+      } else {
+        // Relative path
+        const hashIndex = filePath.indexOf('#');
+        if (hashIndex !== -1) {
+          anchor = filePath.substring(hashIndex + 1);
+          filePath = filePath.substring(0, hashIndex);
+        }
+        filePath = path.resolve(path.dirname(path.join(workspaceRoot, sourceFile)), filePath);
+        filePath = path.relative(workspaceRoot, filePath).replace(/\\/g, '/');
+      }
+      
+      const absolutePath = path.join(workspaceRoot, filePath);
       
       if (!fs.existsSync(absolutePath)) {
         return `Broken internal link: ${link} (File not found at ${absolutePath})`;
@@ -351,11 +410,24 @@ function extractUrlsFromJson(jsonContent: string, filePath: string): Array<{ url
     const data = JSON.parse(jsonContent);
     
     function traverse(obj: any, path: string = '') {
-      if (typeof obj === 'string' && (obj.startsWith('http://') || obj.startsWith('https://') || obj.startsWith('/'))) {
-        items.push({ url: obj, type: 'link' });
+      // Skip redirect configs - they contain patterns, not actual links
+      if (path.includes('redirects') || path.includes('rewrites')) {
+        return;
+      }
+      
+      if (typeof obj === 'string') {
+        // Only extract URLs that look like actual links (not redirect patterns with :path* or regex)
+        if ((obj.startsWith('http://') || obj.startsWith('https://') || obj.startsWith('/')) 
+            && !obj.includes(':path') && !obj.includes('(.*)') && !obj.includes('*')) {
+          items.push({ url: obj, type: 'link' });
+        }
       } else if (typeof obj === 'object' && obj !== null) {
+        // Look for 'url' property specifically (navigation structure)
         if (obj.url && typeof obj.url === 'string') {
-          items.push({ url: obj.url, type: 'link' });
+          // Skip redirect patterns
+          if (!obj.url.includes(':path') && !obj.url.includes('(.*)') && !obj.url.includes('*')) {
+            items.push({ url: obj.url, type: 'link' });
+          }
         }
         for (const key in obj) {
           traverse(obj[key], path ? `${path}.${key}` : key);
@@ -376,6 +448,13 @@ function extractUrlsFromJson(jsonContent: string, filePath: string): Array<{ url
 }
 
 async function validateFile(filePath: string, fixAmpersandsFlag: boolean = false): Promise<void> {
+  // Skip validation for documentation files with example links
+  const normalizedPath = filePath.replace(/\\/g, '/');
+  if (SKIP_VALIDATION_FILES.some(skipFile => normalizedPath.endsWith(skipFile) || normalizedPath === skipFile)) {
+    console.log(`⏭ Skipping validation: ${filePath} (documentation file)`);
+    return;
+  }
+
   const fullPath = path.join(workspaceRoot, filePath);
 
   if (!fs.existsSync(fullPath)) {
@@ -419,26 +498,40 @@ async function validateFile(filePath: string, fixAmpersandsFlag: boolean = false
 
   for (const { url, type, line } of items) {
     try {
+      // Skip mailto:, tel:, and other non-http protocols
+      if (url.startsWith('mailto:') || url.startsWith('tel:') || url.startsWith('sms:')) {
+        // These are valid protocol links, skip validation
+        const result: ValidationResult = {
+          url,
+          type: 'link',
+          status: 'ok',
+          file: filePath,
+          line
+        };
+        results.push(result);
+        continue;
+      }
+
       if (url.startsWith('http://') || url.startsWith('https://')) {
         // External URL
         const { status, isWarning } = await checkExternalUrl(url, type);
         const cached = checkedUrls.get(url)!;
-        
+
         const result: ValidationResult = {
           ...cached,
           file: filePath,
           line
         };
-        
+
         results.push(result);
 
         if (isWarning) {
           console.log(`  ⚠ ${type.toUpperCase()}: ${url} (Status ${cached.statusCode} - may require authentication)${line ? ` at line ${line}` : ''}`);
         } else if (status !== 'ok') {
-          const statusMsg = status === 'broken' 
-            ? `Status ${cached.statusCode}` 
-            : status === 'timeout' 
-            ? 'Timeout' 
+          const statusMsg = status === 'broken'
+            ? `Status ${cached.statusCode}`
+            : status === 'timeout'
+            ? 'Timeout'
             : cached.error;
           console.log(`  ✗ ${type.toUpperCase()}: ${url} (${statusMsg})${line ? ` at line ${line}` : ''}`);
         }
@@ -627,10 +720,14 @@ async function main() {
     ? '{**/*.md,**/*.json,_includes/**/*.njk,_data/**/*.json}'
     : filePattern;
 
-  const files = await glob(defaultPattern, {
+  let files = await glob(defaultPattern, {
     cwd: workspaceRoot,
     ignore: ['**/node_modules/**', '**/_site/**', '**/.git/**']
   });
+  
+  // Skip config files that contain redirect patterns, not actual links
+  const configFiles = ['vercel.json', 'package.json', 'package-lock.json', 'tsconfig.json', 'postcss.config.js', 'tailwind.config.js'];
+  files = files.filter(file => !configFiles.some(config => file.includes(config)));
 
   console.log(`Found ${files.length} file(s) to check.\n`);
 

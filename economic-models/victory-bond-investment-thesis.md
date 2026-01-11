@@ -214,7 +214,7 @@ Philanthropic funds can achieve extraordinary impact multiplication through VICT
 ### Targeting Defense Contractors as Investors
 VICTORY Bonds are uniquely positioned to target defense contractors as primary investors. By offering superior risk-adjusted returns (as modeled above), we incentivize them to repurpose their lobbying networks to support the 1% Treaty—turning potential adversaries into allies.
 
-We have 85-90% confidence this co-opting approach is superior to adversarial strategies, based on game theory and precedents. For full analysis, see [Co-Opting Defense Contractors](../co-opting-defense-contractors.md).
+We have 85-90% confidence this co-opting approach is superior to adversarial strategies, based on game theory and precedents. For full analysis, see [Co-Opting Defense Contractors](../strategy/co-opting-defense-contractors.md).
 
 ---
 

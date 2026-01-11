@@ -43,6 +43,6 @@ Enable compliant participation from unaccredited/retail investors while Phase 1 
 - Centralized compliance tracker; counsel checkpoints per jurisdiction
 
 ## Links
-- Legal framework: [Legal Compliance Framework](../strategy/legal-compliance-framework.md)
-- Models & scoring: [Fundraising Models Comparison](../strategy/fundraising-models-comparison.md)
+- Legal framework: [Legal Compliance Framework](./legal-compliance-framework.md)
+- Models & scoring: [Fundraising Models Comparison](./fundraising-models-comparison.md)
 - Intake SOP: [Crypto Investment and Donation Intake SOP](../operations/crypto-intake-sop.md)

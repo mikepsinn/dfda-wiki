@@ -14,7 +14,7 @@ dateCreated: 2024-06-09T00:00:00.000Z
 
 Based on the rate of recent advancements, we may achieve artificial general intelligence (AGI) by November 2024. AGI means AI that can complete any cognitive task as well or better than any living human.
 
-[![](globalSolutions/1-percent-treaty/agi-progress-projection.pngreaty/agi-progress-projection.png)](https://www.reddit.com/r/singularity/comments/1bf3kqf/alans_conservative_countdown_plot_predicts_agi_by/)
+[![](./agi-progress-projection.png)](https://www.reddit.com/r/singularity/comments/1bf3kqf/alans_conservative_countdown_plot_predicts_agi_by/)
 
 This timeline has been supported by both Sam Altman, CEO of OpenAI, and Elon Musk who believes that AI will be smarter than any human by the end of 2024 and smarter than all combined humans by 2029.   
 
