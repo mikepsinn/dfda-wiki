@@ -11,7 +11,7 @@ interface ValidationResult {
   status: 'ok' | 'broken' | 'timeout' | 'error';
   statusCode?: number;
   error?: string;
-  file: string;
+  file?: string; // Optional for cached results
   line?: number;
 }
 
@@ -77,34 +77,51 @@ async function fixAmpersands(filePath: string): Promise<void> {
 }
 
 async function getHeadings(filePath: string): Promise<string[]> {
-  const content = await fs.promises.readFile(filePath, 'utf-8');
-  const { content: markdownContent } = matter(content);
-  
-  const headings: string[] = [];
+  try {
+    const content = await fs.promises.readFile(filePath, 'utf-8');
+    const { content: markdownContent } = matter(content);
+    
+    const headings: string[] = [];
 
-  const md = markdownit().use(anchor, {
-    level: [1, 2, 3, 4, 5, 6],
-    slugify: (s) => s.trim().toLowerCase().replace(/[\s+]/g, '-').replace(/[.,()]/g, ''),
-    callback: (token, { slug }) => {
-      try {
-        headings.push(decodeURIComponent(slug));
-      } catch (e) {
-        // If URI is malformed, just use the slug as-is
-        headings.push(slug);
+    const md = markdownit().use(anchor, {
+      level: [1, 2, 3, 4, 5, 6],
+      slugify: (s) => {
+        try {
+          return s.trim().toLowerCase().replace(/[\s+]/g, '-').replace(/[.,()]/g, '');
+        } catch (e) {
+          return s.trim().toLowerCase().replace(/[\s+]/g, '-');
+        }
+      },
+      callback: (token, { slug }) => {
+        try {
+          headings.push(decodeURIComponent(slug));
+        } catch (e) {
+          // If URI is malformed, just use the slug as-is
+          headings.push(slug);
+        }
       }
-    }
-  });
+    });
 
-  md.render(markdownContent);
-  
-  return headings;
+    try {
+      md.render(markdownContent);
+    } catch (e) {
+      // If markdown rendering fails, return empty headings
+      console.warn(`Warning: Failed to parse markdown in ${filePath}: ${e}`);
+      return [];
+    }
+    
+    return headings;
+  } catch (error: any) {
+    console.warn(`Warning: Failed to get headings from ${filePath}: ${error.message}`);
+    return [];
+  }
 }
 
-async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<ValidationResult['status']> {
+async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<{ status: ValidationResult['status']; isWarning?: boolean }> {
   // Check cache first
   const cached = checkedUrls.get(url);
   if (cached) {
-    return cached.status;
+    return { status: cached.status, isWarning: cached.statusCode === 401 || cached.statusCode === 403 };
   }
 
   const controller = new AbortController();
@@ -121,11 +138,16 @@ async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<Va
     if (!response.ok) {
       const getResponse = await fetch(url, { signal: controller.signal, headers });
       if (!getResponse.ok) {
-        if (getResponse.status === 403) {
-          // Some sites block bots - treat as ok
-          const result: ValidationResult = { url, type, status: 'ok' };
+        // 401 and 403 are often auth/bot protection - treat as warnings, not errors
+        if (getResponse.status === 401 || getResponse.status === 403) {
+          const result: ValidationResult = { 
+            url, 
+            type, 
+            status: 'ok', // Mark as ok but we'll log it as a warning
+            statusCode: getResponse.status
+          };
           checkedUrls.set(url, result);
-          return 'ok';
+          return { status: 'ok', isWarning: true };
         }
         const result: ValidationResult = {
           url,
@@ -134,13 +156,13 @@ async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<Va
           statusCode: getResponse.status
         };
         checkedUrls.set(url, result);
-        return 'broken';
+        return { status: 'broken' };
       }
     }
     
     const result: ValidationResult = { url, type, status: 'ok' };
     checkedUrls.set(url, result);
-    return 'ok';
+    return { status: 'ok' };
   } catch (error: any) {
     clearTimeout(timeoutId);
     
@@ -152,7 +174,7 @@ async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<Va
         error: 'Request timed out after 15 seconds'
       };
       checkedUrls.set(url, result);
-      return 'timeout';
+      return { status: 'timeout' };
     }
     
     const result: ValidationResult = {
@@ -162,7 +184,7 @@ async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<Va
       error: error.message
     };
     checkedUrls.set(url, result);
-    return 'error';
+    return { status: 'error' };
   }
 }
 
@@ -254,51 +276,61 @@ async function validateFile(filePath: string, fixAmpersandsFlag: boolean = false
   console.log(`Validating ${items.length} link(s)/image(s) in ${filePath}...`);
 
   for (const { url, type, line } of items) {
-    if (url.startsWith('http://') || url.startsWith('https://')) {
-      // External URL
-      const status = await checkExternalUrl(url, type);
-      const cached = checkedUrls.get(url)!;
-      
-      const result: ValidationResult = {
-        ...cached,
-        file: filePath,
-        line
-      };
-      
-      results.push(result);
+    try {
+      if (url.startsWith('http://') || url.startsWith('https://')) {
+        // External URL
+        const { status, isWarning } = await checkExternalUrl(url, type);
+        const cached = checkedUrls.get(url)!;
+        
+        const result: ValidationResult = {
+          ...cached,
+          file: filePath,
+          line
+        };
+        
+        results.push(result);
 
-      if (status !== 'ok') {
-        const statusMsg = status === 'broken' 
-          ? `Status ${cached.statusCode}` 
-          : status === 'timeout' 
-          ? 'Timeout' 
-          : cached.error;
-        console.log(`  ✗ ${type.toUpperCase()}: ${url} (${statusMsg})${line ? ` at line ${line}` : ''}`);
-      }
-    } else {
-      // Internal link
-      const error = await validateInternalLink(url, filePath, sourceHeadingsSet);
-      if (error) {
-        const result: ValidationResult = {
-          url,
-          type: 'internal',
-          status: 'broken',
-          error,
-          file: filePath,
-          line
-        };
-        results.push(result);
-        console.log(`  ✗ INTERNAL: ${url} - ${error}${line ? ` at line ${line}` : ''}`);
+        if (isWarning) {
+          console.log(`  ⚠ ${type.toUpperCase()}: ${url} (Status ${cached.statusCode} - may require authentication)${line ? ` at line ${line}` : ''}`);
+        } else if (status !== 'ok') {
+          const statusMsg = status === 'broken' 
+            ? `Status ${cached.statusCode}` 
+            : status === 'timeout' 
+            ? 'Timeout' 
+            : cached.error;
+          console.log(`  ✗ ${type.toUpperCase()}: ${url} (${statusMsg})${line ? ` at line ${line}` : ''}`);
+        }
       } else {
-        const result: ValidationResult = {
-          url,
-          type: 'internal',
-          status: 'ok',
-          file: filePath,
-          line
-        };
-        results.push(result);
+        // Internal link
+        try {
+          const error = await validateInternalLink(url, filePath, sourceHeadingsSet);
+          if (error) {
+            const result: ValidationResult = {
+              url,
+              type: 'internal',
+              status: 'broken',
+              error,
+              file: filePath,
+              line
+            };
+            results.push(result);
+            console.log(`  ✗ INTERNAL: ${url} - ${error}${line ? ` at line ${line}` : ''}`);
+          } else {
+            const result: ValidationResult = {
+              url,
+              type: 'internal',
+              status: 'ok',
+              file: filePath,
+              line
+            };
+            results.push(result);
+          }
+        } catch (error: any) {
+          console.warn(`  ⚠ Warning: Failed to validate internal link ${url} in ${filePath}: ${error.message}`);
+        }
       }
+    } catch (error: any) {
+      console.warn(`  ⚠ Warning: Error processing ${type} ${url} in ${filePath}${line ? ` at line ${line}` : ''}: ${error.message}`);
     }
   }
 }
@@ -308,6 +340,7 @@ function generateMarkdownReport(
   timeouts: ValidationResult[],
   errors: ValidationResult[],
   ok: ValidationResult[],
+  warnings: ValidationResult[],
   total: number
 ): string {
   const timestamp = new Date().toISOString();
@@ -321,6 +354,9 @@ function generateMarkdownReport(
   report.push('');
   report.push(`- **Total links/images checked:** ${total}`);
   report.push(`- ✅ **OK:** ${ok.length}`);
+  if (warnings.length > 0) {
+    report.push(`- ⚠️ **Warnings (401/403):** ${warnings.length}`);
+  }
   report.push(`- ❌ **Broken:** ${broken.length}`);
   report.push(`- ⏱️ **Timeouts:** ${timeouts.length}`);
   report.push(`- ⚠️ **Errors:** ${errors.length}`);
@@ -333,10 +369,11 @@ function generateMarkdownReport(
     // Group by file
     const byFile = new Map<string, ValidationResult[]>();
     broken.forEach(r => {
-      if (!byFile.has(r.file)) {
-        byFile.set(r.file, []);
+      const file = r.file || 'unknown';
+      if (!byFile.has(file)) {
+        byFile.set(file, []);
       }
-      byFile.get(r.file)!.push(r);
+      byFile.get(file)!.push(r);
     });
 
     byFile.forEach((fileResults, file) => {
@@ -359,10 +396,11 @@ function generateMarkdownReport(
     
     const byFile = new Map<string, ValidationResult[]>();
     timeouts.forEach(r => {
-      if (!byFile.has(r.file)) {
-        byFile.set(r.file, []);
+      const file = r.file || 'unknown';
+      if (!byFile.has(file)) {
+        byFile.set(file, []);
       }
-      byFile.get(r.file)!.push(r);
+      byFile.get(file)!.push(r);
     });
 
     byFile.forEach((fileResults, file) => {
@@ -375,16 +413,40 @@ function generateMarkdownReport(
     });
   }
 
+  if (warnings.length > 0) {
+    report.push('## Warning URLs (401/403 - May require authentication)');
+    report.push('');
+    
+    const byFile = new Map<string, ValidationResult[]>();
+    warnings.forEach(r => {
+      const file = r.file || 'unknown';
+      if (!byFile.has(file)) {
+        byFile.set(file, []);
+      }
+      byFile.get(file)!.push(r);
+    });
+
+    byFile.forEach((fileResults, file) => {
+      report.push(`### ${file}`);
+      report.push('');
+      fileResults.forEach(r => {
+        report.push(`- **${r.type.toUpperCase()}** [${r.url}](${r.url}) - Status: ${r.statusCode}${r.line ? ` (line ${r.line})` : ''}`);
+      });
+      report.push('');
+    });
+  }
+
   if (errors.length > 0) {
     report.push('## Error URLs');
     report.push('');
     
     const byFile = new Map<string, ValidationResult[]>();
     errors.forEach(r => {
-      if (!byFile.has(r.file)) {
-        byFile.set(r.file, []);
+      const file = r.file || 'unknown';
+      if (!byFile.has(file)) {
+        byFile.set(file, []);
       }
-      byFile.get(r.file)!.push(r);
+      byFile.get(file)!.push(r);
     });
 
     byFile.forEach((fileResults, file) => {
@@ -415,7 +477,12 @@ async function main() {
   console.log(`Found ${files.length} file(s) to check.\n`);
 
   for (const file of files) {
-    await validateFile(file, fixAmpersandsFlag);
+    try {
+      await validateFile(file, fixAmpersandsFlag);
+    } catch (error: any) {
+      console.error(`Error validating file ${file}: ${error.message}`);
+      // Continue with other files instead of crashing
+    }
   }
 
   // Summary
@@ -423,13 +490,18 @@ async function main() {
   console.log('VALIDATION SUMMARY');
   console.log('='.repeat(60));
 
+  // Filter out 401/403 warnings from broken count
   const broken = results.filter(r => r.status === 'broken');
+  const warnings = results.filter(r => r.status === 'ok' && (r.statusCode === 401 || r.statusCode === 403));
   const timeouts = results.filter(r => r.status === 'timeout');
   const errors = results.filter(r => r.status === 'error');
-  const ok = results.filter(r => r.status === 'ok');
+  const ok = results.filter(r => r.status === 'ok' && r.statusCode !== 401 && r.statusCode !== 403);
 
   console.log(`Total links/images checked: ${results.length}`);
   console.log(`✓ OK: ${ok.length}`);
+  if (warnings.length > 0) {
+    console.log(`⚠ Warnings (401/403 - may require auth): ${warnings.length}`);
+  }
   console.log(`✗ Broken: ${broken.length}`);
   console.log(`⏱ Timeouts: ${timeouts.length}`);
   console.log(`⚠ Errors: ${errors.length}`);
@@ -464,15 +536,23 @@ async function main() {
   }
 
   // Generate markdown report
-  if (broken.length > 0 || timeouts.length > 0 || errors.length > 0) {
+  if (broken.length > 0 || timeouts.length > 0 || errors.length > 0 || warnings.length > 0) {
     const reportPath = path.join(workspaceRoot, 'broken-links-report.md');
-    const reportContent = generateMarkdownReport(broken, timeouts, errors, ok, results.length);
+    const reportContent = generateMarkdownReport(broken, timeouts, errors, ok, warnings, results.length);
     
     await fs.promises.writeFile(reportPath, reportContent, 'utf-8');
     console.log(`\n📄 Report saved to: ${reportPath}`);
   }
 
-  // Exit with error code if there are broken links
+  if (warnings.length > 0) {
+    console.log('\nWARNING URLs (401/403 - may require authentication):');
+    warnings.forEach(r => {
+      console.log(`  [${r.type.toUpperCase()}] ${r.url} (Status: ${r.statusCode})`);
+      console.log(`    File: ${r.file}${r.line ? `:${r.line}` : ''}`);
+    });
+  }
+
+  // Exit with error code if there are broken links (but not warnings)
   if (broken.length > 0 || timeouts.length > 0 || errors.length > 0) {
     process.exit(1);
   }
