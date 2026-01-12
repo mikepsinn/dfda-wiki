@@ -53,6 +53,79 @@
   <meta name="twitter:title" content="{{ title or site.title }}">
   <meta name="twitter:description" content="{{ description or site.description }}">
   <meta name="twitter:image" content="{{ site.url }}/assets/icons/dfda-android-chrome-512x512.png">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}",
+        "description": "{{ site.description }}",
+        "inLanguage": "en-US",
+        "publisher": {
+          "@id": "{{ site.url }}/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "{{ site.url }}/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "{{ site.url }}/#organization",
+        "name": "Decentralized FDA",
+        "alternateName": "dFDA",
+        "url": "https://dfda.earth",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}/assets/icons/dfda-android-chrome-512x512.png",
+          "width": 512,
+          "height": 512
+        },
+        "sameAs": [
+          "https://github.com/decentralized-fda",
+          "https://twitter.com/WarOnDisease"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "{{ site.url }}/#author",
+        "name": "Mike P. Sinn",
+        "url": "https://mikesinn.com",
+        "sameAs": [
+          "https://github.com/mikepsinn",
+          "https://twitter.com/mikepsinn",
+          "https://linkedin.com/in/mikesinn"
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "{{ site.url }}{{ page.url }}#webpage",
+        "url": "{{ site.url }}{{ page.url }}",
+        "name": "{{ title or site.title }}",
+        "description": "{{ description or site.description }}",
+        "isPartOf": {
+          "@id": "{{ site.url }}/#website"
+        },
+        "author": {
+          "@id": "{{ site.url }}/#author"
+        },
+        "inLanguage": "en-US"
+        {%- if date %},
+        "datePublished": "{{ date | date('iso') }}"
+        {%- endif %}
+        {%- if dateCreated %},
+        "dateCreated": "{{ dateCreated | date('iso') }}"
+        {%- endif %}
+      }
+    ]
+  }
+  </script>
 </head>
 <body class="bg-gray-50 text-gray-900 min-h-screen flex flex-col">
 

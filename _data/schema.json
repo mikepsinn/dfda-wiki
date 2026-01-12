@@ -1,0 +1,48 @@
+{
+  "organization": {
+    "@type": "Organization",
+    "name": "Decentralized FDA",
+    "alternateName": "dFDA",
+    "url": "https://dfda.earth",
+    "logo": "/assets/icons/dfda-android-chrome-512x512.png",
+    "description": "A global initiative to accelerate medical progress by enabling decentralized clinical trials and giving patients the right to participate in research.",
+    "sameAs": [
+      "https://github.com/decentralized-fda",
+      "https://twitter.com/WarOnDisease"
+    ]
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Mike P. Sinn",
+    "url": "https://mikesinn.com",
+    "sameAs": [
+      "https://github.com/mikepsinn",
+      "https://linkedin.com/in/mikesinn"
+    ],
+    "jobTitle": "Lead Developer & Founder",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Decentralized FDA",
+      "url": "https://dfda.earth",
+      "logo": "https://wiki.dfda.earth/assets/icons/dfda-android-chrome-512x512.png",
+      "description": "A global initiative to accelerate medical progress by enabling decentralized clinical trials and giving patients the right to participate in research.",
+      "sameAs": [
+        "https://github.com/decentralized-fda",
+        "https://twitter.com/WarOnDisease"
+      ]
+    }
+  },
+  "website": {
+    "@type": "WebSite",
+    "name": "The Decentralized FDA Wiki",
+    "alternateName": "dFDA Wiki",
+    "url": "https://wiki.dfda.earth",
+    "description": "Documentation for the Decentralized FDA initiative - accelerating medical progress through decentralized clinical trials.",
+    "inLanguage": "en-US",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://wiki.dfda.earth/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+}
