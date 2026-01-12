@@ -9,7 +9,7 @@ emoji: 🚀
 
 # War on Disease: Tiered Incentive & Referral System
 
-This document specifies the design for a tiered, multi-level referral and incentive system to drive participation in the 1% Treaty global referendum. The goal is to create a powerful, self-propagating engine for growth that is resistant to fraud and aligns incentives across individuals, organizations, and coalitions. While this system focuses on incentivizing *participation*, our strategy for incentivizing *skilled contributions* is detailed in the [Open Ecosystem and Bounty Model](./open-ecosystem-and-bounty-model.md).
+This document specifies the design for a tiered, multi-level referral and incentive system to drive participation in the 1% Treaty global referendum. The goal is to create a powerful, self-propagating engine for growth that is resistant to fraud and aligns incentives across individuals, organizations, and coalitions. While this system focuses on incentivizing *participation*, our strategy for incentivizing *skilled contributions* is detailed in the Open Ecosystem and Bounty Model documentation.
 
 ## Tier 1: Mass Participation (VOTE Points)
 
@@ -116,7 +116,7 @@ A well-designed referral-rewards system can:
 3. **Partner Newsletters > Paid Ads**
    - Ready-to-send HTML for disease foundations, patient forums, Reddit, etc.
    - A single 100k-subscriber list at 5% conversion = 5,000 votes for almost no incremental cash
-4. **Creative Viral Marketing**: See [Viral Marketing Tactics](./viral-marketing-tactics.md) for detailed implementation of:
+4. **Creative Viral Marketing**: Detailed implementation includes:
    - QR code t-shirts and wearable marketing
    - Social media challenges and meme campaigns
    - Community building and local activation

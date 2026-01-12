@@ -21,7 +21,7 @@ dateCreated: '2025-02-12T20:29:30.544Z'
 The [Food and Drug Administration (FDA)](https://www.fda.gov/) must transition from a centralized, gatekeeping model to a [**decentralized global autonomous algorithmic FDA (dFDA)**](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/conducting-clinical-trials-decentralized-elements). This transformation will:
 
 - **Eliminate artificial barriers** between patients and treatments that have demonstrated basic safety.
-- **Reduce costs** by automating clinical research, leveraging [decentralized trials](https://www.fda.gov/drugs/cder-conversations/evolving-role-decentralized-clinical-trials-and-digital-health-technologies), and aggregating global real-world data.
+- **Reduce costs** by automating clinical research, leveraging [decentralized trials](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/decentralized-clinical-trials-drugs-biological-products-and-devices), and aggregating global real-world data.
 - **Empower patients** with personalized, quantitative assessments of all available interventions.
 - **Accelerate medical progress by 80X** through automation and decentralization of clinical trials.
 
@@ -53,7 +53,7 @@ Additional critical issues include:
 ### **Section 2. Definitions**
 
 (a) **"Decentralized Autonomous FDA (dFDA)"**: A blockchain-secured, AI-driven platform that continuously analyzes anonymized [real-world data (RWD)](https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence) from global clinical trials, electronic health records, and patient-reported outcomes to rank treatments by safety and efficacy.
-(b) **"Decentralized Clinical Trials (DCTs)"**: [Trials conducted via telemedicine, wearable sensors, and direct-to-patient supply chains, with no physical trial sites.](https://www.fda.gov/drugs/cder-conversations/evolving-role-decentralized-clinical-trials-and-digital-health-technologies)
+(b) **"Decentralized Clinical Trials (DCTs)"**: [Trials conducted via telemedicine, wearable sensors, and direct-to-patient supply chains, with no physical trial sites.](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/decentralized-clinical-trials-drugs-biological-products-and-devices)
 (c) **"N-of-1 analysis"**: [A personalized assessment of an individual's response to a treatment, calculated by comparing their baseline health data to post-intervention outcomes.](https://en.wikipedia.org/wiki/N_of_1_trial)
 
 ---
@@ -195,7 +195,7 @@ Expected Improvements:
 - [**21st Century Cures Act § 3022**](https://www.congress.gov/bill/114th-congress/house-bill/34): Mandates use of RWD and patient-reported outcomes in regulatory decisions.
 - [**Executive Order 13944 (2020)**](https://trumpwhitehouse.archives.gov/presidential-actions/executive-order-ensuring-essential-medicines-medical-countermeasures-critical-inputs-made-united-states/): Precedent for prioritizing access to life-saving therapies.
 
-**Precedent**: Estonia's blockchain-based health system ([X-Road](https://e-estonia.com/solutions/x-road-interoperability-services/x-road/)) and the UK's [[Decentralized Trials & Research Alliance](https://www.dtra.org/)] demonstrate feasibility.
+**Precedent**: Estonia's blockchain-based health system ([X-Road](https://x-road.global/)) and the UK's [Decentralized Trials & Research Alliance](https://www.dtra.org/) demonstrate feasibility.
 
 **Expected Outcome**:
 

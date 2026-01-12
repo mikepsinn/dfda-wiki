@@ -51,8 +51,8 @@ Contact hello@curedao.org if you desire access.
 
 ### Wearables
 
-* [Open mHealth](https://www.openmhealth.org/documentation/#/schema-docs/schema-library) - Common schemas define the meaningful distinctions for each clinical measure
-* [Apple HealthKit](https://github.com/openmhealth/schemas/tree/develop/schema/granola) - A set of schemas for the Apple HealthKit platform
+* [Open mHealth](https://github.com/openmhealth/schemas) - Common schemas define the meaningful distinctions for each clinical measure
+* [Apple HealthKit](https://developer.apple.com/documentation/healthkit) - A set of schemas for the Apple HealthKit platform
 
 ### EHR
 

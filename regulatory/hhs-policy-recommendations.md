@@ -33,7 +33,7 @@ Moreover, **existing Medicare and Medicaid policies** already permit reimburseme
 - Continuous monitoring rather than fixed phases
 
 3. **Clarify Pricing Mechanisms for Trial Sponsors:** Allow drug companies to set per-participant prices charged to NIH, covering direct costs (including employee salaries) without profit generation, consistent with **FDA regulations (21 CFR 312.8)**.  
-4. **Redirect NIH Research Funding:** Transition NIH-funded research toward projects leveraging the dFDA system ([NIH Budget](https://www.hhs.gov/sites/default/files/fy-2025-budget-in-brief.pdf)).  
+4. **Redirect NIH Research Funding:** Transition NIH-funded research toward projects leveraging the dFDA system ([NIH Budget](https://www.hhs.gov/about/budget/index.html)).  
 5. **Leverage Medicare and Medicaid for Trial Access:** Utilize existing statutory provisions allowing beneficiaries to participate in qualifying clinical trials ([CMS Medicare Policy](https://www.cms.gov/medicare/coverage/approved-facilities-trials-registries/clinical-policies), [Medicaid Clinical Trial Coverage Act](https://www.medicaid.gov/federal-policy-guidance/downloads/smd21005.pdf)).  
 6. **Incentivize Innovation via FDA-X Prize:** Launch a $500 million X Prize competition to develop and deploy the dFDA platform.  
 7. **Expand Adaptive and Pragmatic Trials:** Use NIH funding and Medicare/Medicaid reimbursements to sponsor scalable adaptive trials, ensuring cost-effective and real-world data generation.  
@@ -43,9 +43,9 @@ Moreover, **existing Medicare and Medicaid policies** already permit reimburseme
 
 # HHS Budget Context and Reallocation Potential
 
-- **Total HHS Budget (FY 2025):** $1.843 trillion ([HHS Budget Overview](https://www.hhs.gov/sites/default/files/fy-2025-budget-in-brief.pdf)).  
+- **Total HHS Budget (FY 2025):** $1.843 trillion ([HHS Budget Overview](https://www.hhs.gov/about/budget/index.html)).  
   - **Medicare and Medicaid:** Constitute **85%** of total outlays ([FAS Report](https://sgp.fas.org/crs/misc/R48060.pdf)).  
-  - **HRSA:** Allocated $16.3 billion (\~0.9% of total budget) ([HRSA Budget Justification](https://www.hrsa.gov/sites/default/files/hrsa/about/budget/budget-justification-fy2025.pdf)).
+  - **HRSA:** Allocated $16.3 billion (\~0.9% of total budget) ([HRSA Budget Justification](https://www.hrsa.gov/about/budget)).
 
 Given the size of the Medicare and Medicaid budgets and existing statutory permissions, **redirecting even a fraction of these funds to dFDA trials could enable participation for tens of millions of patients** without legislative changes. Furthermore, **NIH reimbursements to drug companies for cost-recovery-based per-participant pricing** would align with **FDA regulations**, ensuring compliance and operational sustainability.
 
@@ -177,15 +177,15 @@ Below is a comprehensive list of statutes, executive actions, and related preced
 
 2. *RECOVERY Trial Summary*: University of Oxford's trial achieved a per-patient cost of **$500**. ([Source](https://sph.nus.edu.sg/wp-content/uploads/2022/09/Meeting-Summary-RECOVERY-Trial.pdf))  
 
-3. *NIH Budget Information*: The National Institutes of Health's annual budget is approximately **$51 billion**. ([Source](https://www.hhs.gov/sites/default/files/fy-2025-budget-in-brief.pdf))  
+3. *NIH Budget Information*: The National Institutes of Health's annual budget is approximately **$51 billion**. ([Source](https://www.hhs.gov/about/budget/index.html))  
 
-4. *HHS Budget Overview (FY 2025\)*: The total HHS budget is **$1.843 trillion**. ([Source](https://www.hhs.gov/sites/default/files/fy-2025-budget-in-brief.pdf))  
+4. *HHS Budget Overview (FY 2025\)*: The total HHS budget is **$1.843 trillion**. ([Source](https://www.hhs.gov/about/budget/index.html))  
 
 5. *Medicare Clinical Trial Coverage*: Details on Medicare coverage of clinical trial costs. ([Source](https://www.cms.gov/medicare/coverage/approved-facilities-trials-registries/clinical-policies))  
 
 6. *Medicaid Clinical Trial Coverage Act*: State Medicaid programs must cover routine patient costs for beneficiaries in qualifying clinical trials. ([Source](https://www.medicaid.gov/federal-policy-guidance/downloads/smd21005.pdf))  
 
-7. *HRSA Budget Justification*: Overview of HRSA budget allocations. ([Source](https://www.hrsa.gov/sites/default/files/hrsa/about/budget/budget-justification-fy2025.pdf))  
+7. *HRSA Budget Justification*: Overview of HRSA budget allocations. ([Source](https://www.hrsa.gov/about/budget))  
 
 8. *FDA Regulation (21 CFR 312.8)*: Guidelines on charging for investigational drugs under cost-recovery provisions. ([Source](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/section-312.8))
 

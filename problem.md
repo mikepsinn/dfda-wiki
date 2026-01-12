@@ -120,10 +120,10 @@ Tracking any variable in isolation is nearly useless in that it cannot provide t
 
 ### 1.2.1 $157 Billion Wasted on Duplication of Effort
 
-There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps. Mobile health app development costs [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on average.
+There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps. Mobile health app development costs [$425,000](https://www.fiercehealthcare.com/mobile/mobile-health-app-development-costs-425-000-on-average) on average.
 
 Most of these
-have a ton of overlap in functionality representing [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) wasted on duplication of effort.
+have a ton of overlap in functionality representing [$157,500,000,000](https://www.fiercehealthcare.com/mobile/mobile-health-app-development-costs-425-000-on-average) wasted on duplication of effort.
 
 If this code was freely shared, everyone could build on what everyone else had done.
 Theoretically, this could increase the rate of progress by 350,000 times.

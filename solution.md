@@ -247,7 +247,7 @@ A [three-way fixed-effects analysis](https://pubmed.ncbi.nlm.nih.gov/30912800) o
 
 ![Graph showing the shift in relative mortality among major diseases over 60 years.](https://static.crowdsourcingcures.org/img/disease-causing-death-shift.gif)
 
-More people survive as more treatments are developed. There's a [strong correlation](http://valueofinnovation.org/power-of-innovation) between the development of new cancer treatments and cancer survival over 30 years.
+More people survive as more treatments are developed. There's a [strong correlation](https://www.nber.org/papers/w21768) between the development of new cancer treatments and cancer survival over 30 years.
 
 ![Graph showing the correlation of developing new cancer treatments and cancer survival over 30 years.](https://static.crowdsourcingcures.org/img/more-surviving-more-therapies.gif)
 
