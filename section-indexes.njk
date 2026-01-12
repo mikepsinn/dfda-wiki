@@ -1,0 +1,66 @@
+---
+pagination:
+  data: sections
+  size: 1
+  alias: section
+permalink: "/{{ section.key }}/"
+layout: base.njk
+eleventyComputed:
+  title: "{{ section.title }}"
+sections:
+  - key: features
+    title: Features
+    description: Platform capabilities and technical features
+  - key: benefits
+    title: Benefits
+    description: Advantages and positive outcomes
+  - key: problems
+    title: Problems
+    description: Issues the platform addresses
+  - key: strategy
+    title: Strategy
+    description: Strategic planning and implementation
+  - key: regulatory
+    title: Regulatory
+    description: Legal and regulatory frameworks
+  - key: reference
+    title: Reference
+    description: Reference materials and citations
+  - key: economic-models
+    title: Economic Models
+    description: Financial models and projections
+  - key: community
+    title: Community
+    description: Community resources and partnerships
+  - key: clinical-trials
+    title: Clinical Trials
+    description: Trial methodologies and protocols
+  - key: careers
+    title: Careers
+    description: Job opportunities and roles
+---
+
+<div class="max-w-4xl mx-auto px-4 py-8">
+  <h1 class="text-3xl font-bold mb-4">{{ section.title }}</h1>
+  {% if section.description %}
+  <p class="text-gray-600 mb-8">{{ section.description }}</p>
+  {% endif %}
+
+  {% set pages = collections[section.key] %}
+  {% if pages and pages.length > 0 %}
+  <ul class="space-y-4">
+    {% for page in pages | sortByTitle %}
+    <li class="border-b border-gray-200 pb-4 last:border-0">
+      <a href="{{ page.url }}" class="text-xl text-blue-600 hover:text-blue-800 font-medium hover:underline">
+        {{ page.data.title or page.fileSlug | replace('-', ' ') | title }}
+      </a>
+      {% if page.data.description %}
+      <p class="text-gray-600 mt-1 text-sm">{{ page.data.description }}</p>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="text-gray-500 italic">No pages in this section yet.</p>
+  {% endif %}
+</div>

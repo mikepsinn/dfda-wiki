@@ -81,7 +81,6 @@ module.exports = function(eleventyConfig) {
     'community',
     'clinical-trials',
     'architecture',
-    'operations',
     'proposals',
     'reference',
     'conditions',
