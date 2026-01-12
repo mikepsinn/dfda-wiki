@@ -13,8 +13,13 @@
 
   <title>{{ title or "Untitled" }} | {{ site.title }}</title>
 
-  <!-- Favicon -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💡</text></svg>">
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/dfda-favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/dfda-favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/dfda-favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/dfda-apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/dfda-android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/icons/dfda-android-chrome-512x512.png">
 
   <!-- RSS Feed -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
@@ -41,11 +46,13 @@
   <meta property="og:description" content="{{ description or site.description }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}/assets/icons/dfda-android-chrome-512x512.png">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ title or site.title }}">
   <meta name="twitter:description" content="{{ description or site.description }}">
+  <meta name="twitter:image" content="{{ site.url }}/assets/icons/dfda-android-chrome-512x512.png">
 </head>
 <body class="bg-gray-50 text-gray-900 min-h-screen flex flex-col">
 

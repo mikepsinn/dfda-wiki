@@ -336,8 +336,45 @@ async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<{ 
   }
 }
 
+// Static asset extensions that should be checked for actual file existence
+const STATIC_ASSET_EXTENSIONS = ['.png', '.jpg', '.jpeg', '.gif', '.svg', '.ico', '.webp', '.css', '.js', '.xml', '.json', '.pdf', '.woff', '.woff2', '.ttf', '.eot'];
+
+// Build-time generated paths that don't exist in source but will exist after build
+const BUILD_TIME_PATHS = [
+  '/css/styles.css',
+  '/_pagefind/',
+  '/feed.xml',
+  '/sitemap.xml',
+];
+
 async function validateInternalLink(link: string, sourceFile: string, allHeadings: Set<string>): Promise<string | null> {
   try {
+    // Skip build-time generated paths
+    for (const buildPath of BUILD_TIME_PATHS) {
+      if (link.startsWith(buildPath) || link === buildPath) {
+        return null; // Valid - will be generated at build time
+      }
+    }
+
+    // Check if this is a static asset (has known extension)
+    const ext = path.extname(link).toLowerCase();
+    if (STATIC_ASSET_EXTENSIONS.includes(ext)) {
+      // For static assets, check if the actual file exists
+      let assetPath = link;
+      if (link.startsWith('/')) {
+        assetPath = link.slice(1); // Remove leading /
+      } else {
+        // Relative path
+        assetPath = path.resolve(path.dirname(path.join(workspaceRoot, sourceFile)), link);
+        assetPath = path.relative(workspaceRoot, assetPath).replace(/\\/g, '/');
+      }
+      const fullAssetPath = path.join(workspaceRoot, assetPath);
+      if (fs.existsSync(fullAssetPath)) {
+        return null; // File exists
+      }
+      return `Broken asset link: ${link} (File not found at ${assetPath})`;
+    }
+
     if (link.startsWith('#')) {
       // Section link in the same file
       const anchor = link.substring(1);
@@ -567,11 +604,31 @@ async function validateFile(filePath: string, fixAmpersandsFlag: boolean = false
     }
   };
 
+  // URLs that are preconnect hints or CDN roots (not actual pages)
+  const SKIP_EXTERNAL_URLS = [
+    'https://fonts.googleapis.com',
+    'https://fonts.gstatic.com',
+    'https://cdn.jsdelivr.net',
+  ];
+
   for (const { url, type, line } of items) {
     try {
       // Skip mailto:, tel:, and other non-http protocols
       if (url.startsWith('mailto:') || url.startsWith('tel:') || url.startsWith('sms:')) {
         // These are valid protocol links, skip validation
+        const result: ValidationResult = {
+          url,
+          type: 'link',
+          status: 'ok',
+          file: filePath,
+          line
+        };
+        results.push(result);
+        continue;
+      }
+
+      // Skip preconnect hints and CDN roots that return 404 when fetched directly
+      if (SKIP_EXTERNAL_URLS.some(skipUrl => url === skipUrl || url.startsWith(skipUrl + '/'))) {
         const result: ValidationResult = {
           url,
           type: 'link',
