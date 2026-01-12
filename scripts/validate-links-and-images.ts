@@ -692,9 +692,9 @@ function generateMarkdownReport(
       report.push('');
       fileResults.forEach(r => {
         if (r.type === 'internal') {
-          report.push(`- **INTERNAL** \`${r.url}\` - ${r.error}${r.line ? ` (line ${r.line})` : ''}`);
+          report.push(`- [ ] **INTERNAL** \`${r.url}\` - ${r.error}${r.line ? ` (line ${r.line})` : ''}`);
         } else {
-          report.push(`- **${r.type.toUpperCase()}** [${r.url}](${r.url})${r.statusCode ? ` - Status: ${r.statusCode}` : ''}${r.line ? ` (line ${r.line})` : ''}`);
+          report.push(`- [ ] **${r.type.toUpperCase()}** [${r.url}](${r.url})${r.statusCode ? ` - Status: ${r.statusCode}` : ''}${r.line ? ` (line ${r.line})` : ''}`);
         }
       });
       report.push('');
@@ -704,7 +704,7 @@ function generateMarkdownReport(
   if (timeouts.length > 0) {
     report.push('## Timeout URLs');
     report.push('');
-    
+
     const byFile = new Map<string, ValidationResult[]>();
     timeouts.forEach(r => {
       const file = r.file || 'unknown';
@@ -718,7 +718,7 @@ function generateMarkdownReport(
       report.push(`### ${file}`);
       report.push('');
       fileResults.forEach(r => {
-        report.push(`- **${r.type.toUpperCase()}** [${r.url}](${r.url})${r.line ? ` (line ${r.line})` : ''}`);
+        report.push(`- [ ] **${r.type.toUpperCase()}** [${r.url}](${r.url})${r.line ? ` (line ${r.line})` : ''}`);
       });
       report.push('');
     });
@@ -727,7 +727,7 @@ function generateMarkdownReport(
   if (warnings.length > 0) {
     report.push('## Warning URLs (401/403 - May require authentication)');
     report.push('');
-    
+
     const byFile = new Map<string, ValidationResult[]>();
     warnings.forEach(r => {
       const file = r.file || 'unknown';
@@ -741,7 +741,7 @@ function generateMarkdownReport(
       report.push(`### ${file}`);
       report.push('');
       fileResults.forEach(r => {
-        report.push(`- **${r.type.toUpperCase()}** [${r.url}](${r.url}) - Status: ${r.statusCode}${r.line ? ` (line ${r.line})` : ''}`);
+        report.push(`- [ ] **${r.type.toUpperCase()}** [${r.url}](${r.url}) - Status: ${r.statusCode}${r.line ? ` (line ${r.line})` : ''}`);
       });
       report.push('');
     });
@@ -750,7 +750,7 @@ function generateMarkdownReport(
   if (errors.length > 0) {
     report.push('## Error URLs');
     report.push('');
-    
+
     const byFile = new Map<string, ValidationResult[]>();
     errors.forEach(r => {
       const file = r.file || 'unknown';
@@ -764,7 +764,7 @@ function generateMarkdownReport(
       report.push(`### ${file}`);
       report.push('');
       fileResults.forEach(r => {
-        report.push(`- **${r.type.toUpperCase()}** [${r.url}](${r.url}) - Error: ${r.error}${r.line ? ` (line ${r.line})` : ''}`);
+        report.push(`- [ ] **${r.type.toUpperCase()}** [${r.url}](${r.url}) - Error: ${r.error}${r.line ? ` (line ${r.line})` : ''}`);
       });
       report.push('');
     });
