@@ -95,7 +95,7 @@ While the dFDA platform requires dedicated funding for its creation and operatio
 | National Inst. Minority Health (NIMHD)      | \$0.5 Billion            | Supporting research & trials addressing health disparities.               | Enhances recruitment/participation of diverse populations in trials via decentralization. |
 | **Subtotal (Clinical Trial Focused ICs/Activities)** | **~$39.6 Billion** | **Portion dedicated to clinical evaluation varies greatly by IC.**       |                                                                                               |
 
-*Note: Table excludes ICs primarily focused on basic science (like NIGMS, NHGRI) or infrastructure (NLM, NIBIB), and the remaining smaller ICs/activities, though they may have some clinical components. Budgets are approximate FY24 enacted levels. Sources: [NIH Almanac](https://www.nih.gov/about-nih/what-we-do/nih-almanac/appropriations), [FASEB NIH Budget Data](https://www.faseb.org/resources/facts-figures/nih-funding-trends)*
+*Note: Table excludes ICs primarily focused on basic science (like NIGMS, NHGRI) or infrastructure (NLM, NIBIB), and the remaining smaller ICs/activities, though they may have some clinical components. Budgets are approximate FY24 enacted levels. Sources: [NIH Almanac](https://www.nih.gov/about-nih/nih-almanac/appropriations-section-1), [FASEB NIH Budget Data](https://www.faseb.org/science-policy-and-advocacy/federal-funding-data)*
 
 **Discussion:**
 
@@ -115,7 +115,7 @@ Therefore, while direct *reallocation* of funds between appropriations accounts 
 
 This executive action pathway faces significant hurdles:
 
-* **Funding:** Building and operating the full dFDA initiative requires substantial funding. While the core technology platform's upfront cost is estimated at ~$38-46M, the broader initiative components (integration, plugins, legal, etc.) add significant costs depending on execution success. Total upfront costs for the full initiative could range from ~$50M (best case) to ~$274M (medium case) or even **over \$2.2 Billion** (worst case), with ongoing operational costs scaling accordingly (see [dFDA Cost Benefit Analysis](../economic-models/dfda-cost-benefit-analysis.md#3-costs-of-building--operating-the-global-decentralized-fda) Sections 3.1-3.4 for details). Funding the medium or worst-case scenarios significantly exceeds amounts typically addressable by executive reallocation alone. Dedicated congressional appropriations would almost certainly be necessary for full-scale operation.
+* **Funding:** Building and operating the full dFDA initiative requires substantial funding. While the core technology platform's upfront cost is estimated at ~$38-46M, the broader initiative components (integration, plugins, legal, etc.) add significant costs depending on execution success. Total upfront costs for the full initiative could range from ~$50M (best case) to ~$274M (medium case) or even **over \$2.2 Billion** (worst case), with ongoing operational costs scaling accordingly (see [dFDA Cost Benefit Analysis](../economic-models/dfda-cost-benefit-analysis.md#costs-of-building-and-operating-the-global-decentralized-fda-rom-estimate) Sections 3.1-3.4 for details). Funding the medium or worst-case scenarios significantly exceeds amounts typically addressable by executive reallocation alone. Dedicated congressional appropriations would almost certainly be necessary for full-scale operation.
 * **Statutory Authority:** While regulatory *modifications* can often occur under existing law, creating a fundamentally new pathway for intervention approval that *competes* with or bypasses traditional FDA routes might be argued to require new statutory authority from Congress.
 * **Legal Challenges:** As seen with DOGE ([Wikipedia overview](https://en.wikipedia.org/wiki/Department_of_Government_Efficiency#Legal_status)), this approach would likely face lawsuits questioning the scope of executive authority, the repurposing of funds, potential Appointments Clause violations for key personnel, and procedural challenges under the Administrative Procedure Act.
 
@@ -137,12 +137,12 @@ While requiring congressional action for full funding and unambiguous legal auth
     * [Nature: Exclusive: NIH to terminate hundreds of active research grants](https://www.nature.com/articles/d41586-025-00703-1)
     * [STAT News: NIH abruptly terminates millions in research grants, defying court orders](https://www.statnews.com/2025/03/07/nih-terminates-dei-transgender-related-research-grants/)
 * **Potential Funding Sources/Authorities:**
-    * [NIH Common Fund Overview](https://commonfund.nih.gov/overview)
-    * [NIH Office of the Director (OD) Budget Information](https://officeofbudget.od.nih.gov/br.html)
+    * [NIH Common Fund Overview](https://commonfund.nih.gov/about)
+    * [NIH Office of the Director (OD) Budget Information](https://officeofbudget.od.nih.gov/)
     * [ARPA-H Website](https://arpa-h.gov/)
     * [FDA Budget Summary FY2024](https://www.fda.gov/media/165930/download)
     * [FDA Data Modernization Action Plan](https://www.fda.gov/about-fda/reports/data-modernization-action-plan)
     * [FDA: 21st Century Cures Act Overview](https://www.fda.gov/regulatory-information/selected-amendments-fdc-act/21st-century-cures-act)
     * [CMS Innovation Center (CMMI) Overview](https://www.cms.gov/priorities/innovation/about)
 * **dFDA Cost Estimates:**
-    * [dFDA Cost Benefit Analysis (Wiki)](../economic-models/dfda-cost-benefit-analysis.md#3-costs-of-building--operating-the-global-decentralized-fda)
+    * [dFDA Cost Benefit Analysis (Wiki)](../economic-models/dfda-cost-benefit-analysis.md#costs-of-building-and-operating-the-global-decentralized-fda-rom-estimate)

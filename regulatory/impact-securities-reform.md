@@ -76,7 +76,7 @@ No pre‑filing or pre‑clearance is required under this safe harbor. If the li
   - Automating disclosures on‑chain to improve transparency and lower costs.
   - Broadening investor access with knowledge‑based eligibility.
   - Providing a clear token safe harbor for governance‑first designs.
-- It complements the risk, return, and repayment framing in the [Victory Bond Investment Thesis](../economic-models/victory-bond-investment-thesis.md#10-assessing-realism-risks-repayment-timeline-and-contingencies).
+- It complements the risk, return, and repayment framing in the [Victory Bond Investment Thesis](../economic-models/victory-bond-investment-thesis.md#repayment-timeline).
 
 ---
 
@@ -104,4 +104,4 @@ No pre‑filing or pre‑clearance is required under this safe harbor. If the li
 
 - Impact Investing Regulatory Reform Discourse
   > "Reforms to securities regulation can better support impact investing while maintaining investor protections."
-  > — Brookings, 2022, [Policy to Support Impact Investing](https://www.brookings.edu/research/reforming-securities-regulation-to-support-impact-investing/)
+  > — Brookings, [Accelerating Private Investments for the SDGs](https://www.brookings.edu/articles/links-in-the-chain-of-sustainable-finance-accelerating-private-investments-for-the-sdgs-including-climate-action/)

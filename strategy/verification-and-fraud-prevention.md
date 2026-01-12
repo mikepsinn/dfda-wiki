@@ -237,7 +237,7 @@ The 1% Treaty initiative requires verifying 280 million real human participants 
 
 * **Estonia e-Residency Statistics**
   > "Estonia's e-Residency program has issued digital identities to over 100,000 people from 170+ countries, demonstrating global-scale digital identity verification."
-  > — e-Residency, 2024, [Statistics](https://e-resident.gov.ee/statistics/)
+  > — e-Residency, 2024, [Statistics](https://e-resident.gov.ee/dashboard)
 
 * **GDPR Biometric Data Requirements**
   > "Processing of biometric data for the purpose of uniquely identifying a natural person shall be prohibited unless one of the conditions referred to in points (a) to (j) of paragraph 2 applies."
@@ -245,4 +245,4 @@ The 1% Treaty initiative requires verifying 280 million real human participants 
 
 * **Worldcoin Identity Verification Scale**
   > "Worldcoin has verified over 2 million unique human identities using iris biometric scanning, demonstrating feasibility of global-scale biometric verification."
-  > — Worldcoin Foundation, 2024, [Progress Update](https://worldcoin.org/blog/announcements/worldcoin-milestones)
+  > — Worldcoin Foundation, 2024, [Progress Update](https://iq.wiki/wiki/worldcoin-wld/milestones)

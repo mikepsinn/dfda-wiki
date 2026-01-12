@@ -15,7 +15,7 @@ dateCreated: '2025-02-12T20:29:50.146Z'
 ## 📜 Overview
 
 The Patient Industrial Complex (PIC) uses tokens to reward actions that advance
-the [Disease Eradication Act](https://wishonia.love/dfda/disease-eradication-act) and reduce patient suffering. The token has no
+the [Disease Eradication Act](https://wiki.dfda.earth) and reduce patient suffering. The token has no
 intrinsic value - it's simply a point system to incentivize and coordinate collective action.
 
 ## 🎁 Rewarded Actions & Impact

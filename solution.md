@@ -157,7 +157,7 @@ Congress [reacted](https://en.wikipedia.org/wiki/Elixir_sulfanilamide) to the tr
 
 > "adequate tests by all methods reasonably applicable to show whether or not such drug is safe for use under the conditions prescribed, recommended, or suggested in the proposed labeling thereof."
 
-These requirements evolved to what is now called the [Phase 1 Safety Trial](https://en.wikipedia.org/wiki/Phase_1_safety_trial).
+These requirements evolved to what is now called the [Phase 1 Safety Trial](https://en.wikipedia.org/wiki/Phases_of_clinical_research).
 
 This consistent four-year/year increase in life expectancy remained unchanged before and after the new safety regulations.
 

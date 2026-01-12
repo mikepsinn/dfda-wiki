@@ -28,11 +28,11 @@ The adoption of this system of crowd-sourced, observational, objective, and peer
 
 A drug called Elixir sulfanilamide caused over [100 deaths](https://www.fda.gov/files/about%20fda/published/The-Sulfanilamide-Disaster.pdf) in the United States in 1937.
 
-Congress [reacted](https://en.wikipedia.org/wiki/Elixir\_sulfanilamide) to the tragedy by requiring all new drugs to include:
+Congress [reacted](https://en.wikipedia.org/wiki/Elixir_sulfanilamide) to the tragedy by requiring all new drugs to include:
 
 > "adequate tests by all methods reasonably applicable to show whether or not such drug is safe for use under the conditions prescribed, recommended, or suggested in the proposed labeling thereof."
 
-These requirements evolved to what is now called the [Phase 1 Safety Trial](https://en.wikipedia.org/wiki/Phase\_1\_safety\_trial).
+These requirements evolved to what is now called the [Phase 1 Safety Trial](https://en.wikipedia.org/wiki/Phases_of_clinical_research).
 
 This consistent four-year/year increase in life expectancy remained unchanged before and after the new safety regulations.
 

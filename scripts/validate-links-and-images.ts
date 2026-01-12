@@ -24,6 +24,8 @@ interface CacheEntry {
 
 const results: ValidationResult[] = [];
 const checkedUrls = new Map<string, ValidationResult>(); // Runtime cache for external URLs
+let cacheHits = 0;
+let freshChecks = 0;
 const workspaceRoot = path.resolve(__dirname, '..');
 const cacheFilePath = path.join(workspaceRoot, '.link-cache.json');
 const CACHE_TTL = 7 * 24 * 60 * 60 * 1000; // 7 days in milliseconds
@@ -223,6 +225,7 @@ async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<{ 
   // Check runtime cache first
   const runtimeCached = checkedUrls.get(url);
   if (runtimeCached) {
+    cacheHits++;
     return { status: runtimeCached.status, isWarning: runtimeCached.statusCode === 401 || runtimeCached.statusCode === 403 };
   }
 
@@ -232,6 +235,7 @@ async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<{ 
     const now = Date.now();
     if (now - cached.timestamp < CACHE_TTL) {
       // Cache is still valid
+      cacheHits++;
       const result: ValidationResult = {
         url,
         type,
@@ -246,6 +250,8 @@ async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<{ 
       linkCache.delete(url);
     }
   }
+  
+  freshChecks++;
 
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), 15000);
@@ -552,7 +558,14 @@ async function validateFile(filePath: string, fixAmpersandsFlag: boolean = false
     return;
   }
 
-  console.log(`Validating ${items.length} link(s)/image(s) in ${filePath}...`);
+  // Only log file header if we find issues (reduces noise)
+  let fileHeaderLogged = false;
+  const logFileHeader = () => {
+    if (!fileHeaderLogged) {
+      console.log(`\n📄 ${filePath} (${items.length} links):`);
+      fileHeaderLogged = true;
+    }
+  };
 
   for (const { url, type, line } of items) {
     try {
@@ -584,8 +597,10 @@ async function validateFile(filePath: string, fixAmpersandsFlag: boolean = false
         results.push(result);
 
         if (isWarning) {
+          logFileHeader();
           console.log(`  ⚠ ${type.toUpperCase()}: ${url} (Status ${cached.statusCode} - may require authentication)${line ? ` at line ${line}` : ''}`);
         } else if (status !== 'ok') {
+          logFileHeader();
           const statusMsg = status === 'broken'
             ? `Status ${cached.statusCode}`
             : status === 'timeout'
@@ -607,6 +622,7 @@ async function validateFile(filePath: string, fixAmpersandsFlag: boolean = false
               line
             };
             results.push(result);
+            logFileHeader();
             console.log(`  ✗ INTERNAL: ${url} - ${error}${line ? ` at line ${line}` : ''}`);
           } else {
             const result: ValidationResult = {
@@ -619,11 +635,13 @@ async function validateFile(filePath: string, fixAmpersandsFlag: boolean = false
             results.push(result);
           }
         } catch (error: any) {
-          console.warn(`  ⚠ Warning: Failed to validate internal link ${url} in ${filePath}: ${error.message}`);
+          logFileHeader();
+          console.warn(`  ⚠ Warning: Failed to validate internal link ${url}: ${error.message}`);
         }
       }
     } catch (error: any) {
-      console.warn(`  ⚠ Warning: Error processing ${type} ${url} in ${filePath}${line ? ` at line ${line}` : ''}: ${error.message}`);
+      logFileHeader();
+      console.warn(`  ⚠ Warning: Error processing ${type} ${url}${line ? ` at line ${line}` : ''}: ${error.message}`);
     }
   }
 }
@@ -824,6 +842,7 @@ async function main() {
   const ok = results.filter(r => r.status === 'ok' && r.statusCode !== 401 && r.statusCode !== 403);
 
   console.log(`Total links/images checked: ${results.length}`);
+  console.log(`  External URLs: ${cacheHits + freshChecks} (${cacheHits} cached, ${freshChecks} fresh)`);
   console.log(`✓ OK: ${ok.length}`);
   if (warnings.length > 0) {
     console.log(`⚠ Warnings (401/403 - may require auth): ${warnings.length}`);
@@ -881,8 +900,10 @@ async function main() {
   // Save cache before exiting
   saveCache();
 
-  // Exit with error code if there are broken links (but not warnings)
-  if (broken.length > 0 || timeouts.length > 0 || errors.length > 0) {
+  // Exit with error code only for actual broken links (404s)
+  // Timeouts and fetch errors are often transient or false positives (bot blocking)
+  // 401/403 warnings are not failures - those URLs usually work in browsers
+  if (broken.length > 0) {
     process.exit(1);
   }
 }

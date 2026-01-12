@@ -42,3 +42,4 @@ tmp/response.md
 .playwright-mcp/
 broken-urls-report.md
 .link-cache.json
+.claude/settings.local.json

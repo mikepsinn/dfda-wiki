@@ -203,7 +203,7 @@ A well-designed referral-rewards system can:
 
 ## Why This Matters: Quantitative Impact
 
-- **Replicating RECOVERY's 80X efficiency** would allow nations to run 80 times more trials for the same budget ([reference](reference/recovery-trial.md)).
+- **Replicating RECOVERY's 80X efficiency** would allow nations to run 80 times more trials for the same budget ([reference](../reference/recovery-trial.md)).
 - Mobilizing 3.5% of the population with referral rewards can create the political will to pass enabling legislation worldwide, unlocking these savings for all diseases.
 - **Potential: Save millions of lives, cut drug development costs by 95%, and accelerate cures for rare and common diseases alike.**
 
@@ -244,7 +244,7 @@ So when you propose a pledge/ referral system that can gather tens of thousandsâ
 ## Key References
 
 - [Oxford RECOVERY Trial: 80X Cost Reduction](https://www.recoverytrial.net/)
-- [Pragmatic vs. Explanatory Trials: Cost Comparison](reference/pragmatic-trials.md)
+- [Pragmatic vs. Explanatory Trials: Cost Comparison](../reference/pragmatic-trials.md)
 - [3.5% Rule for Social Change](https://www.bbc.com/future/article/20190513-it-only-takes-35-of-people-to-change-the-world)
 - [EveryLibrary About](https://www.everylibrary.org/about-everylibrary)
 - [Change.org - What does it mean to promote a petition?](https://help.change.org/supporting-petition/what-does-it-mean-to-promote-a-petition)

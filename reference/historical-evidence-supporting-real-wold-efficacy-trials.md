@@ -28,11 +28,11 @@ The adoption of this system of crowdsourced, observational, objective, and peer-
 
 A drug called Elixir sulfanilamide caused over [100 deaths](https://www.fda.gov/files/about%20fda/published/The-Sulfanilamide-Disaster.pdf) in the United States in 1937.
 
-Congress [reacted](https://en.wikipedia.org/wiki/Elixir\_sulfanilamide) to the tragedy by requiring all new drugs to include:
+Congress [reacted](https://en.wikipedia.org/wiki/Elixir_sulfanilamide) to the tragedy by requiring all new drugs to include:
 
 > "adequate tests by all methods reasonably applicable to show whether or not such drug is safe for use under the conditions prescribed, recommended, or suggested in the proposed labeling thereof."
 
-These requirements evolved to what is now called the [Phase 1 Safety Trial](https://en.wikipedia.org/wiki/Phase\_1\_safety\_trial).
+These requirements evolved to what is now called the [Phase 1 Safety Trial](https://en.wikipedia.org/wiki/Phases_of_clinical_research).
 
 This consistent four-year/year increase in life expectancy remained unchanged before and after the new safety regulations.
 
@@ -72,21 +72,11 @@ Since the abandonment of the former efficacy trial model, costs have exploded. S
 
 ![Cost to Get a New Drug to Market](https://static.crowdsourcingcures.org/img/cost-to-develop-a-new-drug.png)
 
-{% content-ref url="../2-solution/greater-competitive-innovation-and-fewer-monopolies.md" %}
-[greater-competitive-innovation-and-fewer-monopolies.md](../2-solution/greater-competitive-innovation-and-fewer-monopolies.md)
-{% endcontent-ref %}
+[More Cures and Less Lifelong Attempts at Masking Symptoms](../benefits/more-cures-and-less-lifelong-attempts-at-masking-symptoms.md)
 
-{% content-ref url="../2-solution/more-cures-and-less-lifelong-attempts-at-masking-symptoms.md" %}
-[more-cures-and-less-lifelong-attempts-at-masking-symptoms.md](../problems/more-cures-and-less-lifelong-attempts-at-masking-symptoms.md)
-{% endcontent-ref %}
+[Insufficient ROI to Discover Treatments for Rare Diseases](../problems/insufficient-roi-to-discover-treatments-for-rare-diseases.md)
 
-{% content-ref url="../problems/insufficient-roi-to-discover-treatments-for-rare-diseases.md" %}
-[insufficient-roi-to-discover-treatments-for-rare-diseases.md](../problems/insufficient-roi-to-discover-treatments-for-rare-diseases.md)
-{% endcontent-ref %}
-
-{% content-ref url="../problems/deaths-due-to-us-regulatory-drug-lag.md" %}
-[deaths-due-to-us-regulatory-drug-lag.md](../problems/deaths-due-to-us-regulatory-drug-lag.md)
-{% endcontent-ref %}
+[Deaths Due to US Regulatory Drug Lag](../problems/deaths-due-to-us-regulatory-drug-lag.md)
 
 **Increase in Patent Monopoly**
 
@@ -113,6 +103,4 @@ One might say, “It seems more likely — or as likely — to me that drug deve
 
 You might say, "I don't know how much the efficacy regulations contribute to or hampers public health. I do know that correlation does not necessarily imply causation." However, a correlation plus a logical mechanism of action is the least bad method we have for inferring the most likely significant causal factor for an outcome (i.e., life expectancy). Assuming most likely causality based on temporal correlation is the entire basis of a clinical research study and the scientific method generally.
 
-{% content-ref url="impact-of-innovative-medicines-on-life-expectancy.md" %}
-[impact-of-innovative-medicines-on-life-expectancy.md](impact-of-innovative-medicines-on-life-expectancy.md)
-{% endcontent-ref %}
+[Impact of Innovative Medicines on Life Expectancy](./impact-of-innovative-medicines-on-life-expectancy.md)
