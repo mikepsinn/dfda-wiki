@@ -24,7 +24,7 @@
       "@type": "Organization",
       "name": "Decentralized FDA",
       "url": "https://dfda.earth",
-      "logo": "https://wiki.dfda.earth/assets/icons/dfda-android-chrome-512x512.png",
+      "logo": "/assets/icons/dfda-android-chrome-512x512.png",
       "description": "A global initiative to accelerate medical progress by enabling decentralized clinical trials and giving patients the right to participate in research.",
       "sameAs": [
         "https://github.com/decentralized-fda",
