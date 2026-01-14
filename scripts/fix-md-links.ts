@@ -29,10 +29,11 @@ function fixMdLinks(content: string, filePath: string): { content: string; modif
   let modified = false;
   const relativePath = path.relative(workspaceRoot, filePath);
 
-  // Match markdown links: [text](url)
-  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let newContent = content;
 
-  const newContent = content.replace(linkRegex, (match, text, url) => {
+  // Match markdown inline links: [text](url)
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  newContent = newContent.replace(linkRegex, (match, text, url) => {
     // Skip external links, anchors, mailto, etc.
     if (
       url.startsWith('http://') ||
@@ -78,6 +79,56 @@ function fixMdLinks(content: string, filePath: string): { content: string; modif
     }
 
     return `[${text}](${newUrl})`;
+  });
+
+  // Match reference-style links: [1]: url or [label]: url
+  const refLinkRegex = /^(\[[^\]]+\]:\s+)(.+)$/gm;
+  newContent = newContent.replace(refLinkRegex, (match, prefix, url) => {
+    // Skip external links, anchors, mailto, etc.
+    if (
+      url.startsWith('http://') ||
+      url.startsWith('https://') ||
+      url.startsWith('mailto:') ||
+      url.startsWith('tel:') ||
+      url.startsWith('#')
+    ) {
+      return match;
+    }
+
+    // Check if URL ends with .md or .md#anchor
+    const mdMatch = url.match(/^(.+)\.md(#.+)?$/);
+    if (!mdMatch) {
+      return match;
+    }
+
+    const urlPath = mdMatch[1];
+    const anchor = mdMatch[2] || '';
+
+    // Determine the new URL
+    let newUrl: string;
+
+    if (url.startsWith('/')) {
+      // Root-relative: /path/file.md -> /path/file/
+      newUrl = `${urlPath}/${anchor}`;
+    } else if (url.startsWith('./') || url.startsWith('../')) {
+      // Relative: ./file.md -> ./file/ or ../file.md -> ../file/
+      newUrl = `${urlPath}/${anchor}`;
+    } else {
+      // No prefix: file.md -> file/
+      newUrl = `${urlPath}/${anchor}`;
+    }
+
+    if (newUrl !== url) {
+      modified = true;
+      linksFixed++;
+      fixes.push({
+        file: relativePath,
+        oldLink: url,
+        newLink: newUrl
+      });
+    }
+
+    return `${prefix}${newUrl}`;
   });
 
   return { content: newContent, modified };

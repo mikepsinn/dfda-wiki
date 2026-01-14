@@ -49,6 +49,8 @@
     "validate:built": "tsx scripts/validate-built-links.ts",
     "fix-md-links": "tsx scripts/fix-md-links.ts",
     "fix-md-links:dry-run": "tsx scripts/fix-md-links.ts --dry-run --verbose",
+    "generate-indexes": "tsx scripts/generate-missing-indexes.ts",
+    "generate-indexes:dry-run": "tsx scripts/generate-missing-indexes.ts --dry-run",
     "organize": "node scripts/file-organizer.js",
     "migrate": "node scripts/migrate-content.js",
     "process-images": "node scripts/process-images.js",
