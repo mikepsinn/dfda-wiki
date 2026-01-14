@@ -296,6 +296,21 @@ module.exports = function(eleventyConfig) {
     </div>`;
   });
 
+  // Transform: Strip .md extensions from links in final HTML
+  eleventyConfig.addTransform("stripMdFromLinks", (content, outputPath) => {
+    if (outputPath && outputPath.endsWith(".html")) {
+      // Replace href="...file.md" with href="...file/"
+      // Replace href="...file.md#anchor" with href="...file/#anchor"
+      return content.replace(
+        /href="([^"]*?)\.md(#[^"]*)?"/g,
+        (match, path, anchor) => {
+          return `href="${path}/${anchor || ''}"`;
+        }
+      );
+    }
+    return content;
+  });
+
   // Watch targets for development
   eleventyConfig.addWatchTarget("./css/");
   eleventyConfig.addWatchTarget("./_includes/");
