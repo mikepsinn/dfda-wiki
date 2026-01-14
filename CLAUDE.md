@@ -33,8 +33,19 @@ npm run find-duplicates
 # Find orphaned pages (no links to them)
 npm run find-orphaned-pages
 
-# Validate internal links
+# Validate internal links (source markdown files)
 npm run validate-links
+
+# Validate built site links (checks _site/ folder for broken links)
+# This script is Vercel-aware and handles .md redirects
+npm run validate:built
+
+# Build and validate in one step
+npm run build:validate
+
+# Fix .md links in source files (converts file.md → file/)
+npm run fix-md-links              # Apply fixes
+npm run fix-md-links:dry-run      # Preview changes without modifying files
 
 # Generate directory tree
 npm run tree                    # Console output
