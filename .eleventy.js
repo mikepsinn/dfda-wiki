@@ -87,7 +87,8 @@ module.exports = function(eleventyConfig) {
     'interventions',
     'act',
     'careers',
-    'treatments'
+    'treatments',
+    'reference-databases'
   ];
 
   // Create a collection for each domain directory
@@ -356,16 +357,35 @@ module.exports = function(eleventyConfig) {
 
           // Handle relative paths (./ or ../)
           if (linkPath.startsWith('./') || linkPath.startsWith('../')) {
-            // Use path.posix for consistent forward-slash behavior
-            finalPath = path.posix.join(outputDir || '/', linkPath);
+            // Markdown files become subdirectories (foo.md -> foo/index.html)
+            // So we need to go up one extra level to account for this
+            // e.g., ../benefits in reference/historical.md (which becomes reference/historical/index.html)
+            // should resolve to /benefits, not /reference/benefits
+            const adjustedPath = '../' + linkPath;
+            finalPath = path.posix.join(outputDir || '/', adjustedPath);
           }
           // Handle absolute paths (already start with /)
           else if (linkPath.startsWith('/')) {
             finalPath = linkPath;
           }
-          // Handle root-relative paths (treat as relative to current directory)
+          // Handle paths that start with a known top-level directory
+          // These are Obsidian-style vault-relative links that should be treated as absolute
           else if (linkPath) {
-            finalPath = path.posix.join(outputDir || '/', linkPath);
+            const topLevelDirs = [
+              'features', 'benefits', 'problems', 'strategy', 'regulatory',
+              'economic-models', 'community', 'clinical-trials', 'architecture',
+              'proposals', 'reference', 'conditions', 'interventions', 'act',
+              'careers', 'treatments', 'reference-databases', 'wiki'
+            ];
+            const firstSegment = linkPath.split('/')[0];
+
+            if (topLevelDirs.includes(firstSegment)) {
+              // Treat as absolute path from root
+              finalPath = '/' + linkPath;
+            } else {
+              // Treat as relative to current directory
+              finalPath = path.posix.join(outputDir || '/', linkPath);
+            }
           }
           else {
             // Empty path (anchor-only after stripping .md)

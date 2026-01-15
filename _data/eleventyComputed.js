@@ -40,6 +40,11 @@ module.exports = {
 
   // Compute permalink to remove .html extension
   permalink: data => {
+    // Skip files that have published: false
+    if (data.published === false) {
+      return false;
+    }
+
     // Skip files that already have a permalink
     if (data.permalink) {
       return data.permalink;

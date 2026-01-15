@@ -23,6 +23,25 @@ const SKIP_DIRS = [
   'assets'
 ];
 
+// Top-level directories that are handled by section-indexes.njk
+// Don't generate index.md for these - they already have auto-generated index pages
+const SECTION_INDEX_DIRS = [
+  'features',
+  'benefits',
+  'problems',
+  'strategy',
+  'regulatory',
+  'reference',
+  'economic-models',
+  'community',
+  'clinical-trials',
+  'careers',
+  'proposals',
+  'interventions',
+  'conditions',
+  'reference-databases'
+];
+
 // Get all markdown files in a directory (non-recursive, immediate children only)
 function getMarkdownFilesInDir(dirPath: string): string[] {
   const files: string[] = [];
@@ -104,11 +123,15 @@ function generateIndexContent(dirPath: string, relativePath: string): string {
   const mdFiles = getMarkdownFilesInDir(dirPath);
   const subdirs = getSubdirectories(dirPath);
 
+  // Convert Windows paths to URL paths
+  const urlPath = relativePath.replace(/\\/g, '/');
+
   let content = `---
 title: "${title}"
 description: "Index of ${title.toLowerCase()} resources"
 published: true
 date: '${new Date().toISOString()}'
+permalink: "/${urlPath}/"
 ---
 
 # ${title}
@@ -178,7 +201,17 @@ async function findDirectoriesNeedingIndex(): Promise<string[]> {
     const indexPath = path.join(workspaceRoot, dir, 'index.md');
     const readmePath = path.join(workspaceRoot, dir, 'README.md');
 
-    if (!fs.existsSync(indexPath) && !fs.existsSync(readmePath)) {
+    // Check if a same-named .md file exists at the parent level (e.g., act.md for act/ directory)
+    const dirBasename = path.basename(dir);
+    const parentDir = path.dirname(dir);
+    const parentPath = parentDir === '.' ? workspaceRoot : path.join(workspaceRoot, parentDir);
+    const sameNamedMdFile = path.join(parentPath, `${dirBasename}.md`);
+    const hasSameNamedFile = fs.existsSync(sameNamedMdFile);
+
+    // Skip top-level directories handled by section-indexes.njk
+    const isTopLevelSectionDir = !dir.includes(path.sep) && !dir.includes('/') && SECTION_INDEX_DIRS.includes(dir);
+
+    if (!fs.existsSync(indexPath) && !fs.existsSync(readmePath) && !hasSameNamedFile && !isTopLevelSectionDir) {
       const fullDirPath = path.join(workspaceRoot, dir);
       const mdFiles = getMarkdownFilesInDir(fullDirPath);
       const subdirs = getSubdirectories(fullDirPath);
