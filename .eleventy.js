@@ -296,15 +296,77 @@ module.exports = function(eleventyConfig) {
     </div>`;
   });
 
-  // Transform: Strip .md extensions from links in final HTML
-  eleventyConfig.addTransform("stripMdFromLinks", (content, outputPath) => {
+  // Transform: Fix relative links and strip .md extensions in final HTML
+  eleventyConfig.addTransform("fixLinksAndStripMd", (content, outputPath) => {
     if (outputPath && outputPath.endsWith(".html")) {
-      // Replace href="...file.md" with href="...file/"
-      // Replace href="...file.md#anchor" with href="...file/#anchor"
+      // Get the URL directory from the output path (remove _site prefix)
+      let outputDir = path.dirname(outputPath)
+        .replace(/\\/g, '/')           // Normalize backslashes to forward slashes
+        .replace(/^\.\//,'/')          // Replace leading ./ with /
+        .replace(/^\/_site/, '');       // Remove leading /_site
+
+      // Ensure outputDir starts with / (unless it's empty for root)
+      if (outputDir && outputDir !== '/' && !outputDir.startsWith('/')) {
+        outputDir = '/' + outputDir;
+      }
+      // If outputDir is just '/', make it empty (we're at root)
+      if (outputDir === '/') {
+        outputDir = '';
+      }
+
       return content.replace(
-        /href="([^"]*?)\.md(#[^"]*)?"/g,
-        (match, path, anchor) => {
-          return `href="${path}/${anchor || ''}"`;
+        /href="([^"]+)"/g,
+        (match, href) => {
+          // Skip external links, anchors-only, and empty hrefs
+          if (href.startsWith('http://') ||
+              href.startsWith('https://') ||
+              href.startsWith('mailto:') ||
+              href.startsWith('#') ||
+              href === '') {
+            return match;
+          }
+
+          // Split href into path and anchor
+          const hashIndex = href.indexOf('#');
+          let linkPath = hashIndex >= 0 ? href.substring(0, hashIndex) : href;
+          const anchor = hashIndex >= 0 ? href.substring(hashIndex) : '';
+
+          // Strip .md extension if present
+          if (linkPath.endsWith('.md')) {
+            linkPath = linkPath.substring(0, linkPath.length - 3);
+          }
+
+          let finalPath;
+
+          // Handle relative paths (./ or ../)
+          if (linkPath.startsWith('./') || linkPath.startsWith('../')) {
+            // Use path.posix for consistent forward-slash behavior
+            finalPath = path.posix.join(outputDir || '/', linkPath);
+          }
+          // Handle absolute paths (already start with /)
+          else if (linkPath.startsWith('/')) {
+            finalPath = linkPath;
+          }
+          // Handle root-relative paths (treat as relative to current directory)
+          else if (linkPath) {
+            finalPath = path.posix.join(outputDir || '/', linkPath);
+          }
+          else {
+            // Empty path (anchor-only after stripping .md)
+            finalPath = '';
+          }
+
+          // Ensure trailing slash for directory-style URLs (no file extension)
+          if (finalPath && !finalPath.endsWith('/') && !path.extname(finalPath)) {
+            finalPath += '/';
+          }
+
+          // Clean up any double slashes
+          if (finalPath) {
+            finalPath = finalPath.replace(/\/+/g, '/');
+          }
+
+          return `href="${finalPath}${anchor}"`;
         }
       );
     }
