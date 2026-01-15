@@ -1,72 +1,22 @@
 # Post-Build Link Validation Report
 
-Generated: 2026-01-15T06:51:59.382Z
+Generated: 2026-01-15T09:25:25.760Z
 
 ## Summary
 
-❌ **350 broken link(s) found**
+❌ **338 broken link(s) found**
 
 ## Broken Links by Page
 
 ### specification/index.html
 
-- **Link text:** "Platform Architecture document"
-  - **Target:** `/specification/architecture/`
-  - **Reason:** File not found (tried: specification/architecture, specification/architecture.html, specification/architecture/index.html)
-
-- **Link text:** "data-import.md"
-  - **Target:** `/specification/features/data-import/`
-  - **Reason:** File not found (tried: specification/features/data-import, specification/features/data-import.html, specification/features/data-import/index.html)
-
-- **Link text:** "data-silo-api-gateways.md"
-  - **Target:** `/specification/features/data-silo-api-gateways/`
-  - **Reason:** File not found (tried: specification/features/data-silo-api-gateways, specification/features/data-silo-api-gateways.html, specification/features/data-silo-api-gateways/index.html)
-
-- **Link text:** "recovery-trial.md"
-  - **Target:** `/specification/reference/recovery-trial/`
-  - **Reason:** File not found (tried: specification/reference/recovery-trial, specification/reference/recovery-trial.html, specification/reference/recovery-trial/index.html)
+- **Link text:** "Link"
+  - **Target:** `/architecture/diagrams/README/`
+  - **Reason:** File not found (tried: architecture/diagrams/README, architecture/diagrams/README.html, architecture/diagrams/README/index.html)
 
 - **Link text:** "Link"
-  - **Target:** `/specification/reference/glossary/`
-  - **Reason:** File not found (tried: specification/reference/glossary, specification/reference/glossary.html, specification/reference/glossary/index.html)
-
-- **Link text:** "Link"
-  - **Target:** `/specification/architecture/diagrams/README/`
-  - **Reason:** File not found (tried: specification/architecture/diagrams/README, specification/architecture/diagrams/README.html, specification/architecture/diagrams/README/index.html)
-
-- **Link text:** "Link"
-  - **Target:** `/specification/reference/data-dictionary/`
-  - **Reason:** File not found (tried: specification/reference/data-dictionary, specification/reference/data-dictionary.html, specification/reference/data-dictionary/index.html)
-
-- **Link text:** "Link"
-  - **Target:** `/specification/features/api/README/`
-  - **Reason:** File not found (tried: specification/features/api/README, specification/features/api/README.html, specification/features/api/README/index.html)
-
-### architecture/index.html
-
-- **Link text:** "Platform Technical Specification"
-  - **Target:** `/architecture/specification/`
-  - **Reason:** File not found (tried: architecture/specification, architecture/specification.html, architecture/specification/index.html)
-
-- **Link text:** "Outcome Labels"
-  - **Target:** `/architecture/features/outcome-labels-plugin/`
-  - **Reason:** File not found (tried: architecture/features/outcome-labels-plugin, architecture/features/outcome-labels-plugin.html, architecture/features/outcome-labels-plugin/index.html)
-
-- **Link text:** "Predictor Search Engines"
-  - **Target:** `/architecture/features/predictor-search-engine/`
-  - **Reason:** File not found (tried: architecture/features/predictor-search-engine, architecture/features/predictor-search-engine.html, architecture/features/predictor-search-engine/index.html)
-
-- **Link text:** "Root Cause Analysis Reports"
-  - **Target:** `/architecture/features/root-cause-analysis-plugin/`
-  - **Reason:** File not found (tried: architecture/features/root-cause-analysis-plugin, architecture/features/root-cause-analysis-plugin.html, architecture/features/root-cause-analysis-plugin/index.html)
-
-- **Link text:** "Observational Studies"
-  - **Target:** `/architecture/features/observational-studies/`
-  - **Reason:** File not found (tried: architecture/features/observational-studies, architecture/features/observational-studies.html, architecture/features/observational-studies/index.html)
-
-- **Link text:** "Real-Time Decision Support Notifications"
-  - **Target:** `/architecture/features/optomitron-ai-agent/`
-  - **Reason:** File not found (tried: architecture/features/optomitron-ai-agent, architecture/features/optomitron-ai-agent.html, architecture/features/optomitron-ai-agent/index.html)
+  - **Target:** `/features/api/README/`
+  - **Reason:** File not found (tried: features/api/README, features/api/README.html, features/api/README/index.html)
 
 ### act/index.html
 
@@ -122,13 +72,13 @@ Generated: 2026-01-15T06:51:59.382Z
   - **Target:** `/reference-databases/`
   - **Reason:** Directory exists but no index.html found
 
-### reference-databases/diseases/index.html
+### reference-databases/biomarker-databases/index.html
 
 - **Link text:** "Reference Databases"
   - **Target:** `/reference-databases/`
   - **Reason:** Directory exists but no index.html found
 
-### reference-databases/biomarker-databases/index.html
+### reference-databases/diseases/index.html
 
 - **Link text:** "Reference Databases"
   - **Target:** `/reference-databases/`
@@ -594,6 +544,12 @@ Generated: 2026-01-15T06:51:59.382Z
   - **Target:** `/strategy/1-percent-treaty/referral-rewards-system/`
   - **Reason:** File not found (tried: strategy/1-percent-treaty/referral-rewards-system, strategy/1-percent-treaty/referral-rewards-system.html, strategy/1-percent-treaty/referral-rewards-system/index.html)
 
+### strategy/1-percent-treaty/national-security-argument/index.html
+
+- **Link text:** "1 Percent Treaty"
+  - **Target:** `/strategy/1-percent-treaty/`
+  - **Reason:** Directory exists but no index.html found
+
 ### strategy/1-percent-treaty/logical-proof/index.html
 
 - **Link text:** "1 Percent Treaty"
@@ -623,12 +579,6 @@ Generated: 2026-01-15T06:51:59.382Z
 - **Link text:** "strategy roadmap"
   - **Target:** `/strategy/1-percent-treaty/logical-proof/strategy/`
   - **Reason:** File not found (tried: strategy/1-percent-treaty/logical-proof/strategy, strategy/1-percent-treaty/logical-proof/strategy.html, strategy/1-percent-treaty/logical-proof/strategy/index.html)
-
-### strategy/1-percent-treaty/national-security-argument/index.html
-
-- **Link text:** "1 Percent Treaty"
-  - **Target:** `/strategy/1-percent-treaty/`
-  - **Reason:** Directory exists but no index.html found
 
 ### strategy/1-percent-treaty/institute-charter-template/index.html
 
@@ -736,12 +686,6 @@ Generated: 2026-01-15T06:51:59.382Z
   - **Target:** `/strategy/1-percent-treaty/decentralized-institutes-of-health-details/dih-org-structure/`
   - **Reason:** File not found (tried: strategy/1-percent-treaty/decentralized-institutes-of-health-details/dih-org-structure, strategy/1-percent-treaty/decentralized-institutes-of-health-details/dih-org-structure.html, strategy/1-percent-treaty/decentralized-institutes-of-health-details/dih-org-structure/index.html)
 
-### strategy/1-percent-treaty/cost-to-create-a-dao/index.html
-
-- **Link text:** "1 Percent Treaty"
-  - **Target:** `/strategy/1-percent-treaty/`
-  - **Reason:** Directory exists but no index.html found
-
 ### strategy/1-percent-treaty/decentralized-institutes-of-health/index.html
 
 - **Link text:** "1 Percent Treaty"
@@ -767,6 +711,12 @@ Generated: 2026-01-15T06:51:59.382Z
 - **Link text:** "DIH Organizational Structure"
   - **Target:** `/strategy/1-percent-treaty/decentralized-institutes-of-health/dih-organizational-structure/`
   - **Reason:** File not found (tried: strategy/1-percent-treaty/decentralized-institutes-of-health/dih-organizational-structure, strategy/1-percent-treaty/decentralized-institutes-of-health/dih-organizational-structure.html, strategy/1-percent-treaty/decentralized-institutes-of-health/dih-organizational-structure/index.html)
+
+### strategy/1-percent-treaty/cost-to-create-a-dao/index.html
+
+- **Link text:** "1 Percent Treaty"
+  - **Target:** `/strategy/1-percent-treaty/`
+  - **Reason:** Directory exists but no index.html found
 
 ### strategy/1-percent-treaty/cost-of-war/index.html
 
@@ -804,13 +754,13 @@ Generated: 2026-01-15T06:51:59.382Z
   - **Target:** `/regulatory/recommendations/`
   - **Reason:** Directory exists but no index.html found
 
-### regulatory/recommendations/rems-requirements-replacement-by-dfda/index.html
+### regulatory/recommendations/remote-platform-facility-inspections/index.html
 
 - **Link text:** "Recommendations"
   - **Target:** `/regulatory/recommendations/`
   - **Reason:** Directory exists but no index.html found
 
-### regulatory/recommendations/remote-platform-facility-inspections/index.html
+### regulatory/recommendations/rems-requirements-replacement-by-dfda/index.html
 
 - **Link text:** "Recommendations"
   - **Target:** `/regulatory/recommendations/`
@@ -828,12 +778,6 @@ Generated: 2026-01-15T06:51:59.382Z
   - **Target:** `/regulatory/recommendations/`
   - **Reason:** Directory exists but no index.html found
 
-### regulatory/recommendations/pro-instrument-validation-streamlining/index.html
-
-- **Link text:** "Recommendations"
-  - **Target:** `/regulatory/recommendations/`
-  - **Reason:** Directory exists but no index.html found
-
 ### regulatory/recommendations/prea-guidance-dct-integration/index.html
 
 - **Link text:** "Recommendations"
@@ -841,6 +785,12 @@ Generated: 2026-01-15T06:51:59.382Z
   - **Reason:** Directory exists but no index.html found
 
 ### regulatory/recommendations/postmarket-safety-reporting-integration/index.html
+
+- **Link text:** "Recommendations"
+  - **Target:** `/regulatory/recommendations/`
+  - **Reason:** Directory exists but no index.html found
+
+### regulatory/recommendations/pro-instrument-validation-streamlining/index.html
 
 - **Link text:** "Recommendations"
   - **Target:** `/regulatory/recommendations/`
@@ -1086,6 +1036,12 @@ Generated: 2026-01-15T06:51:59.382Z
   - **Target:** `/problems/statistics/`
   - **Reason:** Directory exists but no index.html found
 
+### problems/statistics/deaths-due-to-drug-lag/index.html
+
+- **Link text:** "Statistics"
+  - **Target:** `/problems/statistics/`
+  - **Reason:** Directory exists but no index.html found
+
 ### problems/statistics/percent-excluded-from-trials/index.html
 
 - **Link text:** "Statistics"
@@ -1093,12 +1049,6 @@ Generated: 2026-01-15T06:51:59.382Z
   - **Reason:** Directory exists but no index.html found
 
 ### problems/statistics/cost-per-treatment/index.html
-
-- **Link text:** "Statistics"
-  - **Target:** `/problems/statistics/`
-  - **Reason:** Directory exists but no index.html found
-
-### problems/statistics/deaths-due-to-drug-lag/index.html
 
 - **Link text:** "Statistics"
   - **Target:** `/problems/statistics/`
@@ -1116,13 +1066,13 @@ Generated: 2026-01-15T06:51:59.382Z
   - **Target:** `/features/fdai/`
   - **Reason:** Directory exists but no index.html found
 
-### features/fdai/scenario/index.html
+### features/fdai/presentation/index.html
 
 - **Link text:** "Fdai"
   - **Target:** `/features/fdai/`
   - **Reason:** Directory exists but no index.html found
 
-### features/fdai/presentation/index.html
+### features/fdai/scenario/index.html
 
 - **Link text:** "Fdai"
   - **Target:** `/features/fdai/`
@@ -1236,6 +1186,86 @@ Generated: 2026-01-15T06:51:59.382Z
   - **Target:** `/1-percent-treaty/strategy/strategy/1-percent-treaty/`
   - **Reason:** File not found (tried: 1-percent-treaty/strategy/strategy/1-percent-treaty, 1-percent-treaty/strategy/strategy/1-percent-treaty.html, 1-percent-treaty/strategy/strategy/1-percent-treaty/index.html)
 
+### reference/cost-barriers/cost-analysis/34-conclusions/index.html
+
+- **Link text:** "Cost Barriers"
+  - **Target:** `/reference/cost-barriers/`
+  - **Reason:** Directory exists but no index.html found
+
+- **Link text:** "Cost Analysis"
+  - **Target:** `/reference/cost-barriers/cost-analysis/`
+  - **Reason:** Directory exists but no index.html found
+
+### reference/cost-barriers/cost-analysis/33-costs-by-cost-component/index.html
+
+- **Link text:** "Cost Barriers"
+  - **Target:** `/reference/cost-barriers/`
+  - **Reason:** Directory exists but no index.html found
+
+- **Link text:** "Cost Analysis"
+  - **Target:** `/reference/cost-barriers/cost-analysis/`
+  - **Reason:** Directory exists but no index.html found
+
+### reference/cost-barriers/cost-analysis/32-costs-by-trial-phase/index.html
+
+- **Link text:** "Cost Barriers"
+  - **Target:** `/reference/cost-barriers/`
+  - **Reason:** Directory exists but no index.html found
+
+- **Link text:** "Cost Analysis"
+  - **Target:** `/reference/cost-barriers/cost-analysis/`
+  - **Reason:** Directory exists but no index.html found
+
+### reference/cost-barriers/cost-analysis/31-costs-by-therapeutic-area/index.html
+
+- **Link text:** "Cost Barriers"
+  - **Target:** `/reference/cost-barriers/`
+  - **Reason:** Directory exists but no index.html found
+
+- **Link text:** "Cost Analysis"
+  - **Target:** `/reference/cost-barriers/cost-analysis/`
+  - **Reason:** Directory exists but no index.html found
+
+### reference/cost-barriers/clinical-trial-decision-making-model/24-model-parameters/index.html
+
+- **Link text:** "Cost Barriers"
+  - **Target:** `/reference/cost-barriers/`
+  - **Reason:** Directory exists but no index.html found
+
+- **Link text:** "Clinical Trial Decision Making Model"
+  - **Target:** `/reference/cost-barriers/clinical-trial-decision-making-model/`
+  - **Reason:** Directory exists but no index.html found
+
+### reference/cost-barriers/clinical-trial-decision-making-model/23-operational-model/index.html
+
+- **Link text:** "Cost Barriers"
+  - **Target:** `/reference/cost-barriers/`
+  - **Reason:** Directory exists but no index.html found
+
+- **Link text:** "Clinical Trial Decision Making Model"
+  - **Target:** `/reference/cost-barriers/clinical-trial-decision-making-model/`
+  - **Reason:** Directory exists but no index.html found
+
+### reference/cost-barriers/clinical-trial-decision-making-model/22-conceptual-framework/index.html
+
+- **Link text:** "Cost Barriers"
+  - **Target:** `/reference/cost-barriers/`
+  - **Reason:** Directory exists but no index.html found
+
+- **Link text:** "Clinical Trial Decision Making Model"
+  - **Target:** `/reference/cost-barriers/clinical-trial-decision-making-model/`
+  - **Reason:** Directory exists but no index.html found
+
+### reference/cost-barriers/clinical-trial-decision-making-model/21-data-sources/index.html
+
+- **Link text:** "Cost Barriers"
+  - **Target:** `/reference/cost-barriers/`
+  - **Reason:** Directory exists but no index.html found
+
+- **Link text:** "Clinical Trial Decision Making Model"
+  - **Target:** `/reference/cost-barriers/clinical-trial-decision-making-model/`
+  - **Reason:** Directory exists but no index.html found
+
 ### reference/cost-barriers/executive-summary/e4-analysis-of-barriers-to-clinical-trials/index.html
 
 - **Link text:** "Cost Barriers"
@@ -1266,7 +1296,7 @@ Generated: 2026-01-15T06:51:59.382Z
   - **Target:** `/reference/cost-barriers/executive-summary/`
   - **Reason:** Directory exists but no index.html found
 
-### reference/cost-barriers/executive-summary/e37-disconnect-between-clinical-research-and-medical-care/index.html
+### reference/cost-barriers/executive-summary/e36-drug-sponsor-imposed-barriers/index.html
 
 - **Link text:** "Cost Barriers"
   - **Target:** `/reference/cost-barriers/`
@@ -1276,7 +1306,7 @@ Generated: 2026-01-15T06:51:59.382Z
   - **Target:** `/reference/cost-barriers/executive-summary/`
   - **Reason:** Directory exists but no index.html found
 
-### reference/cost-barriers/executive-summary/e36-drug-sponsor-imposed-barriers/index.html
+### reference/cost-barriers/executive-summary/e37-disconnect-between-clinical-research-and-medical-care/index.html
 
 - **Link text:** "Cost Barriers"
   - **Target:** `/reference/cost-barriers/`
@@ -1364,86 +1394,6 @@ Generated: 2026-01-15T06:51:59.382Z
 
 - **Link text:** "Executive Summary"
   - **Target:** `/reference/cost-barriers/executive-summary/`
-  - **Reason:** Directory exists but no index.html found
-
-### reference/cost-barriers/cost-analysis/34-conclusions/index.html
-
-- **Link text:** "Cost Barriers"
-  - **Target:** `/reference/cost-barriers/`
-  - **Reason:** Directory exists but no index.html found
-
-- **Link text:** "Cost Analysis"
-  - **Target:** `/reference/cost-barriers/cost-analysis/`
-  - **Reason:** Directory exists but no index.html found
-
-### reference/cost-barriers/cost-analysis/33-costs-by-cost-component/index.html
-
-- **Link text:** "Cost Barriers"
-  - **Target:** `/reference/cost-barriers/`
-  - **Reason:** Directory exists but no index.html found
-
-- **Link text:** "Cost Analysis"
-  - **Target:** `/reference/cost-barriers/cost-analysis/`
-  - **Reason:** Directory exists but no index.html found
-
-### reference/cost-barriers/cost-analysis/32-costs-by-trial-phase/index.html
-
-- **Link text:** "Cost Barriers"
-  - **Target:** `/reference/cost-barriers/`
-  - **Reason:** Directory exists but no index.html found
-
-- **Link text:** "Cost Analysis"
-  - **Target:** `/reference/cost-barriers/cost-analysis/`
-  - **Reason:** Directory exists but no index.html found
-
-### reference/cost-barriers/cost-analysis/31-costs-by-therapeutic-area/index.html
-
-- **Link text:** "Cost Barriers"
-  - **Target:** `/reference/cost-barriers/`
-  - **Reason:** Directory exists but no index.html found
-
-- **Link text:** "Cost Analysis"
-  - **Target:** `/reference/cost-barriers/cost-analysis/`
-  - **Reason:** Directory exists but no index.html found
-
-### reference/cost-barriers/clinical-trial-decision-making-model/24-model-parameters/index.html
-
-- **Link text:** "Cost Barriers"
-  - **Target:** `/reference/cost-barriers/`
-  - **Reason:** Directory exists but no index.html found
-
-- **Link text:** "Clinical Trial Decision Making Model"
-  - **Target:** `/reference/cost-barriers/clinical-trial-decision-making-model/`
-  - **Reason:** Directory exists but no index.html found
-
-### reference/cost-barriers/clinical-trial-decision-making-model/23-operational-model/index.html
-
-- **Link text:** "Cost Barriers"
-  - **Target:** `/reference/cost-barriers/`
-  - **Reason:** Directory exists but no index.html found
-
-- **Link text:** "Clinical Trial Decision Making Model"
-  - **Target:** `/reference/cost-barriers/clinical-trial-decision-making-model/`
-  - **Reason:** Directory exists but no index.html found
-
-### reference/cost-barriers/clinical-trial-decision-making-model/22-conceptual-framework/index.html
-
-- **Link text:** "Cost Barriers"
-  - **Target:** `/reference/cost-barriers/`
-  - **Reason:** Directory exists but no index.html found
-
-- **Link text:** "Clinical Trial Decision Making Model"
-  - **Target:** `/reference/cost-barriers/clinical-trial-decision-making-model/`
-  - **Reason:** Directory exists but no index.html found
-
-### reference/cost-barriers/clinical-trial-decision-making-model/21-data-sources/index.html
-
-- **Link text:** "Cost Barriers"
-  - **Target:** `/reference/cost-barriers/`
-  - **Reason:** Directory exists but no index.html found
-
-- **Link text:** "Clinical Trial Decision Making Model"
-  - **Target:** `/reference/cost-barriers/clinical-trial-decision-making-model/`
   - **Reason:** Directory exists but no index.html found
 
 ### reference/cost-barriers/barriers-to-trials/49-barriers-related-to-the-globalization-of-clinical-research/index.html

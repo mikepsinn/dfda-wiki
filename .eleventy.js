@@ -227,40 +227,56 @@ module.exports = function(eleventyConfig) {
     if (!content || !inputPath) return content;
 
     // Get the directory of the current file
-    const currentDir = path.dirname(inputPath);
+    const currentDir = path.dirname(inputPath).replace(/\\/g, '/');
 
-    // Replace markdown links with proper URLs
-    return content.replace(
+    const resolvePath = (href) => {
+      // Skip external links
+      if (href.startsWith('http://') || href.startsWith('https://')) {
+        return href;
+      }
+
+      // Resolve the relative path
+      let resolvedPath;
+      if (href.startsWith('./') || href.startsWith('../')) {
+        resolvedPath = path.posix.join(currentDir, href);
+      } else {
+        resolvedPath = href;
+      }
+
+      // Convert to URL format
+      let url = resolvedPath
+        .replace(/\\/g, '/')
+        .replace(/^\.\//, '/')
+        .replace(/\.md$/, '/')
+        .replace(/\/index\/$/, '/');
+
+      // Ensure leading slash
+      if (!url.startsWith('/')) {
+        url = '/' + url;
+      }
+
+      return url;
+    };
+
+    // Fix inline links: [text](url)
+    content = content.replace(
       /\[([^\]]+)\]\(([^)]+\.md)(#[^)]+)?\)/g,
       (match, text, href, anchor = '') => {
-        // Skip external links
-        if (href.startsWith('http://') || href.startsWith('https://')) {
-          return match;
-        }
-
-        // Resolve the relative path
-        let resolvedPath;
-        if (href.startsWith('./') || href.startsWith('../')) {
-          resolvedPath = path.join(currentDir, href);
-        } else {
-          resolvedPath = href;
-        }
-
-        // Convert to URL format
-        let url = resolvedPath
-          .replace(/\\/g, '/')
-          .replace(/^\.\//, '/')
-          .replace(/\.md$/, '/')
-          .replace(/\/index\/$/, '/');
-
-        // Ensure leading slash
-        if (!url.startsWith('/')) {
-          url = '/' + url;
-        }
-
-        return `[${text}](${url}${anchor})`;
+        const url = resolvePath(href);
+        return `[${text}](${url}${anchor || ''})`;
       }
     );
+
+    // Fix reference-style links: [ref]: url
+    content = content.replace(
+      /^\[([^\]]+)\]:\s+([^\s]+\.md)(#[^\s]+)?/gm,
+      (match, ref, href, anchor = '') => {
+        const url = resolvePath(href);
+        return `[${ref}]: ${url}${anchor || ''}`;
+      }
+    );
+
+    return content;
   });
 
   // Get previous and next pages in same collection

@@ -9,7 +9,7 @@ dateCreated: 2023-11-07T19:01:19.907Z
 fontawesomeIcon: fa-layer-group
 ---
 
-> **Document Purpose:** This document describes the high-level architecture and conceptual framework of the platform. It explains the "what" and "why" behind the system's design. For detailed engineering choices, specific technologies, and API specifications, please refer to the **[Platform Technical Specification](./specification.md)**.
+> **Document Purpose:** This document describes the high-level architecture and conceptual framework of the platform. It explains the "what" and "why" behind the system's design. For detailed engineering choices, specific technologies, and API specifications, please refer to the **[Platform Technical Specification](/specification.md)**.
 
 ### Functional Scope
 
@@ -243,11 +243,11 @@ Tasks of data visualization plugins:
 
 **Example Data Presentation Plugins**
 
-* [Outcome Labels](./features/outcome-labels-plugin.md)
-* [Predictor Search Engines](./features/predictor-search-engine.md)
-* [Root Cause Analysis Reports](./features/root-cause-analysis-plugin.md)
-* [Observational Studies](./features/observational-studies.md)
-* [Real-Time Decision Support Notifications](./features/optomitron-ai-agent.md)
+* [Outcome Labels](/features/outcome-labels-plugin.md)
+* [Predictor Search Engines](/features/predictor-search-engine.md)
+* [Root Cause Analysis Reports](/features/root-cause-analysis-plugin.md)
+* [Observational Studies](/features/observational-studies.md)
+* [Real-Time Decision Support Notifications](/features/optomitron-ai-agent.md)
 
 #### 3.2.3 Application Programming Interface (API) Connector Plugins
 
