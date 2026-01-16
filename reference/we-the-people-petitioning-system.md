@@ -10,7 +10,7 @@ dateCreated: '2022-07-27T20:42:51.478Z'
 
 # We the People (petitioning system)
 
-Why did Biden remove the We the People Petitioning System from the White House website? Since his inauguration, [https://petitions.whitehouse.gov](https://petitions.whitehouse.gov) just redirects to [https://whitehouse.gov](https://whitehouse.gov).
+Why did Biden remove the We the People Petitioning System from the White House website? Since his inauguration, petitions.whitehouse.gov just redirects to whitehouse.gov.
 
   
-[https://en.wikipedia.org/wiki/We\_the\_People\_(petitioning\_system)](https://en.wikipedia.org/wiki/We_the_People_\(petitioning_system\))
+[We the People (petitioning system) - Wikipedia](https://en.wikipedia.org/wiki/We_the_People_%28petitioning_system%29)

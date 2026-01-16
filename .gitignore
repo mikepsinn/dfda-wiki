@@ -12,6 +12,7 @@ _site/
 temp-repo/
 
 # Logs
+logs/
 *.log
 
 # IDE specific files
