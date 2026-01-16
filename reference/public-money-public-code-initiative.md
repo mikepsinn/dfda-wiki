@@ -21,8 +21,8 @@ dateCreated: '2022-07-27T20:41:33.124Z'
 -   [2 What is Open Source Software?](#what-is-open-source-software?)
     -   [2.1 Benefits of Open Source Software](#benefits-of-open-source-software)
     -   [2.2 Differences Between Open-Source and Proprietary Software](#differences-between-open-source-and-proprietary-software)
--   [3 Protecting the People's Data](#protecting-the-peoples-data)
-    -   [3.1 Myth: Proprietary software are secure and not prone to attacks](#myth-proprietary-software-is-secure-and-not-prone-to-attacks)
+-   [3 Protecting the People's Data](#protecting-the-people's-data)
+    -   [3.1 Myth: Proprietary software is secure and not prone to attacks](#myth:-proprietary-software-is-secure-and-not-prone-to-attacks)
     -   [3.2 Leveraging Open Source Software for Innovation](#leveraging-open-source-software-for-innovation)
 -   [4 US Initiative](#us-initiative)
 -   5 Sources

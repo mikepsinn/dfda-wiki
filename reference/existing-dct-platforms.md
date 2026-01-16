@@ -21,7 +21,7 @@ The dFDA aims to go beyond current DCT platforms by creating a fully integrated,
 * **[Thread Research](https://www.threadresearch.com/)**: Provides a unified platform for managing decentralized studies, including patient engagement and data collection tools.
 * **[Curavit Clinical Research](https://curavit.io/)**: A Virtual Contract Research Organization (VCRO) specifically designed for designing and executing DCTs.
 * **[IQVIA](https://www.iqvia.com/solutions/research-and-development/virtual-trials)**: A large global CRO offering specific solutions and services for virtual and decentralized trials.
-* **[Parexel](https://www.parexel.com/solutions/decentralized-clinical-trials)**: Another major CRO with significant involvement in implementing DCTs and hybrid trial models.
+* **Parexel**: Another major CRO with significant involvement in implementing DCTs and hybrid trial models.
 * **[Labcorp](https://clinical.labcorp.com/decentralized-clinical-trials.html)** (incorporating Covance): Offers end-to-end DCT solutions, leveraging its extensive lab network for remote sample collection and testing.
 * **[Florence Healthcare](https://florencehc.com/)**: Focuses on site enablement technology, including eBinders, eConsent, and remote site monitoring tools that support DCTs.
 * **[Castor EDC](https://www.castoredc.com/)**: Provides an Electronic Data Capture (EDC) system with modules supporting decentralized elements like ePRO and eConsent.
@@ -131,7 +131,7 @@ Therefore, while DCT platforms aim to reduce costs compared to traditional metho
     * Trials/Participants (>8,500 studies / >3M participants): "Since 2014, Castor has supported over 8,500 studies... and reached over 3 million participants across more than 90 countries." ([Castor Press Release - Dec 2021](https://www.castoredc.com/news/castor-named-2021-cb-insights-digital-health-150/))
 * **Triall:**
     * Trials/Participants (Mayo Clinic): "...multi-center pulmonary arterial hypertension trial that includes 10 research sites and 500+ patients across the United States." ([GlobeNewswire](https://www.globenewswire.com/news-release/2022/09/01/2508196/0/en/Triall-to-Advance-Blockchain-Technology-in-Clinical-Trial-Data-and-Study-Management-With-Mayo-Clinic.html))
-    * Trials/Participants (Pilot): "...clinical trial projects across 3 countries, involving an approximate total of 2500 participants." ([Sphereon](https://sphereon.com/triall-uses-blockchain-to-realize-the-future-of-clinical-trials/))
+    * Trials/Participants (Pilot): "...clinical trial projects across 3 countries, involving an approximate total of 2500 participants." (Sphereon)
 * **ObvioHealth:**
     * Funding ($51M total): "The $31 million infusion brings Obviohealth's total fundraising to $51 million since its launch in 2017..." ([BioWorld](https://www.bioworld.com/articles/508892-obviohealth-hauls-in-31m-in-vro-financing-trend))
     * Trials (>40 studies): "In the 5 years since launch, the company has been awarded over 40 studies... implemented in 28 countries..." ([PR Newswire](https://www.prnewswire.com/news-releases/obviohealth-launches-next-generation-outcomes-capture-and-assessment-platform-advancing-data-accuracy-in-decentralized-clinical-trials-301459799.html))

@@ -22,7 +22,7 @@ Optimitron is an AI assistant that asks you about your symptoms and potential fa
 
 [](https://youtu.be/hd50A74o8YI)
 
-[Or Try the Prototype Here](https://demo.curedao.org/app/public/#/app/chat)
+[Click Here for Demo Video](https://youtu.be/hd50A74o8YI)
 
 #### Data Analysis
 

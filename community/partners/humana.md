@@ -24,7 +24,7 @@ A for-profit American health insurance company based in Louisville, Kentucky. In
 
 ## How to Download and Share Your Data
 
-[https://developer.humana.com/site/global/apis/index.gsp](https://developer.humana.com/site/global/apis/index.gsp)
+**Humana Developer Portal** (developer.humana.com)
 
 **API Documentation**
 

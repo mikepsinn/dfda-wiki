@@ -11,7 +11,7 @@ dateCreated: '2025-02-20T05:43:17.021Z'
 
 ## Executive Summary
 
-The National Institutes of Health (NIH) annual budget of [$51 billion](https://www.hhs.gov/sites/default/files/fy-2025-budget-in-brief.pdf) represents one of the largest investments in biomedical research globally. However, quantitative analysis reveals significant inefficiencies in how these funds translate into actual disease treatments and cures.
+The National Institutes of Health (NIH) annual budget of $51 billion represents one of the largest investments in biomedical research globally. However, quantitative analysis reveals significant inefficiencies in how these funds translate into actual disease treatments and cures.
 
 ## Key Metrics
 
@@ -86,7 +86,7 @@ The National Institutes of Health (NIH) annual budget of [$51 billion](https://w
 
 ## Sources
 
-1. HHS Budget Overview (FY 2025): [$51 billion NIH budget](https://www.hhs.gov/sites/default/files/fy-2025-budget-in-brief.pdf)
+1. HHS Budget Overview (FY 2025): $51 billion NIH budget
 2. JAMA Internal Medicine: [Clinical Trial Costs](https://pmc.ncbi.nlm.nih.gov/articles/PMC7295430/)
 3. Nature: [Untested Treatments](https://www.nature.com/articles/549445a)
 4. FDA Review: [Regulatory Delay Deaths](https://www.fdareview.org/features/references/#gieringer85)

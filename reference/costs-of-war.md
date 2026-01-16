@@ -97,7 +97,7 @@ These figures highlight the "grotesque misallocation" compared to underfunded ar
 <a id="ptsd-costs"></a>
 * **PTSD Costs**
   > "US veteran PTSD costs \$232 billion over 20 years."
-  > — RAND Corporation, 2018, [Veteran Care Costs](https://www.rand.org/pubs/research_reports/RR1975.html)
+  > — RAND Corporation, 2018, Veteran Care Costs
 
 <a id="post-911-total"></a>
 * **Post-9/11 Total**

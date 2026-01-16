@@ -23,7 +23,7 @@ All of this makes Open Humans a vibrant community: 11809 members have joined, an
 -   [1 Team](#team)
     -   [1.1 Mad Price Ball - Executive Director](#mad-price-ball---executive-director)
     -   [1.2 Bastian Greshake Tzovaras - Director of Research (part-time)](#bastian-greshake-tzovaras---director-of-research-part-time)
-    -   [1.3 Mairi Dulaney - Web Admin / Operations (volunteer)](#mairi-dulaney---web-admin--operations-volunteer)
+    -   [1.3 Mairi Dulaney - Web Admin / Operations (volunteer)](#mairi-dulaney---web-admin-/-operations-volunteer)
     -   [1.4 Funding](#funding)
 -   [2 Open Source](#open-source)
 -   [3 Community Calls](#community-calls)

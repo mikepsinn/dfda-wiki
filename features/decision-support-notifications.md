@@ -25,9 +25,9 @@ The system monitors your body and environment in real-time, and then identifies 
 
 1. [SunilDeshpande\_S2014\_ETD.pdf (asu.edu)](https://keep.lib.asu.edu/\_flysystem/fedora/c7/114023/Deshpande\_asu\_0010E\_14022.pdf)
 2. [LocalControl: An R Package for Comparative Safety and Effectiveness Research | Journal of Statistical Software (jstatsoft.org)](https://www.jstatsoft.org/article/view/v096i04)
-3. [bbotk: A brief introduction (r-project.org)](https://cran.r-project.org/web/packages/bbotk/vignettes/bbotk.html)
+3. bbotk: A brief introduction (r-project.org)
 4. [artemis-toumazi/dfpk (github.com)](https://github.com/artemis-toumazi/dfpk)
-5. [miroslavgasparek/MPC\_Cancer: Model Predictive Control for the optimisation of the tumour treatment through the combination of the chemotherapy and immunotherapy. (github.com)](https://github.com/miroslavgasparek/MPC\_Cancer)
+5. miroslavgasparek/MPC_Cancer: Model Predictive Control for the optimisation of the tumour treatment through the combination of the chemotherapy and immunotherapy (github.com)
 6. [Doubly Robust Learning — econml 0.12.0 documentation](https://econml.azurewebsites.net/spec/estimation/dr.html)
 7. [A control systems engineering approach for adaptive behavioral interventions: illustration with a fibromyalgia intervention (nih.gov)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4167895/)
 8. [The promise of machine learning in predicting treatment outcomes in psychiatry - Chekroud - 2021 - World Psychiatry - Wiley Online Library](https://onlinelibrary.wiley.com/doi/full/10.1002/wps.20882)

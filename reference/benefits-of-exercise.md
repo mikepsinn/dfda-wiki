@@ -17,7 +17,7 @@ Daniel Lieberman, author of [Exercised: Why Something We Never Evolved to Do Is 
 -   [1 Type 2 Diabetes](#type-2-diabetes)
 -   [2 Heart Attacks](#heart-attacks)
 -   [3 Cancer](#cancer)
--   [4 Alzheimer's](#alzheimers)
+-   [4 Alzheimer's](#alzheimer's)
 -   [5 The Problem Is Not Just Too Much Sitting](#the-problem-is-not-just-too-much-sitting)
 -   [6 How Much? What Type?](#how-much?-what-type?)
 -   [7 Sum Up](#sum-up)

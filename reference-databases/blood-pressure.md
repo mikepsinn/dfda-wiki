@@ -73,4 +73,4 @@ Over time, newer research revealed systolic pressure ”the top number” as a b
 
 # Sources
 
-[https://www.berkeleywellness.com/self-care/preventive-care/article/blood-pressure-top-bottom](https://www.berkeleywellness.com/self-care/preventive-care/article/blood-pressure-top-bottom)
+Berkeley Wellness - Blood Pressure: Top and Bottom

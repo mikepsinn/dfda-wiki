@@ -21,7 +21,7 @@ This is a hands-on command role. Only those with world-class engineering ability
 
 ## About the dFDA Initiative
 
-The Decentralized FDA (dFDA) initiative aims to accelerate medical progress by 80x through decentralized, automated clinical trials using real-world data. Key goals include reducing trial costs by 50-70% (from an average of \$2.6 billion per drug), providing personalized treatment recommendations, and ensuring transparency in drug evaluation [Source: Tufts Center for the Study of Drug Development, 2016](https://csdd.tufts.edu/csddnews/2016/3/10/march-10-2016-tufts-csdd-assessment-of-cost-to-develop-and-win-marketing-approval-for-a-new-drug-now-published). This role involves leading efforts to mobilize 3.5% of the global population for participation and funding.
+The Decentralized FDA (dFDA) initiative aims to accelerate medical progress by 80x through decentralized, automated clinical trials using real-world data. Key goals include reducing trial costs by 50-70% (from an average of \$2.6 billion per drug), providing personalized treatment recommendations, and ensuring transparency in drug evaluation (Source: Tufts Center for the Study of Drug Development, 2016). This role involves leading efforts to mobilize 3.5% of the global population for participation and funding.
 
 ## Key Responsibilities
 
@@ -129,7 +129,7 @@ Submit your application via the form below. Required fields are marked with *. A
 
 * **Trial Cost Reduction**
   > "The average cost to develop a new drug is \$2.6 billion, but decentralized models could reduce this by 50-70% through real-world data efficiency."
-  — [Tufts Center for the Study of Drug Development, 2016](https://csdd.tufts.edu/csddnews/2016/3/10/march-10-2016-tufts-csdd-assessment-of-cost-to-develop-and-win-marketing-approval-for-a-new-drug-now-published)
+  — Tufts Center for the Study of Drug Development, 2016
 
 * **Salary Range**
   > "Average salary for med-tech project leads is \$100,000, with ranges from \$80,000 to \$120,000 depending on experience."

@@ -12,7 +12,7 @@ dateCreated: 2025-01-22T08:07:28.742Z
 
 | Treatment | Cure Rate | Safety Score (1-5)* | Cost per Treatment | Treatment Duration | Prescription Required |
 |-----------|-----------|-------------------|-------------------|-------------------|-------------------|
-| Permethrin 5% Cream | [89-95%](https://www.sciencedirect.com/science/article/pii/S0190962219300714) | 5 | [$22 per 60g tube](https://www.epocrates.com/online/drugs/687/permethrin-topical) | 1-2 applications | Yes |
+| Permethrin 5% Cream | [89-95%](https://www.sciencedirect.com/science/article/pii/S0190962219300714) | 5 | $22 per 60g tube | 1-2 applications | Yes |
 | Oral Ivermectin | [85-95%](https://pubmed.ncbi.nlm.nih.gov/22385121/) | 4 | [$48-89 per treatment](https://www.goodrx.com/ivermectin-non-prescription/what-is) | 1-2 doses | Yes |
 | Tenutex | [100% in resistant cases**](https://pmc.ncbi.nlm.nih.gov/articles/PMC7981678/) | 4 | [Varies by country](https://www.aafp.org/pubs/afp/issues/2003/0915/p1089.html) | 2-3 applications | Yes*** |
 | Disulfiram | [Under investigation](https://pmc.ncbi.nlm.nih.gov/articles/PMC10044060/) | 3 | Price data unavailable | Multiple applications | Yes |

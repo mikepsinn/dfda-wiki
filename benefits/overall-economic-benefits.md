@@ -14,15 +14,15 @@ tags: >-
   trial-timelines
 ---
 
-**Key Sections**  
-[1. Trial Cost Savings](#1-trial-cost-savings)  
-[2. Earlier Patient Access](#2-earlier-access-7-years-sooner)  
-[3. Treatment Matching](#3-comparative-effectiveness-matching)  
-[4. QALY Valuation](#4-valuing-those-qalys)  
-[5. Drug Price Reductions](#5-reduced-drug-prices)  
-[6. Niche Therapies](#6-more-therapies-for-smaller-markets)  
-[7. Summary Table](#annual-benefits-summary)  
-[8. References](#references)
+**Key Sections**
+[1. Trial Cost Savings](#1-trial-cost-savings)
+[2. Earlier Patient Access](#2-earlier-access:-7-years-sooner)
+[3. Treatment Matching](#3-comparative-effectiveness-matching)
+[4. QALY Valuation](#4-valuing-those-qalys)
+[5. Drug Price Reductions](#5-reduced-drug-prices)
+[6. Niche Therapies](#6-more-therapies-for-smaller-markets)
+[7. Summary Table](#7-putting-it-all-together)
+[8. Conclusion](#8-conclusion)
 
 Below is a consolidated, quantitative analysis of global benefits from a universal shift to:
 

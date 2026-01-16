@@ -14,7 +14,7 @@ The decentralized autonomous organization (DAO) approach can align the incentive
 
 Recent technological advances, from self-tracking applications and devices to genetic sequencing, have produced a torrent of structured quantitative data on all aspects of human existence, including diet, physical activity, sleep, social interaction, environmental factors, symptom severity, vital signs, and others. This data holds tremendous potential to obtain personalized effectiveness values (similar to recommended daily values) for treatments and reveal the root causes of chronic conditions. 
 
-There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand#:~:text=over350%2c000%20digital%20health%20apps%20are%20currently%20available%20todiseases%20or%20mental%20health%29%2c%20compared%20with%2028%25in%202015) health apps in the various app stores. Mobile health app development costs [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on average.  Many of these have a ton of overlap in functionality representing $157,500,000,000 wasted on duplication of effort.  
+There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand#:~:text=over350%2c000%20digital%20health%20apps%20are%20currently%20available%20todiseases%20or%20mental%20health%29%2c%20compared%20with%2028%25in%202015) health apps in the various app stores. Mobile health app development costs $425,000 on average.  Many of these have a ton of overlap in functionality representing $157,500,000,000 wasted on duplication of effort.  
 
 So, it seems like we could increase the rate of progress by 350,000 times by having them work together instead of making.
 
@@ -91,8 +91,6 @@ They do this by:
 5.  _Adapt to the changing environment_
 6.  _Share leadership, empowering others to be forces for good_
 
-![](https://ci5.googleusercontent.com/proxy/mvvNOrgLpueuH09Kkoeuo2qLzF8iEywh3k-8r3yU64bj6nsruJKm_jcY_NF-INHYG6j-AD7Y1ot1MyL_2NjOulTUgi9oV-cWO4-TAwJftiW9Z5ECY2JWBVHKbL8MzoLnrZzsZkSY1zHjD0X5aKye3C0shVou=s0-d-e1-ft#https://crowdsourcingcures.org/wp-content/uploads/2021/02/forces-for-good-organizing-framework.png)
-
 In terms of health, all parties currently have misaligned incentives.
 
 # Why This Doesn't Exist
@@ -164,12 +162,12 @@ Many software organizations would be eager to contribute to open-source if, in r
 -   [Self Innovations](https://selfinnovations.ai/) - a decentralized platform for genetics. Anonymity and sovereignty at every step of the genomic data science workflow.
 -   [Gitcoin](https://gitcoin.co) - _**Gitcoin**_ is a platform where you get paid to work on open-source software in Python, Rust, Ruby, JavaScript, Solidity, HTML, CSS, Design, and more.
     -   [Source Code](https://github.com/gitcoinco)
--   [**DeBio | The Decentralized Genetics Initiative**](https://www.debio.network/debio)
+-   **DeBio | The Decentralized Genetics Initiative**
 
 # **Related Whitepapers**
 
 -   [VitaDAO/whitepaper (github.com)](https://github.com/VitaDAO/whitepaper)
--   [NectarProtocol/documentation: The Nectar Protocol enables innovations in healthcare with compliant access to smart contracts and decentralized data. (github.com)](https://github.com/NectarProtocol/documentation)
+-   NectarProtocol/documentation: The Nectar Protocol enables innovations in healthcare with compliant access to smart contracts and decentralized data.
 
 # NFTs
 

@@ -349,7 +349,7 @@ This would be cool, but we used to do water testing at the lab, Mike Sinn worked
 
 It looks like there are EPA databases with lots of geographic test results that could be correlated with the health outcomes of your participants in that area.
 
-[https://www.epa.gov/ground-water-and-drinking-water/drinking-water-data-and-reports](https://www.epa.gov/ground-water-and-drinking-water/drinking-water-data-and-reports)
+EPA Drinking Water Data and Reports (epa.gov)
 
 Maybe you're already doing that?
 

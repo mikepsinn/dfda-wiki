@@ -55,7 +55,7 @@ Pragmatic trials are designed to test interventions in real-world conditions, fo
 
 ### RECOVERY Trial Metrics
 
-- [9 days: Concept to first patient enrollment](https://www.recoverytrial.net/news/low-cost-dexamethasone-reduces-death-by-up-to-one-third-in-hospitalised-patients-with-severe-respiratory-complications-of-covid-19)
+- 9 days: Concept to first patient enrollment
 - [10 weeks: First life-saving treatment identified](https://www.ox.ac.uk/news/features/recovery-trial-two-years)
 - [3 hours: Results to policy implementation](https://www.ox.ac.uk/news/features/recovery-trial-two-years)
 - [47,000+ participants across 6 countries](https://www.ox.ac.uk/news/features/recovery-trial-two-years)
@@ -65,7 +65,7 @@ Pragmatic trials are designed to test interventions in real-world conditions, fo
 
 ### Traditional Trial Metrics
 
-- Average time from phase 1 to approval: [7.2 years](https://www.bio.org/sites/default/files/legacy/bioorg/docs/Clinical%20Development%20Success%20Rates%202006-2015%20-%20BIO,%20Biomedtracker,%20Amplion%202016.pdf)
+- Average time from phase 1 to approval: 7.2 years (BIO/Biomedtracker/Amplion 2016)
 - [80% of trials fail to meet enrollment timelines](https://www.clinicaltrialsarena.com/marketdata/featureclinical-trial-patient-recruitment/)
 - [Up to 50% of research sites enroll one or no patients](https://www.clinicaltrialsarena.com/marketdata/featureclinical-trial-patient-recruitment/)
 
@@ -75,7 +75,7 @@ Pragmatic trials are designed to test interventions in real-world conditions, fo
 
 - [Dexamethasone findings](https://www.recoverytrial.net/news/low-cost-dexamethasone-reduces-death-by-up-to-one-third-in-hospitalised-patients-with-severe-respiratory-complications-of-covid-19):
   - 35% reduction in mortality for ventilated patients
-  - [Estimated 1 million lives saved globally](https://www.recoverytrial.net/news/recovery-trial-one-year-on)
+  - Estimated 1 million lives saved globally
 - Implementation within hours of results
 - Real-world effectiveness immediately apparent
 

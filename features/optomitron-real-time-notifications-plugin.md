@@ -12,8 +12,6 @@ Optimitron is an AI assistant that asks you about your symptoms and potential fa
 
 ## [Click Here for Demo Video](https://youtu.be/hd50A74o8YI)
 
-## [Or Try the Demo Here](https://demo.curedao.org/app/public/#/app/chat)
-
 ![](https://static.crowdsourcingcures.org/img/optomitron-youtube-screenshot.png)
 
 ![inflammation worldwide](https://static.crowdsourcingcures.org/img/inflammation-worldwide.PNG)
@@ -42,9 +40,7 @@ Contributors of data and intellectual property will receive ongoing royalties fo
 
 Opening an app to record your symptoms, diet, or treatment sucks. Our dream is to turn this web-based robot into a physical reality.  Longevitron is a robot that can follow you around and reminds you to take your medication, what and when to eat, track your symptoms, and even contribute your data to clinical trials. 
 
-We're looking at various implementation options here, but Loona below is an example of one such robot that could include such functionality. Loona has visual and auditory emotion recognition and speech recognition that allows you to converse with AI large language models such as ChatGPT. 
-
-![Loona Smart Robot](https://cdn.shopify.com/s/files/1/0737/1194/3957/products/20230407-192515_1000x.jpg?v=1680866755)
+We're looking at various implementation options here, but Loona is an example of one such robot that could include such functionality. Loona has visual and auditory emotion recognition and speech recognition that allows you to converse with AI large language models such as ChatGPT. 
 
 ## Features of Longevitron
 
@@ -158,7 +154,7 @@ By supporting Longevitron, you're not just investing in a personal health assist
 
 1.  [SunilDeshpande\_S2014\_ETD.pdf (asu.edu)](https://keep.lib.asu.edu/_flysystem/fedora/c7/114023/Deshpande_asu_0010E_14022.pdf)
 2.  [LocalControl: An R Package for Comparative Safety and Effectiveness Research | Journal of Statistical Software (jstatsoft.org)](https://www.jstatsoft.org/article/view/v096i04)
-3.  [bbotk: A brief introduction (r-project.org)](https://cran.r-project.org/web/packages/bbotk/vignettes/bbotk.html)
+3.  bbotk: A brief introduction (r-project.org)
 4.  [artemis-toumazi/dfpk (github.com)](https://github.com/artemis-toumazi/dfpk)
 5.  [miroslavgasparek/MPC\_Cancer: Model Predictive Control for the optimisation of the tumour treatment through the combination of the chemotherapy and immunotherapy. (github.com)](https://github.com/miroslavgasparek/MPC_Cancer)
 6.  [Doubly Robust Learning — econml 0.12.0 documentation](https://econml.azurewebsites.net/spec/estimation/dr.html)

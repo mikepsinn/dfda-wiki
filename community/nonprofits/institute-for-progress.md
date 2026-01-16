@@ -57,6 +57,6 @@ Founded in 2022, the Institute for Progress (IFP) is a technology policy think t
 ## Learn More
 
 - [Official Website](https://progress.institute/)
-- [Clinical Trial Abundance Project](https://progress.institute/clinical-trial-abundance/)
+- Clinical Trial Abundance Project
 
 *Last updated: May 2025*

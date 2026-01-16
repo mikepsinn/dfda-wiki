@@ -40,7 +40,7 @@ Meanwhile, **6.5 million Americans** live with Alzheimer’s ([Alzheimer’s A
 
 - **Top‑down control:** Only elite academic centers run trials.
 - **Restrictive criteria:** Older & frailer patients systematically excluded.
-- **Funding distortion:** **85 % of NIH Alzheimer’s dollars go to pre‑clinical work** ([CIT 2019 portfolio analysis](https://report.nih.gov/link?nihADpreclinical85)) while <15 % funds human trials.
+- **Funding distortion:** **85 % of NIH Alzheimer’s dollars go to pre‑clinical work** (CIT 2019 portfolio analysis) while <15 % funds human trials.
 - **Regulatory capture:** Industry patents mouse models; off‑patent human trials get no ROI, so they die unfunded.
 
 **COVID proved speed is possible.** The [RECOVERY Trial](https://wiki.dfda.earth/en/reference/recovery-trial) and Operation Warp Speed delivered treatments & vaccines in **<12 months**.  Dementia was deemed too "boring" to deserve urgency.

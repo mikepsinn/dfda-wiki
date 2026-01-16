@@ -52,5 +52,5 @@ There's another All of Us Research Program GitHub organization at [https://githu
 
 1.  [https://www.heraldchronicle.com/news/business/vanderbilt-plays-major-role-in-nationwide-all-of-us-research-program/article\_fece68b5-2ae0-5f7c-8132-34d0753ddd6c.html](https://www.heraldchronicle.com/news/business/vanderbilt-plays-major-role-in-nationwide-all-of-us-research-program/article_fece68b5-2ae0-5f7c-8132-34d0753ddd6c.html)
 2.  [https://allofus.nih.gov/funding-and-program-partners/data-and-research-center](https://allofus.nih.gov/funding-and-program-partners/data-and-research-center)
-3.  [https://www.ga4gh.org/wp-content/uploads/12\_Glazer-All-of-Us-Research-Program-GA4GH-Orlando-Oct-16.pdf](https://www.ga4gh.org/wp-content/uploads/12_Glazer-All-of-Us-Research-Program-GA4GH-Orlando-Oct-16.pdf)
+3.  GA4GH All of Us Research Program Presentation (Orlando, Oct 16)
 4.  [https://allofus.nih.gov/sites/default/files/AOU\_Core\_Protocol\_Redacted\_Dec\_2021.pdf](https://allofus.nih.gov/sites/default/files/AOU_Core_Protocol_Redacted_Dec_2021.pdf)

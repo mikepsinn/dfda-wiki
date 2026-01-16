@@ -16,5 +16,5 @@ NSAID medications, chronic stress, excess alcohol, proton pump inhibitors, and o
 
 ## Purchase Options
 
--   $295 - [https://www.drlepine.com/shop/labs/cyrex-array-2-intestinal-antigenic-permeability-screen/](https://www.drlepine.com/shop/labs/cyrex-array-2-intestinal-antigenic-permeability-screen/)
--   $465 - [https://shop.thedr.com/array-2-intestinal-antigenic-permeability-screen.html](https://shop.thedr.com/array-2-intestinal-antigenic-permeability-screen.html)
+-   $295 - Cyrex Array 2 Intestinal Antigenic Permeability Screen (drlepine.com)
+-   $465 - Array 2 Intestinal Antigenic Permeability Screen (thedr.com)

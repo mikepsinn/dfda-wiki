@@ -130,9 +130,9 @@ The drawbacks of using hospital discharge data are:
 1.  Difficult to Work With â€“  The hospital discharge data is extremely denormalized and requires a lot of work to make it analyzable.
 2.  Based on Changing Diagnostic Criteria â€“ There are subjective biases in the hospital discharge data.  It is common that hospital admission routines change without any change of prevalence of a disorder.
 
-### Institute for Health Metrics and Evaluation Global Health Data Exchange (GHDx"))
+### Institute for Health Metrics and Evaluation Global Health Data Exchange (GHDx)
 
-The Institute for Health Metrics and Evaluationâ€˜s Global Health Data Exchange (GHDx)") is the world's most comprehensive catalog of surveys, censuses, vital statistics, and other health-related data.
+The Institute for Health Metrics and Evaluation's Global Health Data Exchange (GHDx) is the world's most comprehensive catalog of surveys, censuses, vital statistics, and other health-related data.
 
 Here's an example of using their Global Disease Burden (GBD) Compare tool_Compare_tool&action=edit&redlink=1 "Global Disease Burden (GBD) Compare tool (page does not exist)") to examine the disability-adjusted life years (DALYs)&action=edit&redlink=1 "Disability-adjusted life years (DALYs) (page does not exist)") lost due to Alzheimer's and Depression over time:
 

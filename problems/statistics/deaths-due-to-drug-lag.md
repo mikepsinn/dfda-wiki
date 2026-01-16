@@ -17,4 +17,4 @@ FDA delays in approving new drugs and treatments that are already available in o
 
 ## Sources
 * [FDA Review - Drug Lag Analysis](https://www.fdareview.org/features/references/#gieringer85)
-* [Tufts Center for the Study of Drug Development](http://csdd.tufts.edu/databases)
+* Tufts Center for the Study of Drug Development

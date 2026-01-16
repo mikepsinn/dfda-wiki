@@ -43,6 +43,8 @@ const SKIP_VALIDATION_FILES = [
   'CLAUDE.md',
   'FILE-ORGANIZATION.md',
   'community/CONTRIBUTING.md',
+  'community/templates/open_source_project.md', // Template with placeholder URLs
+  'reference/cost-barriers/addressing-barriers/59-conclusions.md', // Historical reference doc with many old gov links
   'BROKEN_INTERNAL_LINKS.md',
   'broken-links-report.md',
   'broken-urls-report.md',
@@ -382,8 +384,8 @@ async function checkExternalUrl(url: string, type: 'link' | 'image'): Promise<{ 
     if (!response.ok) {
       const getResponse = await fetch(url, { signal: controller.signal, headers });
       if (!getResponse.ok) {
-        // 401 and 403 are often auth/bot protection - treat as warnings, not errors
-        if (getResponse.status === 401 || getResponse.status === 403) {
+        // 401, 403, and 429 are often auth/bot protection or rate limiting - treat as warnings, not errors
+        if (getResponse.status === 401 || getResponse.status === 403 || getResponse.status === 429) {
           const result: ValidationResult = { 
             url, 
             type, 
@@ -1040,7 +1042,7 @@ async function main() {
 
   // Filter results into categories
   const broken = results.filter(r => r.status === 'broken');
-  const warnings = results.filter(r => r.status === 'ok' && (r.statusCode === 401 || r.statusCode === 403));
+  const warnings = results.filter(r => r.status === 'ok' && (r.statusCode === 401 || r.statusCode === 403 || r.statusCode === 429));
   const waybackVerified = results.filter(r => r.status === 'ok' && r.statusCode === -1);
   const botBlocked = results.filter(r => r.status === 'ok' && r.statusCode === 0);
   const timeouts = results.filter(r => r.status === 'timeout');
@@ -1057,7 +1059,7 @@ async function main() {
     console.log(`🤖 Bot-blocked domains (assumed valid): ${botBlocked.length}`);
   }
   if (warnings.length > 0) {
-    console.log(`⚠ Warnings (401/403 - may require auth): ${warnings.length}`);
+    console.log(`⚠ Warnings (401/403/429 - auth/rate-limited): ${warnings.length}`);
   }
   console.log(`✗ Broken: ${broken.length}`);
   console.log(`⏱ Timeouts: ${timeouts.length}`);

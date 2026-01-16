@@ -75,7 +75,7 @@ Adopting a global, decentralized, autonomous clinical trial platform inspired by
 
 3. **Patient Enrollment**
    > "Became the world's largest clinical trial for COVID-19 treatments, with over 40,000 participants across 185 trial sites in the UK" - [UKRI Impact Report](https://www.ukri.org/who-we-are/how-we-are-doing/research-outcomes-and-impact/mrc/recovery-trial-identifies-covid-19-treatments/)
-   > "Between 23 April 2020 and 25 January 2021, 4,116 adults were included in the assessment of tocilizumab alone" - [Rxivist](https://rxivist.org/papers/129041)
+   > "Between 23 April 2020 and 25 January 2021, 4,116 adults were included in the assessment of tocilizumab alone" - Rxivist
 
 4. **Cost Efficiency**
    The actual cost of £2.1M (~$2.7M) for the entire trial represents an even more dramatic efficiency than previously estimated. While a simple division yields approximately £43 (~$55) per patient, authoritative sources cite ~$500 per patient as a more realistic figure ([Manhattan Institute](https://manhattan.institute/article/slow-costly-clinical-trials-drag-down-biomedical-breakthroughs)). This is nearly 80 times more cost-efficient than traditional clinical trials ([NCBI](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7295430/): $41,000 per patient). This extraordinary cost-effectiveness, combined with the rapid delivery of results (three major findings within 100 days) and estimated global impact of over 1 million lives saved, demonstrates the revolutionary nature of the RECOVERY trial model.
