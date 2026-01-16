@@ -16,11 +16,11 @@ dateCreated: '2025-02-12T16:53:18.950Z'
 
 Optimitron is an AI agent that lives in your PersonalFDA node that uses causal inference to estimate how various factors affect your health.
 
-![data-import-and-analysis.gif](../../../img/data-import-and-analysis.gif)
+![data-import-and-analysis.gif](./data-import.md)
 
 Optimitron is an AI assistant that asks you about your symptoms and potential factors. Then she applies pharmacokinetic predictive analysis to inform you of the most important things you can do to minimize symptom severity.
 
-[![Click Here for Demo Video](../../../img/optimitron-ai-assistant.png)](https://youtu.be/hd50A74o8YI)
+[](https://youtu.be/hd50A74o8YI)
 
 [Or Try the Prototype Here](https://demo.curedao.org/app/public/#/app/chat)
 

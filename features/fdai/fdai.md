@@ -17,7 +17,7 @@ featuredImage: black-box-model-animation2.gif
 
 ## The cost savings from automating clinical research could make the next part of that chart look like this
 
-![](/img/cost-clinical-research-with-automation-pointer-1024x740.jpg)
+
 
 # How it Works
 
@@ -59,7 +59,7 @@ Patients should be able to easily record any symptom severities, foods, treatmen
 
 Patients should be able to use web and mobile notifications with action buttons can be used to track symptoms and factors in a fraction of a second.
 
-![](../../img/web-notification-curcumin-300x253.jpg)
+
 
 ### _2\. Automated Data_
 
@@ -79,7 +79,7 @@ Just because you took a drug and got better, it doesn't mean that's really why y
   
 So, our FDAi must apply Hill's 6 Criteria for Causality to infer if something causes a symptom to worsen or improve instead of just seeing what correlates with the change.
 
-![](../../img/causal-inference-2-1.jpg)
+
 
 ##### Personal
 
@@ -87,13 +87,13 @@ So, our FDAi must apply Hill's 6 Criteria for Causality to infer if something ca
 
 For instance, when gluten-sensitive people eat delicious gluten, it usually takes about a 2-day onset delay before they start having symptoms. Then, when they stop eating it, there's usually a 10-day duration of action before their gut heals and their symptoms improve.
 
-![](../../img/gluten-study.jpg)
+
 
 ##### Onset Delays
 
 One example of causal inference involves applying forward and reverse lagging of the depression and exercise data. The result suggests a causal relationship based on the temporal precedence of physical activity.
 
-![](../../img/onset-delay-970x1024.jpg)
+
 
 ##### _Discovering_
 
@@ -101,13 +101,13 @@ One example of causal inference involves applying forward and reverse lagging of
 
 ###### The FDAi should also compare the outcome over various durations following the exposure to see if there is a long-term cumulative effect or if it's just a short-term acute effect. Acute effects are probably obvious already. This analysis suggests that the mood benefits of regular exercise may continue to accumulate after at least a month of above-average exercise
 
-![](../../img/duration-of-action-1024x1024.jpg)
+![](../../act.md)
 
 ## Real-Time Decision Support
 
 This data will then make it possible to provide real time decision support to tell us the most important we can do at any given time to treat or prevent disease.
 
-![](../../img/real-time-decision-support-notifications-personalized-app-image.jpg)
+
 
 ### 3\. _Effortless Trial_
 
@@ -167,4 +167,4 @@ should allow anyone to look up their condition and see how different foods, drug
 
 should be available for all foods and drugs that tell us precisely how they'll affect us instead of just how much Riboflavin is in them.
 
-![](../../img/outcome-labels-no-bg.jpg)
+![](../outcome-labels.md)

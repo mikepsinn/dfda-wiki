@@ -83,7 +83,7 @@ Appointments are transparent, criteria-based, and revocable; all appointees sign
 - Automated-by-default. Human roles act as emergency custodians with explicit sunset/hand-off to contracts.
 - Each institute uses a one-page charter and auto-generated OKRs/dashboards from oracles; no quarterly reports.
 - Cross-cutting institutes provide shared services (standards, safety, ethics, treasury, AI) as APIs/contracts.
-- Strict legal separation for elections/advocacy operations: US Super PAC and international equivalents run as distinct entities with technical, financial, and personnel firewalls per [Legal Compliance Framework](../legal-compliance-framework.md).
+- Strict legal separation for elections/advocacy operations: US Super PAC and international equivalents run as distinct entities with technical, financial, and personnel firewalls per Legal Compliance Framework.
 
 ## Success metrics
 
@@ -91,7 +91,7 @@ Appointments are transparent, criteria-based, and revocable; all appointees sign
 - Security & Audit: incident detection time, false-positive rate, remediation time; published audits cadence
 - Capital Markets: committed capital, cost of capital, on-time coupon/principal payouts, coverage ratio
 - Growth & Referrals: verified votes, K-factor, CPA in VOTE points, partner conversions
-- Peace Dividend Analytics: calculator usage, methodology transparency, alignment to [Peace Dividend Model](../../economic-models/peace-dividend-value-capture.md)
+- Peace Dividend Analytics: calculator usage, methodology transparency, alignment to Peace Dividend Model
 
 
 ## Decentralization and automation blueprint
@@ -102,7 +102,7 @@ Appointments are transparent, criteria-based, and revocable; all appointees sign
 - Tokenless-first governance (reputation/credentials), merge-to-earn bounties, public proposals with on-chain execution
 - Interop standards: HL7 FHIR/OMOP, DID/VC, EIP-712, IPFS/Arweave
 
-See [DIH On-Chain and AI Architecture](../../architecture/dih-onchain-architecture.md) for technical details and [Incentives Layer](../incentives-layer.md) for social/economic incentives.
+See DIH On-Chain and AI Architecture for technical details and Incentives Layer for social/economic incentives.
 
 
 

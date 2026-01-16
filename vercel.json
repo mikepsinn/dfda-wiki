@@ -2,30 +2,671 @@
   "buildCommand": "npm run build",
   "outputDirectory": "_site",
   "redirects": [
-    { "source": "/en/docs/:path*", "destination": "/reference/:path*", "permanent": true },
-    { "source": "/en/:path*", "destination": "/:path*", "permanent": true },
-    { "source": "/:path*.md", "destination": "/:path*/", "permanent": true },
-    { "source": "/wiki/:path*", "destination": "/:path*", "permanent": true }
+    {
+      "source": "/en/docs/:path*",
+      "destination": "/reference/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/en/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*.md",
+      "destination": "/:path*/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Zonulin_Tests",
+      "destination": "/reference/zonulin-tests/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Zonulin",
+      "destination": "/reference/zonulin/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/We_the_People_petitioning_system_",
+      "destination": "/reference/we-the-people-petitioning-system/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/WellCare",
+      "destination": "/reference/well-care/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Wellbeing_Adjusted_Life_Years",
+      "destination": "/reference/wellbeing-adjusted-life-years/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/venture-capital",
+      "destination": "/features/venture-capital/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Utilitropic",
+      "destination": "/reference/utilitropic/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/United_Healthcare",
+      "destination": "/reference/united-healthcare/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Tyramine_Avoidance_Diet",
+      "destination": "/reference/tyramine-avoidance-diet/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Tranylcypromine_Parnate_",
+      "destination": "/interventions/tranylcypromine-parnate/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Tourniquets",
+      "destination": "/reference/tourniquets/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Tests_to_Diagnose_Alzheimer_s_Disease",
+      "destination": "/conditions/tests-to-diagnose-alzheimer-s-disease/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Techniques_for_Dealing_With_Negative_Thoughts_and_Emotions",
+      "destination": "/reference/techniques-for-dealing-with-negative-thoughts-and-emotions/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Stuff_That_Works",
+      "destination": "/reference/stuff-that-works/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Standardized_Clinical_Trial_Outcome_Measures",
+      "destination": "/reference/standardized-clinical-trial-outcome-measures/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Research_Chemicals",
+      "destination": "/reference/research-chemicals/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Relative_Risk_RR_",
+      "destination": "/reference/relative-risk-rr/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Relative_Nutritional_Deficiency",
+      "destination": "/reference/relative-nutritional-deficiency/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Relationship_between_depression_and_chronic_periodontitis",
+      "destination": "/reference/relationship-between-depression-and-chronic-periodontitis/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Quantified_Self_Data_Aggregators",
+      "destination": "/reference/quantified-self-data-aggregators/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/quantified-self-aggregators",
+      "destination": "/reference/quantified-self-aggregators/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Public_Money_Public_Code_Initiative",
+      "destination": "/reference/public-money-public-code-initiative/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Pregnenolone",
+      "destination": "/reference/pregnenolone/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Predictors_of_Dementia",
+      "destination": "/conditions/predictors-of-dementia/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/PrecisionFDA",
+      "destination": "/reference/precision-fda/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Posthumous_Health_Data_Donation_by_Default",
+      "destination": "/reference/posthumous-health-data-donation-by-default/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Phenelzine_Nardil_versus_Tranylcypromine_Parnate",
+      "destination": "/interventions/phenelzine-nardil-versus-tranylcypromine-parnate/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/PEA",
+      "destination": "/interventions/pea/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Parnate",
+      "destination": "/interventions/parnate/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Organic_Small_Molecules_Database_GDB_17",
+      "destination": "/reference/organic-small-molecules-database-gdb-17/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/optimization",
+      "destination": "/reference/optimization/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Open_Source_Food_Projects",
+      "destination": "/reference/open-source-food-projects/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Open_Humans",
+      "destination": "/clinical-trials/open-humans/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Open_Food_Facts",
+      "destination": "/community/partners/open-food-facts/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Open_Epidemiology_Initiative",
+      "destination": "/reference/open-epidemiology-initiative/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Open_Cures",
+      "destination": "/reference/open-cures/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Omada_Insights_Lab",
+      "destination": "/community/partners/omada-insights-lab/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Nutrition_for_Precision_Health",
+      "destination": "/clinical-trials/nutrition-for-precision-health/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Nonprofit_Fiscal_Sponsors",
+      "destination": "/community/partners/nonprofit-fiscal-sponsors/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Neuroinflammation",
+      "destination": "/conditions/neuroinflammation/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Monoamine_transporter_optimization",
+      "destination": "/reference/monoamine-transporter-optimization/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Monoamine_oxidase_inhibitors_MAOIs",
+      "destination": "/reference-databases/monoamine-oxidase-inhibitors-maois/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Million_Friends",
+      "destination": "/community/partners/million-friends/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Microbiome_Optimization_Initiative",
+      "destination": "/clinical-trials/microbiome-optimization-initiative/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Medical_Ethics",
+      "destination": "/reference/medical-ethics/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Measuring_Cognitive_Performance",
+      "destination": "/reference/measuring-cognitive-performance/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/MAO_B",
+      "destination": "/reference-databases/mao-b/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/MAO_A",
+      "destination": "/reference-databases/mao-a/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Main_Page",
+      "destination": "/reference/main-page/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/L_Tyrosine",
+      "destination": "/reference/l-tyrosine/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/LongeCity",
+      "destination": "/community/partners/longe-city/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Lipopolysaccharides_LPS",
+      "destination": "/reference/lipopolysaccharides-lps/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/links",
+      "destination": "/reference/links/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Leaky_Gut_Tests",
+      "destination": "/conditions/leaky-gut-tests/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Larazotide_Acetate",
+      "destination": "/interventions/larazotide-acetate/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Ketamine",
+      "destination": "/interventions/ketamine/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Kaiser_Permanente",
+      "destination": "/community/partners/kaiser-permanente/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Journal_of_Citizen_Science",
+      "destination": "/reference/journal-of-citizen-science/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Joint_Venture_Structures",
+      "destination": "/community/partners/joint-venture-structures/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Joe_Cohen",
+      "destination": "/reference/joe-cohen/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/ISRIB_(Integrated_Stress_Response_Inhibitor)",
+      "destination": "/interventions/isrib-integrated-stress-response-inhibitor/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Intraosseous",
+      "destination": "/reference/intraosseous/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/International_Biobank_Health_Data_Sharing",
+      "destination": "/reference/international-biobank-health-data-sharing/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/intellectual-property",
+      "destination": "/reference/intellectual-property/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/IC50",
+      "destination": "/reference-databases/ic50/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Humana",
+      "destination": "/community/partners/humana/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/homomorphic-encryption",
+      "destination": "/features/homomorphic-encryption/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Heart_Rate_Variability_HRV",
+      "destination": "/reference-databases/heart-rate-variability-hrv/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Health_Care_Service_Corporation_HCSC",
+      "destination": "/community/partners/health-care-service-corporation-hcsc/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/health-scores",
+      "destination": "/reference/health-scores/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Habit_Dash",
+      "destination": "/features/habit-dash/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Grant_Proposal_Template",
+      "destination": "/economic-models/grant-proposal-template/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Grant_Opportunities",
+      "destination": "/economic-models/grant-opportunities/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/GNU_Health",
+      "destination": "/features/gnu-health/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Glyphosate",
+      "destination": "/reference/glyphosate/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/federated-learning",
+      "destination": "/features/federated-learning/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/FDA_Mandate_Initiative",
+      "destination": "/reference/fda-mandate-initiative/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Dopaminergic_Repair_Stack",
+      "destination": "/reference/dopaminergic-repair-stack/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Diseases_Associated_with_Intestinal_Permeability",
+      "destination": "/conditions/diseases-associated-with-intestinal-permeability/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Dimethyl_sulfoxide_DMSO_",
+      "destination": "/interventions/dimethyl-sulfoxide-dmso/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Differentiation_Between_a_Supplement_and_a_Drug",
+      "destination": "/reference/differentiation-between-a-supplement-and-a-drug/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/development",
+      "destination": "/features/development/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Dementia_Society_of_America",
+      "destination": "/conditions/dementia-society-of-america/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/decentralized-autonomous-organization",
+      "destination": "/community/partners/decentralized-autonomous-organization/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Crowdsourcing_Cures_Platform",
+      "destination": "/reference/crowdsourcing-cures-platform/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Crowdsourcing_Cures_App",
+      "destination": "/reference/crowdsourcing-cures-app/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Crowdsourced_Research_Projects",
+      "destination": "/clinical-trials/crowdsourced-research-projects/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Clinical_Discoveries_from_Real_World_Evidence",
+      "destination": "/reference/clinical-discoveries-from-real-world-evidence/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Cigna",
+      "destination": "/community/partners/cigna/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Centene",
+      "destination": "/community/partners/centene/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Bromantane",
+      "destination": "/interventions/bromantane/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/BPC_157",
+      "destination": "/reference/bpc-157/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Blood_Pressure",
+      "destination": "/reference-databases/blood-pressure/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Blood_Glucose_Tracking",
+      "destination": "/reference-databases/blood-glucose-tracking/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Blood_Brain_Barrier",
+      "destination": "/reference/blood-brain-barrier/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Benefits_of_Exercise",
+      "destination": "/reference/benefits-of-exercise/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Bastian_Greshake_Tzovaras",
+      "destination": "/reference/bastian-greshake-tzovaras/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Automatic_Pill_Dispensers",
+      "destination": "/reference/automatic-pill-dispensers/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Attention_Deficit_Disorder_ADD",
+      "destination": "/conditions/attention-deficit-disorder-add/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Application_Programming_Interface_API",
+      "destination": "/features/application-programming-interface-api/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Antidepressant_Reviews",
+      "destination": "/reference/antidepressant-reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Anthem",
+      "destination": "/community/partners/anthem/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Anhedonia",
+      "destination": "/conditions/anhedonia/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Alzheimer_s_Project",
+      "destination": "/conditions/alzheimer-s-project/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/All_of_Us_Research_Program_Research_Workbench",
+      "destination": "/clinical-trials/all-of-us-research-program-research-workbench/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/All_of_Us_Research_Program",
+      "destination": "/clinical-trials/all-of-us-research-program/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Aetna",
+      "destination": "/community/partners/aetna/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Adderall",
+      "destination": "/interventions/adderall/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/Adaptive_Platform_for_Personalized_Engagement",
+      "destination": "/reference/adaptive-platform-for-personalized-engagement/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/9_Me_BC_(9_Methyl_carboline)",
+      "destination": "/interventions/9-me-bc-9-methyl-carboline/",
+      "permanent": true
+    },
+    {
+      "source": "/interventions/faah-out-mutation",
+      "destination": "/interventions/faah-out-mutation/",
+      "permanent": true
+    },
+    {
+      "source": "/features/optomitron-real-time-notifications-plugin",
+      "destination": "/features/optomitron-real-time-notifications-plugin/",
+      "permanent": true
+    },
+    {
+      "source": "/data-standards/data-types-and-quantities",
+      "destination": "/data-standards/data-types-and-quantities/",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/long-covid",
+      "destination": "/conditions/long-covid/",
+      "permanent": true
+    },
+    {
+      "source": "/community/open-source",
+      "destination": "/community/open-source/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/open-source/open-health-standards",
+      "destination": "/wiki/open-source/open-health-standards/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/interventions/ISRIB",
+      "destination": "/wiki/interventions/isrib/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/interventions/dmt",
+      "destination": "/wiki/interventions/dmt/",
+      "permanent": true
+    },
+    {
+      "source": "/strategy/1-percent-treaty/military-spending",
+      "destination": "/strategy/1-percent-treaty/military-spending/",
+      "permanent": true
+    },
+    {
+      "source": "/community/daos/vita-dao",
+      "destination": "/community/daos/vita-dao/",
+      "permanent": true
+    },
+    {
+      "source": "/assets/diagrams/platform-diagram",
+      "destination": "/assets/diagrams/platform-diagram/",
+      "permanent": true
+    },
+    {
+      "source": "/features/analytics/models/analytical-model-and-property-descriptions",
+      "destination": "/features/analytics/models/analytical-model-and-property-descriptions/",
+      "permanent": true
+    }
   ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "X-XSS-Protection", "value": "1; mode=block" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
       ]
     },
     {
       "source": "/assets/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/_pagefind/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=3600" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
       ]
     }
   ]

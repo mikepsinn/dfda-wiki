@@ -143,7 +143,8 @@ permalink: "/${urlPath}/"
     content += `## Sections\n\n`;
     subdirs.forEach(subdir => {
       const subdirTitle = createTitle(subdir);
-      content += `- [${subdirTitle}](./${subdir}/)\n`;
+      // Use absolute paths to avoid relative path resolution issues
+      content += `- [${subdirTitle}](/${urlPath}/${subdir}/)\n`;
     });
     content += `\n`;
   }
@@ -155,7 +156,8 @@ permalink: "/${urlPath}/"
       const filePath = path.join(dirPath, file);
       const fileTitle = getTitleFromFile(filePath);
       const fileBasename = path.basename(file, '.md');
-      content += `- [${fileTitle}](./${fileBasename}/)\n`;
+      // Use absolute paths to avoid relative path resolution issues
+      content += `- [${fileTitle}](/${urlPath}/${fileBasename}/)\n`;
     });
     content += `\n`;
   }

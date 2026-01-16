@@ -357,8 +357,8 @@ module.exports = function(eleventyConfig) {
 
           // Handle relative paths (./ or ../)
           if (linkPath.startsWith('./') || linkPath.startsWith('../')) {
-            // Markdown files become subdirectories (foo.md -> foo/index.html)
-            // So we need to go up one extra level to account for this
+            // For regular .md files that become subdirectories (foo.md -> foo/index.html)
+            // we need to go up one extra level to account for this
             // e.g., ../benefits in reference/historical.md (which becomes reference/historical/index.html)
             // should resolve to /benefits, not /reference/benefits
             const adjustedPath = '../' + linkPath;
@@ -382,8 +382,15 @@ module.exports = function(eleventyConfig) {
             if (topLevelDirs.includes(firstSegment)) {
               // Treat as absolute path from root
               finalPath = '/' + linkPath;
+            } else if (!linkPath.includes('/')) {
+              // Bare filename (no path separators) - treat as sibling file
+              // Since current file becomes a directory (foo.md -> foo/index.html),
+              // we need to go up one level to find sibling files
+              // e.g., "cost-of-war" in strategy/1-percent-treaty/opportunity-cost/index.html
+              // should resolve to ../cost-of-war -> /strategy/1-percent-treaty/cost-of-war
+              finalPath = path.posix.join(outputDir || '/', '..', linkPath);
             } else {
-              // Treat as relative to current directory
+              // Path with subdirectories - treat as relative to current directory
               finalPath = path.posix.join(outputDir || '/', linkPath);
             }
           }

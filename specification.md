@@ -1,7 +1,7 @@
 ---
 title: Platform Technical Specification
 description: Detailed engineering specifications for the dFDA core platform implementation.
-published: false
+published: true
 date: 2025-07-26T14:00:00.000Z
 tags: features, platform, specification, engineering
 editor: markdown
@@ -13,9 +13,9 @@ dateCreated: 2025-07-26T14:00:00.000Z
 **Status:** Draft / Elaboration Complete (Illustrative)
 **Version:** 0.3.0
 
-> **Document Purpose:** This document provides detailed technical specifications for implementation. It is the engineering counterpart to the high-level conceptual overview found in the **[Platform Architecture document](/architecture.md)**.
+> **Document Purpose:** This document provides detailed technical specifications for implementation. It is the engineering counterpart to the high-level conceptual overview found in the **[Platform Architecture document](./architecture.md)**.
 
-This document provides detailed technical specifications for the implementation of the core platform, aligning with the architecture and enabling functionalities discussed in related documents like [data-import.md](/features/data-import.md), [data-silo-api-gateways.md](/features/data-silo-api-gateways.md), and drawing inspiration from efficiency models like [recovery-trial.md](/reference/recovery-trial.md). It is intended for engineers, developers, and technical teams.
+This document provides detailed technical specifications for the implementation of the core platform, aligning with the architecture and enabling functionalities discussed in related documents like [data-import.md](./features/data-import.md), [data-silo-api-gateways.md](./features/data-silo-api-gateways.md), and drawing inspiration from efficiency models like [recovery-trial.md](./reference/recovery-trial.md). It is intended for engineers, developers, and technical teams.
 
 **Note on Implementation Strategy:** The primary implementation strategy is to **fund and integrate existing, best-in-class open-source solutions** through a public prize and grant program, rather than building the entire platform from the ground up. The specific technologies listed in this document are therefore **illustrative candidates** that meet the architectural requirements. They serve as a reference blueprint for evaluating potential open-source projects for integration.
 

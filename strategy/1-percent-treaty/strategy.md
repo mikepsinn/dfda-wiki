@@ -15,9 +15,9 @@ doc_type: strategy
 
 # Roadmap
 
-> Note: The canonical high-level plan is maintained here: [Canonical Roadmap — 1% Treaty → DIH → dFDA](../roadmap.md). This page is an older, DAO-focused roadmap retained for historical context and tactical details.
+> Note: The canonical high-level plan is maintained here: [Canonical Roadmap — 1% Treaty → DIH → dFDA](../../features/dfda-roadmap.md). This page is an older, DAO-focused roadmap retained for historical context and tactical details.
 
-For the end‑to‑end plan, see the [Canonical Roadmap — 1% Treaty → DIH → dFDA](../roadmap.md).
+For the end‑to‑end plan, see the [Canonical Roadmap — 1% Treaty → DIH → dFDA](../../features/dfda-roadmap.md).
 
 So, roughly the process would be:
 👉 $1M to initially create the DAO
@@ -26,7 +26,7 @@ So, roughly the process would be:
 👉 $20B/year funding
 👉 If necessary, pay back initial contributors, with 0.5% of the $20B
 👉 260X Faster Medical Progress and 1% Less War
-👉 [$179T](1-percent-treaty.md) Equivalent Economic Value of Less War and Disease
+👉 [$179T](/strategy/1-percent-treaty/) Equivalent Economic Value of Less War and Disease
 
 Here is a list of GitHub issues with added labels, milestones, and estimated costs:
 

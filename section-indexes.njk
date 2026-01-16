@@ -11,68 +11,184 @@ sections:
   - key: features
     title: Features
     description: Platform capabilities and technical features
+    icon: "⚙️"
+    gradient: "from-blue-500 to-cyan-500"
   - key: benefits
     title: Benefits
     description: Advantages and positive outcomes
+    icon: "✨"
+    gradient: "from-green-500 to-emerald-500"
   - key: problems
     title: Problems
     description: Issues the platform addresses
+    icon: "🔍"
+    gradient: "from-red-500 to-orange-500"
   - key: strategy
     title: Strategy
     description: Strategic planning and implementation
+    icon: "🎯"
+    gradient: "from-purple-500 to-pink-500"
   - key: regulatory
     title: Regulatory
     description: Legal and regulatory frameworks
+    icon: "⚖️"
+    gradient: "from-slate-500 to-gray-600"
   - key: reference
     title: Reference
     description: Reference materials and citations
+    icon: "📚"
+    gradient: "from-amber-500 to-yellow-500"
   - key: economic-models
     title: Economic Models
     description: Financial models and projections
+    icon: "📊"
+    gradient: "from-teal-500 to-cyan-600"
   - key: community
     title: Community
     description: Community resources and partnerships
+    icon: "🤝"
+    gradient: "from-indigo-500 to-purple-500"
   - key: clinical-trials
     title: Clinical Trials
     description: Trial methodologies and protocols
+    icon: "🔬"
+    gradient: "from-sky-500 to-blue-600"
   - key: careers
     title: Careers
     description: Job opportunities and roles
+    icon: "💼"
+    gradient: "from-violet-500 to-purple-600"
   - key: proposals
     title: Proposals
     description: Project proposals and initiatives
+    icon: "📝"
+    gradient: "from-rose-500 to-pink-600"
   - key: interventions
     title: Interventions
     description: Medical interventions and treatments
+    icon: "💊"
+    gradient: "from-emerald-500 to-green-600"
   - key: conditions
     title: Conditions
     description: Health conditions and diseases
+    icon: "🩺"
+    gradient: "from-red-400 to-rose-500"
   - key: reference-databases
     title: Reference Databases
     description: Data sources and database references
+    icon: "🗄️"
+    gradient: "from-zinc-500 to-slate-600"
 ---
 
-<div class="max-w-4xl mx-auto px-4 py-8">
-  <h1 class="text-3xl font-bold mb-4">{{ section.title }}</h1>
-  {% if section.description %}
-  <p class="text-gray-600 mb-8">{{ section.description }}</p>
-  {% endif %}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  {# Section Header #}
+  <div class="text-center mb-12">
+    <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br {{ section.gradient }} mb-4 text-3xl shadow-lg">
+      {{ section.icon }}
+    </div>
+    <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-4 font-serif">{{ section.title }}</h1>
+    {% if section.description %}
+    <p class="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">{{ section.description }}</p>
+    {% endif %}
+  </div>
 
   {% set pages = collections[section.key] %}
   {% if pages and pages.length > 0 %}
-  <ul class="space-y-4">
+
+  {# Stats Bar #}
+  <div class="flex justify-center mb-8">
+    <div class="inline-flex items-center px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm text-gray-600 dark:text-gray-400">
+      <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+      </svg>
+      {{ pages.length }} {{ "page" if pages.length == 1 else "pages" }}
+    </div>
+  </div>
+
+  {# Card Grid #}
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
     {% for page in pages | sortByTitle %}
-    <li class="border-b border-gray-200 pb-4 last:border-0">
-      <a href="{{ page.url }}" class="text-xl text-blue-600 hover:text-blue-800 font-medium hover:underline">
-        {{ page.data.title or page.fileSlug | replace('-', ' ') | title }}
-      </a>
-      {% if page.data.description %}
-      <p class="text-gray-600 mt-1 text-sm">{{ page.data.description }}</p>
-      {% endif %}
-    </li>
+    <a href="{{ page.url }}" class="group block">
+      <article class="h-full bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-gray-300 dark:hover:border-gray-600 hover:-translate-y-1">
+
+        {# Card Image/Placeholder #}
+        <div class="relative h-40 overflow-hidden">
+          {% set cardImage = page.data.image or page.data.og_image or page.data.thumbnail or (page.data.metadata.media.ogImage if page.data.metadata and page.data.metadata.media) or (page.data.metadata.media.thumbnail if page.data.metadata and page.data.metadata.media) %}
+          {% if cardImage %}
+            {# Use actual image if available #}
+            <img
+              src="{{ cardImage }}"
+              alt="{{ page.data.title }}"
+              class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+              loading="lazy"
+            >
+          {% else %}
+            {# Gradient placeholder with icon #}
+            <div class="w-full h-full bg-gradient-to-br {{ section.gradient }} flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+              <span class="text-5xl opacity-30 transform transition-transform duration-300 group-hover:scale-110">{{ section.icon }}</span>
+            </div>
+          {% endif %}
+
+          {# Overlay gradient for text readability #}
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+        </div>
+
+        {# Card Content #}
+        <div class="p-5">
+          <h2 class="text-lg font-semibold text-gray-900 dark:text-white mb-2 line-clamp-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+            {{ page.data.title or page.fileSlug | replace('-', ' ') | title }}
+          </h2>
+
+          {% if page.data.description %}
+          <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-3">
+            {{ page.data.description }}
+          </p>
+          {% else %}
+          <p class="text-sm text-gray-400 dark:text-gray-500 italic">
+            No description available
+          </p>
+          {% endif %}
+
+          {# Tags if available #}
+          {% if page.data.tags and page.data.tags.length > 0 %}
+          <div class="mt-3 flex flex-wrap gap-1">
+            {% for tag in page.data.tags | limit(3) %}
+            {% if tag and tag != '' %}
+            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400">
+              {{ tag }}
+            </span>
+            {% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+
+        {# Card Footer #}
+        <div class="px-5 pb-4">
+          <div class="flex items-center text-sm text-blue-600 dark:text-blue-400 font-medium group-hover:text-blue-700 dark:group-hover:text-blue-300">
+            Read more
+            <svg class="w-4 h-4 ml-1 transform transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </div>
+        </div>
+      </article>
+    </a>
     {% endfor %}
-  </ul>
+  </div>
+
   {% else %}
-  <p class="text-gray-500 italic">No pages in this section yet.</p>
+  {# Empty State #}
+  <div class="text-center py-16">
+    <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 dark:bg-gray-800 mb-6">
+      <svg class="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+      </svg>
+    </div>
+    <h3 class="text-lg font-medium text-gray-900 dark:text-white mb-2">No pages yet</h3>
+    <p class="text-gray-500 dark:text-gray-400 max-w-sm mx-auto">
+      This section is empty. Check back later for content about {{ section.title | lower }}.
+    </p>
+  </div>
   {% endif %}
 </div>

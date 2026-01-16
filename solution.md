@@ -31,7 +31,7 @@ One way to achieve this is to view the human body as a black box with inputs and
 * [Pharmacomicrobiomic](https://en.wikipedia.org/wiki/Pharmacomicrobiomics)
 * [Pharmacogenomic](https://en.wikipedia.org/wiki/Pharmacogenomics)
 * [Foodomic](https://en.wikipedia.org/wiki/Foodomics)
-* [Exposome](https://en.wikipedia.org/wiki/Environmental_factor#Exposome)
+* [Exposome](https://en.wikipedia.org/wiki/Environmental_factor#exposome)
 
 This will enable the discovery of the full personalized range of positive and negative relationships for all factors without a profit incentive for traditional trials.
 

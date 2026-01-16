@@ -23,7 +23,7 @@ dateCreated: '2022-07-22T19:04:25.725Z'
 * [Report suggests drug-approval rate now just 1-in-10](https://www.amplion.com/report-suggests-drug-approval-rate-now-just-1-in-10/)
 * [How many people die and how many are born each year?](https://ourworldindata.org/births-and-deaths)
 * [Gross World Product per capita](https://ourworldindata.org/grapher/gdp-per-capita-worldbank)
-* [History of Clinical Trials](https://en.wikipedia.org/wiki/Clinical_trial#History)
+* [History of Clinical Trials](https://en.wikipedia.org/wiki/Clinical_trial#history)
 * [How many life-years have new drugs saved?](https://academic.oup.com/inthealth/article/11/5/403/5420236)
 * [CATO](https://www.cato.org/publications/commentary/end-fda-drug-monopoly-let-patients-choose-their-medicines)
 * [Medical Innovation Value](https://www.nber.org/papers/w21768)
@@ -32,7 +32,7 @@ dateCreated: '2022-07-22T19:04:25.725Z'
 * [Do Off-Label Drug Practices Argue Against FDA Efficacy Requirements?](https://www.cato.org/commentary/do-off-label-drug-practices-argue-against-fda-efficacy-requirements)
 * [Reform Options](https://www.fdareview.org/issues/reform-options/)
 * [Before Occupy: How AIDS Activists Seized Control of the FDA in 1988](https://www.theatlantic.com/health/archive/2011/12/before-occupy-how-aids-activists-seized-control-of-the-fda-in-1988/249302/)
-* [A Brief History of the Center for Drug Evaluation and Research](https://www.fda.gov/about-fda/virtual-exhibits-fda-history/brief-history-center-drug-evaluation-and-research#display_58)
+* [A Brief History of the Center for Drug Evaluation and Research](https://www.fda.gov/about-fda/virtual-exhibits-fda-history/brief-history-center-drug-evaluation-and-research#display-58)
 * [Milestones in U.S. Food and Drug Law History](https://www.fda.gov/about-fda/fdas-evolving-regulatory-powers/milestones-us-food-and-drug-law-history)
 * https://go.drugbank.com/stats
 

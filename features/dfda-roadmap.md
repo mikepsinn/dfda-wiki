@@ -15,7 +15,7 @@ doc_type: spec
 
 # dFDA Platform Technical Roadmap
 
-This document provides the detailed technical implementation plan for the decentralized FDA (dFDA) platform. It is a component of the higher-level strategic plan detailed in the [Canonical Roadmap](../strategy/roadmap.md), which covers the political and financial strategy for funding the DIH and, subsequently, this technical build.
+This document provides the detailed technical implementation plan for the decentralized FDA (dFDA) platform. It is a component of the higher-level strategic plan detailed in the [1% Treaty](/strategy/1-percent-treaty/), which covers the political and financial strategy for funding the DIH and, subsequently, this technical build.
 
 Below is an **absurdly comprehensive, highly-detailed, hierarchical to-do list** for launching a global decentralized trial system with **AI coordination**, robust **patient rights** (trial participation, importation), and **universal data-sharing standards**. The goal is to move as **quickly and cheaply** as possible, though some tasks inevitably require large investments. Time and cost estimates are **approximate** and can vary widely based on execution, political climate, and scope. Recommended organizations and experts are **illustrative** suggestions based on known capabilities.
 

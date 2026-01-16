@@ -199,7 +199,7 @@ Join our newsletter to receive updates on clinical trials, research breakthrough
 
 We'll keep you informed about the latest developments in decentralized clinical research.
 
-[Subscribe](https://www.dfda.earth/#Stay-Up-To-Date!)
+[Subscribe](https://www.dfda.earth/#stay-up-to-date!)
 
 - [dFDA](https://www.dfda.earth/)
 - [Studies](https://studies.dfda.earth/)

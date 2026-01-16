@@ -58,7 +58,7 @@ aliases: [../features/old-roadmap.md]
 ## Canonical content rules
 
 - One canonical file per topic_id. Others must set canonical: false and link to the canonical.
-- Use a hatnote at the top of non‑canonical files: “For the current version, see [canonical‑title](./relative/path.md).”
+- Use a hatnote at the top of non‑canonical files: `For the current version, see [canonical‑title](/path/to/canonical/).`
 - Use summary style: overviews should link to main articles, not duplicate them.
 
 ## Deduplication & merging

@@ -1,0 +1,36 @@
+---
+title: Cigna
+description: 
+published: true
+date: '2022-08-20T18:42:50.640Z'
+tags: 
+editor: markdown
+dateCreated: '2022-07-27T20:36:03.458Z'
+---
+
+# Cigna
+
+A global health service company that offers health, pharmacy, dental, supplemental insurance, and Medicare plans to individuals, families, and businesses.
+
+## How to Download and Share Your Data
+
+[https://developer.cigna.com/try-api](https://developer.cigna.com/try-api)
+
+The Consumer Access API is used to build applications that enable Cigna customers to easily access their claims and encounter information, including cost, as well as a defined sub-set of their clinical information. This is a RESTful API that conforms to the FHIR standard and provides access to Cigna customer data.
+
+Since your application will have access to an individual's personal health data, this API requires that your application be registered with Cigna. Once registered, the Cigna API uses authorization and authentication protocols (based on the OAuth 2.0 specification and the OpenID Connect Core 1.0 standard for securing connections, which are also described in the SMART App Launch framework specification) and you will receive credentials that are used to generate a JSON Web Token (JWT) to tie the Cigna customer and the scope of information that can be accessed.
+
+This API allows you to help Cigna customers by making claims and health encounter information easily accessible. By creating an application utilizing the Consumer Access API, you can enable Cigna customers to do the following:
+
+-   Access information about coverage.
+-   Retrieve claim status information, along with clinical and lab results associated with that claim.
+-   View the explanation of benefits associated with a claim.
+-   Review immunization records.
+-   See a list of currently prescribed medications, along with past prescriptions.
+-   Review observation notes from a medical visit.
+
+> Note: This API conforms to the CARIN for Blue Button® Framework and Common Payer Consumer Data Set (CPCDS) standard for patient claim and encounter data, and the U.S. Core Data for Interoperability standard for clinical data, based on the FHIR version 4 specification.
+
+## Number of Customers
+
+180 Million Customers

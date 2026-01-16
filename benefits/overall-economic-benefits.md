@@ -21,8 +21,8 @@ tags: >-
 [4. QALY Valuation](#4-valuing-those-qalys)  
 [5. Drug Price Reductions](#5-reduced-drug-prices)  
 [6. Niche Therapies](#6-more-therapies-for-smaller-markets)  
-[7. Summary Table](#7-annual-benefits-summary)  
-[8. References](#8-references)
+[7. Summary Table](#annual-benefits-summary)  
+[8. References](#references)
 
 Below is a consolidated, quantitative analysis of global benefits from a universal shift to:
 

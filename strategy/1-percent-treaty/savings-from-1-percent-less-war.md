@@ -36,4 +36,4 @@ Given the initial annual cost of war (see [cost of war](cost-of-war.md)) is appr
 
 By reducing the annual cost of war by a modest 1% annually over the course of 80 years, the global community could save $179 trillion, translating to almost $23,000 in savings per person.
 
-For the treaty that proposes this reallocation, see the [1% Treaty](1-percent-treaty.md).
+For the treaty that proposes this reallocation, see the [1% Treaty](/strategy/1-percent-treaty/).

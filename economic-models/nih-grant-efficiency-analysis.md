@@ -34,11 +34,11 @@ The National Institutes of Health (NIH) annual budget of [$51 billion](https://w
    - Cost burden ultimately falls on patients
 
 3. **Delayed Access to Treatments**
-   - [120,000 Deaths/Decade](ttps://www.fdareview.org/features/references/#gieringer85) due to regulatory delays
+   - [120,000 Deaths/Decade](https://www.fdareview.org/features/references/#gieringer85) due to regulatory delays
    - [17 years](https://pmc.ncbi.nlm.nih.gov/articles/PMC3241518/) average time from discovery to patient access
 
 4. **Limited Disease Coverage**
-   - [95% of diseases](ttps://ncats.nih.gov/sites/default/files/NCATS_RareDiseasesFactSheet.pdf) have no FDA-approved treatments
+   - [95% of diseases](https://ncats.nih.gov/sites/default/files/NCATS_RareDiseasesFactSheet.pdf) have no FDA-approved treatments
    - [166 billion](https://www.nature.com/articles/549445a) potential treatments remain untested
 
 ## QALY Impact Analysis

@@ -9,7 +9,7 @@ dateCreated: 2023-11-07T19:01:19.907Z
 fontawesomeIcon: fa-layer-group
 ---
 
-> **Document Purpose:** This document describes the high-level architecture and conceptual framework of the platform. It explains the "what" and "why" behind the system's design. For detailed engineering choices, specific technologies, and API specifications, please refer to the **[Platform Technical Specification](/specification.md)**.
+> **Document Purpose:** This document describes the high-level architecture and conceptual framework of the platform. It explains the "what" and "why" behind the system's design. For detailed engineering choices, specific technologies, and API specifications, please refer to the **[Platform Technical Specification](./specification.md)**.
 
 ### Functional Scope
 
@@ -94,30 +94,30 @@ Separate plugins will enable spreadsheet upload/import and scheduled imports fro
 
 #### EHR Policies
 
-* [CMS Interoperability and Patient Access Final Rule](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#CMS-Interoperability-and-Patient-Access-Final-Rule)
-* [CMS Interoperability and Prior Authorization Proposed Rule](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#CMS-Interoperability-and-Prior-Authorization-Proposed-Rule)
-* [Guidance for States](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Guidance-for-States)
-* [Best Practices for Payers and App Developers](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Best-Practices-for-Payers-and-App-Developers)
-* [Patient Privacy and Security Resources](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Patient-Privacy-and-Security-Resources)
+* [CMS Interoperability and Patient Access Final Rule](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#cms-interoperability-and-patient-access-final-rule)
+* [CMS Interoperability and Prior Authorization Proposed Rule](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#cms-interoperability-and-prior-authorization-proposed-rule)
+* [Guidance for States](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#guidance-for-states)
+* [Best Practices for Payers and App Developers](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#best-practices-for-payers-and-app-developers)
+* [Patient Privacy and Security Resources](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#patient-privacy-and-security-resources)
 
 #### EHR Technical Standards
 
-* [FHIR](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#FHIR)
-* [SMART/OAUTH 2](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#SMART/OAUTH)
-* [Open ID Connect](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Open-ID-Connect)
-* [United States Core Data for Interoperability (USCDI)](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#United-States-Core-Data)
+* [FHIR](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#fhir)
+* [SMART/OAUTH 2](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#smart/oauth)
+* [Open ID Connect](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#open-id-connect)
+* [United States Core Data for Interoperability (USCDI)](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#united-states-core-data)
 
 #### Implementation Support for EHR APIs
 
 | **API Name**                                  | **Supporting IGs**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Patient Access API                            | [_The CARIN Consumer Directed Payer Data Exchange IG (also referred to as the CARIN IG for Blue Button®)_](http://hl7.org/fhir/us/carin-bb/history.html) [HL7 FHIR Da Vinci PDex IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Da\_Vinci)[_HL7 US Core IG_](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#US\_Core) [HL7 FHIR Da Vinci - PDex US Drug Formulary IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#FHIR\_API) |
+| Patient Access API                            | [_The CARIN Consumer Directed Payer Data Exchange IG (also referred to as the CARIN IG for Blue Button®)_](http://hl7.org/fhir/us/carin-bb/history.html) [HL7 FHIR Da Vinci PDex IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#da\-vinci)[_HL7 US Core IG_](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#us\-core) [HL7 FHIR Da Vinci - PDex US Drug Formulary IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#fhir\-api) |
 | Provider Access API                           | \* See Above IGs for Patient Access API                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Payer-to-Payer API                            | \* See Above IGs for Patient Access API                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Provider Directory API                        | \*[HL7 FHIR Da Vinci PDex Plan Net IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#P\_Directory)                                                                                                                                                                                                                                                                                                                                                                                             |
-| Documentation Requirements Lookup Service API | [_HL7 FHIR Da Vinci - Coverage Requirements Discovery (CRD) IG_](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Coverage\_Discovery) [HL7 FHIR Da Vinci - Documentation Templates and Rules (DTR) IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Coverage\_Discovery)                                                                                                                                                                                         |
-| Prior Authorization Support (PAS) API         | \*[HL7 FHIR Da Vinci - PAS IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#PA\_PAS)                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Bulk Data                                     | \*[HL7 FHIR Bulk Data Access(Flat FHIR) Specification](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Bulk\_Data)                                                                                                                                                                                                                                                                                                                                                                               |
+| Provider Directory API                        | \*[HL7 FHIR Da Vinci PDex Plan Net IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#p\-directory)                                                                                                                                                                                                                                                                                                                                                                                             |
+| Documentation Requirements Lookup Service API | [_HL7 FHIR Da Vinci - Coverage Requirements Discovery (CRD) IG_](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#coverage\-discovery) [HL7 FHIR Da Vinci - Documentation Templates and Rules (DTR) IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#coverage\-discovery)                                                                                                                                                                                         |
+| Prior Authorization Support (PAS) API         | \*[HL7 FHIR Da Vinci - PAS IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#pa\-pas)                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Bulk Data                                     | \*[HL7 FHIR Bulk Data Access(Flat FHIR) Specification](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#bulk\-data)                                                                                                                                                                                                                                                                                                                                                                               |
 
 #### 3.1.2 Raw Data and Files Storage
 
@@ -243,11 +243,11 @@ Tasks of data visualization plugins:
 
 **Example Data Presentation Plugins**
 
-* [Outcome Labels](/features/outcome-labels-plugin.md)
-* [Predictor Search Engines](/features/predictor-search-engine.md)
-* [Root Cause Analysis Reports](/features/root-cause-analysis-plugin.md)
-* [Observational Studies](/features/observational-studies.md)
-* [Real-Time Decision Support Notifications](/features/optomitron-ai-agent.md)
+* [Outcome Labels](./features/outcome-labels-plugin.md)
+* [Predictor Search Engines](./features/predictor-search-engine.md)
+* [Root Cause Analysis Reports](./features/root-cause-analysis-plugin.md)
+* [Observational Studies](./features/observational-studies.md)
+* [Real-Time Decision Support Notifications](./features/optomitron-ai-agent.md)
 
 #### 3.2.3 Application Programming Interface (API) Connector Plugins
 

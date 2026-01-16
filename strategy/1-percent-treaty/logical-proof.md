@@ -27,14 +27,14 @@ Why it is logical for the nations and citizens of the world to sign the 1% Treat
 3. AI technology developed for warfare could lead to catastrophic outcomes like a Skynet scenario.[^2]
 4. People generally prefer resources to be used for medical research over warfare.[^3]
 5. No individual country can unilaterally reallocate war resources to medical research without risking attack from other countries.
-6. Military contractors globally spend between $200 million and $300 million annually on lobbying efforts. (See [lobbying ROI](lobbying.md).)
+6. Military contractors globally spend between $200 million and $300 million annually on lobbying efforts. .
 7. Military contractors globally receive between $800 billion to $1 trillion annually from government contracts.[^5]
 8. The world currently has 13,000 nuclear weapons, enough to cause between 13 and 130 "extinction-level events" when accounting for nuclear winter effects.[^6]
 9. Lobbyists are motivated by financial incentives and will work for the highest bidder.[^7]
 
 ## Propositions:
 
-1. An international treaty where all countries allocate 1% of military budgets to medical research would maintain the balance of power while increasing resources for medical research. (See [1% Treaty details](1-percent-treaty.md).)
+1. An international treaty where all countries allocate 1% of military budgets to medical research would maintain the balance of power while increasing resources for medical research. (See [1% Treaty details](/strategy/1-percent-treaty/).)
 2. Reducing military budgets by 1% and allocating that to medical research would increase net national security by reducing the risk of AI-driven catastrophe.
 3. Using a decentralized crowdfunding platform, such as a blockchain-based system, to allocate medical research funds would be more transparent, efficient, and resistant to corruption compared to centralized government allocation.[^8]
 4. Robust auditing and verification mechanisms, such as satellite monitoring and on-site inspections, can ensure countries comply with the treaty.[^9]

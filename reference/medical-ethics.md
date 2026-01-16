@@ -1,0 +1,15 @@
+---
+title: Medical Ethics
+description: 
+published: true
+date: '2022-08-22T16:38:50.631Z'
+tags: 
+editor: markdown
+dateCreated: '2022-07-27T20:39:33.142Z'
+---
+
+# Medical Ethics
+
+Why is it ethical to let someone die of an excruciatingly painful disease instead of letting them voluntarily test an experimental drug? 
+
+Why is it ethical to involuntary give a monkey an excruciatingly painful disease to involuntarily test an experimental drug?

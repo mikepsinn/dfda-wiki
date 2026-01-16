@@ -16,7 +16,7 @@ While increasing health research funding through any means is valuable, tying it
 
 ## Q: Is a 1% reduction in military budgets really enough to make a difference?
 
-While 1% may seem small, it translates to around $20 billion per year globally - a transformative sum for health research (see [1% Treaty](1-percent-treaty.md)).
+While 1% may seem small, it translates to around $20 billion per year globally - a transformative sum for health research (see [1% Treaty](/strategy/1-percent-treaty/)).
 
 It's also important to remember that this is intended as a starting point, not an end goal. As countries experience the benefits of this reallocation, they may be inspired to go further.
 
@@ -24,7 +24,7 @@ Even a 1% shift sets a crucial precedent and begins to normalize the idea of pri
 
 ## Q: How can we ensure that countries actually follow through on their commitments?
 
-The [1% Treaty](1-percent-treaty.md) should include robust auditing and verification mechanisms to hold countries accountable. This could involve regular reporting, independent inspections, and penalties for non-compliance. Blockchain technology could also create transparent, tamper-proof records of contributions. Ultimately, the treaty's power will come from the collective weight of global norms and diplomatic pressure as much as formal enforcement.
+The [1% Treaty](/strategy/1-percent-treaty/) should include robust auditing and verification mechanisms to hold countries accountable. This could involve regular reporting, independent inspections, and penalties for non-compliance. Blockchain technology could also create transparent, tamper-proof records of contributions. Ultimately, the treaty's power will come from the collective weight of global norms and diplomatic pressure as much as formal enforcement.
 
 ## Q: Won't reducing military strength make countries more vulnerable?
 

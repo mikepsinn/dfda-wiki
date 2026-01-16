@@ -14,7 +14,7 @@ There are over [7,000 known diseases](https://www.washingtonpost.com/news/fact-c
 
 There are as many untested compounds with drug-like properties as there are [atoms in the solar system (166 billion)](https://www.nature.com/articles/549445a).
 
-![](<https://static.crowdsourcingcures.org/dfda/assets/number-of-molecules-with-drug-like-properties.png>)
+![](https://static.crowdsourcingcures.org/dfda/assets/number-of-molecules-with-drug-like-properties.png)
 
 If you multiply the number of molecules with drug-like properties by the number of diseases, that's 1,162,000,000, 000,000 combinations. So far we've studied [only 21,000 compounds](https://www.centerwatch.com/articles/12702-new-mit-study-puts-clinical-research-success-rate-at-14-percent).
 

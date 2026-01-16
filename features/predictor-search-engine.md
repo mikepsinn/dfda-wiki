@@ -36,7 +36,7 @@ The search engine is available in a variety of layout settings.
 
 ### Study Cards in Ionic App
 
-[Study Cards in Ionic App Demo](https://web.quantimo.do/dev/src/ionic/src/index.html#/app/predictors/Overall%20Mood)
+[Study Cards in Ionic App Demo](https://web.quantimo.do/dev/src/ionic/src/index.html#/app/predictors/overall-mood)
 
 ![Study Cards in Ionic App](https://static.crowdsourcingcures.org/dfda/components/predictor-search-engine/overall-mood-predictors.png)
 

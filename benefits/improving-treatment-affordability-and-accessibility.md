@@ -34,7 +34,7 @@ Based on economic modeling of the proposed dFDA system, the price reduction effe
 
 > Source: [Global prescription drug spending](https://www.statista.com/statistics/280572/medicine-spending-worldwide/) is approximately $1.4 trillion annually, with 60-80% on brand/patented products.
 
-For a complete analysis of potential drug price reductions, see [Lower Drug Prices](/benefits/lower-drug-prices.md) and the comprehensive [dFDA Cost-Benefit Analysis](/economic-models/dfda-cost-benefit-analysis.md).
+For a complete analysis of potential drug price reductions, see [Lower Drug Prices](./lower-drug-prices.md) and the comprehensive [dFDA Cost-Benefit Analysis](../economic-models/dfda-cost-benefit-analysis.md).
 
 ### 2. Earlier Access to Treatments (7 Years Sooner)
 
@@ -46,7 +46,7 @@ Under the proposed system, patients would gain access to potentially life-saving
 
 This acceleration would not only save lives but would reduce the financial burden of managing diseases while waiting for better treatments to become available.
 
-For detailed analysis of projected time-to-treatment benefits, see the [Time to Treatment](/benefits/time-to-treatment.md) document.
+For detailed analysis of projected time-to-treatment benefits, see the [Time to Treatment](./time-to-treatment.md) document.
 
 ### 3. Shift Toward Cures vs. Lifetime Symptom Management
 
@@ -56,7 +56,7 @@ The traditional pharmaceutical economic model favors ongoing symptom management 
 - **Proposed dFDA Solution**: Lower development costs would make one-time cures economically viable
 - **Potential Patient Benefit**: Avoiding lifetime medication costs for chronic conditions
 
-For more on this critical economic shift, read [More Cures and Less Lifelong Attempts at Masking Symptoms](/benefits/more-cures-and-less-lifelong-attempts-at-masking-symptoms.md).
+For more on this critical economic shift, read [More Cures and Less Lifelong Attempts at Masking Symptoms](./more-cures-and-less-lifelong-attempts-at-masking-symptoms.md).
 
 ## Key Accessibility Improvements
 
@@ -74,7 +74,7 @@ The proposed dFDA's decentralized approach would enable:
 - **Removal of Location Barriers**: No need to live near research centers
 - **Global Inclusion**: Participants from diverse geographic regions
 
-For comprehensive discussion on potential patient participation improvements, see [Patient Participation](/benefits/patient-participation.md).
+For comprehensive discussion on potential patient participation improvements, see [Patient Participation](./patient-participation.md).
 
 ### 2. Treatments for Smaller Patient Populations
 
@@ -84,7 +84,7 @@ When trials would cost approximately 5% of current levels:
 - **Patient-Led Research**: Nonprofit and patient groups could fund research for ultra-rare conditions
 - **Market Expansion**: Expected 10-20% increase in approvals for previously underserved conditions
 
-The full analysis of projected cost savings that would enable these improvements is available in [Lower Costs](/benefits/lower-costs.md) and [Cost Savings from Decentralized Clinical Trials](/benefits/cost-savings-from-decentralized-clinical-trials.md).
+The full analysis of projected cost savings that would enable these improvements is available in [Lower Costs](./lower-costs.md) and [Cost Savings from Decentralized Clinical Trials](./cost-savings-from-decentralized-clinical-trials.md).
 
 ### 3. More Personalized Treatment Matching
 
@@ -104,7 +104,7 @@ The proposed dFDA system's global data network would enable:
 | Treatments for Underserved Markets | $10B+ | Access to previously unavailable therapies |
 | **Total Projected Annual Benefit** | **$1.37T** | **Transformative improvement in care access and affordability** |
 
-For the complete economic model with detailed calculations of these projections, see [Overall Economic Benefits](/benefits/overall-economic-benefits.md).
+For the complete economic model with detailed calculations of these projections, see [Overall Economic Benefits](./overall-economic-benefits.md).
 
 ## Potential Real-World Patient Scenarios
 
@@ -137,4 +137,4 @@ The proposed dFDA system would address both the affordability and accessibility 
 
 These combined effects would represent a paradigm shift in patient access to treatments, with annual economic benefits potentially exceeding $1 trillion globally while dramatically improving health outcomes and quality of life for patients worldwide.
 
-For the most comprehensive economic analysis of the entire proposed dFDA system, refer to the detailed [dFDA Cost-Benefit Analysis](/economic-models/dfda-cost-benefit-analysis.md).
+For the most comprehensive economic analysis of the entire proposed dFDA system, refer to the detailed [dFDA Cost-Benefit Analysis](../economic-models/dfda-cost-benefit-analysis.md).

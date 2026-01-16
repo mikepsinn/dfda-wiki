@@ -42,13 +42,13 @@ Beyond patient subsidies, the DIH Treasury is responsible for the growth and mai
 
 ## Funding Model: VICTORY Bonds for the War on Disease
 
-To raise its initial and ongoing capital, the DIH will issue **VICTORY Bonds**, an instrument modeled directly on the War Bonds of World War II. See tokenomics details in [VICTORY Bonds](./victory-bonds-tokenomics.md).
+To raise its initial and ongoing capital, the DIH will issue **VICTORY Bonds**, an instrument modeled directly on the War Bonds of World War II. See tokenomics details in VICTORY Bonds.
 
 Just as citizens once invested in their nation's victory in wartime, they can now invest directly in the victory over humanity's oldest enemies: cancer, Alzheimer's, heart disease, and thousands of other afflictions. Selling these bonds allows the DIH to raise a substantial treasury upfront, enabling it to immediately begin funding subsidies and development without waiting for treaty contributions to accumulate.
 
 ## Repayment & Sustainability: The 1% Treaty
 
-The financial model is made sustainable through the **[1% Treaty](1-percent-treaty.md)**. The capital contributions made by signatory nations who pledge 1% of their military budgets are used to repay the VICTORY Bond holders over time, with interest.
+The financial model is made sustainable through the **[1% Treaty](/strategy/1-percent-treaty/)**. The capital contributions made by signatory nations who pledge 1% of their military budgets are used to repay the VICTORY Bond holders over time, with interest.
 
 This creates a virtuous cycle:
 1.  Citizens and institutions buy VICTORY Bonds, funding the war on disease.
@@ -58,7 +58,7 @@ This creates a virtuous cycle:
 
 ## Governance: Automated-by-default, DAO as emergency override
 
-Subsidy allocation and most treasury functions execute via smart contracts with verifiable inputs (oracles) and transparent rules. Stakeholders participate through credentialed, timeboxed signaling; on-chain executors apply changes automatically. A narrowly scoped, time-limited DAO acts as an emergency override with public justification and automatic sunset. For custody and controls, see [DIH Treasury Architecture](../../features/treasury/dih-treasury-architecture.md).
+Subsidy allocation and most treasury functions execute via smart contracts with verifiable inputs (oracles) and transparent rules. Stakeholders participate through credentialed, timeboxed signaling; on-chain executors apply changes automatically. A narrowly scoped, time-limited DAO acts as an emergency override with public justification and automatic sunset. For custody and controls, see DIH Treasury Architecture.
 
 ## DIH Governance and Value Flow: A Coalition of Coalitions
 
@@ -92,10 +92,10 @@ This structure is the ultimate incentive for non-profits to make passing the 1% 
 The message is simple: **Stop applying for grants and become the grant-makers.** By joining the coalition, non-profits are not just supporting a cause; they are earning their seat at the table to govern the future of health funding in their field.
 
 ## Risks and Realism
-The DIH model's success relies on treaty adoption and inflows. For a full discussion of risks, repayment, and contingencies, see [Victory Bond Investment Thesis](../../economic-models/victory-bond-investment-thesis.md#10-assessing-realism-risks-repayment-timeline-and-contingencies).
+The DIH model's success relies on treaty adoption and inflows. For a full discussion of risks, repayment, and contingencies, see Victory Bond Investment Thesis.
 
 ## Organizational Structure
 
 The DIH is expanding into a comprehensive ecosystem that mirrors the NIH structure while offering decentralized governance,  titles, and community-specific focus areas. This expansion serves as a strategic recruitment tool for the 1% Treaty referendum effort.
 
-For the complete organizational structure, including all sub-agencies,  titles, and implementation roadmap, see [DIH Organizational Structure](dih-organizational-structure.md).
+For the complete organizational structure, including all sub-agencies,  titles, and implementation roadmap, see [DIH Organizational Structure](dih-org-structure.md).

@@ -27,4 +27,4 @@ The reallocation could yield measurable benefits:
 - **Accelerated Medical Breakthroughs**: Enhanced funding for medical research could shorten the timeline for critical breakthroughs in treatment and prevention, potentially saving millions of lives.
 - **Economic Impact**: Healthier populations contribute more effectively to economies, reducing healthcare costs and increasing productivity.
 
-For the treaty that proposes this reallocation, see the [1% Treaty](1-percent-treaty.md).
+For the treaty that proposes this reallocation, see the [1% Treaty](/strategy/1-percent-treaty/).

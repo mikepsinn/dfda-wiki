@@ -48,7 +48,7 @@ Nonprofits can play a powerful role in advancing the 1% Treaty while staying wit
 - **Host Educational Events on Decentralized Institutes of Health (DIH)**
   - Organize webinars or panels explaining how DIH works, its global cooperation model, and the benefits of redirecting military spending to health research ([see DIH details](decentralized-institutes-of-health.md)).
 - **Publish Case Studies and Infographics**
-  - Create and share visual explainers on the impact of the 1% Treaty, the scale of military vs. health spending, and the potential of decentralized science ([see 1% Treaty](1-percent-treaty.md)).
+  - Create and share visual explainers on the impact of the 1% Treaty, the scale of military vs. health spending, and the potential of decentralized science ([see 1% Treaty](/strategy/1-percent-treaty/)).
 - **Share DAO Creation Insights**
   - Educate your audience about what a DAO is, how it can fund global health research, and the cost breakdown for launching such an initiative ([see DAO cost breakdown](cost-to-create-a-dao.md)).
 - **Promote Open Calls for Research Proposals**
@@ -56,7 +56,7 @@ Nonprofits can play a powerful role in advancing the 1% Treaty while staying wit
 - **Facilitate Community Discussions**
   - Hold listening sessions or roundtables to gather input on priorities for DIH funding and share these insights publicly (not as policy recommendations).
 - **Support Referral-Rewards Campaigns (Education Only)**
-  - Explain how referral-rewards systems can help mobilize public support for health research and policy change, using historical examples and cost-effectiveness data ([see referral-rewards system](../referral-rewards-system.md)).
+  - Explain how referral-rewards systems can help mobilize public support for health research and policy change, using historical examples and cost-effectiveness data (the referral-rewards system).
   - Share best practices for ethical, transparent digital advocacy without urging action on specific legislation.
 - **Highlight Success Stories**
   - Feature stories of decentralized research breakthroughs, successful DAOs, or viral public health campaigns to inspire and inform.
@@ -69,9 +69,9 @@ Nonprofits can play a powerful role in advancing the 1% Treaty while staying wit
 
 > For more on these topics, see:
 > - [Decentralized Institutes of Health](decentralized-institutes-of-health.md)
-> - [The 1% Treaty](1-percent-treaty.md)
+> - [The 1% Treaty](/strategy/1-percent-treaty/)
 > - [Cost to Create a DAO](cost-to-create-a-dao.md)
-> - [Referral Rewards System](../referral-rewards-system.md)
+> - Referral Rewards System
 
 ---
 

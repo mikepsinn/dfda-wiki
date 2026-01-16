@@ -50,17 +50,17 @@ If you are a developer interested in contributing to the project, here are some 
 
 As this folder grows, a table of contents will be maintained here to help you navigate to various documents and resources.
 
-- [Coding Standards](coding_standards.md)
-- [Data Handling Protocols](data_handling_protocols.md)
-- [Project Collaboration Guidelines](project_collaboration_guidelines.md)
-- [List of Active Projects](active_projects.md)
+- Coding Standards
+- Data Handling Protocols
+- Project Collaboration Guidelines
+- [List of Active Projects](../../act.md)
 
 ## Templates
 
 For standardizing submissions, please use the following templates:
 
 - [Project Proposal Template](../templates/project_proposal.md)
-- [Developer Introduction Template](../templates/developer_introduction.md)
+- Developer Introduction Template
 
 These templates are designed to help maintain consistency and clarity across contributions.
 

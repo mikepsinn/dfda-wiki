@@ -126,7 +126,7 @@ doc_type: strategy | spec | regulatory | model | ops | reference
 ```
 
 ### Linking
-- Use page-relative paths: `[Link](./file.md)` or `[Link](../folder/file.md)`
+- Use page-relative paths: `[Link](./features/human-file-system-protocol.md)` or `[Link](./features/human-file-system-protocol.md)`
 - Never use bare URLs or backticked paths for navigation
 - Link to sections with anchors: `[Section](./file.md#heading-slug)`
 
