@@ -1,0 +1,124 @@
+---
+layout: base.njk
+---
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  <!-- Breadcrumbs -->
+  {% set crumbs = page.url | breadcrumbs %}
+  {% if crumbs.length > 0 %}
+  <nav class="mb-6" aria-label="Breadcrumb">
+    <ol class="flex items-center space-x-2 text-sm text-gray-500">
+      <li>
+        <a href="/" class="hover:text-primary-600 transition-colors">Home</a>
+      </li>
+      {% for crumb in crumbs %}
+      <li class="flex items-center">
+        <svg class="w-4 h-4 mx-1 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+        </svg>
+        {% if crumb.url %}
+        <a href="{{ crumb.url }}" class="hover:text-primary-600 transition-colors">{{ crumb.title }}</a>
+        {% else %}
+        <span class="text-gray-900 font-medium">{{ crumb.title }}</span>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </nav>
+  {% endif %}
+
+  <!-- Page Header -->
+  <header class="mb-8">
+    {% if emoji %}
+    <span class="text-4xl mb-2 block">{{ emoji }}</span>
+    {% endif %}
+
+    <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+      {{ title or "Untitled" }}
+    </h1>
+
+    {% if description %}
+    <p class="text-lg text-gray-600 mb-4">{{ description }}</p>
+    {% endif %}
+  </header>
+
+  <!-- Optional content before cards -->
+  {% if content | trim %}
+  <div class="prose prose-lg max-w-none mb-8">
+    {{ content | safe }}
+  </div>
+  {% endif %}
+
+  <!-- Auto-generated card grid from folder contents -->
+  {% set currentUrl = page.url | replace("/index", "") %}
+  {% set childPages = [] %}
+
+  {% for item in collections.all %}
+    {% if item.url and item.url != page.url %}
+      {% set itemUrl = item.url %}
+      {# Check if item URL starts with current folder URL and is a direct child #}
+      {% if itemUrl.startsWith(currentUrl) and itemUrl != currentUrl %}
+        {% set relativePath = itemUrl.replace(currentUrl, "") %}
+        {% set slashCount = relativePath.split("/").length - 1 %}
+        {# Only include direct children (one level deep, ends with /) #}
+        {% if slashCount <= 1 and relativePath != "" and item.data.title %}
+          {% set childPages = (childPages.push(item), childPages) %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% if childPages.length > 0 %}
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {% for item in childPages | sort(false, false, 'data.title') %}
+    <a href="{{ item.url }}" class="group block bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md hover:border-primary-300 transition-all duration-200">
+
+      {# OG Image or placeholder #}
+      {% set cardImage = item.data.ogImage or item.data.image or item.data.featuredImage or item.data.og_image %}
+      {% if cardImage %}
+      <div class="aspect-video bg-gray-100 overflow-hidden">
+        <img
+          src="{{ cardImage }}"
+          alt="{{ item.data.title }}"
+          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
+          loading="lazy"
+        >
+      </div>
+      {% else %}
+      <div class="aspect-video bg-gradient-to-br from-primary-100 to-accent-100 flex items-center justify-center">
+        {% if item.data.emoji %}
+        <span class="text-5xl">{{ item.data.emoji }}</span>
+        {% else %}
+        <svg class="w-12 h-12 text-primary-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+        </svg>
+        {% endif %}
+      </div>
+      {% endif %}
+
+      <div class="p-4">
+        <h3 class="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors mb-2">
+          {{ item.data.title }}
+        </h3>
+
+        {% if item.data.description %}
+        <p class="text-sm text-gray-600 line-clamp-2">{{ item.data.description }}</p>
+        {% endif %}
+
+        {% if item.data.tags %}
+        <div class="mt-3 flex flex-wrap gap-1">
+          {% set tagList = item.data.tags.split(',') if item.data.tags is string else item.data.tags %}
+          {% for tag in tagList | slice(0, 3) %}
+          <span class="px-2 py-0.5 bg-gray-100 text-gray-500 rounded text-xs">{{ tag | trim }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="text-gray-500 text-center py-12">No pages found in this section yet.</p>
+  {% endif %}
+
+</div>

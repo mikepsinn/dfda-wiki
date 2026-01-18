@@ -1,14 +1,9 @@
 ---
 title: "Analytics"
-description: "Index of analytics resources"
+description: "Data analytics and insights capabilities for health research"
 published: true
 date: '2026-01-15T23:52:27.456Z'
-permalink: "/features/analytics/"
+layout: section-index.njk
+permalink: /features/analytics/
+emoji: "\U0001F4CA"
 ---
-
-# Analytics
-
-## Pages
-
-- [Causal Inference Analysis](./causal-inference-analysis.md)
-

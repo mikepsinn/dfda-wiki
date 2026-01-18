@@ -1,31 +1,29 @@
 # Link Validation Report
 
-Generated: 2026-01-16T17:15:44.184Z
+Generated: 2026-01-17T05:10:38.098Z
 
 **Script:** `scripts/validate-links-and-images.ts`
 
 ## Summary
 
-- **Total links/images checked:** 2988
-- ✅ **OK:** 2623
+- **Total links/images checked:** 2983
+- ✅ **OK:** 2618
 - ⚠️ **Warnings (401/403):** 202
-- ❌ **Broken:** 0
-- ⏱️ **Timeouts:** 3
-- ⚠️ **Errors (not in archive.org):** 5
+- ❌ **Broken:** 1
+- ⏱️ **Timeouts:** 1
+- ⚠️ **Errors (not in archive.org):** 3
+
+## Broken Links/Images
+
+### interventions\dimethyl-sulfoxide-dmso.md
+
+- [ ] **LINK** [https://core.ac.uk/download/pdf/38907515.pdf](https://core.ac.uk/download/pdf/38907515.pdf) - Status: 404 (line 120)
 
 ## Timeout URLs
-
-### reference-databases\monoamine-oxidase-inhibitors-maois.md
-
-- [ ] **LINK** [https://psychotropical.com](https://psychotropical.com) (line 392)
 
 ### reference\automatic-pill-dispensers.md
 
 - [ ] **LINK** [https://www.lifeline.philips.com/business/medicationdispensing](https://www.lifeline.philips.com/business/medicationdispensing) (line 94)
-
-### interventions\dimethyl-sulfoxide-dmso.md
-
-- [ ] **LINK** [https://core.ac.uk/download/pdf/38907515.pdf](https://core.ac.uk/download/pdf/38907515.pdf) (line 120)
 
 ## Warning URLs (401/403 - May require authentication)
 
@@ -450,14 +448,6 @@ Generated: 2026-01-16T17:15:44.184Z
 ### community\open-source.md
 
 - [ ] **LINK** [https://opensourcetimeline.com/](https://opensourcetimeline.com/) - Error: fetch failed (line 5)
-
-### community\nonprofits\open-source-pharma-foundation.md
-
-- [ ] **LINK** [https://www.osdd.net/](https://www.osdd.net/) - Error: fetch failed (line 47)
-
-### community\nonprofits\goldwater-institute.md
-
-- [ ] **LINK** [https://righttotry.org/](https://righttotry.org/) - Error: fetch failed (line 47)
 
 ### community\nonprofits\every-cure.md
 
