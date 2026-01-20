@@ -1,15 +1,14 @@
 ---
-title: "Wiki"
-description: "Index of wiki resources"
+title: Wiki
+description: Index of wiki resources
 published: true
 date: '2026-01-15T23:52:27.508Z'
-permalink: "/wiki/"
+permalink: /wiki/
+layout: section-index.njk
 ---
-
 # Wiki
 
 ## Sections
 
 - [Interventions](../interventions/dementia-interventions.md)
 - [Open Source](../community/open-source.md)
-
