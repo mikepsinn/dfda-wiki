@@ -104,7 +104,7 @@ function cleanTitle(title: string | undefined, folderName: string): string {
     .join(' ');
 }
 
-async function convertIndexFile(indexFile: IndexFile, dryRun: boolean = false): Promise<void> {
+async function convertIndexFile(indexFile: IndexFile): Promise<void> {
   const { data, content, path: filePath, relativePath, folderName } = indexFile;
 
   // Update frontmatter
@@ -135,21 +135,11 @@ async function convertIndexFile(indexFile: IndexFile, dryRun: boolean = false): 
   // Generate new file content
   const newContent = matter.stringify(cleanedContent, updatedData);
 
-  if (dryRun) {
-    console.log(`\n📄 Would update: ${relativePath}`);
-    console.log(`   Title: ${updatedData.title}`);
-    console.log(`   Permalink: ${updatedData.permalink}`);
-    if (updatedData.emoji) console.log(`   Emoji: ${updatedData.emoji}`);
-  } else {
-    await fs.promises.writeFile(filePath, newContent, 'utf-8');
-    console.log(`✅ Updated: ${relativePath}`);
-  }
+  await fs.promises.writeFile(filePath, newContent, 'utf-8');
+  console.log(`✅ Updated: ${relativePath}`);
 }
 
 async function main() {
-  const args = process.argv.slice(2);
-  const dryRun = args.includes('--dry-run');
-
   console.log('🔍 Finding index.md files...\n');
   const indexFiles = await findIndexFiles();
 
@@ -160,21 +150,13 @@ async function main() {
 
   console.log(`Found ${indexFiles.length} index file(s) to convert.\n`);
 
-  if (dryRun) {
-    console.log('🔍 DRY RUN - No files will be modified\n');
-  }
-
   for (const indexFile of indexFiles) {
-    await convertIndexFile(indexFile, dryRun);
+    await convertIndexFile(indexFile);
   }
 
   console.log('\n' + '='.repeat(60));
-  console.log(`${dryRun ? 'Would convert' : 'Converted'} ${indexFiles.length} index file(s)`);
+  console.log(`Converted ${indexFiles.length} index file(s)`);
   console.log('='.repeat(60));
-
-  if (dryRun) {
-    console.log('\n💡 Run without --dry-run to apply changes');
-  }
 }
 
 main().catch(err => {
