@@ -16,7 +16,7 @@ There's evidence that the analysis of aggregate observational data can produce t
 
 By analyzing insurance claims from over 100 million people, this recurrent neural network (RNN) discovered that at least 6 drugs were effective at treating coronary artery disease:
 
-[https://neo.life/2021/02/ai-breathes-new-life-into-old-drugs/](https://neo.life/2021/02/ai-breathes-new-life-into-old-drugs/)
+https://neo.life/2021/02/ai-breathes-new-life-into-old-drugs/
 
 The code of the analysis is open source and available here:
 

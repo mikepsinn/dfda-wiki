@@ -13,7 +13,7 @@ dateCreated: '2022-07-22T19:04:25.725Z'
 
 * [Google Spreadsheet of FDA Spending vs Life-Expectancy](https://docs.google.com/spreadsheets/d/e/2PACX-1vTBkVrOYLxloOIADLXA7-k5NBIGgQ_dfFQ7BLUN0oaJPVQ_NqdFdVUfhuPkVWgFZ9gfLrwPdjuG1sTn/pubhtml)
 * [Summary of NDA Approvals & Receipts, 1938 to the present](https://www.fda.gov/about-fda/histories-product-regulation/summary-nda-approvals-receipts-1938-present)
-* [Theory, Evidence, and Examples of FDA Harm](https://www.fdareview.org/issues/theory-evidence-and-examples-of-fda-harm/)
+* [Theory, Evidence, and Examples of FDA Harm](https://web.archive.org/web/2024/https://www.fdareview.org/issues/theory-evidence-and-examples-of-fda-harm/)
 * [DATA](https://docs.google.com/spreadsheets/d/1hltgVd8OO_nfd9m7FUbbsOTXFX4VbDKuFNw4Cy43f7Q/edit#gid=0)
 * [GDP](https://ourworldindata.org/economic-growth)
 * [Reform, Regulation, and Pharmaceuticals — The Kefauver–Harris Amendments at 50](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4101807/)
@@ -30,7 +30,7 @@ dateCreated: '2022-07-22T19:04:25.725Z'
 * [Timeline History of Clinical Research](https://www.timetoast.com/timelines/history-of-clinical-research)
 * [FDA and Clinical Drug Trials: A Short History](https://www.fda.gov/media/110437/download)
 * [Do Off-Label Drug Practices Argue Against FDA Efficacy Requirements?](https://www.cato.org/commentary/do-off-label-drug-practices-argue-against-fda-efficacy-requirements)
-* [Reform Options](https://www.fdareview.org/issues/reform-options/)
+* [Reform Options](https://web.archive.org/web/2024/https://www.fdareview.org/issues/reform-options/)
 * [Before Occupy: How AIDS Activists Seized Control of the FDA in 1988](https://www.theatlantic.com/health/archive/2011/12/before-occupy-how-aids-activists-seized-control-of-the-fda-in-1988/249302/)
 * [A Brief History of the Center for Drug Evaluation and Research](https://www.fda.gov/about-fda/virtual-exhibits-fda-history/brief-history-center-drug-evaluation-and-research#display-58)
 * [Milestones in U.S. Food and Drug Law History](https://www.fda.gov/about-fda/fdas-evolving-regulatory-powers/milestones-us-food-and-drug-law-history)

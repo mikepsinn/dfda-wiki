@@ -106,8 +106,6 @@ A comprehensive literature search of Google Scholar and PubMed revealed no repor
 
 ### Memantine
 
-[https://www.dr-bob.org/babble/20110902/msgs/996139.html](https://www.dr-bob.org/babble/20110902/msgs/996139.html)
-
 Long-term NMDAR antagonism correlates reduced astrocytic glutamate uptake with anxiety-like phenotype
 
 "Our results demonstrated that long-term administration of memantine induces anxiety-like behavior in mice in the light-dark box and elevated plus-maze paradigms. Additionally, the administration of memantine decreased glutamate uptake activity in both the frontoparietal cortex and hippocampus without altering the immunocontent of either GLT-1 or GLAST. Remarkably, the memantine-induced reduction in glutamate uptake was correlated with enhancement of an anxiety-like phenotype. In conclusion, long-term NMDAR antagonism with memantine induces anxiety-like behavior that is associated with reduced glutamate uptake activity but that is not dependent on GLT-1 or GLAST protein expression."
@@ -165,7 +163,7 @@ Parnate appears to significantly improve productivity based on Rescuetime data i
 
 ### Paradoxical hypertension
 
-> It is invaluable to have an ongoing record of [blood pressure](../reference-databases/blood-pressure.md) as described above. This is especially so when episodes of paradoxical hypertension occur, which is sometimes seen (in approximately 5% of cases, in my experience). This paradoxical hypertension (not related to tyramine ingestion) characteristically commences an hour or so after the second dose of the day, especially when the dose is a little higher, and lasts for a couple of hours or so before subsiding spontaneously. Although such episodes do cause concern in some people, especially doctors, they are rarely, if ever, sufficiently high to be problematic. In my experience, they rarely go over 180 to 200 mmHg, and then only briefly (see my comment on this here \[8\]). Again, this phenomenon often dwindles away over time. If treatment is thought to be advisable a beta-blocker like propranolol is appropriate, although it should be noted that propranolol is not suitable for severe hypertension secondary to tyramine ingestion.[Dr Ken Gillman](https://psychotropical.com/author/dr-ken-gillman/)
+> It is invaluable to have an ongoing record of [blood pressure](../reference-databases/blood-pressure.md) as described above. This is especially so when episodes of paradoxical hypertension occur, which is sometimes seen (in approximately 5% of cases, in my experience). This paradoxical hypertension (not related to tyramine ingestion) characteristically commences an hour or so after the second dose of the day, especially when the dose is a little higher, and lasts for a couple of hours or so before subsiding spontaneously. Although such episodes do cause concern in some people, especially doctors, they are rarely, if ever, sufficiently high to be problematic. In my experience, they rarely go over 180 to 200 mmHg, and then only briefly (see my comment on this here \[8\]). Again, this phenomenon often dwindles away over time. If treatment is thought to be advisable a beta-blocker like propranolol is appropriate, although it should be noted that propranolol is not suitable for severe hypertension secondary to tyramine ingestion. -- Dr Ken Gillman
 
 ## Reviews
 
@@ -191,8 +189,6 @@ Parnate received an average **8.8/10** on [Drugs.com](https://www.drugs.com/cond
 2.  However, if after 5 days on 30 mg, the blood pressure drop on standing was less then 10 mmHg, then I would probably proceed to 40 mg, but then allow a full 14 days on 40 mg to judge the effect.
 3.  If BP drop on 30 mg was more than 15 mmHg then I would wait the full 10-14 days to assess the maximal degree of postural hypotension at that dose.
 4.  If that level of postural hypotension was still present at 14 days I would wait a full 4 weeks on that dose to assess the degree of illness improvement.
-
-[https://psychotropical.com/parnate-starting-and-adjusting-dose/](https://psychotropical.com/parnate-starting-and-adjusting-dose/)
 
 ## Mechanism of Action
 

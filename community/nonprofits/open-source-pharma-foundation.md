@@ -52,7 +52,6 @@ The Open Source Pharma Foundation (OSPF) is a global nonprofit organization that
 
 ## Learn More
 
-- [Official Website](https://www.opensourcepharma.net/)
 - [OSDD for TB](https://www.osdd.net/)
 
 *Last updated: May 2025*

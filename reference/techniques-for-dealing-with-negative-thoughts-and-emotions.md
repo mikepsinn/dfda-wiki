@@ -14,7 +14,7 @@ High-level principles for dealing with all sorts of “active” negative though
 
 It's often more helpful to do the steps below in _written_ format. Writing is often more effective than mere thinking or talking.
 
-From: [https://www.wallowinmaya.com/personal](https://www.wallowinmaya.com/personal)
+From: wallowinmaya.com (site no longer available)
 
 ## Contents
 
@@ -77,7 +77,6 @@ Almost all of your copies or, to be more precise, almost all instantiations of y
 
 Another corollary of the multiverse meditation can also be helpful and fill you with hope, at least it does so for me: In some parts of the multiverse, everything will go extremely well, i.e. the future will be downright utopian. Naturally, the reverse corollary is also true. Do your best to not think about this one.
 
-[https://www.wallowinmaya.com/personal/#The\_multiverse\_meditation\_Or\_how\_to\_accept\_everything](https://www.wallowinmaya.com/personal/#the-multiverse-meditation-or-how-to-accept-everything)
 
 ## Life is a game, a losing game
 
@@ -89,8 +88,7 @@ First of all, the player character sucks. In all of my favorite games, you're pl
 
 Second, the game is fundamentally unwinnable in the sense that I can't fully achieve my goals. Take one of my central goals: reducing suffering. Sure, I can contribute to the reduction of suffering in the multiverse. But I can never actually \*end\* suffering. Furthermore, my counterfactual impact is preposterously low. Imagine a game in which you can reduce the final boss' health points by 0.000001% at most, but he will never die. No one would play such a game.
 
-[https://www.wallowinmaya.com/personal/#Life\_is\_a\_game\_a\_losing\_game](https://www.wallowinmaya.com/personal/#life-is-a-game-a-losing-game)
 
 ## Sources
 
-[https://www.wallowinmaya.com/personal/](https://www.wallowinmaya.com/personal/)
+Source: wallowinmaya.com (site no longer available)

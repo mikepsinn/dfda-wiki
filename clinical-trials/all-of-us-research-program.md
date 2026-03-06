@@ -20,7 +20,7 @@ The [Data and Research Center](https://allofus.nih.gov/funding-and-program-partn
 
 ![](https://static.crowdsourcingcures.org/img/300px-Data_Research_Center.png)
 
-## [Core Protocol](https://allofus.nih.gov/sites/default/files/AOU_Core_Protocol_Redacted_Dec_2021.pdf)
+## Core Protocol
 
 ## All of Us Application Programming Interface (API)
 
@@ -53,4 +53,4 @@ There's another All of Us Research Program GitHub organization at [https://githu
 1.  [https://www.heraldchronicle.com/news/business/vanderbilt-plays-major-role-in-nationwide-all-of-us-research-program/article\_fece68b5-2ae0-5f7c-8132-34d0753ddd6c.html](https://www.heraldchronicle.com/news/business/vanderbilt-plays-major-role-in-nationwide-all-of-us-research-program/article_fece68b5-2ae0-5f7c-8132-34d0753ddd6c.html)
 2.  [https://allofus.nih.gov/funding-and-program-partners/data-and-research-center](https://allofus.nih.gov/funding-and-program-partners/data-and-research-center)
 3.  GA4GH All of Us Research Program Presentation (Orlando, Oct 16)
-4.  [https://allofus.nih.gov/sites/default/files/AOU\_Core\_Protocol\_Redacted\_Dec\_2021.pdf](https://allofus.nih.gov/sites/default/files/AOU_Core_Protocol_Redacted_Dec_2021.pdf)
+4.  All of Us Core Protocol (PDF no longer available)

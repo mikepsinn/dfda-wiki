@@ -54,6 +54,5 @@ Every Cure is a nonprofit organization dedicated to accelerating the discovery o
 ## Learn More
 
 - [Official Website](https://everycure.org/)
-- [Every Cure Atlas](https://atlas.everycure.org/)
 
 *Last updated: May 2025*

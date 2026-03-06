@@ -50,4 +50,4 @@ Future functional equivalents of current substances may be made in the future wi
 
 # Sources
 
-[https://hpluspedia.org/index.php?title=Utilitropic&mobileaction=toggle\_view\_desktop](https://hpluspedia.org/index.php?title=Utilitropic&mobileaction=toggle_view_desktop)
+Source: H+Pedia - Utilitropic (hpluspedia.org - link no longer available)

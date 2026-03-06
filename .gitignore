@@ -44,3 +44,5 @@ tmp/response.md
 broken-urls-report.md
 .link-cache.json
 .claude/settings.local.json
+NUL
+_site-ci-test/

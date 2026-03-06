@@ -392,10 +392,10 @@ Woodinville 
 
 Feel free to click Edit and update this list as needed.
 
-[https://nardil.org/view/maoi-doctors/](https://nardil.org/view/maoi-doctors/)
+Source: nardil.org (site no longer available)
 
 ## Sources
 
-1.  [https://nardil.org/view/maoi-doctors/](https://nardil.org/view/maoi-doctors/)
+1.  Source: nardil.org (site no longer available)
 2.  [https://maoinhibitors.com/](https://maoinhibitors.com/)
 3.  [https://psychotropical.com](https://psychotropical.com)

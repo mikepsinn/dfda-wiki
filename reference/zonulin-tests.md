@@ -10,4 +10,4 @@ dateCreated: '2022-07-27T20:43:10.527Z'
 
 # Zonulin Tests
 
-$100 - [https://www.verisana.com/shop/zonulin-test/](https://www.verisana.com/shop/zonulin-test/)
+\$100 - Verisana Zonulin Test (verisana.com - link no longer available)

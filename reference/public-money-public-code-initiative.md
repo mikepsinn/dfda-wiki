@@ -161,7 +161,7 @@ If interested, please contact hello@crowdsourcingcures.org.
 -   [https://securityintelligence.com/posts/open-source-cybersecurity/](https://securityintelligence.com/posts/open-source-cybersecurity/)
 -   [https://us-cert.cisa.gov/ncas/alerts/aa20-302a](https://www.cisa.gov/uscert/ncas/alerts/aa20-302a)
 -   [https://www.srijan.net/blog/open-source-vs-proprietary-software-which-one-is-more-secure](https://www.srijan.net/blog/open-source-vs-proprietary-software-which-one-is-more-secure)
--   [https://www.csiac.org/journal-article/publicly-releasing-open-source-software-developed-for-the-u-s-government/](https://www.csiac.org/journal-article/publicly-releasing-open-source-software-developed-for-the-u-s-government/)
+-   https://www.csiac.org/journal-article/publicly-releasing-open-source-software-developed-for-the-u-s-government/
 -   [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3406002/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3406002/)
 -   [https://www.dhs.gov/sites/default/files/publications/Open%20Source%20Software%20in%20Government%20%E2%80%93%20Challenges%20and%20Opportunities\_Final.pdf](https://www.dhs.gov/sites/default/files/publications/Open%20Source%20Software%20in%20Government%20%E2%80%93%20Challenges%20and%20Opportunities_Final.pdf)
 -   [https://www.linuxjournal.com/content/if-software-funded-public-source-its-code-should-be-open-source](https://www.linuxjournal.com/content/if-software-funded-public-source-its-code-should-be-open-source)
@@ -169,5 +169,5 @@ If interested, please contact hello@crowdsourcingcures.org.
 -   [https://stackoverflow.com/questions/262255/why-isnt-all-government-sponsored-software-open-source/262621](https://stackoverflow.com/questions/262255/why-isnt-all-government-sponsored-software-open-source/262621)
 -   [https://www.quora.com/Why-dont-governments-fund-the-development-of-open-source-software-very-much](https://www.quora.com/Why-dont-governments-fund-the-development-of-open-source-software-very-much)
 -   [https://news.ycombinator.com/item?id=19077913](https://news.ycombinator.com/item?id=19077913)
--   [https://www.cio.gov/2016/08/11/peoples-code.html](https://www.cio.gov/2016/08/11/peoples-code.html)
+-   https://www.cio.gov/2016/08/11/peoples-code.html
 -   [https://exygy.com/blog/open-source-software-in-government-the-intersection-of-two-public-goods/](https://exygy.com/blog/open-source-software-in-government-the-intersection-of-two-public-goods/)

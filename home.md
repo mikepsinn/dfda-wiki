@@ -149,7 +149,7 @@ Securely store and control your health data
 
 See how treatments affect specific health outcomes
 
-<img src="https://wiki.dfda.earth/assets/outcome-labels.PNG" alt="Outcome Labels" style="max-width: 600px; width: 100%;" />
+<img src="/assets/outcome-labels.PNG" alt="Outcome Labels" style="max-width: 600px; width: 100%;" />
 
 ### Automated Data Collection
 
@@ -191,7 +191,6 @@ Look up your condition and see how different foods, drugs and supplements tend t
 
 [Show your support](act/act-summary.md) to give people suffering access to the most promising treatments
 
-<img src="https://wiki.dfda.earth/right_to_trial_act_image.jpg" alt="Disease Eradication Act" style="max-width: 600px; width: 100%;" />
 
 ## Stay Up to Date
 

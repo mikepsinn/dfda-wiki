@@ -53,6 +53,5 @@ The Goldwater Institute is a conservative and libertarian public policy think ta
 ## Learn More
 
 - [Official Website](https://www.goldwaterinstitute.org/)
-- [Right to Try Information](https://righttotry.org/)
 
 *Last updated: May 2025*

@@ -10,4 +10,4 @@ dateCreated: '2022-07-27T20:35:37.141Z'
 
 # Blood Glucose Tracking
 
-[https://millionfriends.de/](https://millionfriends.de/)
+No content available.

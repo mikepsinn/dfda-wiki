@@ -60,7 +60,7 @@ Executive functioning, memory, visuospatial proficiency 
 
 Public domain 
 
-[https://mini-cog.com/](https://mini-cog.com/)
+https://mini-cog.com/
 
 Mini-Mental State Examination 
 
@@ -74,7 +74,7 @@ Attention, language, memory, orientation, visuospatial proficiency 
 
 Proprietary 
 
-[http://www4.parinc.com/products/Product.aspx?ProductID=MMSE](http://www4.parinc.com/products/Product.aspx?ProductID=MMSE) 
+http://www4.parinc.com/products/Product.aspx?ProductID=MMSE 
 
 Montreal Cognitive Assessment 
 

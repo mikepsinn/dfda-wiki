@@ -16,8 +16,8 @@ dateCreated: '2022-07-27T20:39:48.490Z'
 > -   Small adjustment, big impact
 > -   Lose weight sustainably
 > 
-> \-[https://millionfriends.de/](https://millionfriends.de/)
+> \- millionfriends.de (site no longer available)
 
 ## Sources
 
-1.  [https://millionfriends.de/](https://millionfriends.de/)
+1.  millionfriends.de (site no longer available)

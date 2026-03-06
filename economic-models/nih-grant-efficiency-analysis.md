@@ -34,7 +34,7 @@ The National Institutes of Health (NIH) annual budget of $51 billion represents 
    - Cost burden ultimately falls on patients
 
 3. **Delayed Access to Treatments**
-   - [120,000 Deaths/Decade](https://www.fdareview.org/features/references/#gieringer85) due to regulatory delays
+   - [120,000 Deaths/Decade](https://web.archive.org/web/2024/https://www.fdareview.org/features/references/#gieringer85) due to regulatory delays
    - [17 years](https://pmc.ncbi.nlm.nih.gov/articles/PMC3241518/) average time from discovery to patient access
 
 4. **Limited Disease Coverage**
@@ -89,6 +89,6 @@ The National Institutes of Health (NIH) annual budget of $51 billion represents 
 1. HHS Budget Overview (FY 2025): $51 billion NIH budget
 2. JAMA Internal Medicine: [Clinical Trial Costs](https://pmc.ncbi.nlm.nih.gov/articles/PMC7295430/)
 3. Nature: [Untested Treatments](https://www.nature.com/articles/549445a)
-4. FDA Review: [Regulatory Delay Deaths](https://www.fdareview.org/features/references/#gieringer85)
+4. FDA Review: [Regulatory Delay Deaths](https://web.archive.org/web/2024/https://www.fdareview.org/features/references/#gieringer85)
 5. NCBI: [Treatment Development Timeline](https://pmc.ncbi.nlm.nih.gov/articles/PMC3241518/)
 6. NCATS: [Rare Disease Treatment Gap](https://ncats.nih.gov/sites/default/files/NCATS_RareDiseasesFactSheet.pdf)

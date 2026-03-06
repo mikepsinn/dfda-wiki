@@ -14,4 +14,4 @@ A biologist-turned-bioinformatician-turned-citizen-scientist who did a Master's 
 
 [https://tzovar.as/](https://tzovar.as/)
 
-[https://research.cri-paris.org/](https://research.cri-paris.org/)
+https://research.cri-paris.org/

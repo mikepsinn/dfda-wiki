@@ -78,7 +78,7 @@ False
 
 Those who need consistent monitoring
 
-[MedaCube](https://www.medacube.com/)
+MedaCube
 
 16
 
@@ -92,7 +92,7 @@ Those who combine regular and irregular doses.
 
 True
 
-[Pria](https://www.okpria.com/)
+Pria
 
 $9.99
 

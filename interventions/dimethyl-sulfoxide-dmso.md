@@ -126,5 +126,5 @@ DMSO is often used as a delivery mechanism for water-insoluble drugs such as ISR
 
 ## References
 
-1.  [https://core.ac.uk/download/pdf/38907515.pdf](https://core.ac.uk/download/pdf/38907515.pdf)
+1.  core.ac.uk/download/pdf/38907515.pdf (link no longer available)
 2.  [http://www.medicinacomplementar.com.br/biblioteca/pdfs/Biomolecular/mb-0276.pdf](http://www.medicinacomplementar.com.br/biblioteca/pdfs/Biomolecular/mb-0276.pdf)

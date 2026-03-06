@@ -11,7 +11,7 @@ dateCreated: '2022-07-27T20:31:54.856Z'
 # **Open-Source Projects**
 
 -   [openAutism](https://openautism.github.io/)
--   [Open source Timeline](https://opensourcetimeline.com/)
+-   Open source Timeline
 -   [Patient Data Manager](https://datauseagreement.org/)
 -   [standardhealthrecord.org](https://standardhealthrecord.org/)
 -   [InspiredEHRs.org](https://inspiredehrs.org/)
