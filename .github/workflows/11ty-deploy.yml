@@ -34,16 +34,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build CSS
-        run: npm run build:css
-
-      - name: Build 11ty site
-        run: npm run build:11ty
+      - name: Build site
+        run: npm run build
         env:
           NODE_ENV: production
-
-      - name: Build Pagefind search index
-        run: npm run build:search
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
