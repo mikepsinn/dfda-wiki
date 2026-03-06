@@ -11,7 +11,7 @@ import dotenv from 'dotenv';
 import path from 'path';
 import fs from 'fs/promises';
 import matter from 'gray-matter';
-import { generateAndSaveImages } from './lib/genai-image.js';
+import { generateAndSaveImages } from './lib/gemini-images.js';
 import { glob } from 'glob';
 
 // Load environment variables

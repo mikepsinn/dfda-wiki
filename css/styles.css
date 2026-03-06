@@ -535,7 +535,15 @@ pre code {
 }
 
 .dark .text-gray-500 {
-  color: #6b7280;
+  color: #9ca3af;
+}
+
+.dark .text-primary-600 {
+  color: #60a5fa;
+}
+
+.dark .hover\:text-primary-600:hover {
+  color: #93c5fd;
 }
 
 .dark .border-gray-200 {
@@ -590,6 +598,10 @@ pre code {
 .dark .prose th,
 .dark .prose td {
   border-color: #374151;
+}
+
+.dark .prose th {
+  color: #e5e7eb;
 }
 
 .dark .prose tbody tr:hover {

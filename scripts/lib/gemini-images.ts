@@ -15,9 +15,9 @@ const execAsync = promisify(exec)
 
 // Simple logger to avoid env validation issues in standalone scripts
 const log = {
-  info: (...args: any[]) => console.log('[genai-image]', ...args),
-  warn: (...args: any[]) => console.warn('[genai-image]', ...args),
-  error: (...args: any[]) => console.error('[genai-image]', ...args),
+  info: (...args: any[]) => console.log('[gemini-images]', ...args),
+  warn: (...args: any[]) => console.warn('[gemini-images]', ...args),
+  error: (...args: any[]) => console.error('[gemini-images]', ...args),
 }
 
 // --- Rich Image Metadata for SEO/Discoverability ---
@@ -84,10 +84,15 @@ interface ImageModelConfig {
 
 const IMAGE_MODEL_CONFIGS: Record<string, ImageModelConfig> = {
   // Gemini Imagen models
-  // Pricing from: https://ai.google.dev/pricing
+  // Pricing from: https://ai.google.dev/gemini-api/docs/pricing
+  'gemini-3.1-flash-image-preview': {
+    id: 'gemini-3.1-flash-image-preview',
+    costPerImage: 0.045, // ~$0.045 per image at 512px (747 tokens × $60/1M)
+    maxImagesPerRequest: 8,
+  },
   'gemini-3-pro-image-preview': {
     id: 'gemini-3-pro-image-preview',
-    costPerImage: 0.04, // $0.04 per image (standard quality)
+    costPerImage: 0.04,
     maxImagesPerRequest: 8,
   },
 }
@@ -384,7 +389,7 @@ export interface ImageGenerationOptions {
   /** Image aspect ratio (default: '1:1') */
   aspectRatio?: '1:1' | '3:4' | '4:3' | '9:16' | '16:9'
 
-  /** Model to use (default: 'gemini-3-pro-image-preview' - Nano Banana Pro) */
+  /** Model to use (default: 'gemini-3.1-flash-image-preview' - Nano Banana 2) */
   model?: string
 
   /** Negative prompt - what to avoid in the image */
@@ -461,7 +466,7 @@ export async function generateImages(
     prompt,
     count = 1,
     aspectRatio = '1:1',
-    model = 'gemini-3-pro-image-preview',
+    model = 'gemini-3.1-flash-image-preview',
     negativePrompt,
     referenceImages = [],
   } = options
