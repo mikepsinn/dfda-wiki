@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:29:04.546Z'
 dateCreated: '2025-02-12T20:29:04.546Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/Research-and-Development-in-the-Pharmaceutical-Industry.jpg
 ---
 This report examines research and development (R&D) by the pharmaceutical industry.
 

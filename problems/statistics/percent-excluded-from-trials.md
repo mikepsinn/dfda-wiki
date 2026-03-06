@@ -1,10 +1,16 @@
 ---
 number: 85%
-textFollowingNumber: "of patients are unable to participate in clinical trials"
-title: "85% of Willing Participants Excluded from Trials"
-description: "Clinical trials often exclude as much as 85% of patients so they don't tell us if the drug will work for the majority of patients."
-emoji: "🚫"
-featuredImage: "https://static.crowdsourcingcures.org/dfda/assets/wellbutrin-effectiveness-small-sample-size.png"
+textFollowingNumber: of patients are unable to participate in clinical trials
+title: 85% of Willing Participants Excluded from Trials
+description: >-
+  Clinical trials often exclude as much as 85% of patients so they don't tell us
+  if the drug will work for the majority of patients.
+emoji: "\U0001F6AB"
+featuredImage: >-
+  https://static.crowdsourcingcures.org/dfda/assets/wellbutrin-effectiveness-small-sample-size.png
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/statistics/percent-excluded-from-trials.jpg
 ---
 
 # 🥸 Trials Often Aren't Representative of Real Patients

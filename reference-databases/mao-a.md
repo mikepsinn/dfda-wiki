@@ -1,11 +1,14 @@
 ---
 title: MAO-A
-description: 
+description: null
 published: true
 date: '2022-08-22T15:49:42.468Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:39:13.962Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference-databases/mao-a.jpg
 ---
 
 # MAO-A

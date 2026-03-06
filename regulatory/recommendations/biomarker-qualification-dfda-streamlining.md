@@ -1,12 +1,18 @@
 ---
 title: Biomarker Qualification Streamlining
-description: Recommendations for streamlining biomarker qualification process through dFDA platform capabilities
+description: >-
+  Recommendations for streamlining biomarker qualification process through dFDA
+  platform capabilities
 published: true
 date: 2024-03-19T12:00:00.000Z
-tags: regulatory, recommendations, biomarkers, qualification, validation
+tags: 'regulatory, recommendations, biomarkers, qualification, validation'
 editor: markdown
 dateCreated: 2024-03-19T12:00:00.000Z
 fontawesomeIcon: fa-vial
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/regulatory/recommendations/biomarker-qualification-dfda-streamlining.jpg
 ---
 
 # Help DOGE Improve Regulations to Accelerate BioMedical Innovation

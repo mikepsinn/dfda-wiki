@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:51:47.494Z'
 dateCreated: '2025-02-12T16:51:47.494Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/developers/README.jpg
 ---
 # Developers Directory
 

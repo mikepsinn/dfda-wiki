@@ -1,11 +1,15 @@
 ---
 number: $1.6 Billion
-textFollowingNumber: "cost to develop a new treatment falls on patients"
-title: "$1.6 Billion Per New Treatment Falls on Patients"
-description: "The total cost passed to patients for each new medical treatment developed"
-emoji: "💸"
-featuredImage: "cost-per-treatment.jpg"
-source: "https://www.genengnews.com/gen-edge/the-unbearable-cost-of-drug-development-deloitte-report-shows-15-jump-in-rd-to-2-3-billion/"
+textFollowingNumber: cost to develop a new treatment falls on patients
+title: $1.6 Billion Per New Treatment Falls on Patients
+description: The total cost passed to patients for each new medical treatment developed
+emoji: "\U0001F4B8"
+featuredImage: cost-per-treatment.jpg
+source: >-
+  https://www.genengnews.com/gen-edge/the-unbearable-cost-of-drug-development-deloitte-report-shows-15-jump-in-rd-to-2-3-billion/
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/statistics/cost-per-treatment.jpg
 ---
 
 The development of each new medical treatment results in [$1.6 billion](https://jamanetwork.com/journals/jama/fullarticle/2762311) in costs ultimately transferred to patients. This figure represents the total development costs distributed across the patient population through medical bills and insurance premiums.

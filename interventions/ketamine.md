@@ -1,11 +1,14 @@
 ---
 title: Ketamine
-description: 
+description: null
 published: true
 date: '2022-08-22T13:57:14.110Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:38:34.367Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/interventions/ketamine.jpg
 ---
 
 # Ketamine

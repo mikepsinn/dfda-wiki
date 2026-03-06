@@ -1,12 +1,18 @@
 ---
 title: EAP and Right to Try Integration
-description: Framework for integrating Expanded Access Programs and Right to Try with dFDA platform capabilities
+description: >-
+  Framework for integrating Expanded Access Programs and Right to Try with dFDA
+  platform capabilities
 published: true
 date: 2024-03-19T12:00:00.000Z
-tags: regulatory, recommendations, expanded-access, right-to-try, patient-access
+tags: 'regulatory, recommendations, expanded-access, right-to-try, patient-access'
 editor: markdown
 dateCreated: 2024-03-19T12:00:00.000Z
 fontawesomeIcon: fa-hand-holding-medical
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/regulatory/recommendations/eap-right-to-try-dfda-integration.jpg
 ---
 
 # Help DOGE Improve Regulations to Accelerate BioMedical Innovation

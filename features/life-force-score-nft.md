@@ -7,6 +7,9 @@ published: true
 editor: markdown
 date: '2023-10-26T21:36:53.402Z'
 dateCreated: '2023-10-26T21:36:53.402Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/life-force-score-nft.jpg
 ---
 
 ![digital-twin-nft.png](https://static.crowdsourcingcures.org/img/digital-twin-nft.png)

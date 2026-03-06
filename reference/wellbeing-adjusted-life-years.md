@@ -1,11 +1,14 @@
 ---
 title: Wellbeing Adjusted Life Years
-description: 
+description: null
 published: true
 date: '2022-08-23T21:22:43.151Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:43:01.089Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/wellbeing-adjusted-life-years.jpg
 ---
 
 # Wellbeing Adjusted Life Years

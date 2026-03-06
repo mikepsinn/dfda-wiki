@@ -1,11 +1,14 @@
 ---
 title: Tyramine Avoidance Diet
-description: 
+description: null
 published: true
 date: '2022-07-27T21:33:41.578Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:42:37.287Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/tyramine-avoidance-diet.jpg
 ---
 
 # Tyramine Avoidance Diet

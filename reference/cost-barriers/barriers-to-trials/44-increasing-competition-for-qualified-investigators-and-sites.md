@@ -10,6 +10,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:26:46.891Z'
 dateCreated: '2025-02-12T20:26:46.891Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/barriers-to-trials/44-increasing-competition-for-qualified-investigators-and-sites.jpg
 ---
 ### 4.4 Increasing Competition for Qualified Investigators and Sites
 

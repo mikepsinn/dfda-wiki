@@ -11,6 +11,9 @@ date: '2025-02-09T16:34:58.059Z'
 dateCreated: '2025-02-09T16:34:58.059Z'
 number: 1m
 textFollowingNumber: people commit suicide every year
+metadata:
+  media:
+    ogImage: /assets/og-images/features/fdai/presentation.jpg
 ---
 # Benefits of Personal FDAi Agents
 

@@ -1,11 +1,16 @@
 ---
-title: 💊 Goldwater Institute
-description: A conservative and libertarian public policy think tank known for its Right to Try advocacy
+title: "\U0001F48A Goldwater Institute"
+description: >-
+  A conservative and libertarian public policy think tank known for its Right to
+  Try advocacy
 published: true
 date: 2025-05-28T22:15:00.000Z
-tags: nonprofit, right-to-try, healthcare-reform, libertarian
+tags: 'nonprofit, right-to-try, healthcare-reform, libertarian'
 editor: markdown
 dateCreated: 2025-05-28T22:15:00.000Z
+metadata:
+  media:
+    ogImage: /assets/og-images/community/nonprofits/goldwater-institute.jpg
 ---
 
 # Goldwater Institute

@@ -6,6 +6,9 @@ date: '2022-09-01T10:32:33.613Z'
 tags: open-source
 editor: markdown
 dateCreated: '2022-07-27T20:31:54.856Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/open-source.jpg
 ---
 
 # **Open-Source Projects**

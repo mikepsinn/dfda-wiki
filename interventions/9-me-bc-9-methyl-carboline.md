@@ -1,11 +1,14 @@
 ---
 title: 9-Me-BC (9-Methyl-β-carboline)
-description: 
+description: null
 published: true
 date: '2022-08-21T17:04:01.699Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:33:50.026Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/interventions/9-me-bc-9-methyl-carboline.jpg
 ---
 
 # 9-Me-BC (9-Methyl-β-carboline)

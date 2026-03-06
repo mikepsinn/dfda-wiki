@@ -1,11 +1,14 @@
 ---
 title: Organic Small Molecules Database GDB 17
-description: 
+description: null
 published: true
 date: '2022-08-22T18:59:58.614Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:40:45.585Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/organic-small-molecules-database-gdb-17.jpg
 ---
 
 # Organic Small Molecules Database GDB-17

@@ -1,11 +1,16 @@
 ---
 title: ⚡ FasterCures (Milken Institute)
-description: A center of the Milken Institute focused on accelerating medical research and improving health outcomes
+description: >-
+  A center of the Milken Institute focused on accelerating medical research and
+  improving health outcomes
 published: true
 date: 2025-05-28T22:18:00.000Z
-tags: nonprofit, medical-research, healthcare-innovation, regulatory-reform
+tags: 'nonprofit, medical-research, healthcare-innovation, regulatory-reform'
 editor: markdown
 dateCreated: 2025-05-28T22:18:00.000Z
+metadata:
+  media:
+    ogImage: /assets/og-images/community/nonprofits/fastercures.jpg
 ---
 
 # FasterCures (Milken Institute)

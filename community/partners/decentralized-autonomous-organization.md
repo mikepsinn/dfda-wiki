@@ -1,11 +1,18 @@
 ---
 title: Decentralized Autonomous Organization (DAO)
-description: A decentralized autonomous organization (DAO) is an entity with no central leadership. Decisions get made from the bottom-up via proposals the group votes on.
+description: >-
+  A decentralized autonomous organization (DAO) is an entity with no central
+  leadership. Decisions get made from the bottom-up via proposals the group
+  votes on.
 published: true
 date: '2022-08-21T16:11:21.125Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:43:15.072Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/community/partners/decentralized-autonomous-organization.jpg
 ---
 
 # Abstract

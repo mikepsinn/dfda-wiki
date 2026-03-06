@@ -12,6 +12,9 @@ published: true
 editor: markdown
 date: '2022-09-01T10:52:19.940Z'
 dateCreated: '2022-07-27T21:22:20.859Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/partners/ageless-partners.jpg
 ---
 
 # Ageless Partners

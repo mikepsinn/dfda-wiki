@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:56:08.061Z'
 dateCreated: '2025-02-12T16:56:08.061Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/proposals/health-savings-sharing.jpg
 ---
 # 🌟 The 50/50 Health Savings Sharing Program
 

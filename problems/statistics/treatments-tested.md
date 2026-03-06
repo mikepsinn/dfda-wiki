@@ -1,10 +1,15 @@
 ---
-number: "166 billion"
-textFollowingNumber: "potential treatments have not been tested"
-title: "166 billion potential treatments have not been tested"
-description: "The vast number of potential drug combinations that exist, compared to the limited number that have been tested"
-emoji: "⚛️"
-featuredImage: "treatments-tested.jpg"
+number: 166 billion
+textFollowingNumber: potential treatments have not been tested
+title: 166 billion potential treatments have not been tested
+description: >-
+  The vast number of potential drug combinations that exist, compared to the
+  limited number that have been tested
+emoji: ⚛️
+featuredImage: treatments-tested.jpg
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/statistics/treatments-tested.jpg
 ---
 We're only 2 lifetimes from the use of the modern scientific method in medicine. Thus, it's only been applied for 0.0001% of human history. The more clinical research studies we read, the more we realize we don't know. Nearly every study ends with the phrase, "More research is needed." We know basically nothing at this point compared to what will eventually be known about the human body.
 

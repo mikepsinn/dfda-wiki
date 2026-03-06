@@ -1,11 +1,14 @@
 ---
 title: Heart Rate Variability (HRV)
-description: 
+description: null
 published: true
 date: '2022-08-21T17:28:02.448Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:37:46.400Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference-databases/heart-rate-variability-hrv.jpg
 ---
 
 # Heart Rate Variability (HRV)

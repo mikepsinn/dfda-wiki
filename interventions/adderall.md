@@ -1,11 +1,14 @@
 ---
 title: Adderall
-description: 
+description: null
 published: true
 date: '2022-08-20T15:00:21.768Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:34:08.012Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/interventions/adderall.jpg
 ---
 
 # How to Minimize the Side Effects of Adderall

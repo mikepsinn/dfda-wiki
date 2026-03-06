@@ -1,8 +1,15 @@
 ---
-title: Lack of Logical Reasoning Based on Quantitative Cost-Benefit Analysis in FDA Decisions
+title: >-
+  Lack of Logical Reasoning Based on Quantitative Cost-Benefit Analysis in FDA
+  Decisions
 description: >-
-  FDA regulatory decisions often lack logical reasoning based on quantitative cost-benefit analysis.
-emoji: 🤪
+  FDA regulatory decisions often lack logical reasoning based on quantitative
+  cost-benefit analysis.
+emoji: "\U0001F92A"
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/problems/fda-decisions-not-based-on-cost-benefit-analysis.jpg
 ---
 
 # Lack of Logical Reasoning Based on Quantitative Cost-Benefit Analysis in FDA Decisions

@@ -1,11 +1,14 @@
 ---
 title: Tourniquets
-description: 
+description: null
 published: true
 date: '2022-07-27T21:33:34.461Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:42:27.203Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/tourniquets.jpg
 ---
 
 # Tourniquets

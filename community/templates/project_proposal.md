@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:52:32.792Z'
 dateCreated: '2025-02-12T16:52:32.792Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/templates/project_proposal.jpg
 ---
 # Project Proposal Template for the dFDA
 

@@ -1,11 +1,14 @@
 ---
 title: Medical Ethics
-description: 
+description: null
 published: true
 date: '2022-08-22T16:38:50.631Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:39:33.142Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/medical-ethics.jpg
 ---
 
 # Medical Ethics

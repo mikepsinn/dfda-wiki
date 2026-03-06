@@ -11,6 +11,9 @@ date: '2025-02-09T16:35:09.090Z'
 dateCreated: '2025-02-09T16:35:09.090Z'
 number: '10'
 textFollowingNumber: days symptoms last after dietary exposure
+metadata:
+  media:
+    ogImage: /assets/og-images/features/fdai/simulated-conversation.jpg
 ---
 Interaction with the FDAi agent, focusing on its functionalities and addressing the patient's health concerns:
 

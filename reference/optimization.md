@@ -1,11 +1,18 @@
 ---
 title: Optimization
-description: Optimization is an important tool in making decisions and in analyzing physical systems. In mathematical terms, an optimization problem is the problem of finding the best solution from among the set of all feasible solutions.
+description: >-
+  Optimization is an important tool in making decisions and in analyzing
+  physical systems. In mathematical terms, an optimization problem is the
+  problem of finding the best solution from among the set of all feasible
+  solutions.
 published: true
 date: '2022-08-22T18:55:17.221Z'
 tags: outcome optimization
 editor: markdown
 dateCreated: '2022-07-27T20:43:38.110Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/optimization.jpg
 ---
 
 _**Optimization**_ is an important tool in making decisions and in analyzing physical systems. In mathematical terms, an _**optimization problem**_ is a problem of finding the _best_ solution from among the set of all _feasible_ solutions.

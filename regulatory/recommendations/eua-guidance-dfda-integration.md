@@ -1,12 +1,18 @@
 ---
 title: EUA Guidance Integration
-description: Framework for integrating Emergency Use Authorization guidance with dFDA platform capabilities
+description: >-
+  Framework for integrating Emergency Use Authorization guidance with dFDA
+  platform capabilities
 published: true
 date: 2024-03-19T12:00:00.000Z
-tags: regulatory, recommendations, eua, emergency-use, public-health
+tags: 'regulatory, recommendations, eua, emergency-use, public-health'
 editor: markdown
 dateCreated: 2024-03-19T12:00:00.000Z
 fontawesomeIcon: fa-exclamation-circle
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/regulatory/recommendations/eua-guidance-dfda-integration.jpg
 ---
 
 # Help DOGE Improve Regulations to Accelerate BioMedical Innovation

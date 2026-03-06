@@ -10,6 +10,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:26:43.708Z'
 dateCreated: '2025-02-12T20:26:43.708Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/barriers-to-trials/43-difficulties-in-recruiting-and-retaining-participants.jpg
 ---
 ### 4.3 Difficulties in Recruiting and Retaining Participants
 

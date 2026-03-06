@@ -11,6 +11,9 @@ published: true
 editor: markdown
 date: '2023-10-02T01:47:34.315Z'
 dateCreated: '2023-10-02T01:37:27.297Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/interventions/focused-ultrasound.jpg
 ---
 
 

@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2022-08-28T15:16:12.088Z'
 dateCreated: '2022-07-27T21:22:48.973Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/data-collection-plugins.jpg
 ---
 
 ![](https://static.crowdsourcingcures.org/img/data-collection-plugins.PNG)

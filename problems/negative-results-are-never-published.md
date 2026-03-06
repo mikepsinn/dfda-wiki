@@ -1,8 +1,12 @@
 ---
 title: Negative Results are Never Published
 description: >-
-  We waste billions of dollars repeating failed drug trials because companies only publish the positive results.
-emoji: 🙈
+  We waste billions of dollars repeating failed drug trials because companies
+  only publish the positive results.
+emoji: "\U0001F648"
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/negative-results-are-never-published.jpg
 ---
 
 # 🙈 Negative Results are Never Published

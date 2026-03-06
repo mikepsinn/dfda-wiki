@@ -1,11 +1,14 @@
 ---
 title: Blood Brain Barrier
-description: 
+description: null
 published: true
 date: '2022-08-20T17:08:16.339Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:35:32.503Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/blood-brain-barrier.jpg
 ---
 
 # Blood-Brain Barrier

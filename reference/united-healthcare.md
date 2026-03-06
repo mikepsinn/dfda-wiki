@@ -1,11 +1,14 @@
 ---
 title: United Healthcare
-description:
+description: null
 published: true
 date: '2022-07-27T21:33:45.525Z'
-tags:
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:42:41.786Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/united-healthcare.jpg
 ---
 
 # United Healthcare

@@ -1,11 +1,15 @@
 ---
 title: Diseases Associated with Intestinal Permeability
-description: 
+description: null
 published: true
 date: '2022-08-21T16:23:14.273Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:36:58.718Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/conditions/diseases-associated-with-intestinal-permeability.jpg
 ---
 
 # Diseases Associated with Intestinal Permeability

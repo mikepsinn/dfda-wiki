@@ -1,11 +1,17 @@
 ---
 title: NIH Grant Process Efficiency Analysis
-description: Analysis reveals significant inefficiencies in NIH funding allocation and proposes an 83x more efficient system with a 98.8% cost reduction per trial participant.
+description: >-
+  Analysis reveals significant inefficiencies in NIH funding allocation and
+  proposes an 83x more efficient system with a 98.8% cost reduction per trial
+  participant.
 published: true
 date: '2025-02-20T05:43:17.021Z'
-tags: NIH, grant-process, efficiency-analysis, clinical-trials, biomedical-research
+tags: 'NIH, grant-process, efficiency-analysis, clinical-trials, biomedical-research'
 editor: markdown
 dateCreated: '2025-02-20T05:43:17.021Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/economic-models/nih-grant-efficiency-analysis.jpg
 ---
 # NIH Grant Process Efficiency Analysis: A Quantitative Perspective
 

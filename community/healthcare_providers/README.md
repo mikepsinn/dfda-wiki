@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:51:55.194Z'
 dateCreated: '2025-02-12T16:51:55.194Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/healthcare_providers/README.jpg
 ---
 # Healthcare Providers Directory
 

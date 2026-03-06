@@ -1,12 +1,20 @@
 ---
 title: Postmarket Safety Reporting Integration
-description: Framework for integrating postmarket safety reporting with dFDA platform capabilities
+description: >-
+  Framework for integrating postmarket safety reporting with dFDA platform
+  capabilities
 published: true
 date: 2024-03-19T12:00:00.000Z
-tags: regulatory, recommendations, safety-reporting, postmarket-surveillance, pharmacovigilance
+tags: >-
+  regulatory, recommendations, safety-reporting, postmarket-surveillance,
+  pharmacovigilance
 editor: markdown
 dateCreated: 2024-03-19T12:00:00.000Z
 fontawesomeIcon: fa-shield-alt
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/regulatory/recommendations/postmarket-safety-reporting-integration.jpg
 ---
 
 # Help DOGE Improve Regulations to Accelerate BioMedical Innovation

@@ -1,12 +1,18 @@
 ---
 title: IND Process Streamlining
-description: Comprehensive proposals for streamlining 21 CFR Part 312 IND regulations in the dFDA ecosystem
+description: >-
+  Comprehensive proposals for streamlining 21 CFR Part 312 IND regulations in
+  the dFDA ecosystem
 published: true
 date: 2024-03-19T12:00:00.000Z
-tags: regulatory, recommendations, ind, clinical-trials, streamlining
+tags: 'regulatory, recommendations, ind, clinical-trials, streamlining'
 editor: markdown
 dateCreated: 2024-03-19T12:00:00.000Z
 fontawesomeIcon: fa-fast-forward
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/regulatory/recommendations/21-cfr-part-312-ind-streamlining.jpg
 ---
 
 # Help DOGE Improve Regulations to Accelerate BioMedical Innovation

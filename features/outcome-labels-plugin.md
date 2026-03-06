@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2022-08-28T15:12:30.345Z'
 dateCreated: '2022-07-27T21:23:05.142Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/outcome-labels-plugin.jpg
 ---
 
 ![outcome-labels-plugin.png](https://static.crowdsourcingcures.org/img/outcome-labels.PNG)

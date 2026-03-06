@@ -11,6 +11,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:27:23.388Z'
 dateCreated: '2025-02-12T20:27:23.388Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/barriers-to-trials/regulatory-barriers/463-data-and-site-monitoring.jpg
 ---
 ### 4.6.3 Data and Site Monitoring
 

@@ -1,11 +1,14 @@
 ---
 title: Dopaminergic Repair Stack
-description: 
+description: null
 published: true
 date: '2022-08-21T17:08:47.813Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:37:04.906Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/dopaminergic-repair-stack.jpg
 ---
 
 # Dopaminergic Repair Stack

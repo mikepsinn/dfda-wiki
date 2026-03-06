@@ -1,11 +1,14 @@
 ---
 title: GNU Health
-description: 
+description: null
 published: true
 date: '2022-08-21T17:12:08.993Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:37:16.897Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/gnu-health.jpg
 ---
 
 # GNU Health

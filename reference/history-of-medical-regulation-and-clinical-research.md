@@ -10,6 +10,10 @@ editor: markdown
 image: 'https://static.crowdsourcingcures.org/img/life-expectancy-historical.jpg'
 date: '2023-10-26T19:37:36.565Z'
 dateCreated: '2023-10-26T19:37:36.565Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/history-of-medical-regulation-and-clinical-research.jpg
 ---
 
 There is compelling historical evidence suggesting that large scale efficacy-trials based on real-world evidence have ultimately led to better health outcomes than current pharmaceutical industry-driven randomized controlled trials.

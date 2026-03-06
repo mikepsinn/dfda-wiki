@@ -1,11 +1,14 @@
 ---
 title: Phenethylamine (PEA)
-description: 
+description: null
 published: true
 date: '2022-08-23T11:26:07.404Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:40:54.830Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/interventions/pea.jpg
 ---
 
 # Phenethylamine (PEA)

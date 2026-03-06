@@ -1,8 +1,14 @@
 ---
 title: 90% of Willing Patients Do Not Participate in Clinical Trials
 description: >-
-  A significant gap exists between the number of patients willing to participate in clinical trials and those who actually do. Studies indicate that while 68% of patients express interest in participating, only 9% report being invited to a clinical trial.
-emoji: 🚧
+  A significant gap exists between the number of patients willing to participate
+  in clinical trials and those who actually do. Studies indicate that while 68%
+  of patients express interest in participating, only 9% report being invited to
+  a clinical trial.
+emoji: "\U0001F6A7"
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/difficulty-participating.jpg
 ---
 
 # 90% of Willing Patients Do Not Participate in Clinical Trials

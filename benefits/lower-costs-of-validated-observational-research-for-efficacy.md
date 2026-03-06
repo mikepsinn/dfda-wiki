@@ -12,6 +12,10 @@ published: true
 editor: markdown
 date: '2025-02-12T15:32:45.179Z'
 dateCreated: '2025-02-12T15:32:45.179Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/benefits/lower-costs-of-validated-observational-research-for-efficacy.jpg
 ---
 
 # 👀 Lower Costs of Validated Observational Research for Efficacy

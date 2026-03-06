@@ -1,11 +1,16 @@
 ---
 title: Long Covid Treatments
-description: Promising new therapies that may help address symptoms of long covid, such as chronic fatigue.
+description: >-
+  Promising new therapies that may help address symptoms of long covid, such as
+  chronic fatigue.
 published: true
 date: '2023-06-30T22:13:28.338Z'
-tags: long covid, therapies, chronic fatigue, studies
+tags: 'long covid, therapies, chronic fatigue, studies'
 editor: markdown
 dateCreated: '2023-06-30T21:33:37.395Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/conditions/long-covid.jpg
 ---
 
 Several treatments are being explored for chronic fatigue related to long COVID. Here are some of the most promising ones:

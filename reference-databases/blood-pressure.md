@@ -1,11 +1,14 @@
 ---
 title: Blood Pressure
-description: 
+description: null
 published: true
 date: '2022-08-20T17:47:15.581Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:35:43.672Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference-databases/blood-pressure.jpg
 ---
 
 # Blood Pressure

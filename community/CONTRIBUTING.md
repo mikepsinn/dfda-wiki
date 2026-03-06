@@ -1,7 +1,7 @@
 ---
 description: >-
-  Guidelines for contributing to the Community Directory, including steps
-  for getting started and making contributions via pull requests.
+  Guidelines for contributing to the Community Directory, including steps for
+  getting started and making contributions via pull requests.
 emoji: "\U0001F91D"
 title: Contributing to the Community Directory
 tags: 'dFDA, community-directory, contributing, open-source'
@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:51:44.377Z'
 dateCreated: '2025-02-12T16:51:44.377Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/CONTRIBUTING.jpg
 ---
 # Contributing to the DFDA/DIH Wiki
 

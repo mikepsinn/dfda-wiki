@@ -10,6 +10,9 @@ published: true
 editor: markdown
 date: '2022-08-26T19:04:23.080Z'
 dateCreated: '2022-07-27T21:22:24.826Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/nonprofits/crowdsourcing-cures.jpg
 ---
 
 More than a billion minds are currently debilitated by a neurological disorder or mental illness.

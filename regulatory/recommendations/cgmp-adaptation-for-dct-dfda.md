@@ -1,12 +1,18 @@
 ---
 title: cGMP Adaptation for DCT/dFDA
-description: Recommendations for adapting current Good Manufacturing Practice requirements for decentralized trials
+description: >-
+  Recommendations for adapting current Good Manufacturing Practice requirements
+  for decentralized trials
 published: true
 date: 2024-03-19T12:00:00.000Z
-tags: regulatory, recommendations, cgmp, manufacturing, quality
+tags: 'regulatory, recommendations, cgmp, manufacturing, quality'
 editor: markdown
 dateCreated: 2024-03-19T12:00:00.000Z
 fontawesomeIcon: fa-industry
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/regulatory/recommendations/cgmp-adaptation-for-dct-dfda.jpg
 ---
 
 # Help DOGE Improve Regulations to Accelerate BioMedical Innovation

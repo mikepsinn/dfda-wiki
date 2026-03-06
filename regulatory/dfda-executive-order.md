@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T20:29:30.544Z'
 dateCreated: '2025-02-12T20:29:30.544Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/regulatory/dfda-executive-order.jpg
 ---
 **TRANSFORMING THE FDA INTO A DECENTRALIZED, PATIENT-CENTRIC PLATFORM TO ACCELERATE MEDICAL INNOVATION AND EXPAND ACCESS TO SAFE, EFFECTIVE TREATMENTS**  
 

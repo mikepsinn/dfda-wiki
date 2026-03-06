@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:52:43.098Z'
 dateCreated: '2025-02-12T16:52:43.098Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/data-analysis.jpg
 ---
 
 # 📈 Data Analysis

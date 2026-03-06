@@ -1,10 +1,16 @@
 ---
 title: Decentralized Institutes of Health — Org Structure
-description: Org chart connecting the Joint Strategic Command, DIH (treasury), dFDA platform, decentralized sub-institutes (including Aging), and mirrors of legacy agencies to align communities behind the 1% Treaty referendum.
+description: >-
+  Org chart connecting the Joint Strategic Command, DIH (treasury), dFDA
+  platform, decentralized sub-institutes (including Aging), and mirrors of
+  legacy agencies to align communities behind the 1% Treaty referendum.
 published: true
 date: '2025-08-15T00:00:00.000Z'
-tags: dih, dfda, war-on-disease, organizational-design, governance
+tags: 'dih, dfda, war-on-disease, organizational-design, governance'
 editor: markdown
+metadata:
+  media:
+    ogImage: /assets/og-images/strategy/1-percent-treaty/dih-org-structure.jpg
 ---
 
 ## Org chart

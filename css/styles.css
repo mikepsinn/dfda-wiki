@@ -349,6 +349,11 @@ pre code {
   border-radius: 0.5rem;
 }
 
+.pagefind-ui__search-input::placeholder {
+  color: #6b7280;
+  opacity: 1;
+}
+
 .pagefind-ui__search-input:focus {
   outline: none;
   ring: 2px;

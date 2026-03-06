@@ -75,6 +75,14 @@
           </a>
         {% endfor %}
 
+        <!-- Search -->
+        <a href="/search/"
+           class="p-2 text-gray-600 hover:text-primary-600 hover:bg-gray-100 rounded-lg transition-colors dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800"
+           aria-label="Search"
+           title="Search">
+          {{ icon("search", "w-5 h-5") }}
+        </a>
+
         <!-- CTA Button -->
         <a href="{{ navigation.cta.url }}"
            {% if navigation.cta.external %}target="_blank" rel="noopener"{% endif %}
@@ -140,6 +148,13 @@
             </a>
           {% endfor %}
         {% endif %}
+
+        <!-- Search -->
+        <a href="/search/"
+           class="flex items-center gap-3 px-4 py-2 mt-4 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg dark:text-gray-300 dark:hover:bg-gray-800">
+          <span class="text-gray-400">{{ icon("search") }}</span>
+          Search
+        </a>
 
         <!-- CTA -->
         <div class="px-4 pt-4">

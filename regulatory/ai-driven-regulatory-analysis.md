@@ -1,11 +1,17 @@
 ---
 title: AI-Driven Regulatory Impact Analysis System
-description: Technical and operational overview of the AI-driven system for regulatory health and economic impact analysis as mandated by the Right to Trial & FDA Upgrade Act.
+description: >-
+  Technical and operational overview of the AI-driven system for regulatory
+  health and economic impact analysis as mandated by the Right to Trial & FDA
+  Upgrade Act.
 published: true
 date: 2024-06-09T00:00:00.000Z
 tags: regulatory
 editor: markdown
 dateCreated: 2024-06-09T00:00:00.000Z
+metadata:
+  media:
+    ogImage: /assets/og-images/regulatory/ai-driven-regulatory-analysis.jpg
 ---
 
 # AI-Driven Regulatory Impact Analysis System

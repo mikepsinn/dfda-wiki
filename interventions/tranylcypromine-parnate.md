@@ -1,11 +1,14 @@
 ---
 title: Tranylcypromine Parnate
-description: 
+description: null
 published: true
 date: '2022-07-27T21:33:38.307Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:42:32.066Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/interventions/tranylcypromine-parnate.jpg
 ---
 
 # Tranylcypromine (Parnate)

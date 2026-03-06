@@ -1,11 +1,16 @@
 ---
 title: Cerebrolysin
-description: A neuropeptide preparation used for neurological conditions. Learn about its potential benefits for stroke, dementia, and traumatic brain injury recovery.
+description: >-
+  A neuropeptide preparation used for neurological conditions. Learn about its
+  potential benefits for stroke, dementia, and traumatic brain injury recovery.
 published: true
 date: 2024-07-28T01:27:38.634Z
-tags: interventions, cognitive function
+tags: 'interventions, cognitive function'
 editor: markdown
 dateCreated: 2024-07-28T01:27:38.634Z
+metadata:
+  media:
+    ogImage: /assets/og-images/interventions/cerebrolysin.jpg
 ---
 
 # Cerebrolysin: Potential Impact on Quality of Life and Disability Burden

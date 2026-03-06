@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:53:32.075Z'
 dateCreated: '2025-02-12T16:53:32.075Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/root-cause-analysis-reports.jpg
 ---
 # Root Cause Analysis Reports
 

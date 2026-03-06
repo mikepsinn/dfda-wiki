@@ -10,6 +10,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:28:21.024Z'
 dateCreated: '2025-02-12T20:28:21.024Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/executive-summary/e31-high-financial-cost.jpg
 ---
 ### E.3.1 High Financial Cost
 

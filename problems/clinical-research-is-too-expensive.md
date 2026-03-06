@@ -7,6 +7,9 @@ published: true
 editor: markdown
 date: '2022-07-28T03:58:50.155Z'
 dateCreated: '2022-07-22T19:03:26.235Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/clinical-research-is-too-expensive.jpg
 ---
 
 #### The Cost of Clinical Research

@@ -10,6 +10,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:26:21.923Z'
 dateCreated: '2025-02-12T20:26:21.923Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/clinical-trial-decision-making-model/24-model-parameters.jpg
 ---
 ### 2.4 Model Parameters
 

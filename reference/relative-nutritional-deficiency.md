@@ -1,11 +1,14 @@
 ---
 title: Relative Nutritional Deficiency
-description: 
+description: null
 published: true
 date: '2022-08-23T18:36:12.782Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:41:54.431Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/relative-nutritional-deficiency.jpg
 ---
 
 # Relative Nutritional Deficiency

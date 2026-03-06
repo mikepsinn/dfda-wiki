@@ -7,6 +7,9 @@ published: true
 editor: markdown
 date: '2022-08-25T20:04:51.436Z'
 dateCreated: '2022-07-27T21:23:47.640Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference-databases/medication-databases.jpg
 ---
 
 # 💊 Medication Databases

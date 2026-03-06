@@ -7,6 +7,9 @@ published: true
 editor: markdown
 date: '2022-07-28T03:57:38.074Z'
 dateCreated: '2022-07-22T19:03:21.545Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/bias-against-approval.jpg
 ---
 
 Humans have a cognitive bias towards weighting harmful acts of commission to be worse than acts of omission, even if the act of omission causes greater harm. It's seen in the trolley problem, where people generally aren't willing to push a fat man in front of a train to save a family, even though more lives would be saved.

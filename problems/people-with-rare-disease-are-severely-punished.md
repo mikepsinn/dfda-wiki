@@ -3,7 +3,11 @@ title: People With Rare Disease are Severely Punished
 description: >-
   It's impossible to recover a billion dollars of drug development from a small
   number of patients.
-emoji: 🤒
+emoji: "\U0001F912"
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/problems/people-with-rare-disease-are-severely-punished.jpg
 ---
 
 # 🤒 People With Rare Disease are Severely Punished

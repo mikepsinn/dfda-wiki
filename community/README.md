@@ -7,6 +7,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:52:13.974Z'
 dateCreated: '2025-02-12T16:52:13.974Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/README.jpg
 ---
 # Community Directory
 

@@ -10,6 +10,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:52:46.729Z'
 dateCreated: '2025-02-12T16:52:46.729Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/data-collection.jpg
 ---
 # 📲 Data Collection
 

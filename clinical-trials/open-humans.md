@@ -1,11 +1,14 @@
 ---
 title: Open Humans
-description: 
+description: null
 published: true
 date: '2022-07-27T21:32:17.052Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:40:35.684Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/clinical-trials/open-humans.jpg
 ---
 
 # Open Humans

@@ -1,11 +1,14 @@
 ---
-title: 🔄 Open Source Pharma Foundation (OSPF)
+title: "\U0001F504 Open Source Pharma Foundation (OSPF)"
 description: A global nonprofit promoting open-source drug discovery and development
 published: true
 date: 2025-05-28T22:23:00.000Z
-tags: nonprofit, open-science, drug-development, collaborative-research
+tags: 'nonprofit, open-science, drug-development, collaborative-research'
 editor: markdown
 dateCreated: 2025-05-28T22:23:00.000Z
+metadata:
+  media:
+    ogImage: /assets/og-images/community/nonprofits/open-source-pharma-foundation.jpg
 ---
 
 # Open Source Pharma Foundation (OSPF)

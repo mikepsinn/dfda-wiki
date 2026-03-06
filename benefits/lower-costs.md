@@ -10,6 +10,9 @@ published: true
 editor: markdown
 date: '2025-02-09T16:20:32.127Z'
 dateCreated: '2025-02-09T16:20:32.127Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/benefits/lower-costs.jpg
 ---
 
 Traditional clinical trials cost an average of $41,413 per participant, making large-scale research prohibitively expensive. Our system reduces this to $1,500 per participant through:

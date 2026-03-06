@@ -1,12 +1,16 @@
 ---
-description: >-
-title: Efficiency of NIH Research Funding vs. an Automated Decentralized Trial Platform
-tags: >-
-  decentralized-trials, real-world-evidence, clinical-trials
+description: ''
+title: >-
+  Efficiency of NIH Research Funding vs. an Automated Decentralized Trial
+  Platform
+tags: 'decentralized-trials, real-world-evidence, clinical-trials'
 published: true
 editor: markdown
 date: '2025-02-12T20:28:54.306Z'
 dateCreated: '2025-02-12T20:28:54.306Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/nih-recover-initiative.jpg
 ---
 
 The National Institutes of Health (NIH) is a cornerstone of medical research in the United States, with a budget of approximately $47 billion for fiscal year 2025. However, concerns have arisen regarding the efficiency of NIH funding in translating research into actionable interventions. A prominent example is the RECOVER initiative, which, despite a $1.6 billion budget, has not completed any clinical trials in four years.

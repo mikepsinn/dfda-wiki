@@ -6,6 +6,9 @@ date: 2025-06-05T18:28:39.566Z
 tags: organizations
 editor: markdown
 dateCreated: 2025-06-05T18:28:39.566Z
+metadata:
+  media:
+    ogImage: /assets/og-images/community/nonprofits.jpg
 ---
 
 # Non-Profit Organizations

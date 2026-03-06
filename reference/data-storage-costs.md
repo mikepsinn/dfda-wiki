@@ -1,7 +1,10 @@
 ---
-title: "Data Storage Costs for Decentralized Clinical Trials"
-description: "Analysis of per-patient data storage costs in a decentralized FDA platform"
-emoji: "💾"
+title: Data Storage Costs for Decentralized Clinical Trials
+description: Analysis of per-patient data storage costs in a decentralized FDA platform
+emoji: "\U0001F4BE"
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/data-storage-costs.jpg
 ---
 
 # Data Storage Costs for Decentralized Clinical Trials

@@ -12,6 +12,9 @@ published: true
 editor: markdown
 date: '2023-10-28T22:44:51.813Z'
 dateCreated: '2023-10-28T22:42:49.138Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/strategy/dfda-collaboration-framework.jpg
 ---
 
 > This is a work in progress. Contributions are welcome! Just click the edit button in the lower right corner.  It's our goal to avoid any duplication of effort. So please include existing projects that would be interested in fulfilling any part of this global framework.

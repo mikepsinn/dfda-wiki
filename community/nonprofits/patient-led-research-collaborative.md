@@ -1,11 +1,17 @@
 ---
-title: 👥 Patient-Led Research Collaborative
-description: A patient-led research organization focused on conditions like Long COVID through direct patient involvement
+title: "\U0001F465 Patient-Led Research Collaborative"
+description: >-
+  A patient-led research organization focused on conditions like Long COVID
+  through direct patient involvement
 published: true
 date: 2025-05-28T22:26:00.000Z
-tags: nonprofit, patient-research, long-covid, patient-advocacy
+tags: 'nonprofit, patient-research, long-covid, patient-advocacy'
 editor: markdown
 dateCreated: 2025-05-28T22:26:00.000Z
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/community/nonprofits/patient-led-research-collaborative.jpg
 ---
 
 # Patient-Led Research Collaborative

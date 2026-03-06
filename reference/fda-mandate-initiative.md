@@ -1,11 +1,14 @@
 ---
 title: FDA Mandate Initiative
-description: 
+description: null
 published: true
 date: '2022-08-21T17:10:43.941Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:37:11.718Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/fda-mandate-initiative.jpg
 ---
 
 # FDA Mandate Initiative

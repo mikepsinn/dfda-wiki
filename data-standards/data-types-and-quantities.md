@@ -3,9 +3,12 @@ title: Data Types and Quantities
 description: This is an overview of data types and quantities from current participants
 published: true
 date: '2022-12-14T18:40:20.164Z'
-tags: data quantity, data types
+tags: 'data quantity, data types'
 editor: markdown
 dateCreated: '2022-12-14T18:35:19.048Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/data-standards/data-types-and-quantities.jpg
 ---
 
 # Commonly Tracked Variables

@@ -1,7 +1,12 @@
 ---
 title: Comparison of High-Impact Health Interventions
-summary: Table comparing the dFDA platform to other major health interventions by ROI, cost per QALY, and QALYs per dollar.
-date: 2024-06-09
+summary: >-
+  Table comparing the dFDA platform to other major health interventions by ROI,
+  cost per QALY, and QALYs per dollar.
+date: 2024-06-09T00:00:00.000Z
+metadata:
+  media:
+    ogImage: /assets/og-images/economic-models/intervention-comparison-table.jpg
 ---
 
 ## Introduction

@@ -10,6 +10,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:27:27.377Z'
 dateCreated: '2025-02-12T20:27:27.377Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/barriers-to-trials/regulatory-barriers/464-serious-adverse-events-saes-reporting-for-investigational-new-drugs-and-biologics-inds-21-cfr-312.jpg
 ---
 ### 4.6.4 Serious Adverse Events (SAEs) Reporting for Investigational New Drugs and Biologics (INDs) (21 CFR 312)
 

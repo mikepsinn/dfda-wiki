@@ -1,11 +1,16 @@
 ---
 title: Community Governance Framework
-description: Simple governance framework emphasizing contribution-based authority and transparent decision-making
+description: >-
+  Simple governance framework emphasizing contribution-based authority and
+  transparent decision-making
 published: true
 date: '2025-01-15T00:00:00.000Z'
-tags: governance, community, dao, meritocracy, transparency
+tags: 'governance, community, dao, meritocracy, transparency'
 editor: markdown
 dateCreated: '2025-01-15T00:00:00.000Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/strategy/community-governance-framework.jpg
 ---
 
 # Community Governance Framework

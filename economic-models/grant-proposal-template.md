@@ -1,11 +1,14 @@
 ---
 title: Grant Proposal Template
-description: 
+description: null
 published: true
 date: '2022-08-21T17:16:24.904Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:37:31.180Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/economic-models/grant-proposal-template.jpg
 ---
 
 # Grant Proposal Template

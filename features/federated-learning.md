@@ -1,11 +1,14 @@
 ---
 title: Federated Learning
-description:
+description: null
 published: true
 date: '2022-09-08T08:47:57.145Z'
-tags:
+tags: null
 editor: markdown
 dateCreated: '2022-09-08T08:47:57.145Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/federated-learning.jpg
 ---
 
 -   Open-Mind

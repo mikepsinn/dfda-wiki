@@ -1,11 +1,14 @@
 ---
 title: Open Epidemiology Initiative
-description: 
+description: null
 published: true
 date: '2022-07-27T21:32:10.982Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:40:25.544Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/open-epidemiology-initiative.jpg
 ---
 
 # Open Epidemiology Initiative

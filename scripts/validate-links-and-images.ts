@@ -624,7 +624,9 @@ function extractLinksAndImages(content: string): Array<{ url: string; type: 'lin
     const htmlImageRegex = /<img[^>]+src=["']([^"']+)["']/g;
     while ((match = htmlImageRegex.exec(line)) !== null) {
       const url = match[1];
-      items.push({ url, type: 'image', line: index + 1 });
+      if (!url.includes('{{') && !url.includes('{%')) {
+        items.push({ url, type: 'image', line: index + 1 });
+      }
     }
 
     // HTML/Nunjucks links: href="url" or href="{{ item.url }}"
@@ -998,8 +1000,16 @@ async function main() {
   }
 
   let files: string[] = [];
-  
-  if (fileArgs.length === 0) {
+
+  // Check for --stdin flag to read file list from stdin (avoids command line length limits)
+  if (args.includes('--stdin')) {
+    const fs = await import('fs');
+    const stdinData = fs.readFileSync(0, 'utf-8').trim();
+    if (stdinData) {
+      files = stdinData.split('\n').map(f => f.trim()).filter(Boolean);
+      console.log(`Read ${files.length} file(s) from stdin...`);
+    }
+  } else if (fileArgs.length === 0) {
     // No files specified - use default pattern for all files
     console.log('Finding all markdown, JSON, and template files...');
     const defaultPattern = '{**/*.md,**/*.json,_includes/**/*.njk,_data/**/*.json}';

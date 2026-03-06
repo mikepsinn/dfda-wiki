@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-09T16:34:33.103Z'
 dateCreated: '2025-02-09T16:34:33.103Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/fdai/drug-classification.jpg
 ---
 ### Quantitative Summary Data for Drug Regulation
 

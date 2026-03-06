@@ -10,6 +10,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:52:56.730Z'
 dateCreated: '2025-02-12T16:52:56.730Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/data-silo-api-gateways.jpg
 ---
 ## Data Silo API Gateway Nodes
 

@@ -1,8 +1,12 @@
 ---
 title: No Treatment Effectiveness Rankings
 description: >-
-  Shockingly, the existing system does not give us a ranked list of the most safe and effective treatments for a given condition.
-emoji: 📊
+  Shockingly, the existing system does not give us a ranked list of the most
+  safe and effective treatments for a given condition.
+emoji: "\U0001F4CA"
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/no-comparative-effectiveness-rankings.jpg
 ---
 
 # 📊 No Treatment Effectiveness Rankings

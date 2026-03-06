@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:26:37.027Z'
 dateCreated: '2025-02-12T20:26:37.027Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/barriers-to-trials/41-high-financial-cost.jpg
 ---
 ### 4.1 High Financial Cost
 

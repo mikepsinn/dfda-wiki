@@ -42,17 +42,18 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
 
   <!-- Open Graph -->
+  {% set pageImage = ogImage or image or featuredImage or og_image or (metadata.media.ogImage if metadata and metadata.media) %}
   <meta property="og:title" content="{{ title or site.title }}">
   <meta property="og:description" content="{{ description or site.description }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta property="og:image" content="{{ site.url }}/assets/icons/dfda-android-chrome-512x512.png">
+  <meta property="og:image" content="{% if pageImage %}{{ site.url }}{{ pageImage }}{% else %}{{ site.url }}/assets/icons/dfda-android-chrome-512x512.png{% endif %}">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="{% if pageImage %}summary_large_image{% else %}summary{% endif %}">
   <meta name="twitter:title" content="{{ title or site.title }}">
   <meta name="twitter:description" content="{{ description or site.description }}">
-  <meta name="twitter:image" content="{{ site.url }}/assets/icons/dfda-android-chrome-512x512.png">
+  <meta name="twitter:image" content="{% if pageImage %}{{ site.url }}{{ pageImage }}{% else %}{{ site.url }}/assets/icons/dfda-android-chrome-512x512.png{% endif %}">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">

@@ -1,11 +1,15 @@
 ---
 title: Differentiation Between a Supplement and a Drug
-description: 
+description: null
 published: true
 date: '2022-08-21T16:08:21.439Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:36:45.124Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/differentiation-between-a-supplement-and-a-drug.jpg
 ---
 
 # Differentiation Between a Supplement and a Drug

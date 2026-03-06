@@ -1,11 +1,15 @@
 ---
 title: Clinical Discoveries from Real World Evidence
-description: 
+description: null
 published: true
 date: '2022-08-20T18:45:51.452Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:36:09.262Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/clinical-discoveries-from-real-world-evidence.jpg
 ---
 
 # Clinical Discoveries from Real World Evidence

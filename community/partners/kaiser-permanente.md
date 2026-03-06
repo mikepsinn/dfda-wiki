@@ -1,11 +1,14 @@
 ---
 title: Kaiser Permanente
-description: 
+description: null
 published: true
 date: '2022-08-22T13:40:05.766Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:38:29.400Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/partners/kaiser-permanente.jpg
 ---
 
 # Kaiser Permanente

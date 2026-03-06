@@ -1,11 +1,16 @@
 ---
 title: Global Cost Of Disease
-description: Disease costs the world trillions through healthcare costs, indirect economic losses, and the valuation of YLL and DALYs.
+description: >-
+  Disease costs the world trillions through healthcare costs, indirect economic
+  losses, and the valuation of YLL and DALYs.
 published: true
 date: 2024-06-09T00:00:00.000Z
-tags: cost-of-disease, global-health, economic-burden, yll, daly, health-economics
+tags: 'cost-of-disease, global-health, economic-burden, yll, daly, health-economics'
 editor: markdown
 dateCreated: 2024-06-09T00:00:00.000Z
+metadata:
+  media:
+    ogImage: /assets/og-images/strategy/1-percent-treaty/cost-of-disease.jpg
 ---
 
 The **$244 trillion** annual total global cost of disease (see [cost of war](cost-of-war.md) for comparison) encompasses direct healthcare costs, indirect economic losses, and the $100k valuation of a Year of Life Lost (YLL) and a $100k valuation Disability-Adjusted Life Year (DALYs).

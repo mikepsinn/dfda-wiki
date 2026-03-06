@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T20:29:50.146Z'
 dateCreated: '2025-02-12T20:29:50.146Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/strategy/patient-industrial-complex.jpg
 ---
 # 🏛️ Patient Industrial Complex Advocacy System
 

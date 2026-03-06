@@ -1,11 +1,14 @@
 ---
 title: Posthumous Health Data Donation by Default
-description: 
+description: null
 published: true
 date: '2022-08-23T15:52:50.059Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:41:14.894Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/posthumous-health-data-donation-by-default.jpg
 ---
 
 # Posthumous Health Data Donation by Default

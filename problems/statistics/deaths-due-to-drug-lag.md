@@ -1,10 +1,16 @@
 ---
-number: "120,000 Deaths/Decade"
-textFollowingNumber: "due to regulatory delays"
-title: "120,000 US Deaths Per Decade Due to Drug Lag"
-description: "Delays in FDA drug approvals compared to other countries result in up to 120,000 preventable deaths per decade"
-emoji: "☠️"
-featuredImage: "https://static.crowdsourcingcures.org/dfda/assets/us-swiss-life-expectancy-drug-approvals.png"
+number: '120,000 Deaths/Decade'
+textFollowingNumber: due to regulatory delays
+title: '120,000 US Deaths Per Decade Due to Drug Lag'
+description: >-
+  Delays in FDA drug approvals compared to other countries result in up to
+  120,000 preventable deaths per decade
+emoji: ☠️
+featuredImage: >-
+  https://static.crowdsourcingcures.org/dfda/assets/us-swiss-life-expectancy-drug-approvals.png
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/statistics/deaths-due-to-drug-lag.jpg
 ---
 
 FDA delays in approving new drugs and treatments that are already available in other countries result in up to [120,000 preventable deaths per decade](https://web.archive.org/web/2024/https://www.fdareview.org/features/references/#gieringer85) in the United States. This "drug lag" occurs when life-saving medications are available to patients in other countries years before US patients can access them.

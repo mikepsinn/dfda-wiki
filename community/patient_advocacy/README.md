@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:52:08.134Z'
 dateCreated: '2025-02-12T16:52:08.134Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/patient_advocacy/README.jpg
 ---
 # Patient Advocacy Directory
 

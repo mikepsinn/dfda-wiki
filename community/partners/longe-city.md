@@ -1,11 +1,14 @@
 ---
 title: LongeCity
-description: 
+description: null
 published: true
 date: '2022-08-22T15:45:47.195Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:38:58.575Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/partners/longe-city.jpg
 ---
 
 # LongeCity

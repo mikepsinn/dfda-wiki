@@ -3,9 +3,12 @@ title: Intellectual Property
 description: Whose IP do we need to access and under what terms?
 published: true
 date: '2022-08-21T18:02:27.486Z'
-tags: dao, intellectual property
+tags: 'dao, intellectual property'
 editor: markdown
 dateCreated: '2022-07-27T20:43:29.098Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/intellectual-property.jpg
 ---
 
 Whose IP do we need to access and under what terms? 

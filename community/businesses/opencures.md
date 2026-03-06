@@ -11,6 +11,9 @@ published: true
 editor: markdown
 date: '2022-08-26T20:24:32.745Z'
 dateCreated: '2022-07-27T21:22:28.927Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/businesses/opencures.jpg
 ---
 
 ## **Mission:**

@@ -3,9 +3,12 @@ title: DeSci Exchange
 description: A Free Market for Accelerating Scientific Discovery
 published: true
 date: 2022-11-05T02:54:03.172Z
-tags: projects, github
+tags: 'projects, github'
 editor: markdown
 dateCreated: 2022-11-05T02:49:24.504Z
+metadata:
+  media:
+    ogImage: /assets/og-images/features/desci-exchange.jpg
 ---
 
 ![desci-exchange-text-logo-wide-text-hands-background.png](https://static.crowdsourcingcures.org/img/desci-exchange-text-logo-wide-text-hands-background.png)

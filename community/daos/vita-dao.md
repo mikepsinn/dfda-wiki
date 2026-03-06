@@ -1,11 +1,17 @@
 ---
 title: VitaDAO
-description: VitaDAO is an open cooperative that anyone can join, with the goal to acquire, support and finance new therapeutics and research data in the longevity space. The VitaDAO collective will directly hold legal IP rights represented as NFTs.
+description: >-
+  VitaDAO is an open cooperative that anyone can join, with the goal to acquire,
+  support and finance new therapeutics and research data in the longevity space.
+  The VitaDAO collective will directly hold legal IP rights represented as NFTs.
 published: true
 date: '2022-09-01T09:49:56.885Z'
-tags: dao, token
+tags: 'dao, token'
 editor: markdown
 dateCreated: '2022-07-27T20:44:23.444Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/daos/vita-dao.jpg
 ---
 
 VitaDAO is an open cooperative that anyone can join, with the goal to acquire, support, and finance new therapeutics and research data in the longevity space. The VitaDAO collective will directly hold legal IP rights to these projects and may develop a growing portfolio of assets represented as NFTs.

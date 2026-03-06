@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-09T16:20:32.129Z'
 dateCreated: '2025-02-09T16:20:32.129Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/benefits/lower-drug-prices.jpg
 ---
 
 Below is a quantitative analysis of how drastically cheaper trials and increased competition (including off-patent/unpatentable compounds) could push drug prices down.

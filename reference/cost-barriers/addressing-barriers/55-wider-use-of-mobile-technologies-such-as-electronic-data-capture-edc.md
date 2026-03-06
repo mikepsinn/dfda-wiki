@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:27:53.757Z'
 dateCreated: '2025-02-12T20:27:53.757Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/addressing-barriers/55-wider-use-of-mobile-technologies-such-as-electronic-data-capture-edc.jpg
 ---
 ### 5.5 Wider Use of Mobile Technologies Such as Electronic Data Capture (edc)
 

@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T20:29:46.904Z'
 dateCreated: '2025-02-12T20:29:46.904Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/strategy/implementation-plan.jpg
 ---
 # dFDA Implementation Plan: Privacy-Preserving Treatment Review Aggregation
 

@@ -10,6 +10,9 @@ editor: markdown
 date: '2025-02-09T16:34:48.009Z'
 dateCreated: '2025-02-09T16:34:48.009Z'
 featuredImage: black-box-model-animation2.gif
+metadata:
+  media:
+    ogImage: /assets/og-images/features/fdai/fdai.jpg
 ---
 ## Imagine if we could automate clinical research
 

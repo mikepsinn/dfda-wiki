@@ -1,11 +1,14 @@
 ---
 title: Parnate
-description: 
+description: null
 published: true
 date: '2022-08-23T10:21:55.082Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:40:59.490Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/interventions/parnate.jpg
 ---
 
 # Parnate

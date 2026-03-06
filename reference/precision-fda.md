@@ -1,11 +1,14 @@
 ---
 title: PrecisionFDA
-description: 
+description: null
 published: true
 date: '2022-08-23T16:36:43.504Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:41:19.198Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/precision-fda.jpg
 ---
 
 # PrecisionFDA

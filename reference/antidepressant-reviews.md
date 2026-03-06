@@ -1,11 +1,14 @@
 ---
 title: Antidepressant Reviews
-description: 
+description: null
 published: true
 date: '2022-08-19T20:34:48.911Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:34:51.794Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/antidepressant-reviews.jpg
 ---
 
 # Antidepressant Reviews

@@ -1,11 +1,14 @@
 ---
 title: Measuring Cognitive Performance
-description: 
+description: null
 published: true
 date: '2022-08-22T16:17:22.219Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:39:27.641Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/measuring-cognitive-performance.jpg
 ---
 
 # Measuring Cognitive Performance

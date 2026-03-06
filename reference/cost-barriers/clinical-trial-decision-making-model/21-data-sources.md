@@ -10,6 +10,10 @@ published: true
 editor: markdown
 date: '2025-02-12T16:56:28.848Z'
 dateCreated: '2025-02-12T16:56:28.848Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/clinical-trial-decision-making-model/21-data-sources.jpg
 ---
 ### 2.1 Data Sources
 

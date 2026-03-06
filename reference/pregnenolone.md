@@ -1,11 +1,14 @@
 ---
 title: Pregnenolone
-description: 
+description: null
 published: true
 date: '2022-08-23T17:30:24.384Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:41:28.520Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/pregnenolone.jpg
 ---
 
 # Pregnenolone

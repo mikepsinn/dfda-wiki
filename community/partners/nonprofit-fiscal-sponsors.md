@@ -1,11 +1,14 @@
 ---
 title: Nonprofit Fiscal Sponsors
-description: 
+description: null
 published: true
 date: '2022-08-22T18:34:04.379Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:40:07.584Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/partners/nonprofit-fiscal-sponsors.jpg
 ---
 
 # Nonprofit Fiscal Sponsors

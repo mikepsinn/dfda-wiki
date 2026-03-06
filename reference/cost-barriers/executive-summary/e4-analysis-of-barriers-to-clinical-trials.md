@@ -10,6 +10,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:28:50.817Z'
 dateCreated: '2025-02-12T20:28:50.817Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/executive-summary/e4-analysis-of-barriers-to-clinical-trials.jpg
 ---
 ### E.4 Analysis of Barriers to Clinical Trials
 

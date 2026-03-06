@@ -7,6 +7,9 @@ published: true
 editor: markdown
 date: '2022-08-25T19:53:52.826Z'
 dateCreated: '2022-07-27T21:23:32.004Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference-databases/biomarker-databases.jpg
 ---
 
 # 🩸 Biomarker Databases

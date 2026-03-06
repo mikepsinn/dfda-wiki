@@ -1,11 +1,14 @@
 ---
 title: Relative Risk (RR)
-description: 
+description: null
 published: true
 date: '2022-08-23T19:36:05.935Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:41:59.242Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/relative-risk-rr.jpg
 ---
 
 # Relative Risk (RR)

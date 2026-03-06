@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:27:13.712Z'
 dateCreated: '2025-02-12T20:27:13.712Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/barriers-to-trials/46-drug-sponsor-imposed-barriers.jpg
 ---
 ### 4.6 Drug Sponsor-imposed Barriers
 

@@ -1,11 +1,14 @@
 ---
 title: Lipopolysaccharides LPS
-description: 
+description: null
 published: true
 date: '2022-08-22T15:05:02.154Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:38:54.144Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/lipopolysaccharides-lps.jpg
 ---
 
 # Lipopolysaccharides (LPS)

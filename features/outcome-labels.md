@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:53:22.107Z'
 dateCreated: '2025-02-12T16:53:22.107Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/outcome-labels.jpg
 ---
 # 🏷 Outcome Labels
 

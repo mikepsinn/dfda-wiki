@@ -1,11 +1,18 @@
 ---
 title: DIH Treasury - Dynamic Cash Flow & Payout Model
-description: "A 10-year cash flow model for the DIH treasury, balancing a ~40% CAGR target for investors with a 50% mission guarantee for DIH programs."
+description: >-
+  A 10-year cash flow model for the DIH treasury, balancing a ~40% CAGR target
+  for investors with a 50% mission guarantee for DIH programs.
 published: true
 date: '2025-01-25T00:00:00.000Z'
-tags: financial-modeling, cash-flow, treasury-management, roi, victory-bonds, dynamic-payout
+tags: >-
+  financial-modeling, cash-flow, treasury-management, roi, victory-bonds,
+  dynamic-payout
 editor: markdown
 dateCreated: '2025-01-24T00:00:00.000Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/economic-models/dih-treasury-cash-flow-model.jpg
 ---
 
 # DIH Treasury: Dynamic Cash Flow & Principled Payout Model

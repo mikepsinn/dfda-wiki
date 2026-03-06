@@ -1,11 +1,15 @@
 ---
 title: Techniques for Dealing With Negative Thoughts and Emotions
-description: 
+description: null
 published: true
 date: '2022-08-23T20:10:46.717Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:42:17.877Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/techniques-for-dealing-with-negative-thoughts-and-emotions.jpg
 ---
 
 # Techniques for Dealing With Negative Thoughts and Emotions

@@ -1,12 +1,18 @@
 ---
 title: IRB Modernization
-description: Framework for modernizing IRB requirements under 21 CFR Parts 56/46 for dFDA platform trials
+description: >-
+  Framework for modernizing IRB requirements under 21 CFR Parts 56/46 for dFDA
+  platform trials
 published: true
 date: 2024-03-19T12:00:00.000Z
-tags: regulatory, recommendations, irb, ethics, clinical-trials
+tags: 'regulatory, recommendations, irb, ethics, clinical-trials'
 editor: markdown
 dateCreated: 2024-03-19T12:00:00.000Z
 fontawesomeIcon: fa-users-cog
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/regulatory/recommendations/cfr-parts-56-46-irb-modernization.jpg
 ---
 
 # Help DOGE Improve Regulations to Accelerate BioMedical Innovation

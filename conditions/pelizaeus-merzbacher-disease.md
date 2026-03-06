@@ -1,11 +1,16 @@
 ---
 title: Pelizaeus-Merzbacher disease
-description: Clinical trials for Pelizaeus-Merzbacher Disease (PMD), a rare genetic disorder affecting the central nervous system
+description: >-
+  Clinical trials for Pelizaeus-Merzbacher Disease (PMD), a rare genetic
+  disorder affecting the central nervous system
 published: true
 date: 2025-03-28T21:40:26.318Z
-tags: conditions, clinical-trials
+tags: 'conditions, clinical-trials'
 editor: markdown
 dateCreated: 2025-03-28T21:39:57.940Z
+metadata:
+  media:
+    ogImage: /assets/og-images/conditions/pelizaeus-merzbacher-disease.jpg
 ---
 
 Pelizaeus-Merzbacher Disease (PMD) is a rare genetic disorder affecting the central nervous system, primarily impacting young boys. Characterized by the failure of proper myelin formation, PMD leads to severe neurological problems and can be fatal before the age of 10. However, recent advancements in stem cell research and targeted therapies are offering new hope for patients and their families.

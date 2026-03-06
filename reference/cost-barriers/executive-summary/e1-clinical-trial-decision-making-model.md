@@ -12,6 +12,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:28:10.650Z'
 dateCreated: '2025-02-12T20:28:10.650Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/executive-summary/e1-clinical-trial-decision-making-model.jpg
 ---
 ### E.1 Clinical Trial Decision-making Model
 

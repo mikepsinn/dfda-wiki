@@ -1,11 +1,14 @@
 ---
 title: Journal of Citizen Science
-description: 
+description: null
 published: true
 date: '2022-08-22T13:35:18.248Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:38:24.635Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/journal-of-citizen-science.jpg
 ---
 
 # Journal of Citizen Science

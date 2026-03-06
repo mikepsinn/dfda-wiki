@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:55:14.923Z'
 dateCreated: '2025-02-12T16:55:14.923Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/otc-drugs.jpg
 ---
 Here’s an estimated table of the number of lives that could potentially be saved annually if these drugs were made more accessible, based on available data and studies:
 

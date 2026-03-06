@@ -10,6 +10,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:28:27.527Z'
 dateCreated: '2025-02-12T20:28:27.527Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/executive-summary/e33-difficulties-in-recruiting-and-retaining-participants.jpg
 ---
 ### E.3.3 Difficulties in Recruiting and Retaining Participants
 

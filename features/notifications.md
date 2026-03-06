@@ -10,6 +10,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:52:50.084Z'
 dateCreated: '2025-02-12T16:52:50.084Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/notifications.jpg
 ---
 ## Notifications with Action Buttons
 

@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:52:01.808Z'
 dateCreated: '2025-02-12T16:52:01.808Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/open-source-projects.jpg
 ---
 # Open Source Projects to Accelerate Clinical Discovery
 

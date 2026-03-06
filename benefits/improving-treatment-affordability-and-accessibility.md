@@ -1,13 +1,19 @@
 ---
 description: >-
-  How the proposed decentralized FDA system could dramatically improve affordability and accessibility of treatments for patients through cost reductions, price competition, and faster access
-emoji: "💰"
+  How the proposed decentralized FDA system could dramatically improve
+  affordability and accessibility of treatments for patients through cost
+  reductions, price competition, and faster access
+emoji: "\U0001F4B0"
 title: Improving Treatment Affordability and Accessibility
 tags: 'affordability, accessibility, drug-prices, cost-reduction, patient-benefits'
 published: true
 editor: markdown
 date: '2025-02-15T14:30:00.236Z'
 dateCreated: '2025-02-15T14:30:00.236Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/benefits/improving-treatment-affordability-and-accessibility.jpg
 ---
 
 # 💰 Improving Treatment Affordability and Accessibility

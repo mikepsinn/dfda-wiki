@@ -1,11 +1,14 @@
 ---
 title: Open Food Facts
-description: 
+description: null
 published: true
 date: '2022-07-27T21:32:13.913Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:40:31.213Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/partners/open-food-facts.jpg
 ---
 
 # Open Food Facts

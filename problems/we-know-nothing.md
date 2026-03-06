@@ -1,8 +1,15 @@
 ---
 title: We Know Next to Nothing
-description: There are thousands of diseases and trillions of compounds with drug-like properties, but we've only studied 0.000000002% of potential treatments so far.
+description: >-
+  There are thousands of diseases and trillions of compounds with drug-like
+  properties, but we've only studied 0.000000002% of potential treatments so
+  far.
 emoji: ❓
-featuredImage: https://static.crowdsourcingcures.org/dfda/assets/number-of-molecules-with-drug-like-properties.png
+featuredImage: >-
+  https://static.crowdsourcingcures.org/dfda/assets/number-of-molecules-with-drug-like-properties.png
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/we-know-nothing.jpg
 ---
 
 # ❓ We Know Next to Nothing

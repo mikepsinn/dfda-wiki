@@ -10,6 +10,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:52:04.915Z'
 dateCreated: '2025-02-12T16:52:04.915Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/partners/README.jpg
 ---
 # Partners Directory
 

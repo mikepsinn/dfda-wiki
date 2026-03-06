@@ -11,6 +11,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:52:39.500Z'
 dateCreated: '2025-02-12T16:52:39.500Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/clinipedia/clinipedia.jpg
 ---
 # The Wikipedia of Clinical Research
 

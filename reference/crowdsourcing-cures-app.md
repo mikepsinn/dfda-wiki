@@ -1,11 +1,14 @@
 ---
 title: Crowdsourcing Cures App
-description: 
+description: null
 published: true
 date: '2022-08-21T15:32:19.677Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:36:22.532Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/crowdsourcing-cures-app.jpg
 ---
 
 # Curobot

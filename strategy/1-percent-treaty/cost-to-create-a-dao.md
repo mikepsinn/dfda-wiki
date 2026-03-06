@@ -1,11 +1,16 @@
 ---
 title: Cost to Create a Decentralized Institute of Health DAO
-description: Estimated costs for creating a DAO to fund the 1% Treaty Initiative, including development, legal, and operational expenses.
+description: >-
+  Estimated costs for creating a DAO to fund the 1% Treaty Initiative, including
+  development, legal, and operational expenses.
 published: true
 date: 2024-06-09T00:00:00.000Z
-tags: dao, cost-estimate, decentralized-health, 1-percent-treaty, fundraising, web3
+tags: 'dao, cost-estimate, decentralized-health, 1-percent-treaty, fundraising, web3'
 editor: markdown
 dateCreated: 2024-06-09T00:00:00.000Z
+metadata:
+  media:
+    ogImage: /assets/og-images/strategy/1-percent-treaty/cost-to-create-a-dao.jpg
 ---
 
 To estimate the cost of creating a DAO like [ConstitutionDAO](https://juicebox.money/p/constitutiondao)

@@ -1,11 +1,17 @@
 ---
 title: Organizational Precedents & Staffing Models
-description: An analysis of the organizational structures and staffing models of key precedents—The Global Fund, the ICBL, and MakerDAO—to inform the DIH's own team structure.
+description: >-
+  An analysis of the organizational structures and staffing models of key
+  precedents—The Global Fund, the ICBL, and MakerDAO—to inform the DIH's own
+  team structure.
 published: true
 date: '2025-08-22T00:00:00.000Z'
-tags: organizational-design, precedents, team-structure, hiring
+tags: 'organizational-design, precedents, team-structure, hiring'
 editor: markdown
 dateCreated: '2025-08-22T00:00:00.000Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/organizational-precedents.jpg
 ---
 
 # Organizational Precedents & Staffing Models

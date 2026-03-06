@@ -1,11 +1,18 @@
 ---
 title: Scabies
-description: Scabies is a parasitic skin infestation caused by the mite *Sarcoptes scabiei* that affects millions of people worldwide. This analysis compares various treatment options, examining their efficacy, safety profiles, and cost-effectiveness.
+description: >-
+  Scabies is a parasitic skin infestation caused by the mite *Sarcoptes scabiei*
+  that affects millions of people worldwide. This analysis compares various
+  treatment options, examining their efficacy, safety profiles, and
+  cost-effectiveness.
 published: true
 date: 2025-01-22T08:07:55.155Z
-tags: conditions, scabies
+tags: 'conditions, scabies'
 editor: markdown
 dateCreated: 2025-01-22T08:07:28.742Z
+metadata:
+  media:
+    ogImage: /assets/og-images/conditions/scabies.jpg
 ---
 
 ## Treatment Comparison Table

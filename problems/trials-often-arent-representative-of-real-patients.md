@@ -1,9 +1,15 @@
 ---
 title: Trials Often Aren't Representative of Real Patients
 description: >-
-  Clinical trials often exclude as much as 85% of patients so they don't tell us if the drug will work for the majority of patients.
-emoji: 🥸
-featuredImage: https://static.crowdsourcingcures.org/dfda/assets/wellbutrin-effectiveness-small-sample-size.png
+  Clinical trials often exclude as much as 85% of patients so they don't tell us
+  if the drug will work for the majority of patients.
+emoji: "\U0001F978"
+featuredImage: >-
+  https://static.crowdsourcingcures.org/dfda/assets/wellbutrin-effectiveness-small-sample-size.png
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/problems/trials-often-arent-representative-of-real-patients.jpg
 ---
 
 # 🥸 Trials Often Aren't Representative of Real Patients

@@ -1,11 +1,14 @@
 ---
 title: Larazotide Acetate
-description: 
+description: null
 published: true
 date: '2022-08-22T14:13:43.768Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:38:44.786Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/interventions/larazotide-acetate.jpg
 ---
 
 # Larazotide Acetate

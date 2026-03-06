@@ -1,11 +1,17 @@
 ---
 title: Regulations and Guidance for Potential Modification or Rescission
-description: Regulations, rules, or guidance documents that could be considered for modification or rescission to significantly reduce the cost and time required to bring new medical interventions to patients
+description: >-
+  Regulations, rules, or guidance documents that could be considered for
+  modification or rescission to significantly reduce the cost and time required
+  to bring new medical interventions to patients
 published: true
 date: 2025-04-29T03:05:17.433Z
-tags: 
+tags: null
 editor: markdown
 dateCreated: 2025-04-29T01:09:45.692Z
+metadata:
+  media:
+    ogImage: /assets/og-images/regulatory/regulations-to-modify-or-rescind.jpg
 ---
 
 This list identifies specific U.S. regulations, rules, or guidance documents that could be considered for modification or rescission to significantly reduce the cost and time required to bring new medical interventions to patients, particularly through the use of a large-scale, automated, decentralized clinical trial platform (dFDA concept). The goal is not necessarily elimination but streamlining and adapting requirements to be more efficient, technology-enabled, and patient-centric while maintaining safety and efficacy standards.

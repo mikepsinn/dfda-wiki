@@ -1,11 +1,14 @@
 ---
 title: Predictors of Dementia
-description: 
+description: null
 published: true
 date: '2022-08-23T17:10:33.599Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:41:24.128Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/conditions/predictors-of-dementia.jpg
 ---
 
 # Predictors of Dementia

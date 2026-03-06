@@ -12,6 +12,10 @@ published: true
 editor: markdown
 date: '2022-08-18T07:59:09.359Z'
 dateCreated: '2022-07-22T19:03:45.469Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/problems/insufficient-roi-to-discover-treatments-for-rare-diseases.jpg
 ---
 
 It costs over a billion dollars to develop a new treatment, largely due to regulatory burdens.

@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:28:47.065Z'
 dateCreated: '2025-02-12T20:28:47.065Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/executive-summary/e39-barriers-related-to-the-globalization-of-clinical-research.jpg
 ---
 ### E.3.9 Barriers Related to the Globalization of Clinical Research
 

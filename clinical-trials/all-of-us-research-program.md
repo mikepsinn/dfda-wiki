@@ -1,11 +1,14 @@
 ---
 title: All of Us Research Program
-description: 
+description: null
 published: true
 date: '2022-12-08T10:55:50.765Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:34:25.487Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/clinical-trials/all-of-us-research-program.jpg
 ---
 
 # All of Us Research Program

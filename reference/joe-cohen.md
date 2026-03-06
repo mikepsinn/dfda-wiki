@@ -1,11 +1,14 @@
 ---
 title: Joe Cohen
-description: 
+description: null
 published: true
 date: '2022-08-21T18:42:23.143Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:38:15.061Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/joe-cohen.jpg
 ---
 
 # Joe Cohen

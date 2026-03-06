@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2022-07-29T02:10:00.109Z'
 dateCreated: '2022-07-22T19:04:21.179Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/problems/we-only-know-the-effects-of-0000000002-of-potential-therapies.jpg
 ---
 
 We’re only 2 lifetimes from the use of the modern scientific method in medicine. Thus, it's only been applied for 0.0001% of human history. The more clinical research studies we read, the more we realize we don’t know. Nearly every study ends with the phrase "more research is needed". We know basically nothing at this point compared to what will eventually be known about the human body.

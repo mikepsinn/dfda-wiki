@@ -12,6 +12,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:55:54.489Z'
 dateCreated: '2025-02-12T16:55:54.489Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/unpatentable-treatments.jpg
 ---
 
 # 🥫 No Data on Unpatentable Molecules

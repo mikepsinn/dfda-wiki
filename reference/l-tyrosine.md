@@ -1,11 +1,14 @@
 ---
 title: L Tyrosine
-description: 
+description: null
 published: true
 date: '2022-08-22T14:03:13.815Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:38:38.998Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/l-tyrosine.jpg
 ---
 
 # L-Tyrosine

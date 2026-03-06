@@ -1,12 +1,18 @@
 ---
 title: IND Safety Reporting Reform
-description: Recommendations for modernizing 21 CFR 312.32 IND safety reporting requirements for dFDA platform integration
+description: >-
+  Recommendations for modernizing 21 CFR 312.32 IND safety reporting
+  requirements for dFDA platform integration
 published: true
 date: 2024-03-19T12:00:00.000Z
-tags: regulatory, recommendations, ind, safety-reporting, clinical-trials
+tags: 'regulatory, recommendations, ind, safety-reporting, clinical-trials'
 editor: markdown
 dateCreated: 2024-03-19T12:00:00.000Z
 fontawesomeIcon: fa-exclamation-triangle
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/regulatory/recommendations/21-cfr-312-32-ind-safety-reporting.jpg
 ---
 
 # Help DOGE Improve Regulations to Accelerate BioMedical Innovation

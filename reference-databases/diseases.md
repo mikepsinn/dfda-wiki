@@ -7,6 +7,9 @@ published: true
 editor: markdown
 date: '2022-08-25T19:59:14.867Z'
 dateCreated: '2022-07-27T21:23:37.304Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference-databases/diseases.jpg
 ---
 
 ## 🤮 Diseases

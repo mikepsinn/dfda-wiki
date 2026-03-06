@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2022-07-29T02:11:03.058Z'
 dateCreated: '2022-07-22T19:03:35.580Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/drug-lag.jpg
 ---
 **Delayed Life-Saving Treatments**
 

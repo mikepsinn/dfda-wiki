@@ -13,6 +13,9 @@ published: true
 editor: markdown
 date: '2025-02-09T16:20:32.141Z'
 dateCreated: '2025-02-09T16:20:32.141Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/benefits/time-to-treatment.jpg
 ---
 
 From initial research to clinical practice, new medical treatments take an average of [17 years](https://pmc.ncbi.nlm.nih.gov/articles/PMC3241518/) to complete the development process and reach patients.

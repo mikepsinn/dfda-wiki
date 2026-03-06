@@ -10,6 +10,9 @@ published: true
 editor: markdown
 date: '2025-02-09T16:34:38.071Z'
 dateCreated: '2025-02-09T16:34:38.071Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/fdai/fdai-act.jpg
 ---
 # The FDA Innovation through Data and AI Act (FDAi Act)
 

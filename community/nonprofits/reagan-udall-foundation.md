@@ -1,11 +1,16 @@
 ---
-title: 🏛️ Reagan–Udall Foundation
-description: An independent nonprofit organization created by Congress to advance regulatory science and modernize the FDA
+title: "\U0001F3DB️ Reagan–Udall Foundation"
+description: >-
+  An independent nonprofit organization created by Congress to advance
+  regulatory science and modernize the FDA
 published: true
 date: 2025-05-28T22:17:00.000Z
-tags: nonprofit, fda, regulatory-science, healthcare-policy
+tags: 'nonprofit, fda, regulatory-science, healthcare-policy'
 editor: markdown
 dateCreated: 2025-05-28T22:17:00.000Z
+metadata:
+  media:
+    ogImage: /assets/og-images/community/nonprofits/reagan-udall-foundation.jpg
 ---
 
 # Reagan–Udall Foundation

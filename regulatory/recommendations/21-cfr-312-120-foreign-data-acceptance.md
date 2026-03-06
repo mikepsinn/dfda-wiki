@@ -1,12 +1,18 @@
 ---
 title: Foreign Clinical Data Acceptance Reform
-description: Recommendations for modifying 21 CFR 312.120 to streamline acceptance of foreign clinical data through standardized dFDA platforms
+description: >-
+  Recommendations for modifying 21 CFR 312.120 to streamline acceptance of
+  foreign clinical data through standardized dFDA platforms
 published: true
 date: 2024-03-19T12:00:00.000Z
-tags: regulatory, recommendations, foreign-data, clinical-trials, gcp, fda, ind
+tags: 'regulatory, recommendations, foreign-data, clinical-trials, gcp, fda, ind'
 editor: markdown
 dateCreated: 2024-03-19T12:00:00.000Z
 fontawesomeIcon: fa-globe
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/regulatory/recommendations/21-cfr-312-120-foreign-data-acceptance.jpg
 ---
 
 # Help DOGE Improve Regulations to Accelerate BioMedical Innovation

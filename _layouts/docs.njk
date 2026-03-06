@@ -94,6 +94,13 @@ layout: base.njk
         {% if description %}
         <p class="text-lg text-gray-600">{{ description }}</p>
         {% endif %}
+
+        {% set heroImage = ogImage or image or featuredImage or og_image or (metadata.media.ogImage if metadata and metadata.media) %}
+        {% if heroImage %}
+        <div class="mt-6 rounded-lg overflow-hidden">
+          <img src="{{ heroImage }}" alt="{{ title }}" class="w-full h-auto" loading="eager">
+        </div>
+        {% endif %}
       </header>
 
       <!-- Content -->

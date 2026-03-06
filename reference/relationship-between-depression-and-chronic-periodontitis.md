@@ -1,11 +1,15 @@
 ---
 title: Relationship between depression and chronic periodontitis
-description: 
+description: null
 published: true
 date: '2022-08-23T17:54:27.123Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:41:49.729Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/relationship-between-depression-and-chronic-periodontitis.jpg
 ---
 
 # Relationship between depression and chronic periodontitis

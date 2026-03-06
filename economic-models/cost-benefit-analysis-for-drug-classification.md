@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:29:40.191Z'
 dateCreated: '2025-02-12T20:29:40.191Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/economic-models/cost-benefit-analysis-for-drug-classification.jpg
 ---
 # How Rx-to-OTC Switches Affect Drug Prices and Access
 

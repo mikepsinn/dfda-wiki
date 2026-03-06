@@ -1,11 +1,14 @@
 ---
 title: Application Programming Interface API
-description: 
+description: null
 published: true
 date: '2022-08-20T14:55:24.665Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:34:57.663Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/application-programming-interface-api.jpg
 ---
 
 # Application Programming Interface (API)

@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:53:15.392Z'
 dateCreated: '2025-02-12T16:53:15.392Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/observational-studies.jpg
 ---
 # 📑 Observational Studies Plugin
 

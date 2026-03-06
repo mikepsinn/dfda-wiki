@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:26:50.097Z'
 dateCreated: '2025-02-12T20:26:50.097Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/barriers-to-trials/45-regulatory-and-administrative-barriers.jpg
 ---
 ### 4.5 Regulatory and Administrative Barriers
 

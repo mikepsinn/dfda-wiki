@@ -10,6 +10,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:27:47.657Z'
 dateCreated: '2025-02-12T20:27:47.657Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/addressing-barriers/53-simplified-clinical-trial-protocols-and-reduced-amendments.jpg
 ---
 ### 5.3 Simplified Clinical Trial Protocols and Reduced Amendments
 

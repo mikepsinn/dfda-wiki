@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:28:34.291Z'
 dateCreated: '2025-02-12T20:28:34.291Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/executive-summary/e35-regulatory-and-administrative-barriers.jpg
 ---
 ### E.3.5 Regulatory and Administrative Barriers
 

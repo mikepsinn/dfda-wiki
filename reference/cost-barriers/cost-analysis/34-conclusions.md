@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T20:26:34.037Z'
 dateCreated: '2025-02-12T20:26:34.037Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/cost-barriers/cost-analysis/34-conclusions.jpg
 ---
 ### 3.4 Conclusions
 

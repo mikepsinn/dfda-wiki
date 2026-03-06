@@ -10,6 +10,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:27:41.239Z'
 dateCreated: '2025-02-12T20:27:41.239Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/addressing-barriers/51-use-of-electronic-health-records-ehr.jpg
 ---
 ### 5.1 Use of Electronic Health Records (ehr)
 

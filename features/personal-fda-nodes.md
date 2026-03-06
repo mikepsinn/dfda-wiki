@@ -10,6 +10,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:53:25.518Z'
 dateCreated: '2025-02-12T16:53:25.518Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/personal-fda-nodes.jpg
 ---
 ## 2. PersonalFDA Nodes
 

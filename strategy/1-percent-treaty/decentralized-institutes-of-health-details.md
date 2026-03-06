@@ -1,16 +1,28 @@
 ---
-title: "The Decentralized Institutes of Health: Revolutionizing Healthcare Through Decentralized Science and AI"
-description: "Exploring the transformative potential of Decentralized Institutes of Health (DIH) in reallocating resources from war to medical breakthroughs using blockchain, AI, and decentralized tools."
+title: >-
+  The Decentralized Institutes of Health: Revolutionizing Healthcare Through
+  Decentralized Science and AI
+description: >-
+  Exploring the transformative potential of Decentralized Institutes of Health
+  (DIH) in reallocating resources from war to medical breakthroughs using
+  blockchain, AI, and decentralized tools.
 published: true
 date: 2024-06-09T00:00:00.000Z
-tags: decentralized-health, dih, blockchain, ai, medical-research, quadratic-funding, product-requirements
+tags: >-
+  decentralized-health, dih, blockchain, ai, medical-research,
+  quadratic-funding, product-requirements
 editor: markdown
 dateCreated: 2024-06-09T00:00:00.000Z
 topic_id: dih-overview
 canonical: false
 status: archived
-domains: [dih]
+domains:
+  - dih
 doc_type: strategy
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/strategy/1-percent-treaty/decentralized-institutes-of-health-details.jpg
 ---
 
 # The Decentralized Institutes of Health

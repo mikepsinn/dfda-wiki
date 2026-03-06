@@ -10,6 +10,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:53:09.454Z'
 dateCreated: '2025-02-12T16:53:09.454Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/human-file-system-protocol.jpg
 ---
 
 ## The Human File System Protocol SDK

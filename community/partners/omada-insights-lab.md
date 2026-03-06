@@ -1,11 +1,14 @@
 ---
 title: Omada Insights Lab
-description: 
+description: null
 published: true
 date: '2022-08-22T18:40:43.071Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:40:16.556Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/partners/omada-insights-lab.jpg
 ---
 
 # Omada Insights Lab

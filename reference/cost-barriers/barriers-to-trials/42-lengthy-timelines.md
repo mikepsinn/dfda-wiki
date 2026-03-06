@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:26:40.234Z'
 dateCreated: '2025-02-12T20:26:40.234Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/barriers-to-trials/42-lengthy-timelines.jpg
 ---
 ### 4.2 Lengthy Timelines
 

@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T15:33:40.236Z'
 dateCreated: '2025-02-12T15:33:40.236Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/benefits/more-cures-and-less-lifelong-attempts-at-masking-symptoms.jpg
 ---
 
 # 🎭 More Cures and Less Lifelong Attempts at Masking Symptoms

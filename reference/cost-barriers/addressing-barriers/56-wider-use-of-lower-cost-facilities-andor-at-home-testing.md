@@ -11,6 +11,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:27:57.233Z'
 dateCreated: '2025-02-12T20:27:57.233Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/addressing-barriers/56-wider-use-of-lower-cost-facilities-andor-at-home-testing.jpg
 ---
 ### 5.6 Wider Use of Lower-cost Facilities AND/OR At-home Testing
 

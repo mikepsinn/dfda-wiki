@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:26:57.327Z'
 dateCreated: '2025-02-12T20:26:57.328Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/barriers-to-trials/regulatory-barriers/452-safety-reporting-requirements-for-investigational-new-drugs-inds-and-biologics-21-cfr-312.jpg
 ---
 ### 4.5.2 Safety Reporting Requirements for Investigational New Drugs (INDs) and Biologics (21 CFR 312)
 

@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2022-07-26T01:14:19.159Z'
 dateCreated: '2022-07-22T19:04:25.725Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/references.jpg
 ---
 
 * [Google Spreadsheet of FDA Spending vs Life-Expectancy](https://docs.google.com/spreadsheets/d/e/2PACX-1vTBkVrOYLxloOIADLXA7-k5NBIGgQ_dfFQ7BLUN0oaJPVQ_NqdFdVUfhuPkVWgFZ9gfLrwPdjuG1sTn/pubhtml)

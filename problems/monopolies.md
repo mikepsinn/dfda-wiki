@@ -9,5 +9,8 @@ published: true
 editor: markdown
 date: '2022-07-29T01:55:49.553Z'
 dateCreated: '2022-07-22T19:03:40.532Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/monopolies.jpg
 ---
 

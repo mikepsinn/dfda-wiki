@@ -11,6 +11,9 @@ published: true
 editor: markdown
 date: '2025-02-12T20:29:57.164Z'
 dateCreated: '2025-02-12T20:29:57.164Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/strategy/strategy-comparison.jpg
 ---
 # Strategies for Realizing a Global Autonomous Decentralized FDA
 

@@ -1,11 +1,14 @@
 ---
 title: Microbiome Optimization Initiative
-description: 
+description: null
 published: true
 date: '2022-08-22T16:54:15.826Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:39:38.359Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/clinical-trials/microbiome-optimization-initiative.jpg
 ---
 
 # Microbiome Optimization Initiative

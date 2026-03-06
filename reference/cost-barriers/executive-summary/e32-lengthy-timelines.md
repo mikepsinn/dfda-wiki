@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:28:23.997Z'
 dateCreated: '2025-02-12T20:28:23.997Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/executive-summary/e32-lengthy-timelines.jpg
 ---
 ### E.3.2 Lengthy Timelines
 

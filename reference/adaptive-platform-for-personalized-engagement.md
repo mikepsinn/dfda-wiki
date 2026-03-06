@@ -1,11 +1,15 @@
 ---
 title: Adaptive Platform for Personalized Engagement
-description: 
+description: null
 published: true
 date: '2022-08-19T18:30:24.190Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:34:01.425Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/adaptive-platform-for-personalized-engagement.jpg
 ---
 
 # Adaptive Platform for Personalized Engagement

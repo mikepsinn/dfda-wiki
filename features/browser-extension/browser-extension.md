@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:52:36.010Z'
 dateCreated: '2025-02-12T16:52:36.010Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/browser-extension/browser-extension.jpg
 ---
 # Browser Extension
 

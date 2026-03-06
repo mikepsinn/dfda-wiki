@@ -1,11 +1,15 @@
 ---
 title: Standardized Clinical Trial Outcome Measures
-description: 
+description: null
 published: true
 date: '2022-08-23T19:47:39.078Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:42:08.661Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/standardized-clinical-trial-outcome-measures.jpg
 ---
 
 # Standardized Clinical Trial Outcome Measures

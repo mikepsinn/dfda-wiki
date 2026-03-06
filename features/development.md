@@ -3,9 +3,12 @@ title: Server and API Logging and Metrics
 description: Various tools for API and server logging and metrics
 published: true
 date: '2022-08-23T19:39:09.994Z'
-tags: server logging, api logging, server metrics
+tags: 'server logging, api logging, server metrics'
 editor: markdown
 dateCreated: '2022-07-27T20:43:20.548Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/development.jpg
 ---
 
 These include various tools for API and server logging and metrics:  

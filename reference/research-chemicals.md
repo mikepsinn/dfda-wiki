@@ -1,11 +1,14 @@
 ---
 title: Research Chemicals
-description: 
+description: null
 published: true
 date: '2022-08-23T19:37:32.672Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:42:04.261Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/research-chemicals.jpg
 ---
 
 # Research Chemicals

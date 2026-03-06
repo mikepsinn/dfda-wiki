@@ -1,11 +1,14 @@
 ---
 title: Bromantane
-description: 
+description: null
 published: true
 date: '2022-08-20T18:34:47.113Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:35:49.697Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/interventions/bromantane.jpg
 ---
 
 # Bromantane

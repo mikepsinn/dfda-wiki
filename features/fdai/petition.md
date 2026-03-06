@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-09T16:34:52.601Z'
 dateCreated: '2025-02-09T16:34:52.601Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/fdai/petition.jpg
 ---
 # Petition for the Establishment of the FDAi System
 

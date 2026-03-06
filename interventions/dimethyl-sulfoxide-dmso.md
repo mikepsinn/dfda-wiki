@@ -1,11 +1,14 @@
 ---
 title: Dimethyl sulfoxide (DMSO)
-description: 
+description: null
 published: true
 date: '2022-08-21T16:12:15.751Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:36:51.629Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/interventions/dimethyl-sulfoxide-dmso.jpg
 ---
 
 # Dimethyl sulfoxide (DMSO)

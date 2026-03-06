@@ -4,8 +4,12 @@ description: >-
   We still know next to nothing about the long-term effects of 99.9% of the 4
   pounds of over 7,000 different synthetic or natural chemicals you consume
   every day.
-emoji: 🥫
-featuredImage: https://static.crowdsourcingcures.org/dfda/assets/how-much-we-know%20%281%29%20%281%29%20%281%29.png
+emoji: "\U0001F96B"
+featuredImage: >-
+  https://static.crowdsourcingcures.org/dfda/assets/how-much-we-know%20%281%29%20%281%29%20%281%29.png
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/no-data-on-unpatentable-molecules.jpg
 ---
 
 # 🥫 No Data on Unpatentable Treatments

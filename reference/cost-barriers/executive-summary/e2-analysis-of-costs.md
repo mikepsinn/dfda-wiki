@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:28:13.700Z'
 dateCreated: '2025-02-12T20:28:13.700Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/executive-summary/e2-analysis-of-costs.jpg
 ---
 ### E.2 Analysis of Costs
 

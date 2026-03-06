@@ -11,6 +11,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:53:18.950Z'
 dateCreated: '2025-02-12T16:53:18.950Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/optomitron-ai-agent.jpg
 ---
 # Optimitron AI Agent
 

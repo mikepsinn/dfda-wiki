@@ -1,11 +1,20 @@
 ---
 title: Global Government Medical Research Spending
-description: Comprehensive data on government budgets allocated to medical research worldwide, including NIH, EU Horizon Europe, and other major public health R&D programs.
+description: >-
+  Comprehensive data on government budgets allocated to medical research
+  worldwide, including NIH, EU Horizon Europe, and other major public health R&D
+  programs.
 published: true
 date: '2025-01-27T00:00:00.000Z'
-tags: medical-research, government-spending, health-r&d, nih, eu-horizon, global-health
+tags: >-
+  medical-research, government-spending, health-r&d, nih, eu-horizon,
+  global-health
 editor: markdown
 dateCreated: '2025-01-27T00:00:00.000Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/global-government-medical-research-spending.jpg
 ---
 
 # Global Government Medical Research Funding

@@ -1,16 +1,24 @@
 ---
 title: The Decentralized Institutes of Health
-description: A global treasury to fund the dFDA ecosystem, subsidize patient trial participation, and accelerate the war on disease through innovative financial instruments like VICTORY Bonds.
+description: >-
+  A global treasury to fund the dFDA ecosystem, subsidize patient trial
+  participation, and accelerate the war on disease through innovative financial
+  instruments like VICTORY Bonds.
 published: true
 date: 2024-06-12T00:00:00.000Z
-tags: dih, treasury, victory-bonds, patient-subsidies, dao, 1-percent-treaty, dfda
+tags: 'dih, treasury, victory-bonds, patient-subsidies, dao, 1-percent-treaty, dfda'
 editor: markdown
 dateCreated: 2024-06-09T00:00:00.000Z
 topic_id: dih-overview
 canonical: true
 status: active
-domains: [dih]
+domains:
+  - dih
 doc_type: strategy
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/strategy/1-percent-treaty/decentralized-institutes-of-health.jpg
 ---
 
 # The Decentralized Institutes of Health: A Treasury for the War on Disease

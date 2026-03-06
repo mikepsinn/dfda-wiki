@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2022-08-28T15:10:37.898Z'
 dateCreated: '2022-07-27T21:23:13.115Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/root-cause-analysis-plugin.jpg
 ---
 
 These automatically generated reports are intended to help you and your physician to gain insight into the root causes and effective solutions to help you minimize your symptoms.

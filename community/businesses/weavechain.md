@@ -1,11 +1,18 @@
 ---
 title: Weavechain
-description: Weavechain seamlessly integrates into your existing setup and gives your data  the power of Web3.
+description: >-
+  Weavechain seamlessly integrates into your existing setup and gives your data 
+  the power of Web3.
 published: true
 date: 2023-05-22T22:04:58.375Z
-tags: data sharing, data security, 1st party analytics, data monetization, data lineage
+tags: >-
+  data sharing, data security, 1st party analytics, data monetization, data
+  lineage
 editor: markdown
 dateCreated: 2022-11-18T02:41:12.412Z
+metadata:
+  media:
+    ogImage: /assets/og-images/community/businesses/weavechain.jpg
 ---
 
 With massive amounts of data that could be used for collaborative research siloed into institutional networks behind never-ending red-tape, it’s no wonder the DeSci movement is on a mission to relieve some of these bottlenecks and prove their data’s lineage and quality with the power of blockchain technology. However, researchers and institutions alike recognize that complete decentralization is unsafe and undesirable.

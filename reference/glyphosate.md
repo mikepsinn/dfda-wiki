@@ -1,11 +1,14 @@
 ---
 title: Glyphosate
-description: 
+description: null
 published: true
 date: '2022-08-21T17:14:20.018Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:37:21.469Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/glyphosate.jpg
 ---
 
 # Glyphosate

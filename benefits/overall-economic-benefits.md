@@ -12,6 +12,9 @@ dateCreated: '2025-02-09T16:20:32.132Z'
 tags: >-
   decentralized-clinical-trials, cost-savings, financial-benefits,
   trial-timelines
+metadata:
+  media:
+    ogImage: /assets/og-images/benefits/overall-economic-benefits.jpg
 ---
 
 **Key Sections**

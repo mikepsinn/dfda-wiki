@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:27:44.286Z'
 dateCreated: '2025-02-12T20:27:44.286Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/addressing-barriers/52-relaxing-trial-enrollment-restrictions.jpg
 ---
 ### 5.2 Relaxing Trial Enrollment Restrictions
 

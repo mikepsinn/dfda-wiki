@@ -9,8 +9,5 @@ FILE_COUNT=$(echo "$STAGED_FILES" | wc -l | tr -d ' ')
 echo "🔍 Validating links in $FILE_COUNT staged file(s)..."
 echo ""
 
-# Convert newline-separated files to space-separated for npm script
-FILES_ARGS=$(echo "$STAGED_FILES" | tr '\n' ' ')
-
-# Run validation - script handles all output and exits with code 1 on errors
-npx tsx scripts/validate-links-and-images.ts $FILES_ARGS
+# Pipe file list via stdin to avoid Windows command line length limits
+echo "$STAGED_FILES" | npx tsx scripts/validate-links-and-images.ts --stdin

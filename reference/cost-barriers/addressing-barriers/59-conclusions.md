@@ -10,6 +10,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:28:07.055Z'
 dateCreated: '2025-02-12T20:28:07.055Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/addressing-barriers/59-conclusions.jpg
 ---
 ### 5.9 Conclusions
 

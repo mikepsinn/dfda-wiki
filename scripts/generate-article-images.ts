@@ -2,9 +2,10 @@
  * Generate OG images, infographics, and thumbnails for wiki articles
  *
  * Usage:
- *   npm run generate-images                   # Generate for all articles without images
+ *   npm run generate-images                   # Generate OG images for all articles missing them
  *   npm run generate-images -- --file health  # Generate for specific file(s)
- *   npm run generate-images -- --force        # Regenerate all images
+ *   npm run generate-images -- --force        # Regenerate even if images exist
+ *   npm run generate-images -- --all          # Also generate infographics and thumbnails
  */
 
 import dotenv from 'dotenv';
@@ -59,13 +60,15 @@ async function getAllPosts(): Promise<string[]> {
 }
 
 /**
- * Generate OG image, infographic, and thumbnail for a single post
+ * Generate images for a single post
  * @param filePath Path to the markdown file
  * @param forceRegenerate If true, regenerate images even if they already exist
+ * @param generateAll If true, also generate infographics and thumbnails
  */
 async function generateImagesForPost(
   filePath: string,
-  forceRegenerate = false
+  forceRegenerate = false,
+  generateAll = false,
 ): Promise<void> {
   const relativePath = path.relative(ROOT_DIR, filePath);
   console.log(`\n[*] Processing: ${relativePath}`);
@@ -94,27 +97,15 @@ async function generateImagesForPost(
 
   // Output directories
   const ogOutputDir = path.join(ROOT_DIR, 'assets', 'og-images', dirName);
-  const infographicOutputDir = path.join(ROOT_DIR, 'assets', 'infographics', dirName);
-  const thumbnailOutputDir = path.join(ROOT_DIR, 'assets', 'thumbnails', dirName);
 
-  // Check if images already exist
+  // Check if OG image already exists
   const ogImageFile = path.join(ogOutputDir, `${fileName}.jpg`);
-  const infographicImageFile = path.join(infographicOutputDir, `${fileName}.jpg`);
-  const thumbnailFile = path.join(thumbnailOutputDir, `${fileName}.jpg`);
-
   const hasOgImage = await fs.access(ogImageFile).then(() => true).catch(() => false);
-  const hasInfographic = await fs.access(infographicImageFile).then(() => true).catch(() => false);
-  const hasThumbnail = await fs.access(thumbnailFile).then(() => true).catch(() => false);
 
-  // Skip if already has all images (unless forceRegenerate is true)
-  if (!forceRegenerate && hasOgImage && hasInfographic && hasThumbnail) {
-    console.log(`[SKIP] Already has all images (OG, infographic, thumbnail)`);
+  if (!forceRegenerate && hasOgImage) {
+    console.log(`[SKIP] Already has OG image`);
     return;
   }
-
-  let ogImagePath: string | null = null;
-  let infographicImagePath: string | null = null;
-  let thumbnailPath: string | null = null;
 
   // Clean the full post content for image generation prompt
   const cleanedContent = body
@@ -133,7 +124,6 @@ async function generateImagesForPost(
     keywords: frontmatter.tags || [],
   };
 
-  // Shared prompt for OG and thumbnail images
   const imagePrompt = `Create image illustrating the content below.
 Style: Use a fun retro scientific black and white style.
 
@@ -142,10 +132,13 @@ Title: "${frontmatter.title}".
 Full article content: ${cleanedContent}
 `;
 
-  // Generate OG image (optimized for social media thumbnails)
+  let ogImagePath: string | null = null;
+  let infographicImagePath: string | null = null;
+  let thumbnailPath: string | null = null;
+
+  // Generate OG image (16:9 for social media)
   if (!hasOgImage || forceRegenerate) {
     console.log(`  Generating OG image (16:9)...`);
-
     try {
       const ogFiles = await generateAndSaveImages({
         prompt: imagePrompt,
@@ -155,7 +148,6 @@ Full article content: ${cleanedContent}
         format: 'jpg',
         metadata: imageMetadata,
       });
-
       if (ogFiles && ogFiles.length > 0) {
         ogImagePath = path.relative(ROOT_DIR, ogFiles[0]).replace(/\\/g, '/');
         console.log(`  [OK] Generated OG image: ${ogImagePath}`);
@@ -167,60 +159,59 @@ Full article content: ${cleanedContent}
     }
   }
 
-  // Generate infographic (detailed, vertical page-like format)
-  if (!hasInfographic || forceRegenerate) {
-    console.log(`  Generating infographic (detailed)...`);
-    const infographicPrompt = `Create a detailed infographic for an article titled "${frontmatter.title}".
+  // Generate infographic and thumbnail only with --all flag
+  if (generateAll) {
+    const infographicOutputDir = path.join(ROOT_DIR, 'assets', 'infographics', dirName);
+    const thumbnailOutputDir = path.join(ROOT_DIR, 'assets', 'thumbnails', dirName);
+    const infographicImageFile = path.join(infographicOutputDir, `${fileName}.jpg`);
+    const thumbnailFile = path.join(thumbnailOutputDir, `${fileName}.jpg`);
+    const hasInfographic = await fs.access(infographicImageFile).then(() => true).catch(() => false);
+    const hasThumbnail = await fs.access(thumbnailFile).then(() => true).catch(() => false);
+
+    if (!hasInfographic || forceRegenerate) {
+      console.log(`  Generating infographic (3:4)...`);
+      const infographicPrompt = `Create a detailed infographic for an article titled "${frontmatter.title}".
 
 Style: Fun black and white scientific illustration style.
 
 Full article content: ${cleanedContent}
-
 `;
-
-    try {
-      const infographicFiles = await generateAndSaveImages({
-        prompt: infographicPrompt,
-        aspectRatio: '3:4',
-        outputDir: infographicOutputDir,
-        filePrefix: fileName,
-        format: 'jpg',
-        metadata: imageMetadata,
-      });
-
-      if (infographicFiles && infographicFiles.length > 0) {
-        infographicImagePath = path.relative(ROOT_DIR, infographicFiles[0]).replace(/\\/g, '/');
-        console.log(`  [OK] Generated infographic: ${infographicImagePath}`);
-      } else {
-        console.log(`  [WARN] No infographic generated`);
+      try {
+        const infographicFiles = await generateAndSaveImages({
+          prompt: infographicPrompt,
+          aspectRatio: '3:4',
+          outputDir: infographicOutputDir,
+          filePrefix: fileName,
+          format: 'jpg',
+          metadata: imageMetadata,
+        });
+        if (infographicFiles && infographicFiles.length > 0) {
+          infographicImagePath = path.relative(ROOT_DIR, infographicFiles[0]).replace(/\\/g, '/');
+          console.log(`  [OK] Generated infographic: ${infographicImagePath}`);
+        }
+      } catch (error) {
+        console.error(`  [ERROR] Failed to generate infographic:`, error);
       }
-    } catch (error) {
-      console.error(`  [ERROR] Failed to generate infographic:`, error);
     }
-  }
 
-  // Generate thumbnail (square 1:1, useful for podcasts, grids, social)
-  if (!hasThumbnail || forceRegenerate) {
-    console.log(`  Generating thumbnail (1:1)...`);
-
-    try {
-      const thumbnailFiles = await generateAndSaveImages({
-        prompt: imagePrompt,
-        aspectRatio: '1:1',
-        outputDir: thumbnailOutputDir,
-        filePrefix: fileName,
-        format: 'jpg',
-        metadata: imageMetadata,
-      });
-
-      if (thumbnailFiles && thumbnailFiles.length > 0) {
-        thumbnailPath = path.relative(ROOT_DIR, thumbnailFiles[0]).replace(/\\/g, '/');
-        console.log(`  [OK] Generated thumbnail: ${thumbnailPath}`);
-      } else {
-        console.log(`  [WARN] No thumbnail generated`);
+    if (!hasThumbnail || forceRegenerate) {
+      console.log(`  Generating thumbnail (1:1)...`);
+      try {
+        const thumbnailFiles = await generateAndSaveImages({
+          prompt: imagePrompt,
+          aspectRatio: '1:1',
+          outputDir: thumbnailOutputDir,
+          filePrefix: fileName,
+          format: 'jpg',
+          metadata: imageMetadata,
+        });
+        if (thumbnailFiles && thumbnailFiles.length > 0) {
+          thumbnailPath = path.relative(ROOT_DIR, thumbnailFiles[0]).replace(/\\/g, '/');
+          console.log(`  [OK] Generated thumbnail: ${thumbnailPath}`);
+        }
+      } catch (error) {
+        console.error(`  [ERROR] Failed to generate thumbnail:`, error);
       }
-    } catch (error) {
-      console.error(`  [ERROR] Failed to generate thumbnail:`, error);
     }
   }
 
@@ -228,7 +219,6 @@ Full article content: ${cleanedContent}
   if (ogImagePath || infographicImagePath || thumbnailPath) {
     const updatedFrontmatter = { ...frontmatter };
 
-    // Ensure metadata structure exists
     if (!updatedFrontmatter.metadata) {
       updatedFrontmatter.metadata = {};
     }
@@ -236,7 +226,6 @@ Full article content: ${cleanedContent}
       updatedFrontmatter.metadata.media = {};
     }
 
-    // Add generated images to frontmatter
     if (ogImagePath) {
       updatedFrontmatter.metadata.media.ogImage = `/${ogImagePath}`;
     }
@@ -247,22 +236,18 @@ Full article content: ${cleanedContent}
       updatedFrontmatter.metadata.media.thumbnail = `/${thumbnailPath}`;
     }
 
-    // Write updated file
     const updatedContent = matter.stringify(body, updatedFrontmatter);
     await fs.writeFile(filePath, updatedContent, 'utf-8');
-
-    console.log(`  [OK] Updated ${filePath}`);
-  } else {
-    console.log(`  [SKIP] No new images to add`);
+    console.log(`  [OK] Updated frontmatter`);
   }
 }
 
 /**
  * Generate images for all blog posts
  */
-async function generateAllPostImages(fileFilter?: string, forceRegenerate = false): Promise<void> {
+async function generateAllPostImages(fileFilter?: string, forceRegenerate = false, generateAll = false): Promise<void> {
   console.log('\n' + '='.repeat(60));
-  console.log('Generating OG images, infographics, and thumbnails for articles');
+  console.log(generateAll ? 'Generating OG images, infographics, and thumbnails' : 'Generating OG images for articles');
   console.log('='.repeat(60) + '\n');
 
   // Get all posts
@@ -272,7 +257,8 @@ async function generateAllPostImages(fileFilter?: string, forceRegenerate = fals
   // Filter to specific file if provided
   let posts: string[];
   if (fileFilter) {
-    const matchingPosts = allPosts.filter(f => f.toLowerCase().includes(fileFilter.toLowerCase()));
+    const normalizedFilter = fileFilter.toLowerCase().replace(/\\/g, '/');
+    const matchingPosts = allPosts.filter(f => f.replace(/\\/g, '/').toLowerCase().includes(normalizedFilter));
     if (matchingPosts.length === 0) {
       console.error(`ERROR: No posts found matching "${fileFilter}"`);
       console.error('\nAvailable posts:');
@@ -308,7 +294,7 @@ async function generateAllPostImages(fileFilter?: string, forceRegenerate = fals
   for (const filePath of posts) {
     try {
       postsProcessed++;
-      await generateImagesForPost(filePath, shouldForce);
+      await generateImagesForPost(filePath, shouldForce, generateAll);
       postsGenerated++;
     } catch (error) {
       console.error(`[ERROR] Failed to process ${filePath}:`, error);
@@ -348,6 +334,13 @@ async function main() {
     args.splice(forceIndex, 1);
   }
 
+  // Check for --all flag (generate infographics and thumbnails too)
+  const allIndex = args.indexOf('--all');
+  const generateAll = allIndex !== -1;
+  if (allIndex !== -1) {
+    args.splice(allIndex, 1);
+  }
+
   // Support both --file <name> and just <name> as positional argument
   let fileFilter: string | undefined;
   const fileIndex = args.indexOf('--file');
@@ -366,7 +359,7 @@ async function main() {
     console.log(`Force regeneration: ON\n`);
   }
 
-  await generateAllPostImages(fileFilter, forceRegenerate);
+  await generateAllPostImages(fileFilter, forceRegenerate, generateAll);
 }
 
 // Run the script

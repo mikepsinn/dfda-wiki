@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:27:50.715Z'
 dateCreated: '2025-02-12T20:27:50.715Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/addressing-barriers/54-reduced-source-data-verification-sdv.jpg
 ---
 ### 5.4 Reduced Source Data Verification (sdv)
 

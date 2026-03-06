@@ -1,11 +1,16 @@
 ---
-title: 🤖 Real-Time Decision Support Robot
-description: Optomitron is an AI assistant that analyzes your data discover which hidden factors are most likely to worsen or improve inflammatory symptom severity.
+title: "\U0001F916 Real-Time Decision Support Robot"
+description: >-
+  Optomitron is an AI assistant that analyzes your data discover which hidden
+  factors are most likely to worsen or improve inflammatory symptom severity.
 published: true
 date: '2023-05-24T07:19:02.858Z'
-tags: robot, optimitron, longevitron, decision support, ai
+tags: 'robot, optimitron, longevitron, decision support, ai'
 editor: markdown
 dateCreated: '2022-07-27T21:23:01.064Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/optomitron-real-time-notifications-plugin.jpg
 ---
 
 Optimitron is an AI assistant that asks you about your symptoms and potential factors. Then she applies pharmacokinetic predictive analysis to inform you of the most important things you can do to minimize symptom severity.

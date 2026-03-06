@@ -1,11 +1,16 @@
 ---
-title: 🌐 OpenTrials
-description: An open database of global clinical trials information, promoting transparency in medical research
+title: "\U0001F310 OpenTrials"
+description: >-
+  An open database of global clinical trials information, promoting transparency
+  in medical research
 published: true
 date: 2025-05-28T22:22:00.000Z
-tags: nonprofit, clinical-trials, open-data, research-transparency
+tags: 'nonprofit, clinical-trials, open-data, research-transparency'
 editor: markdown
 dateCreated: 2025-05-28T22:22:00.000Z
+metadata:
+  media:
+    ogImage: /assets/og-images/community/nonprofits/opentrials.jpg
 ---
 
 # OpenTrials

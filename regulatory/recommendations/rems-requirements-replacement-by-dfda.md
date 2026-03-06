@@ -1,12 +1,18 @@
 ---
 title: REMS Requirements Replacement
-description: Framework for replacing traditional REMS requirements with dFDA platform capabilities
+description: >-
+  Framework for replacing traditional REMS requirements with dFDA platform
+  capabilities
 published: true
 date: 2024-03-19T12:00:00.000Z
-tags: regulatory, recommendations, rems, risk-management, safety
+tags: 'regulatory, recommendations, rems, risk-management, safety'
 editor: markdown
 dateCreated: 2024-03-19T12:00:00.000Z
 fontawesomeIcon: fa-shield-alt
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/regulatory/recommendations/rems-requirements-replacement-by-dfda.jpg
 ---
 
 # Help DOGE Improve Regulations to Accelerate BioMedical Innovation

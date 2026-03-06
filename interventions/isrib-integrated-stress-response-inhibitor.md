@@ -1,11 +1,15 @@
 ---
 title: ISRIB (Integrated Stress Response Inhibitor)
-description: 
+description: null
 published: true
 date: '2022-08-21T17:49:15.468Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:38:00.541Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/interventions/isrib-integrated-stress-response-inhibitor.jpg
 ---
 
 # ISRIB (Integrated Stress Response Inhibitor)

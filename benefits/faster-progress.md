@@ -13,6 +13,9 @@ published: true
 editor: markdown
 date: '2025-02-09T16:20:32.118Z'
 dateCreated: '2025-02-09T16:20:32.118Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/benefits/faster-progress.jpg
 ---
 
 The dramatic cost reductions shown below would revolutionize medical research by allowing us to conduct 20 times more clinical trials with the same budget. This means we could test more promising treatments simultaneously, explore more treatment combinations, and investigate cures for rare diseases that were previously too expensive to study. With each trial costing just 4% of traditional methods, research institutions and companies could redirect their resources from administrative overhead to actual scientific discovery.

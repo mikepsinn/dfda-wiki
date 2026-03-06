@@ -11,6 +11,10 @@ published: true
 editor: markdown
 date: '2025-02-11T15:30:36.846Z'
 dateCreated: '2025-02-11T15:30:36.847Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/benefits/cost-savings-from-decentralized-clinical-trials.jpg
 ---
 
 # 🌎 Cost Savings from Decentralized Clinical Trials

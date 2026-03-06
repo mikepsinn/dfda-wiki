@@ -1,11 +1,15 @@
 ---
 title: Phenelzine (Nardil) versus Tranylcypromine (Parnate)
-description: 
+description: null
 published: true
 date: '2022-08-23T11:24:14.319Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:41:05.470Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/interventions/phenelzine-nardil-versus-tranylcypromine-parnate.jpg
 ---
 
 # Phenelzine (Nardil) versus Tranylcypromine (Parnate)

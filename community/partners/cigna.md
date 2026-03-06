@@ -1,11 +1,14 @@
 ---
 title: Cigna
-description: 
+description: null
 published: true
 date: '2022-08-20T18:42:50.640Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:36:03.458Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/partners/cigna.jpg
 ---
 
 # Cigna

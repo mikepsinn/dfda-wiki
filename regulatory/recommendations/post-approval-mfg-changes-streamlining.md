@@ -1,12 +1,18 @@
 ---
 title: Post-Approval Manufacturing Changes
-description: Recommendations for streamlining post-approval manufacturing change processes in dFDA context
+description: >-
+  Recommendations for streamlining post-approval manufacturing change processes
+  in dFDA context
 published: true
 date: 2024-03-19T12:00:00.000Z
-tags: regulatory, recommendations, manufacturing, post-approval-changes, quality
+tags: 'regulatory, recommendations, manufacturing, post-approval-changes, quality'
 editor: markdown
 dateCreated: 2024-03-19T12:00:00.000Z
 fontawesomeIcon: fa-industry
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/regulatory/recommendations/post-approval-mfg-changes-streamlining.jpg
 ---
 
 # Help DOGE Improve Regulations to Accelerate BioMedical Innovation

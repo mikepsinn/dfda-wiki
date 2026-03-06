@@ -7,6 +7,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:26:24.787Z'
 dateCreated: '2025-02-12T20:26:24.787Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/cost-analysis/31-costs-by-therapeutic-area.jpg
 ---
 ### 3.1 Costs by Therapeutic Area
 

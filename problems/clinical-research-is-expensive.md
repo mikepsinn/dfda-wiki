@@ -1,8 +1,13 @@
 ---
 title: Clinical Research is Expensive
-description: It costs $1.6 billion to bring a drug to market (including failed attempts) and trials currently cost over $36k per participant.
-emoji: 💰
-featuredImage: https://static.crowdsourcingcures.org/dfda/assets/cost-of-clinical-trials.png
+description: >-
+  It costs $1.6 billion to bring a drug to market (including failed attempts)
+  and trials currently cost over $36k per participant.
+emoji: "\U0001F4B0"
+featuredImage: 'https://static.crowdsourcingcures.org/dfda/assets/cost-of-clinical-trials.png'
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/clinical-research-is-expensive.jpg
 ---
 
 # 💰 Clinical Research is Expensive

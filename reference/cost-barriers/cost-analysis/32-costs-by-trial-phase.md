@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:26:27.757Z'
 dateCreated: '2025-02-12T20:26:27.757Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/cost-analysis/32-costs-by-trial-phase.jpg
 ---
 ### 3.2 Costs by Trial Phase
 

@@ -1,11 +1,14 @@
 ---
 title: Zonulin
-description: 
+description: null
 published: true
 date: '2022-08-23T21:31:01.529Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:43:05.845Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/zonulin.jpg
 ---
 
 # Zonulin

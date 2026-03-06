@@ -74,7 +74,7 @@ layout: base.njk
     <a href="{{ item.url }}" class="group block bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md hover:border-primary-300 transition-all duration-200">
 
       {# OG Image or placeholder #}
-      {% set cardImage = item.data.ogImage or item.data.image or item.data.featuredImage or item.data.og_image %}
+      {% set cardImage = item.data.ogImage or item.data.image or item.data.featuredImage or item.data.og_image or (item.data.metadata.media.ogImage if item.data.metadata and item.data.metadata.media) %}
       {% if cardImage %}
       <div class="aspect-video bg-gray-100 overflow-hidden">
         <img

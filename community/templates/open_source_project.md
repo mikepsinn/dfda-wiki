@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:52:27.046Z'
 dateCreated: '2025-02-12T16:52:27.046Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/community/templates/open_source_project.jpg
 ---
 # Project Name
 

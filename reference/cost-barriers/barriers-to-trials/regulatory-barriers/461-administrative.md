@@ -11,6 +11,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:27:17.038Z'
 dateCreated: '2025-02-12T20:27:17.038Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/barriers-to-trials/regulatory-barriers/461-administrative.jpg
 ---
 ### 4.6.1 Administrative
 

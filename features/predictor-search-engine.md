@@ -9,6 +9,9 @@ published: true
 editor: markdown
 date: '2025-02-12T16:53:28.700Z'
 dateCreated: '2025-02-12T16:53:28.700Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/predictor-search-engine.jpg
 ---
 # 🔎 Predictor Search Engine Plugin
 

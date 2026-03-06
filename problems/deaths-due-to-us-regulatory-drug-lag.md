@@ -1,9 +1,14 @@
 ---
 title: Deaths Due to US Regulatory Drug Lag
 description: >-
-  Delays in new interventions cost anywhere from 21,000 to 120,000 US lives per decade.
+  Delays in new interventions cost anywhere from 21,000 to 120,000 US lives per
+  decade.
 emoji: ⏱
-featuredImage: https://static.crowdsourcingcures.org/dfda/assets/us-swiss-life-expectancy-drug-approvals.png
+featuredImage: >-
+  https://static.crowdsourcingcures.org/dfda/assets/us-swiss-life-expectancy-drug-approvals.png
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/deaths-due-to-us-regulatory-drug-lag.jpg
 ---
 
 # ⏱ Deaths Due to US Regulatory "Drug Lag"

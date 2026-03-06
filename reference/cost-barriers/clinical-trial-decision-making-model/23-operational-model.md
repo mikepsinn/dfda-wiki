@@ -11,6 +11,10 @@ published: true
 editor: markdown
 date: '2025-02-12T16:56:46.027Z'
 dateCreated: '2025-02-12T16:56:46.027Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/clinical-trial-decision-making-model/23-operational-model.jpg
 ---
 ### 2.3 Operational Model
 

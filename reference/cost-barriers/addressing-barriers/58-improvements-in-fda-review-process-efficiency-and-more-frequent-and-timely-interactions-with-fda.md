@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:28:03.619Z'
 dateCreated: '2025-02-12T20:28:03.619Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/addressing-barriers/58-improvements-in-fda-review-process-efficiency-and-more-frequent-and-timely-interactions-with-fda.jpg
 ---
 ### 5.8 Improvements in FDA Review Process Efficiency and More Frequent and Timely Interactions with FDA
 

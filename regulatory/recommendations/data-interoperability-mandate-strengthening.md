@@ -1,12 +1,18 @@
 ---
 title: Data Interoperability Mandate Enhancement
-description: Proposals for strengthening data interoperability mandates to support dFDA platform integration
+description: >-
+  Proposals for strengthening data interoperability mandates to support dFDA
+  platform integration
 published: true
 date: 2024-03-19T12:00:00.000Z
-tags: regulatory, recommendations, interoperability, data-standards, health-data
+tags: 'regulatory, recommendations, interoperability, data-standards, health-data'
 editor: markdown
 dateCreated: 2024-03-19T12:00:00.000Z
 fontawesomeIcon: fa-exchange-alt
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/regulatory/recommendations/data-interoperability-mandate-strengthening.jpg
 ---
 
 # Help DOGE Improve Regulations to Accelerate BioMedical Innovation

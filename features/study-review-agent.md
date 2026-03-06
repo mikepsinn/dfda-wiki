@@ -11,6 +11,9 @@ published: true
 editor: markdown
 date: '2025-02-11T14:23:44.900Z'
 dateCreated: '2025-02-11T14:23:44.900Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/study-review-agent.jpg
 ---
 # Study Review Agent
 

@@ -6,6 +6,9 @@ date: 2025-06-10T20:18:00.632Z
 tags: jobs
 editor: markdown
 dateCreated: 2025-06-10T07:01:46.646Z
+metadata:
+  media:
+    ogImage: /assets/og-images/careers/ai-engineer.jpg
 ---
 
 ## About the Mission

@@ -10,6 +10,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:27:31.009Z'
 dateCreated: '2025-02-12T20:27:31.009Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/barriers-to-trials/47-disconnect-between-clinical-research-and-medical-care.jpg
 ---
 ### 4.7 Disconnect Between Clinical Research and Medical CARE
 

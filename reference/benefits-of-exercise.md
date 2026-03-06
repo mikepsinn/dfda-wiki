@@ -1,11 +1,14 @@
 ---
 title: Benefits of Exercise
-description: 
+description: null
 published: true
 date: '2022-08-20T17:06:49.160Z'
-tags: 
+tags: null
 editor: markdown
 dateCreated: '2022-07-27T20:35:26.660Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/reference/benefits-of-exercise.jpg
 ---
 
 # Benefits of Exercise

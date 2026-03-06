@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T16:56:42.726Z'
 dateCreated: '2025-02-12T16:56:42.726Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/clinical-trial-decision-making-model/22-conceptual-framework.jpg
 ---
 ### 2.2 Conceptual Framework
 

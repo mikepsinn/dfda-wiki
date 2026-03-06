@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:26:30.722Z'
 dateCreated: '2025-02-12T20:26:30.722Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/cost-analysis/33-costs-by-cost-component.jpg
 ---
 ### 3.3 Costs by Cost Component
 

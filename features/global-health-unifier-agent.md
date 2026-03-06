@@ -12,6 +12,9 @@ published: true
 editor: markdown
 date: '2025-02-11T14:20:26.909Z'
 dateCreated: '2025-02-11T14:20:26.909Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/global-health-unifier-agent.jpg
 ---
 # Global Health Unifier Agent
 

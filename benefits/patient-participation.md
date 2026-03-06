@@ -12,6 +12,9 @@ published: true
 editor: markdown
 date: '2025-02-09T16:20:32.136Z'
 dateCreated: '2025-02-09T16:20:32.136Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/benefits/patient-participation.jpg
 ---
 
 Traditional clinical trials exclude up to [85%](https://www.ncbi.nlm.nih.gov/pubmed/14628985) of willing participants due to strict eligibility criteria and geographical limitations. Our decentralized approach removes these barriers by:

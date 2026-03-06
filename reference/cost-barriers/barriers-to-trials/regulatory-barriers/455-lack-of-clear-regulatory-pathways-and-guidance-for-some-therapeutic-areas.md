@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:27:07.107Z'
 dateCreated: '2025-02-12T20:27:07.107Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/barriers-to-trials/regulatory-barriers/455-lack-of-clear-regulatory-pathways-and-guidance-for-some-therapeutic-areas.jpg
 ---
 ### 4.5.5 Lack of Clear Regulatory Pathways and Guidance for Some Therapeutic Areas
 

@@ -10,6 +10,9 @@ published: true
 editor: markdown
 date: '2022-07-31T17:06:24.891Z'
 dateCreated: '2022-07-22T19:04:12.318Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/problems/slowed-growth-in-life-expectancy.jpg
 ---
 
 **Slowed Growth in Life Expectancy**

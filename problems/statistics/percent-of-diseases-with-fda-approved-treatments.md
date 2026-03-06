@@ -1,10 +1,16 @@
 ---
 number: 95%
-textFollowingNumber: "of diseases have NO FDA-approved treatments"
-title: "95% of Diseases Have NO FDA-Approved Treatments"
-description: "Only 5% of diseases have FDA-approved treatments, leaving millions without effective therapies"
-emoji: "💊"
-featuredImage: "fda-treatments.jpg"
+textFollowingNumber: of diseases have NO FDA-approved treatments
+title: 95% of Diseases Have NO FDA-Approved Treatments
+description: >-
+  Only 5% of diseases have FDA-approved treatments, leaving millions without
+  effective therapies
+emoji: "\U0001F48A"
+featuredImage: fda-treatments.jpg
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/problems/statistics/percent-of-diseases-with-fda-approved-treatments.jpg
 ---
 
 Despite significant advances in medical research, only about 5% of diseases have FDA-approved treatments. This means that [95% of diseases](https://ncats.nih.gov/sites/default/files/NCATS_RareDiseasesFactSheet.pdf) have 0 FDA-approved treatments.

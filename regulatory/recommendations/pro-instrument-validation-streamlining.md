@@ -1,12 +1,18 @@
 ---
 title: PRO Instrument Validation Streamlining
-description: Recommendations for streamlining patient-reported outcome instrument validation in dFDA context
+description: >-
+  Recommendations for streamlining patient-reported outcome instrument
+  validation in dFDA context
 published: true
 date: 2024-03-19T12:00:00.000Z
-tags: regulatory, recommendations, pro, validation, patient-outcomes
+tags: 'regulatory, recommendations, pro, validation, patient-outcomes'
 editor: markdown
 dateCreated: 2024-03-19T12:00:00.000Z
 fontawesomeIcon: fa-clipboard-check
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/regulatory/recommendations/pro-instrument-validation-streamlining.jpg
 ---
 
 # Help DOGE Improve Regulations to Accelerate BioMedical Innovation

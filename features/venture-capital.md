@@ -1,11 +1,16 @@
 ---
 title: Venture Capital
-description: An overview of venture capital terminology, firms, and historical returns
+description: 'An overview of venture capital terminology, firms, and historical returns'
 published: true
 date: '2022-08-23T21:02:48.695Z'
-tags: venture capital, investment
+tags: 'venture capital, investment'
 editor: markdown
 dateCreated: '2022-07-27T20:43:58.393Z'
+metadata:
+  media:
+    ogImage: /assets/og-images/features/venture-capital.jpg
+    infographic: /assets/infographics/features/venture-capital.jpg
+    thumbnail: /assets/thumbnails/features/venture-capital.jpg
 ---
 
 # Terminology

@@ -9,6 +9,10 @@ published: true
 editor: markdown
 date: '2025-02-12T20:28:00.521Z'
 dateCreated: '2025-02-12T20:28:00.521Z'
+metadata:
+  media:
+    ogImage: >-
+      /assets/og-images/reference/cost-barriers/addressing-barriers/57-priority-reviewpriority-review-vouchers.jpg
 ---
 ### 5.7 Priority REVIEW/PRIORITY Review Vouchers
 
