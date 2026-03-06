@@ -1,23 +1,17 @@
 # Link Validation Report
 
-Generated: 2026-03-06T19:25:06.326Z
+Generated: 2026-03-06T19:26:30.645Z
 
 **Script:** `scripts/validate-links-and-images.ts`
 
 ## Summary
 
-- **Total links/images checked:** 2061
+- **Total links/images checked:** 2060
 - ✅ **OK:** 1765
 - ⚠️ **Warnings (401/403):** 184
-- ❌ **Broken:** 1
+- ❌ **Broken:** 0
 - ⏱️ **Timeouts:** 0
 - ⚠️ **Errors (not in archive.org):** 1
-
-## Broken Links/Images
-
-### _layouts/docs.njk
-
-- [ ] **INTERNAL** `{{ heroImage }}` - Broken internal link: {{ heroImage }} (File not found at E:\code\obsidian\websites\dfda-wiki\_layouts\{{ heroImage }}) (line 101)
 
 ## Warning URLs (401/403 - May require authentication)
 
