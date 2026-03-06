@@ -1,23 +1,17 @@
 # Link Validation Report
 
-Generated: 2026-03-06T09:50:07.578Z
+Generated: 2026-03-06T09:52:24.425Z
 
 **Script:** `scripts/validate-links-and-images.ts`
 
 ## Summary
 
-- **Total links/images checked:** 405
+- **Total links/images checked:** 404
 - ✅ **OK:** 347
 - ⚠️ **Warnings (401/403):** 32
-- ❌ **Broken:** 1
+- ❌ **Broken:** 0
 - ⏱️ **Timeouts:** 1
 - ⚠️ **Errors (not in archive.org):** 0
-
-## Broken Links/Images
-
-### home.md
-
-- [ ] **INTERNAL** `/right_to_trial_act_image.jpg` - Broken asset link: /right_to_trial_act_image.jpg (File not found at right_to_trial_act_image.jpg) (line 185)
 
 ## Timeout URLs
 
@@ -44,7 +38,7 @@ Generated: 2026-03-06T09:50:07.578Z
 ### home.md
 
 - [ ] **LINK** [https://player.vimeo.com/video/930843979?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479](https://player.vimeo.com/video/930843979?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479) - Status: 401 (line 131)
-- [ ] **LINK** [https://www.fiercebiotech.com/biotech/drug-development-cost-pharma-22b-asset-2024-plus-how-glp-1s-impact-roi-deloitte](https://www.fiercebiotech.com/biotech/drug-development-cost-pharma-22b-asset-2024-plus-how-glp-1s-impact-roi-deloitte) - Status: 403 (line 232)
+- [ ] **LINK** [https://www.fiercebiotech.com/biotech/drug-development-cost-pharma-22b-asset-2024-plus-how-glp-1s-impact-roi-deloitte](https://www.fiercebiotech.com/biotech/drug-development-cost-pharma-22b-asset-2024-plus-how-glp-1s-impact-roi-deloitte) - Status: 403 (line 231)
 
 ### interventions/parnate.md
 
