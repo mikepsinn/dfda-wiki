@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2023-11-24T22:24:09.275Z
 ---
 
-# Objective: Disease Eradication
+# Objective: Total Disease Eradication
 
 🚀An 80X acceleration in medical progress by upgrading fda.gov and giving all patients the right to effortlessly participate in global automated decentralized clinical trials.
 
