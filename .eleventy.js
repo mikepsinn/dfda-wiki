@@ -110,7 +110,9 @@ module.exports = function(eleventyConfig) {
       .filter(item => {
         // Exclude non-content files
         const excludePaths = ['node_modules', 'scripts', '_site', '.git', 'wiki', 'CLAUDE.md', 'FILE-ORGANIZATION.md'];
-        return !excludePaths.some(p => item.inputPath.includes(p)) && item.data.published !== false;
+        return !excludePaths.some(p => item.inputPath.includes(p))
+          && item.data.published !== false
+          && item.data.search_exclude !== true;
       });
   });
 

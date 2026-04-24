@@ -4,6 +4,14 @@ description: >-
   Estimated costs for creating a DAO to fund the 1% Treaty Initiative, including
   development, legal, and operational expenses.
 published: true
+source_of_truth_url: https://manual.warondisease.org/knowledge/economics/financial-plan.html
+related_manual_links:
+  - title: Campaign Budget
+    url: https://manual.warondisease.org/knowledge/economics/campaign-budget.html
+  - title: Investor Risk Analysis
+    url: https://manual.warondisease.org/knowledge/appendix/investor-risk-analysis.html
+  - title: Incentive Alignment Bonds
+    url: https://manual.warondisease.org/knowledge/solution/incentive-alignment-bonds.html
 date: 2024-06-09T00:00:00.000Z
 tags: 'dao, cost-estimate, decentralized-health, 1-percent-treaty, fundraising, web3'
 editor: markdown

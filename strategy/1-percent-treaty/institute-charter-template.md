@@ -5,6 +5,12 @@ description: >-
   DIH–Aging) with clear scope, titles, governance, and alignment to the 1%
   Treaty.
 published: true
+source_of_truth_url: https://manual.warondisease.org/knowledge/appendix/governance.html
+related_manual_links:
+  - title: Decentralized Institutes of Health
+    url: https://manual.warondisease.org/knowledge/solution/dih.html
+  - title: Legal Architecture
+    url: https://manual.warondisease.org/knowledge/legal/legal-framework.html
 date: '2025-08-15T00:00:00.000Z'
 tags: 'governance, template, dih, charter'
 editor: markdown

@@ -5,6 +5,15 @@ description: >-
   participation, and accelerate the war on disease through innovative financial
   instruments like VICTORY Bonds.
 published: true
+external_canonical_url: https://manual.warondisease.org/knowledge/solution/dih.html
+source_of_truth_url: https://manual.warondisease.org/knowledge/solution/dih.html
+related_manual_links:
+  - title: Governance
+    url: https://manual.warondisease.org/knowledge/appendix/governance.html
+  - title: A 1% Treaty
+    url: https://manual.warondisease.org/knowledge/solution/1-percent-treaty.html
+  - title: A Decentralized FDA
+    url: https://manual.warondisease.org/knowledge/solution/dfda.html
 date: 2024-06-12T00:00:00.000Z
 tags: 'dih, treasury, victory-bonds, patient-subsidies, dao, 1-percent-treaty, dfda'
 editor: markdown
@@ -21,89 +30,18 @@ metadata:
       /assets/og-images/strategy/1-percent-treaty/decentralized-institutes-of-health.jpg
 ---
 
-# The Decentralized Institutes of Health: A Treasury for the War on Disease
+The maintained DIH overview now lives on the War on Disease manual. This local page stays short so the high-level treasury story, governance doctrine, and relationship to the 1% Treaty are updated in one place.
 
-The Decentralized Institutes of Health (DIH) is reimagined as a global treasury dedicated to financing a revolution in medical research. Its core mission is to fund the dFDA ecosystem by providing patient subsidies, financing infrastructure development, and incentivizing innovation through bounties and prizes.
+Use the manual for the current DIH narrative. Use this wiki for local implementation artifacts such as org charts, templates, and financial models that extend or apply the concept inside this repo.
 
-The DIH operates not as a research body itself, but as the central financial engine that makes the dFDA's mission possible, breaking down the economic barriers that have slowed the war on disease for decades.
+## Read the Current Manual
 
-## Primary Mission: Subsidizing Patient Access to Trials
+- [Decentralized Institutes of Health](https://manual.warondisease.org/knowledge/solution/dih.html)
+- [Governance](https://manual.warondisease.org/knowledge/appendix/governance.html)
+- [A 1% Treaty](https://manual.warondisease.org/knowledge/solution/1-percent-treaty.html)
 
-The cornerstone of the DIH's mission is to ensure that no patient is denied access to a promising trial due to cost. The DIH acts as the source of patient subsidies for participation in all trials on the dFDA Platform.
+## Local DIH Artifacts
 
-Subsidies are not allocated uniformly; they are **proportional to the expected value to society** of a patient's participation. This creates a powerful incentive for researchers to focus on high-impact projects. The algorithm for calculating subsidies prioritizes trials based on a combination of factors:
-
-1.  **Promise of the Treatment:** Interventions with strong preclinical data or a novel mechanism of action receive higher subsidies.
-2.  **Severity of the Disease:** Trials for conditions with high mortality, disability, or societal cost are prioritized.
-3.  **Value of the Data:** Trials that can resolve high levels of uncertainty (i.e., where very little data currently exists) are considered more valuable.
-4.  **Cost of Manufacturing:** Lower-cost interventions (e.g., repurposed drugs, supplements) can be subsidized more heavily, allowing more patients to participate.
-
-This model ensures that funding flows to the research that society needs most.
-
-## Funding the dFDA Ecosystem
-
-Beyond patient subsidies, the DIH Treasury is responsible for the growth and maintenance of the entire dFDA ecosystem. It achieves this through a DAO-governed funding model for:
-
-*   **Prizes & Competitions:** Funding major awards like the FDA-X Prize to incentivize breakthrough innovation from the global community.
-*   **Development Bounties:** Posting and paying out bounties for specific feature enhancements, bug fixes, and security improvements to the dFDA Platform's open-source codebase.
-*   **Infrastructure Maintenance:** Ensuring the long-term sustainability, security, and scalability of the dFDA Platform as a global public good.
-
-## Funding Model: VICTORY Bonds for the War on Disease
-
-To raise its initial and ongoing capital, the DIH will issue **VICTORY Bonds**, an instrument modeled directly on the War Bonds of World War II. See tokenomics details in VICTORY Bonds.
-
-Just as citizens once invested in their nation's victory in wartime, they can now invest directly in the victory over humanity's oldest enemies: cancer, Alzheimer's, heart disease, and thousands of other afflictions. Selling these bonds allows the DIH to raise a substantial treasury upfront, enabling it to immediately begin funding subsidies and development without waiting for treaty contributions to accumulate.
-
-## Repayment & Sustainability: The 1% Treaty
-
-The financial model is made sustainable through the **[1% Treaty](/strategy/1-percent-treaty/)**. The capital contributions made by signatory nations who pledge 1% of their military budgets are used to repay the VICTORY Bond holders over time, with interest.
-
-This creates a virtuous cycle:
-1.  Citizens and institutions buy VICTORY Bonds, funding the war on disease.
-2.  The DIH uses this capital to fund trials and development, producing cures and better health outcomes.
-3.  Nations, seeing the immense benefit, sign the 1% Treaty.
-4.  Treaty contributions flow back to the DIH Treasury, repaying the original bondholders.
-
-## Governance: Automated-by-default, DAO as emergency override
-
-Subsidy allocation and most treasury functions execute via smart contracts with verifiable inputs (oracles) and transparent rules. Stakeholders participate through credentialed, timeboxed signaling; on-chain executors apply changes automatically. A narrowly scoped, time-limited DAO acts as an emergency override with public justification and automatic sunset. For custody and controls, see DIH Treasury Architecture.
-
-## DIH Governance and Value Flow: A Coalition of Coalitions
-
-The DIH is not a monolithic entity; it is a "coalition of coalitions" designed to empower communities of researchers, patients, and non-profit advocates with direct control over funding for their specific domains.
-
-### Structure: Sub-Institutes as Specialized DAOs
-
-The DIH is composed of a main treasury DAO and numerous specialized, subordinate DAOs, or "sub-Institutes."
-
-*   **Decentralized Institute of Mental Health (DIMH)**
-*   **Decentralized Institute on Aging (DIA)**
-*   **Decentralized Institute of Cancer Research (DICR)**
-*   etc.
-
-Each sub-Institute is a fully-fledged DAO with its own governance token, budget, and mandate.
-
-### The Value Flow
-
-1.  **1% Treaty Ratified:** The **$27B+ annual revenue stream** flows into the main DIH Treasury.
-2.  **Top-Level Allocation:** The main DIH DAO—governed primarily by **VICTORY Bond** holders—votes on the top-level budget allocation. For example, it might allocate $3B to the DIMH, $4B to the DIA, etc., based on metrics like disease burden and tractability.
-3.  **Sub-Institute Governance:** The allocated budget (e.g., $3B) is transferred to the sub-Institute's treasury (e.g., the DIMH). **This is where the non-profit coalition takes power.** The governance of each sub-Institute is granted to the stakeholders of that domain—primarily the non-profit partners who helped pass the 1% Treaty.
-4.  **Community-Led Funding:** The members of the sub-Institute (e.g., mental health non-profits, research clinics, patient advocates) vote on how their multi-billion dollar budget is spent on research grants, patient subsidies, and clinical trials.
-
-### The Incentive Alignment: Apes Together Strong
-
-This structure is the ultimate incentive for non-profits to make passing the 1% Treaty their temporary primary mission.
-
-*   **The Old Way (Ape Weak):** Compete with hundreds of other non-profits for a small piece of a finite philanthropic pie.
-*   **The New Way (Apes Strong):** Cooperate to unlock a multi-billion dollar annual treasury for your specific domain, and in doing so, earn a permanent, powerful governance stake in that treasury.
-
-The message is simple: **Stop applying for grants and become the grant-makers.** By joining the coalition, non-profits are not just supporting a cause; they are earning their seat at the table to govern the future of health funding in their field.
-
-## Risks and Realism
-The DIH model's success relies on treaty adoption and inflows. For a full discussion of risks, repayment, and contingencies, see Victory Bond Investment Thesis.
-
-## Organizational Structure
-
-The DIH is expanding into a comprehensive ecosystem that mirrors the NIH structure while offering decentralized governance,  titles, and community-specific focus areas. This expansion serves as a strategic recruitment tool for the 1% Treaty referendum effort.
-
-For the complete organizational structure, including all sub-agencies,  titles, and implementation roadmap, see [DIH Organizational Structure](dih-org-structure.md).
+- [DIH org structure](dih-org-structure.md)
+- [DIH treasury cash-flow model](../../economic-models/dih-treasury-cash-flow-model.md)
+- [Institute charter template](institute-charter-template.md)

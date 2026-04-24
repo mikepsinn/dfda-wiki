@@ -39,6 +39,10 @@ All Markdown files start with YAML frontmatter. Standard fields remain mandatory
 - domains: [treaty | dih | dfda | cross]
 - doc_type: strategy | spec | regulatory | model | ops | reference
 - aliases: [./old-path.md, ./older-name.md] (use when moving/renaming or unpublishing)
+- external_canonical_url: https://manual.warondisease.org/... (for local bridge pages that defer canonically to the manual)
+- source_of_truth_url: https://manual.warondisease.org/... (shows the page-level "update it there" banner)
+- noindex: true (for bridge pages that should not compete in search)
+- search_exclude: true (keep the page out of local search and Pagefind)
 
 Example:
 
@@ -63,6 +67,13 @@ aliases: [../features/old-roadmap.md]
 - One canonical file per topic_id. Others must set canonical: false and link to the canonical.
 - Use a hatnote at the top of non‑canonical files: `For the current version, see [canonical‑title](/path/to/canonical/).`
 - Use summary style: overviews should link to main articles, not duplicate them.
+
+## Manual-first doctrine policy
+
+- `manual.warondisease.org` is the source of truth for DIH, dFDA, the 1% Treaty, treaty-feasibility material, and Act-level doctrine.
+- This repo is the source of truth for implementation docs, technical specs, working drafts, datasets, and repo-specific artifacts.
+- If you are updating doctrine, update the manual first and then refresh any local summary links only as needed.
+- Do not expand bridge pages back into long-form doctrine pages. Keep them brief and point readers to the manual.
 
 ## Deduplication & merging
 

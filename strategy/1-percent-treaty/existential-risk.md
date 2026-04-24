@@ -4,6 +4,12 @@ description: >-
   Exploring the implications of current military expenditures on global security
   and the looming threats posed by the AI arms race.
 published: true
+source_of_truth_url: https://manual.warondisease.org/knowledge/appendix/cost-benefit-of-hegemony.html
+related_manual_links:
+  - title: The Apocalypse Markup
+    url: https://manual.warondisease.org/knowledge/appendix/extinction-surplus.html
+  - title: Peace Dividend
+    url: https://manual.warondisease.org/knowledge/economics/peace-dividend.html
 date: 2024-06-09T00:00:00.000Z
 tags: >-
   existential-risk, military-spending, ai-arms-race, global-security,

@@ -5,6 +5,13 @@ description: >-
   80 years, leading to a cumulative global savings of $179 trillion and
   $22,969.68 per person.
 published: true
+external_canonical_url: https://manual.warondisease.org/knowledge/economics/peace-dividend.html
+source_of_truth_url: https://manual.warondisease.org/knowledge/economics/peace-dividend.html
+related_manual_links:
+  - title: Health Dividend
+    url: https://manual.warondisease.org/knowledge/economics/health-dividend.html
+  - title: The Cost of War
+    url: https://manual.warondisease.org/knowledge/problem/cost-of-war.html
 date: 2024-06-09T00:00:00.000Z
 tags: 'savings, cost-of-war, peace-dividend, 1-percent-treaty, global-economics'
 editor: markdown
@@ -17,30 +24,12 @@ metadata:
 
 ## Cumulative Savings from Decreased Annual Cost of War
 
-Given the initial annual cost of war (see [cost of war](cost-of-war.md)) is approximately $7,238.25 billion, we explore the scenario where this cost decreases by 1% every year for 80 years. This decrease reflects potential efficiencies, peacekeeping successes, and the reallocation of resources towards more productive and peaceful endeavors. Here's how the calculations unfold:
+The maintained peace-dividend analysis now lives on the War on Disease manual. This local page remains only as a short bridge so older links still resolve while the headline savings story is updated in one place.
 
-## Assumptions for Cumulative Reduced War Costs Calculation:
+If you want the latest savings assumptions, per-capita framing, or economic argument, update the manual rather than this page.
 
-- **Initial Annual Cost of War:** $7,238.25 billion.
-- **Annual Decrease Rate:** 1% per year.
-- **Duration:** 80 years.
-- **Global Population:** 7.8 billion.
+## Read the Current Manual
 
-## 80 Year Cumulative Reduced War Cost Calculations:
-
-1. **Total Cost with Decrease:** We calculate the total cost over 80 years, taking into account the 1% annual decrease. This involves summing up the cost for each year, where each subsequent year's cost is 1% less than the previous year's.
-
-2. **Total Cost without Decrease:** For comparison, we calculate what the total cost would have been if it remained constant at $7,238.25 billion per year over 80 years.
-
-3. **Cumulative Savings:** The difference between the total cost without the decrease and the total cost with the decrease gives us the cumulative savings over 80 years.
-
-4. **Per Capita Savings:** To determine the impact on an individual level, we divide the cumulative savings by the global population of 7.8 billion.
-
-## 80 Year Cumulative Reduced War Costs:
-
-- **Cumulative Savings:** $179.16 trillion
-- **Per Capita Savings:** $22,969.68 per person
-
-By reducing the annual cost of war by a modest 1% annually over the course of 80 years, the global community could save $179 trillion, translating to almost $23,000 in savings per person.
-
-For the treaty that proposes this reallocation, see the [1% Treaty](/strategy/1-percent-treaty/).
+- [Peace Dividend](https://manual.warondisease.org/knowledge/economics/peace-dividend.html)
+- [Health Dividend](https://manual.warondisease.org/knowledge/economics/health-dividend.html)
+- [The Cost of War](https://manual.warondisease.org/knowledge/problem/cost-of-war.html)

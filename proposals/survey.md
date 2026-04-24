@@ -26,7 +26,7 @@ The current medical research system is slow and expensive. New treatments take a
 
 ### Part 1: The 1% Treaty
 
-The "1% Treaty" proposes that all signatory nations redirect 1% of their annual military budget to a global fund. Proponents argue that accelerating medical progress is a critical component of national and global security. This fund would subsidize patient participation in decentralized clinical trials, aiming to dramatically accelerate the development of new cures. ([Read the full security rationale here.](../strategy/1-percent-treaty/national-security-argument.md))
+The "1% Treaty" proposes that all signatory nations redirect 1% of their annual military budget to a global fund. Proponents argue that accelerating medical progress is a critical component of national and global security. This fund would subsidize patient participation in decentralized clinical trials, aiming to dramatically accelerate the development of new cures. ([Read the current treaty rationale here.](https://manual.warondisease.org/knowledge/appendix/treaty-feasibility))
 
 **1. Do you support or oppose your country signing the 1% Treaty?**
   - [ ] Support
@@ -44,7 +44,7 @@ The "1% Treaty" proposes that all signatory nations redirect 1% of their annual 
 
 ## Section 2: Principles for Research Reform
 
-The following questions are about the core principles of this initiative. The central proposal is to upgrade our medical research infrastructure with an **open-source, decentralized platform**, as outlined in the ["Right to Trial and FDA Upgrade Act"](../act.md).
+The following questions are about the core principles of this initiative. The central proposal is to upgrade our medical research infrastructure with an **open-source, decentralized platform**, as outlined in the ["Right to Trial and FDA Upgrade Act"](https://manual.warondisease.org/knowledge/appendix/right-to-trial-fda-upgrade-act).
 
 This "FDA.gov v2" platform would work like this:
 1.  Any patient could see a ranked list of the most effective treatments for their condition, based on all available global data.

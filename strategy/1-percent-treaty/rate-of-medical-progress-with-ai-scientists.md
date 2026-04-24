@@ -5,6 +5,12 @@ description: >-
   single year, dramatically accelerating drug discovery and healthcare
   innovation.
 published: true
+source_of_truth_url: https://manual.warondisease.org/knowledge/solution/ai-coordination-army.html
+related_manual_links:
+  - title: Ubiquitous Pragmatic Trial Impact Analysis
+    url: https://manual.warondisease.org/knowledge/appendix/dfda-impact-paper.html
+  - title: The Oxford RECOVERY Trial
+    url: https://manual.warondisease.org/knowledge/appendix/recovery-trial.html
 date: 2024-06-09T00:00:00.000Z
 tags: >-
   ai-scientists, medical-progress, agi, automation, drug-discovery,

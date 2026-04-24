@@ -15,8 +15,9 @@
       },
       {
         "label": "Cost-Benefit Analysis",
-        "url": "/economic-models/dfda-cost-benefit-analysis/",
-        "icon": "calculator"
+        "url": "https://manual.warondisease.org/knowledge/appendix/dfda-cost-benefit-analysis",
+        "icon": "calculator",
+        "external": true
       },
       {
         "label": "Technical Architecture",

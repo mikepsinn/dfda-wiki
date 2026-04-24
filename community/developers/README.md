@@ -56,7 +56,7 @@ As this folder grows, a table of contents will be maintained here to help you na
 - Coding Standards
 - Data Handling Protocols
 - Project Collaboration Guidelines
-- [List of Active Projects](../../act.md)
+- [List of Active Projects](/act/)
 
 ## Templates
 

@@ -5,6 +5,14 @@ description: >-
   produce a massive return on investment through cost reductions and improved
   treatment outcomes.
 published: true
+source_of_truth_url: https://manual.warondisease.org/knowledge/appendix/dfda-impact-paper.html
+related_manual_links:
+  - title: A Decentralized FDA
+    url: https://manual.warondisease.org/knowledge/solution/dfda.html
+  - title: The Oxford RECOVERY Trial
+    url: https://manual.warondisease.org/knowledge/appendix/recovery-trial.html
+  - title: Building Your AI Coordination Army
+    url: https://manual.warondisease.org/knowledge/solution/ai-coordination-army.html
 date: 2024-06-09T00:00:00.000Z
 tags: >-
   ai, automation, clinical-research, drug-development, cost-benefit,

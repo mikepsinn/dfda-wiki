@@ -4,6 +4,14 @@ description: >-
   Practical ways nonprofits can advocate for the 1% Treaty without triggering
   lobbying restrictions or tracking lobbying expenditures.
 published: true
+source_of_truth_url: https://manual.warondisease.org/knowledge/strategy/nonprofit-coalition-strategy.html
+related_manual_links:
+  - title: Legal Architecture
+    url: https://manual.warondisease.org/knowledge/legal/legal-framework.html
+  - title: Election Law
+    url: https://manual.warondisease.org/knowledge/legal/election-law.html
+  - title: A 1% Treaty
+    url: https://manual.warondisease.org/knowledge/solution/1-percent-treaty.html
 date: 2024-06-09T00:00:00.000Z
 tags: 'nonprofit-advocacy, 1-percent-treaty, public-policy, education, irs-guidance'
 editor: markdown

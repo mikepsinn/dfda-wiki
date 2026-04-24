@@ -4,6 +4,12 @@ description: >-
   A 10-year cash flow model for the DIH treasury, balancing a ~40% CAGR target
   for investors with a 50% mission guarantee for DIH programs.
 published: true
+source_of_truth_url: https://manual.warondisease.org/knowledge/appendix/governance.html
+related_manual_links:
+  - title: Financial Plan
+    url: https://manual.warondisease.org/knowledge/economics/financial-plan.html
+  - title: Investor Risk Analysis
+    url: https://manual.warondisease.org/knowledge/appendix/investor-risk-analysis.html
 date: '2025-01-25T00:00:00.000Z'
 tags: >-
   financial-modeling, cash-flow, treasury-management, roi, victory-bonds,

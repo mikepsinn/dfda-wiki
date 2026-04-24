@@ -29,6 +29,11 @@ module.exports = {
       return 'home.njk';
     }
 
+    // Allow files like sitemap/feed to opt out of layouts explicitly.
+    if (data.layout === null || data.layout === false) {
+      return data.layout;
+    }
+
     // Use layout from frontmatter if specified
     if (data.layout && data.layout !== 'page.njk') {
       return data.layout;

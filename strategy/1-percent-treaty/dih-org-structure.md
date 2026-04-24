@@ -5,6 +5,12 @@ description: >-
   platform, decentralized sub-institutes (including Aging), and mirrors of
   legacy agencies to align communities behind the 1% Treaty referendum.
 published: true
+source_of_truth_url: https://manual.warondisease.org/knowledge/appendix/governance.html
+related_manual_links:
+  - title: Decentralized Institutes of Health
+    url: https://manual.warondisease.org/knowledge/solution/dih.html
+  - title: Legal Architecture
+    url: https://manual.warondisease.org/knowledge/legal/legal-framework.html
 date: '2025-08-15T00:00:00.000Z'
 tags: 'dih, dfda, war-on-disease, organizational-design, governance'
 editor: markdown

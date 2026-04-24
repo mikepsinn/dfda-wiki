@@ -40,7 +40,7 @@ Based on economic modeling of the proposed dFDA system, the price reduction effe
 
 > Source: [Global prescription drug spending](https://www.statista.com/statistics/280572/medicine-spending-worldwide/) is approximately $1.4 trillion annually, with 60-80% on brand/patented products.
 
-For a complete analysis of potential drug price reductions, see [Lower Drug Prices](./lower-drug-prices.md) and the comprehensive [dFDA Cost-Benefit Analysis](../economic-models/dfda-cost-benefit-analysis.md).
+For a complete analysis of potential drug price reductions, see [Lower Drug Prices](./lower-drug-prices.md) and the comprehensive [dFDA Cost-Benefit Analysis](https://manual.warondisease.org/knowledge/appendix/dfda-cost-benefit-analysis).
 
 ### 2. Earlier Access to Treatments (7 Years Sooner)
 
@@ -143,4 +143,4 @@ The proposed dFDA system would address both the affordability and accessibility 
 
 These combined effects would represent a paradigm shift in patient access to treatments, with annual economic benefits potentially exceeding $1 trillion globally while dramatically improving health outcomes and quality of life for patients worldwide.
 
-For the most comprehensive economic analysis of the entire proposed dFDA system, refer to the detailed [dFDA Cost-Benefit Analysis](../economic-models/dfda-cost-benefit-analysis.md).
+For the most comprehensive economic analysis of the entire proposed dFDA system, refer to the detailed [dFDA Cost-Benefit Analysis](https://manual.warondisease.org/knowledge/appendix/dfda-cost-benefit-analysis).

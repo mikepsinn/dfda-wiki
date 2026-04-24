@@ -10,8 +10,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ description or site.description }}">
+  {% set localPageUrl = site.url ~ page.url %}
+  {% set canonicalUrl = external_canonical_url or localPageUrl %}
 
   <title>{{ title or "Untitled" }} | {{ site.title }}</title>
+  <link rel="canonical" href="{{ canonicalUrl }}">
+  {% if noindex %}
+  <meta name="robots" content="noindex,follow">
+  {% endif %}
 
   <!-- Favicons -->
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/dfda-favicon-16x16.png">
@@ -128,11 +134,46 @@
   }
   </script>
 </head>
-<body class="bg-gray-50 text-gray-900 min-h-screen flex flex-col">
+<body class="bg-gray-50 text-gray-900 min-h-screen flex flex-col"{% if search_exclude %} data-pagefind-ignore="all"{% endif %}>
 
   {% include "header.njk" %}
 
   <main class="flex-1">
+    {% if source_of_truth_url %}
+    <section class="border-b border-amber-200 bg-amber-50">
+      <div class="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col gap-4 rounded-xl border border-amber-200 bg-white/80 p-4">
+          <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <p class="text-sm leading-6 text-amber-950">
+              <strong>Current doctrine lives on manual.warondisease.org.</strong>
+              Update it there; this local page may be outdated or intentionally shorter.
+            </p>
+            <a
+              href="{{ source_of_truth_url }}"
+              class="inline-flex items-center justify-center rounded-lg bg-amber-600 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-amber-700"
+            >
+              View Primary Manual Page
+            </a>
+          </div>
+          {% if related_manual_links and related_manual_links.length %}
+          <div class="text-sm leading-6 text-amber-950">
+            <span class="font-semibold">Related manual chapters:</span>
+            <div class="mt-2 flex flex-wrap gap-2">
+              {% for link in related_manual_links %}
+              <a
+                href="{{ link.url }}"
+                class="inline-flex items-center rounded-full border border-amber-300 bg-amber-100 px-3 py-1 text-sm font-medium text-amber-950 transition-colors hover:bg-amber-200"
+              >
+                {{ link.title }}
+              </a>
+              {% endfor %}
+            </div>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </section>
+    {% endif %}
     {{ content | safe }}
   </main>
 
