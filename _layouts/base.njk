@@ -13,7 +13,7 @@
   {% set localPageUrl = site.url ~ page.url %}
   {% set canonicalUrl = external_canonical_url or localPageUrl %}
 
-  <title>{{ title or "Untitled" }} | {{ site.title }}</title>
+  <title>{% if title and title != site.title %}{{ title }} | {% endif %}{{ site.title }}</title>
   <link rel="canonical" href="{{ canonicalUrl }}">
   {% if noindex %}
   <meta name="robots" content="noindex,follow">
@@ -310,6 +310,5 @@
       ],
       throwOnError: false
     });"></script>
-  <script src="https://manual.warondisease.org/assets/js/promotion-bar.js" defer></script>
 </body>
 </html>

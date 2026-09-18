@@ -34,7 +34,7 @@
   },
   "website": {
     "@type": "WebSite",
-    "name": "The Decentralized FDA Wiki",
+    "name": "The dFDA Wiki",
     "alternateName": "dFDA Wiki",
     "url": "https://wiki.dfda.earth",
     "description": "Documentation for the Decentralized FDA initiative - accelerating medical progress through decentralized clinical trials.",
